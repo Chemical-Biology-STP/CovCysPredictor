@@ -1,0 +1,13 @@
+name: variability_by_data_split
+title: Variability by Data Split
+username: REINSBR1
+account: REINSBR1
+server: usca-rsconnect-app.prd.nibr.novartis.net
+hostUrl: https://usca-rsconnect-app.prd.nibr.novartis.net/__api__
+appId: 1102
+bundleId: 6304
+url: https://usca-rsconnect-app.prd.nibr.novartis.net:443/content/2a738893-ff79-44a6-a435-037b51407a8b/
+when: 1664213442.16832
+lastSyncTime: 1664213442.16832
+asMultiple: FALSE
+asStatic: FALSE

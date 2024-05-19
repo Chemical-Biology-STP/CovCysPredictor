@@ -1,0 +1,217 @@
+---
+title: "Reactive Cysteine Prediction: Exploratory Data Analysis"
+author: "Bryn Reimer"
+date: "27 July 2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(broom) # for PCA, tidy style
+library(ggplot2)
+library(ggbeeswarm)
+library(ROCR) # for receiver operating curve
+library(PRROC) # for precision-recall curve, better for imbalanced data
+library(Peptides) # for generating ST-scale and T-scale
+
+knitr::opts_chunk$set(echo=TRUE)
+theme_set(theme_minimal())
+```
+
+## Exploratory data analysis
+
+First, we read in the data from *pdbs_cys_allinfo.csv*. We examine each of the variables 
+to determine their type and usefulness for modeling.
+
+```{r read_data, include=FALSE}
+dat1 <- read.csv("../v1/pdbs_cys_allinfo.csv")
+odat2 <- read.csv("../v2/pdbs_cys_allinfo.csv")
+dat1d <- dat1[!duplicated(dat1[,c("Res","Uniprot.Name")]),]
+dat2d <- dat2[!duplicated(dat2[,c("Res","Uniprot.Name")]),]
+
+dat_rosetta <- read.csv("../rosetta/pdbs_cys_allinfo_cutoff_none.csv")
+dat_rosetta7 <- read.csv("../rosetta/pdbs_cys_allinfo_cutoff_7A.csv")
+dat_rosetta8 <- read.csv("../rosetta/pdbs_cys_allinfo_cutoff_8A.csv")
+dat_rosetta9 <- read.csv("../rosetta/pdbs_cys_allinfo_cutoff_9A.csv")
+dat_rosetta10 <- read.csv("../rosetta/pdbs_cys_allinfo_cutoff_10A.csv")
+
+#v1_prots <- unique(paste0(dat1$Uniprot.ID,"_", dat1$Pos))
+#v2_prots <- unique(paste0(dat2$Uniprot.ID,"_", dat2$Pos))
+
+#dat1$ids <- paste0(dat1$Uniprot.ID,"_", dat1$Pos)
+#dat2$ids <- paste0(dat2$Uniprot.ID,"_", dat2$Pos)
+
+#dat1_dedup <- dat1[-which(duplicated(dat1$ids)),]
+#dat2_dedup <- dat2[-which(duplicated(dat2$ids)),]
+
+#rownames(dat1_dedup) <- dat1_dedup$ids
+#rownames(dat2_dedup) <- dat2_dedup$ids
+
+#dat1_dedup <- dat1_dedup[order(dat1_dedup$ids),c("X.Exposure", "pKa","ligand.type")]
+#dat2_dedup <- dat2_dedup[order(dat2_dedup$ids),c("X.Exposure", "pKa","ligand.type")]
+
+#in.common <- intersect(rownames(dat1_dedup), rownames(dat2_dedup))
+
+#plot(dat1_dedup[in.common, "pKa"] ~ dat2_dedup[in.common, "pKa"])
+
+#plot(dat1[v1_prots, "X.Exposure"] ~ dat2[v1_prots, "X.Exposure"])
+
+## helper function
+parse_residues <- function(res_string) {
+  res_ids <- lapply(strsplit(res_string, "|", fixed=T), function(x){gsub(".*_", "", x)})
+  res_names <- lapply(res_ids, function(x){substr(x, 1, 1)})
+  return(res_names)
+}
+
+```
+
+```{r describe_feats, include=TRUE}
+head(table(dat$Res))
+table(dat$Type) # all are Polar
+hist(dat$X.Exposure)
+hist(dat$S.A.)
+hist(dat$pKa)
+hist(dat$Charge)
+# ignore NearRes for now -- how calculated?
+head(table(dat$Uniprot.ID))
+head(table(dat$Uniprot.Name))
+head(table(dat$CYS.link))
+head(table(dat$ligand.link))
+head(table(dat$ligand.type))
+```
+
+Our goal is to predict ligand.type; either "C_or_S" (reactive) or "free" (nonreactive). To do this, it is useful to subset the full dataset, which includes cysteines that are conjugated with zinc atoms, to only those cysteines which are either bound to a ligand ("C_or_S") or which are "free".
+
+In addition, we take this time to sanitize our features a little bit. We log-transform the exposure (solvent exposure) variable since we are most interested in changes between, for example, 0 and 10\% exposure than we are in changes between 70\% and 80\% exposure. We take the nearby residues ("NearRes") and transform them into a sequence of amino acids which are passed into the [T-scale](https://www.sciencedirect.com/science/article/abs/pii/S0022286006006314) and [ST-scale](https://pubmed.ncbi.nlm.nih.gov/19373543/) algorithms using the [Peptides package](https://rdrr.io/cran/Peptides/). We are left with 8 ST-scale components and 5 T-scale components.
+
+```{r process_data, include=FALSE}
+
+all_dats <- list(dat1, dat2, dat1d, dat2d,
+                 dat_rosetta, dat_rosetta7,
+                 dat_rosetta8, dat_rosetta9,
+                 dat_rosetta10)
+dat.names <- c("dat1","dat2","dat1d","dat2d",
+               "dat_rosetta","dat_rosetta7",
+               "dat_rosetta8","dat_rosetta9",
+               "dat_rosetta10")
+names(all_dats) <- dat.names
+
+for (name in dat.names) {
+  dat <- all_dats[[name]]
+  print(name)
+  subset_dat <- dat[which(dat$ligand.type != "other"),]
+  print(dim(subset_dat))
+  
+  df <- data.frame(y=as.factor(c(1,0)[as.factor(subset_dat$ligand.type)]))
+  df$exposure <- subset_dat$X.Exposure
+  df$log_exposure <- log(df$exposure + 1)
+  df$res <- subset_dat$Res
+  #df$charge <- as.factor(round(subset_dat$Charge))
+  df$pdbid <- as.factor(substr(subset_dat$PDBID.chain, 0,4))
+  df$chain <- as.factor(substr(subset_dat$PDBID.chain, 6, 6))
+  df$pka <- subset_dat$pKa
+  df$gene <- as.factor(subset_dat$Uniprot.Name)
+  df$near_res <- parse_residues(subset_dat$NearRes)
+  st_scales <- stScales(sapply(df$near_res, function(x){paste0(x[which(x!="X")], collapse="")}))
+  t_scales <- tScales(sapply(df$near_res, function(x){paste0(x[which(x!="X")], collapse="")}))
+  
+  df$catalytic <- sapply(df$near_res, function(x) {
+    grepl("HN", paste0(x, collapse=""))
+  })
+  df$has_h <- sapply(df$near_res, function(x) {
+    grepl("H", paste0(x, collapse=""))
+  })
+  
+  df$st1 <- unlist(st_scales)[seq(1, length(unlist(st_scales)), by=8)]
+  df$st2 <- unlist(st_scales)[seq(2, length(unlist(st_scales)), by=8)]
+  df$st3 <- unlist(st_scales)[seq(3, length(unlist(st_scales)), by=8)]
+  df$st4 <- unlist(st_scales)[seq(4, length(unlist(st_scales)), by=8)]
+  df$st5 <- unlist(st_scales)[seq(5, length(unlist(st_scales)), by=8)]
+  df$st6 <- unlist(st_scales)[seq(6, length(unlist(st_scales)), by=8)]
+  df$st7 <- unlist(st_scales)[seq(7, length(unlist(st_scales)), by=8)]
+  df$st8 <- unlist(st_scales)[seq(8, length(unlist(st_scales)), by=8)]
+  
+  df$t1 <- unlist(t_scales)[seq(1, length(unlist(t_scales)), by=5)]
+  df$t2 <- unlist(t_scales)[seq(2, length(unlist(t_scales)), by=5)]
+  df$t3 <- unlist(t_scales)[seq(3, length(unlist(t_scales)), by=5)]
+  df$t4 <- unlist(t_scales)[seq(4, length(unlist(t_scales)), by=5)]
+  df$t5 <- unlist(t_scales)[seq(5, length(unlist(t_scales)), by=5)]
+  
+  saveRDS(df, paste0("cleaned_",name,".rds"))
+}
+
+# t scales and st scales are order-invariant
+```
+
+We can then explore the cleaned data frame and examine some preliminary plots to better understand the associations between our features of interest.
+
+```{r explore_processed, include=TRUE}
+glimpse(df)
+continuous <-select_if(df, is.numeric)
+summary(continuous)
+# exposure will likely need to be transformed
+# pka is roughly normally distributed
+
+df %>% ggplot(aes(y, pka, color=y)) + 
+  geom_quasirandom() + 
+  geom_abline(slope=0, intercept=8.3) +
+  theme_bw()
+
+df %>% ggplot(aes(pka, color=y)) + 
+  geom_density() + 
+  ggtitle(paste0("Distribution of cov cys +/- examples")) +
+  theme_bw()
+
+df %>% ggplot(aes(log_exposure, color=y)) + 
+  geom_density() + 
+  ggtitle(paste0("Distribution of cov cys +/- examples")) +
+  theme_bw()
+
+df %>% 
+  ggplot(aes(pka, log_exposure, color=y, alpha=has_h)) +
+  geom_point(size=2) +
+  ggtitle("Catalytic triad CHN") + 
+  theme_bw()
+
+```
+
+Using dimensionality reduction (PCA), we can look at whether we have sufficient signal to create a discriminative linear model. The PCA below shows excellent signal, which means we are likely to be able to build a predictive model.
+
+```{r run_pca, echo=FALSE}
+pca_fit <- df %>% 
+  select(where(is.numeric)) %>% # retain only numeric columns
+  prcomp()
+
+pca_fit %>% 
+  augment(df) %>%
+  ggplot(aes(.fittedPC1, .fittedPC2, color=y)) +
+  geom_point(size=1.5) +
+  theme_minimal()
+
+#saveRDS(df, "cleaned_cyscov_data.rds")
+```
+
+
+Finally, we can examine individual genes of interest. Here, only those with at least 10 cysteines are shown.
+
+```{r show_individual, echo=FALSE}
+for (gene in unique(df$gene)) {
+  tmp_subset <- df[which(df$gene == gene),]
+  if (nrow(tmp_subset) >= 10) {
+    g <- ggplot(tmp_subset, aes(pka, log_exposure, color=y)) +
+      geom_point(size=1.5) +
+      xlim(0, 19) + 
+      ylim(0, 5) +
+      ggtitle(gene) +
+      theme_bw()
+    print(g)
+  }
+}
+```
+
+
+
+
+
+
+

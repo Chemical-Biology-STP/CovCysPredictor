@@ -1,0 +1,2 @@
+Site	Size	Hyd	Side	PLB	Residues
+1	10	3	9	    0	A:(CYS9 ALA12 GLU13)B:(ARG5 CYS9)

@@ -1,0 +1,13 @@
+name: cyscov_rf2
+title:
+username: REINSBR1
+account: REINSBR1
+server: usca-rsconnect-app.prd.nibr.novartis.net
+hostUrl: https://usca-rsconnect-app.prd.nibr.novartis.net/__api__
+appId: 1024
+bundleId: 5824
+url: https://usca-rsconnect-app.prd.nibr.novartis.net:443/content/abfa0af0-3bbb-41ae-a190-95c3efd7d0e1/
+when: 1660589919.41608
+lastSyncTime: 1660589919.41608
+asMultiple: FALSE
+asStatic: FALSE

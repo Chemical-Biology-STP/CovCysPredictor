@@ -1,0 +1,185 @@
+---
+title: 'Reactive Cysteine Prediction: Random Forests'
+author: "Bryn Reimer"
+date: '2022-07-28'
+output: html_document
+resource_files:
+- cleaned_cyscov_data.rds
+---
+
+```{r setup, include=FALSE}
+library(caret)
+library(dplyr)
+library(ggplot2)
+library(randomForest)
+library(PRROC) # for precision-recall curve, better for imbalanced data
+library(Peptides) # for generating ST-scale and T-scale
+knitr::opts_chunk$set(echo = TRUE)
+
+## helper functions
+precision <- function(matrix) {
+  # True positive
+  tp <- matrix[2, 2]
+  # false positive
+  fp <- matrix[1, 2]
+  return (tp / (tp + fp))
+}
+
+recall <- function(matrix) {
+  # true positive
+  tp <- matrix[2, 2]# false positive
+  fn <- matrix[2, 1]
+  return (tp / (tp + fn))
+}
+
+run_rf_model <- function(formula, df_train, df_test) {
+  rf <- randomForest(formula, data=df_train, proximity=TRUE)
+  #print(rf)
+
+  pred_test <- predict(rf, df_test)
+  #print(confusionMatrix(pred_test, df_test$y))
+
+  prec <- precision(confusionMatrix(pred_test, df_test$y)$table)
+  rec <- recall(confusionMatrix(pred_test, df_test$y)$table)
+  f1 <- (2 * (prec * rec)) / (prec + rec)
+  
+  #score1=as.numeric(pred_test[df_test$y==1])
+  #score0=as.numeric(pred_test[df_test$y==0])
+  
+  #pr <- pr.curve(score0, score1, curve = T)
+  #plot(pr)
+  
+  return(f1)
+}
+```
+
+## Reading and preparing the data
+
+First we read in the cleaned data from our prior exploratory data analysis. We split on the genes, putting 90\% of the genes in the train set and 10\% of the genes in the test set. We use the same random seed as for the logistic regression to enable direct comparison of the models.
+
+```{r read_data}
+reactive_cys_data <- readRDS("cleaned_cyscov_data.rds")
+
+dat1 <- readRDS("cleaned_dat1.rds")
+dat2 <- readRDS("cleaned_dat2.rds")
+dat1d <- readRDS("cleaned_dat1d.rds")
+dat2d <- readRDS("cleaned_dat2d.rds")
+
+all_dats <- list(dat1, dat2, dat1d, dat2d)
+dat.names <- c("dat1","dat2","dat1d","dat2d")
+names(all_dats) <- dat.names
+
+for (name in dat.names) {
+  print(name)
+  reactive_cys_data <- all_dats[[name]]
+  #print(paste0("n genes: ", length(unique(reactive_cys_data$gene))))
+  # [1] 254
+  # choose ~10% of genes for test
+  # so 25 test proteins
+  
+  barplot(table(reactive_cys_data$gene), las=3, xlab="Genes", 
+          ylab="Number of Examples", names.arg=NA,
+          main=paste0("Number of cysteines per gene in ", name))
+  
+  # use set.seed to create deterministic set
+  # 135246 old
+  set.seed(789); test_genes <- sample(unique(reactive_cys_data$gene), 
+                                         round(length(unique(reactive_cys_data$gene))/10),
+                                         replace=FALSE)
+  
+  df_train <- reactive_cys_data[-which(reactive_cys_data$gene %in% test_genes),]
+  df_test <- reactive_cys_data[which(reactive_cys_data$gene %in% test_genes),]
+  
+  #print(paste0("Train set: ", nrow(df_train)))
+  # [1] 5841
+  #print(paste0("Test set: ", nrow(df_test)))
+  # [1] 713
+  
+  # center + scale numeric variables
+  df_train <- df_train %>%
+    mutate_if(is.numeric, list(~ scale(.)))
+  df_test <- df_test %>%
+    mutate_if(is.numeric, list(~ scale(.)))
+  
+  
+  formulas <- list(
+    y ~ pka,
+    y ~ log_exposure,
+    y ~ t1 + t2 + t3 + t4 + t5,
+    y ~ st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8,
+    y ~ pka + log_exposure,
+    y ~ pka + t1 + t2 + t3 + t4 + t5,
+    y ~ pka + st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8,
+    y ~ log_exposure + t1 + t2 + t3 + t4 + t5,
+    y ~ log_exposure + st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8,
+    y ~ pka + log_exposure + st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8,
+    y ~ pka + log_exposure + log_exposure:st1 + st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8
+  )
+  for(formula in formulas) {
+    print(formula)
+    f1 <- run_rf_model(formula, df_train, df_test)
+    print(f1)
+  }
+}
+```
+
+
+First we run a simple random forest classifier on the data, using only the log_exposure and the pKa to predict the class of the cysteine. 
+
+```{r run_rf_model}
+formula <- y ~ log_exposure + pka
+f1 <- run_rf_model(formula, df_train, df_test)
+```
+
+This results in a model with a test F1 of `r round(f1,2)`, which is approximately the same as logistic regression.
+
+Next we run a random forest classifier on the dat using the log_exposure, the pKa, and the ST-scales to predict the class of the cysteine. 
+
+```{r run_rf_model_st}
+formula <- y ~ log_exposure + pka + st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8
+f1 <- run_rf_model(formula, df_train, df_test)
+```
+
+This results in a model with a test F1 of `r round(f1,2)`.
+
+
+
+```{r run_rf_model_t}
+formula <- y ~ log_exposure + pka + t1 + t2 + t3 + t4 + t5
+f1 <- run_rf_model(formula, df_train, df_test)
+```
+
+Using T-scales instead of ST-scales results in a model with a test F1 of `r round(f1,2)`.
+
+We can also encode the local environment (nearby amino acids) as one-hot vectors. This adds 20 features per cysteine.
+
+```{r run_rf_model_onehot}
+aa_types <- c("A", "C", "D", "E", "F", "G", "H", "I", "K", 
+              "L", "M", "N", "P", "Q", "R", "S", "T", "V",
+              "W", "Y")
+
+df_train[,aa_types] <- 0
+df_test[,aa_types] <- 0
+
+df_train[,aa_types] <- t(sapply(df_train[,"near_res"], function(x) { (table(c(aa_types, unlist(x)))-1)[aa_types]}))
+df_test[,aa_types] <- t(sapply(df_test[,"near_res"], function(x) { (table(c(aa_types, unlist(x)))-1)[aa_types]}))
+
+formula <- y ~ log_exposure + pka + A + C + D + E + `F` + G + H + I + K +
+  L + M + N + P + Q + R + S + `T` + V + W + Y
+f1 <- run_rf_model(formula, df_train, df_test)
+```
+
+Using log_exposure, pKa, and the twenty amino acids (one-hot encoded) gives a test F1 of `r round(f1,2)`.
+
+```{r run_rf_model_onehot_st}
+aa_st_scales <- unlist(stScales(aa_types))[seq(1,160,by=8)]
+
+df_train[,aa_types] <- df_train[,aa_types] * aa_st_scales
+df_test[,aa_types] <- df_test[,aa_types] * aa_st_scales
+
+formula <- y ~ log_exposure + pka + A + C + D + E + `F` + G + H + I + K +
+  L + M + N + P + Q + R + S + `T` + V + W + Y
+f1 <- run_rf_model(formula, df_train, df_test)
+```
+
+If we weight the one-hot encodings by their ST1, we get a test F1 of `r round(f1,2)`.

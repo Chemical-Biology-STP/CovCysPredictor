@@ -1,0 +1,355 @@
+---
+title: "Reactive Cysteine Prediction: Logistic Regression"
+author: "Bryn Reimer"
+date: "27 July 2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(ggplot2)
+library(ROCR) # for receiver operating curve
+library(PRROC) # for precision-recall curve, better for imbalanced data
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Reading in the Data
+
+First, we read in the data. We have already done some pruning and cleaning in our exploratory data analysis notebook, so here we will simply read it in and show a brief summary to remind ourselves where we are.
+
+```{r read_data, include=FALSE}
+## helper functions
+precision <- function(matrix) {
+  # True positive
+  tp <- matrix[2, 2]
+  # false positive
+  fp <- matrix[1, 2]
+  return (tp / (tp + fp))
+}
+
+recall <- function(matrix) {
+  # true positive
+  tp <- matrix[2, 2]# false positive
+  fn <- matrix[2, 1]
+  return (tp / (tp + fn))
+}
+
+#reactive_cys_data <- readRDS("cleaned_cyscov_data.rds")
+
+dat1 <- readRDS("cleaned_dat1.rds")
+dat2 <- readRDS("cleaned_dat2.rds")
+dat1d <- readRDS("cleaned_dat1d.rds")
+dat2d <- readRDS("cleaned_dat2d.rds")
+
+dat_rosetta <- readRDS("cleaned_dat_rosetta.rds")
+dat_rosetta7 <- readRDS("cleaned_dat_rosetta7.rds")
+dat_rosetta8 <- readRDS("cleaned_dat_rosetta8.rds")
+dat_rosetta9 <- readRDS("cleaned_dat_rosetta9.rds")
+dat_rosetta10 <- readRDS("cleaned_dat_rosetta10.rds")
+```
+
+```{r show_summary, include=TRUE, echo=FALSE}
+glimpse(reactive_cys_data)
+```
+
+## Setting up the data for modelling
+
+First, we need to split our data into a train set and a test set. Here, I've decided on a gene-wise split, since when we make new predictions we care most about them being applicable to a new gene/protein. There are 254 genes in the full dataset; I chose 10% of them for the test set and the remaining were used to train the logistic regression model. To ensure reproducibility, I used a random seed to generate the test set of genes. We don't center and scale the numeric variables to make the beta coefficients of the model more interpretable (this transformation should not affect the accuracy of the model).
+
+```{r logistic_regression_data}
+## split into train + test
+## pick a set of random genes to split out
+all_dats <- list(dat1, dat2, dat1d, dat2d,
+                 dat_rosetta, dat_rosetta7,
+                 dat_rosetta8, dat_rosetta9,
+                 dat_rosetta10)
+dat.names <- c("dat1","dat2","dat1d","dat2d",
+               "dat_rosetta","dat_rosetta7",
+               "dat_rosetta8","dat_rosetta9",
+               "dat_rosetta10")
+names(all_dats) <- dat.names
+
+for (name in dat.names) {
+  print(name)
+  reactive_cys_data <- all_dats[[name]]
+  #print(paste0("n genes: ", length(unique(reactive_cys_data$gene))))
+  # [1] 254
+  # choose ~10% of genes for test
+  # so 25 test proteins
+  
+  barplot(table(reactive_cys_data$gene), las=3, xlab="Genes", 
+          ylab="Number of Examples", names.arg=NA,
+          main=paste0("Number of cysteines per gene in ", name))
+  
+  # use set.seed to create deterministic set
+  # seed is the seed that returns the mean F1 score for log_exp+st_scales
+  set.seed(9423755); test_genes <- sample(unique(reactive_cys_data$gene), 
+                                         round(length(unique(reactive_cys_data$gene))/10),
+                                         replace=FALSE)
+  
+  df_train <- reactive_cys_data[-which(reactive_cys_data$gene %in% test_genes),]
+  df_test <- reactive_cys_data[which(reactive_cys_data$gene %in% test_genes),]
+  
+  #print(paste0("Train set: ", nrow(df_train)))
+  # [1] 5841
+  #print(paste0("Test set: ", nrow(df_test)))
+  # [1] 713
+  
+  # center + scale numeric variables
+  df_train <- df_train %>%
+    mutate_if(is.numeric, list(~ scale(.)))
+  df_test <- df_test %>%
+    mutate_if(is.numeric, list(~ scale(.)))
+  
+  
+  formulas <- list(
+    y ~ pka,
+    y ~ log_exposure,
+    #y ~ t1 + t2 + t3 + t4 + t5,
+    #y ~ st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8,
+    y ~ log_exposure + pka,
+    #y ~ pka + t1 + t2 + t3 + t4 + t5,
+    #y ~ pka + st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8,
+    y ~ log_exposure + t1 + t2 + t3 + t4 + t5,
+    y ~ log_exposure + st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8
+    #y ~ pka + log_exposure + st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8,
+    #y ~ pka + log_exposure + log_exposure:st1 + st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8
+  )
+  for(formula in formulas) {
+    print(formula)
+    logit_train <- glm(formula, data=df_train, family='binomial')
+    
+    full_data = list("train"=df_train, "test"=df_test)
+  
+    predictions <- predict(logit_train, full_data[["train"]], type='response')
+    
+    score1=predictions[full_data[["train"]]$y==1]
+    score0=predictions[full_data[["train"]]$y==0]
+    
+    roc <- roc.curve(score1, score0, curve = T)
+    pr <- pr.curve(score1, score0, curve = T)
+    
+    # use Youden's index (Se + Sp – 1)
+    # to calculate optimal cutoff point;
+    # where Youden's index is maximal
+    
+    # curve is how Se ~ (1 - Sp)
+    # plot(roc$curve[,2] ~ roc$curve[,1])
+    
+    # So Youden = Se - (1 - Sp)
+    youden = roc$curve[,2] - roc$curve[,1]
+    cutoff_ind = which.max(youden)
+    cutoff = roc$curve[cutoff_ind,1]
+    
+    #print(paste0("Using cut-off: ", cutoff))
+    
+    predictions <- predict(logit_train, full_data[["test"]], type='response')
+    
+    score1=predictions[full_data[["test"]]$y==1]
+    score0=predictions[full_data[["test"]]$y==0]
+    
+    table_mat <- table(full_data[["test"]]$y, predictions > cutoff)
+    #print(table_mat)
+  
+    prec <- precision(table_mat)
+    rec <- recall(table_mat)
+    f1 <- 2 * ((prec * rec) / (prec + rec))
+    print(f1)
+  }
+}
+```
+
+Now that we have sorted out the dataset, we must decide which covariates to include in the dataset. From our exploratory dataset analysis as well as the literature on predicting reactive cysteines, we know that we should include the exposure (here, included as the log_exposure) and the pka in the model. To include the local environment of the cysteine, we can use the [T-scale](https://www.sciencedirect.com/science/article/abs/pii/S0022286006006314) and [ST-scale](https://pubmed.ncbi.nlm.nih.gov/19373543/) to parameterize the amino acids that are within a small distance of the cysteine. These algorithms are order-invariant and so applicable even though we are not dealing with a linear/primary amino acid sequence.
+
+Let's try one model without modeling the local amino acid environment -- so just including log_exposure and pKa. We calculate the optimal cut-off on the training data and apply to the test data. While we show accuracy as a common metric, since the dataset here is so imbalanced (roughly 1:5 positive:negative examples), the F1 score is a better metric for rating performance of the model.
+
+```{r logistic_regression, echo=FALSE}
+# train model on trainset
+# adding interaction effect causes worse performance
+formula <- y ~ log_exposure + pka #+ 
+  #t1 + t2 +t3 + t4 + t5 + 
+  #st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8
+logit_train <- glm(formula, data=df_train, family='binomial')
+summary(logit_train)
+
+full_data = list("train"=df_train, "test"=df_test)
+for (data_type in c("train", "test")) {
+  print(paste0("Now showing results for: ", data_type))
+  tmp_data = full_data[[data_type]]
+  
+  predictions <- predict(logit_train, tmp_data, type='response')
+  
+  score1=predictions[tmp_data$y==1]
+  score0=predictions[tmp_data$y==0]
+  
+  roc <- roc.curve(score1, score0, curve = T)
+  plot(roc, main=paste0("ROC for ", data_type, " data"))
+  
+  pr <- pr.curve(score1, score0, curve = T)
+  plot(pr, main=paste0("PR curve for ", data_type, " data"))
+  
+  if (data_type == "train") {
+    # use Youden's index (Se + Sp – 1)
+    # to calculate optimal cutoff point;
+    # where Youden's index is maximal
+    
+    # curve is how Se ~ (1 - Sp)
+    # plot(roc$curve[,2] ~ roc$curve[,1])
+    
+    # So Youden = Se - (1 - Sp)
+    youden = roc$curve[,2] - roc$curve[,1]
+    cutoff_ind = which.max(youden)
+    cutoff = roc$curve[cutoff_ind,1]
+  }
+  
+  print(paste0("Using cut-off: ", cutoff))
+  table_mat <- table(tmp_data$y, predictions > cutoff)
+  print(table_mat)
+  
+  accuracy <- sum(diag(table_mat)) / sum(table_mat)
+  
+  g <- ggplot(tmp_data, aes(x=predictions, color=y)) + 
+    geom_density() + 
+    ggtitle(paste0("Distribution of cov cys +/- examples, ", data_type)) +
+    xlim(0, 1) +
+    xlab("Prediction") +
+    ylab("Density") + 
+    geom_vline(xintercept=cutoff) + 
+    theme_bw()
+  print(g)
+  
+  prec <- precision(table_mat)
+  rec <- recall(table_mat)
+  f1 <- 2 * ((prec * rec) / (prec + rec))
+  print(f1)
+}
+```
+
+The model trained on just log_exposure and pKa gives a test accuracy of `r round(accuracy,2)` and a test F1 score of `r round(f1,2)`.
+
+```{r logistic_regression_t, echo=FALSE, include=FALSE}
+# train model on trainset
+# adding interaction effect causes worse performance
+formula <- y ~ log_exposure + pka + 
+  t1 + t2 +t3 + t4 + t5
+  #st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8
+logit_train <- glm(formula, data=df_train, family='binomial')
+summary(logit_train)
+
+full_data = list("train"=df_train, "test"=df_test)
+for (data_type in c("train", "test")) {
+  print(paste0("Now showing results for: ", data_type))
+  tmp_data = full_data[[data_type]]
+  
+  predictions <- predict(logit_train, tmp_data, type='response')
+  
+  score1=predictions[tmp_data$y==1]
+  score0=predictions[tmp_data$y==0]
+  
+  roc <- roc.curve(score1, score0, curve = T)
+  plot(roc, main=paste0("ROC for ", data_type, " data"))
+  
+  pr <- pr.curve(score1, score0, curve = T)
+  plot(pr, main=paste0("PR curve for ", data_type, " data"))
+  
+  if (data_type == "train") {
+    # use Youden's index (Se + Sp – 1)
+    # to calculate optimal cutoff point;
+    # where Youden's index is maximal
+    
+    # curve is how Se ~ (1 - Sp)
+    # plot(roc$curve[,2] ~ roc$curve[,1])
+    
+    # So Youden = Se - (1 - Sp)
+    youden = roc$curve[,2] - roc$curve[,1]
+    cutoff_ind = which.max(youden)
+    cutoff = roc$curve[cutoff_ind,1]
+  }
+  
+  print(paste0("Using cut-off: ", cutoff))
+  table_mat <- table(tmp_data$y, predictions > cutoff)
+  print(table_mat)
+  
+  accuracy <- sum(diag(table_mat)) / sum(table_mat)
+  
+  g <- ggplot(tmp_data, aes(x=predictions, color=y)) + 
+    geom_density() + 
+    ggtitle(paste0("Distribution of cov cys +/- examples, ", data_type)) +
+    xlim(0, 1) +
+    xlab("Prediction") +
+    ylab("Density") + 
+    geom_vline(xintercept=cutoff) + 
+    theme_bw()
+  print(g)
+  
+  prec <- precision(table_mat)
+  rec <- recall(table_mat)
+  f1 <- 2 * ((prec * rec) / (prec + rec))
+  print(f1)
+}
+```
+
+If we train the model on the prior covariates plus the T-scales, we get a model that gives a test accuracy of `r round(accuracy,2)` and a test F1 score of `r round(f1,2)`.
+
+```{r logistic_regression_st, echo=FALSE, include=FALSE}
+# train model on trainset
+# adding interaction effect causes worse performance
+formula <- y ~ log_exposure + #pka + 
+  st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8
+logit_train <- glm(formula, data=df_train, family='binomial')
+summary(logit_train)
+
+full_data = list("train"=df_train, "test"=df_test)
+for (data_type in c("train", "test")) {
+  print(paste0("Now showing results for: ", data_type))
+  tmp_data = full_data[[data_type]]
+  
+  predictions <- predict(logit_train, tmp_data, type='response')
+  
+  score1=predictions[tmp_data$y==1]
+  score0=predictions[tmp_data$y==0]
+  
+  roc <- roc.curve(score1, score0, curve = T)
+  plot(roc, main=paste0("ROC for ", data_type, " data"))
+  
+  pr <- pr.curve(score1, score0, curve = T)
+  plot(pr, main=paste0("PR curve for ", data_type, " data"))
+  
+  if (data_type == "train") {
+    # use Youden's index (Se + Sp – 1)
+    # to calculate optimal cutoff point;
+    # where Youden's index is maximal
+    
+    # curve is how Se ~ (1 - Sp)
+    # plot(roc$curve[,2] ~ roc$curve[,1])
+    
+    # So Youden = Se - (1 - Sp)
+    youden = roc$curve[,2] - roc$curve[,1]
+    cutoff_ind = which.max(youden)
+    cutoff = roc$curve[cutoff_ind,1]
+  }
+  
+  print(paste0("Using cut-off: ", cutoff))
+  table_mat <- table(tmp_data$y, predictions > cutoff)
+  print(table_mat)
+  
+  accuracy <- sum(diag(table_mat)) / sum(table_mat)
+  
+  g <- ggplot(tmp_data, aes(x=predictions, color=y)) + 
+    geom_density() + 
+    ggtitle(paste0("Distribution of cov cys +/- examples, ", data_type)) +
+    xlim(0, 1) +
+    xlab("Prediction") +
+    ylab("Density") + 
+    geom_vline(xintercept=cutoff) + 
+    theme_bw()
+  print(g)
+  
+  prec <- precision(table_mat)
+  rec <- recall(table_mat)
+  f1 <- 2 * ((prec * rec) / (prec + rec))
+  print(f1)
+}
+```
+
+If we train the model on the prior covariates plus the ST-scales, we get a model that gives a test accuracy of `r round(accuracy,2)` and a test F1 score of `r round(f1,2)`.

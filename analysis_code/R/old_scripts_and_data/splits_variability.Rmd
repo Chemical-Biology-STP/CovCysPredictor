@@ -1,0 +1,315 @@
+---
+title: "splits_variability"
+author: "Bryn Reimer"
+date: '2022-09-26'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(PRROC)
+library(randomForest)
+
+precision2 <- function(matrix) {
+  # True positive
+  tp <- matrix[2, 2]
+  # false positive
+  fp <- matrix[1, 2]
+  return (tp / (tp + fp))
+}
+
+recall2 <- function(matrix) {
+  # true positive
+  tp <- matrix[2, 2]# false positive
+  fn <- matrix[2, 1]
+  return (tp / (tp + fn))
+}
+
+calculate_lr_f1 <- function(full_data, formula) {
+  logit_train <- glm(formula, data=full_data[["train"]], family='binomial')
+  
+  # create cut-off from train set
+  predictions <- predict(logit_train, full_data[["train"]], type='response')
+
+  score1=predictions[full_data[["train"]]$y==1]
+  score0=predictions[full_data[["train"]]$y==0]
+
+  roc <- roc.curve(score1, score0, curve = T)
+  
+  # use Youden's index (Se + Sp – 1)
+  # to calculate optimal cutoff point;
+  # where Youden's index is maximal
+  
+  # curve is how Se ~ (1 - Sp)
+  # plot(roc$curve[,2] ~ roc$curve[,1])
+  
+  # So Youden = Se - (1 - Sp)
+  youden = roc$curve[,2] - roc$curve[,1]
+  cutoff_ind = which.max(youden)
+  cutoff = roc$curve[cutoff_ind,1]
+  print("Cutoff: ")
+  print(cutoff)
+
+  predictions <- predict(logit_train, full_data[["test"]], type='response')
+
+  table_mat <- table(full_data[["test"]]$y, predictions > cutoff)
+  
+  print(table_mat)
+
+  prec <- precision2(table_mat)
+  rec <- recall2(table_mat)
+  f1 <- 2 * ((prec * rec) / (prec + rec))
+  return(f1)
+}
+
+calculate_lr_prauc <- function(full_data, formula) {
+  logit_train <- glm(formula, data=full_data[["train"]], family='binomial')
+  
+  # create cut-off from train set
+  predictions <- predict(logit_train, full_data[["train"]], type='response')
+
+  score1=predictions[full_data[["train"]]$y==1]
+  score0=predictions[full_data[["train"]]$y==0]
+
+  roc <- roc.curve(score1, score0, curve = T)
+  
+  # use Youden's index (Se + Sp – 1)
+  # to calculate optimal cutoff point;
+  # where Youden's index is maximal
+  
+  # curve is how Se ~ (1 - Sp)
+  # plot(roc$curve[,2] ~ roc$curve[,1])
+  
+  # So Youden = Se - (1 - Sp)
+  youden = roc$curve[,2] - roc$curve[,1]
+  cutoff_ind = which.max(youden)
+  cutoff = roc$curve[cutoff_ind,1]
+
+  predictions <- predict(logit_train, full_data[["test"]], type='response')
+
+  table_mat <- table(full_data[["test"]]$y, predictions > cutoff)
+  
+  score1=predictions[full_data[["test"]]$y==1]
+  score0=predictions[full_data[["test"]]$y==0]
+
+  pr <- pr.curve(score1, score0, curve = F)
+  
+  prec <- precision2(table_mat)
+  rec <- recall2(table_mat)
+  f1 <- 2 * ((prec * rec) / (prec + rec))
+  #return(f1)
+  return(pr$auc.integral)
+}
+
+calculate_rf_f1 <- function(full_data, formula) {
+  rf <- randomForest(formula, data=full_data[["train"]], proximity=TRUE)
+
+  pred_test <- predict(rf, full_data[["test"]])
+  table_mat <- table(full_data[["test"]]$y, pred_test == 1)
+
+  prec <- precision2(table_mat)
+  rec <- recall2(table_mat)
+  f1 <- 2 * ((prec * rec) / (prec + rec))
+  
+  return(f1)
+}
+```
+
+## Read in data
+
+First we read in the v1 and v2 datasets, plus their de-duplicated counterparts. Then we run two model types (logistic regression and random forests), with each model type being run with 5 different sets of covariates:
+
+(1) pKa only
+(2) log_exposure only
+(3) log_exposure + pKa
+(4) log_exposure + t-scales
+(5) log_exposure + st-scales
+
+The results are shown below.
+
+```{r read_data, include=FALSE}
+dat1 <- readRDS("cleaned_dat1.rds")
+dat2 <- readRDS("cleaned_dat2.rds")
+dat1d <- readRDS("cleaned_dat1d.rds")
+dat2d <- readRDS("cleaned_dat2d.rds")
+
+dat_rosetta <- readRDS("cleaned_dat_rosetta.rds")
+dat_rosetta7 <- readRDS("cleaned_dat_rosetta7.rds")
+dat_rosetta8 <- readRDS("cleaned_dat_rosetta8.rds")
+dat_rosetta9 <- readRDS("cleaned_dat_rosetta9.rds")
+dat_rosetta10 <- readRDS("cleaned_dat_rosetta10.rds")
+
+# put into list for easy iteration
+all_dats <- list(dat1, dat2, dat1d, dat2d,
+                 dat_rosetta, dat_rosetta7,
+                 dat_rosetta8, dat_rosetta9,
+                 dat_rosetta10)
+dat.names <- c("dat1","dat2","dat1d","dat2d",
+               "dat_rosetta","dat_rosetta7",
+               "dat_rosetta8","dat_rosetta9",
+               "dat_rosetta10")
+names(all_dats) <- dat.names
+
+# generate all seeds
+#seeds <- sample.int(10000000, 10)
+# use same seeds
+seeds = c(5265133, 7593354, 8367944, 2760789, 6858663, 4414868, 
+          3679243, 6933897, 9423755, 8476297)
+
+# name all formulas
+formulas <- list(
+    y ~ pka,
+    y ~ log_exposure,
+    y ~ log_exposure + pka,
+    y ~ log_exposure + t1 + t2 + t3 + t4 + t5,
+    y ~ log_exposure + st1 + st2 + st3 + st4 + st5 + st6 + st7 + st8
+  )
+names(formulas) <- c("pKa", "log_exp","log_exp+pKa","log_exp+t_scales","log_exp+st_scales")
+
+# for each dataset, create the split then train the models
+results_lr <- list()
+results_rf <- list()
+for (name in dat.names) {
+    # create df to store results
+  results_lr[[name]] <- as.data.frame(matrix(nrow=length(seeds), ncol=length(formulas)),
+                                   row.names=seeds)
+  colnames(results_lr[[name]]) <- c("pKa", "log_exp","log_exp+pKa","log_exp+t_scales","log_exp+st_scales")
+  rownames(results_lr[[name]]) <- as.character(seeds)
+
+  results_rf[[name]] <- as.data.frame(matrix(nrow=length(seeds), ncol=length(formulas)),
+                                   row.names=seeds)
+  colnames(results_rf[[name]]) <- c("pKa", "log_exp","log_exp+pKa","log_exp+t_scales","log_exp+st_scales")
+  rownames(results_rf[[name]]) <- as.character(seeds)
+
+  for (seed in seeds) {
+    # create data split
+    reactive_cys_data <- all_dats[[name]]
+    set.seed(seed); test_genes <- sample(unique(reactive_cys_data$gene),
+                                         round(length(unique(reactive_cys_data$gene))/10),
+                                         replace=FALSE)
+
+    df_train <- reactive_cys_data[-which(reactive_cys_data$gene %in% test_genes),]
+    df_test <- reactive_cys_data[which(reactive_cys_data$gene %in% test_genes),]
+
+    # center + scale numeric variables, within the test/train set
+    #df_train <- df_train %>%
+    #  mutate_if(is.numeric, list(~ scale(.)))
+    #df_test <- df_test %>%
+    #  mutate_if(is.numeric, list(~ scale(.)))
+
+    full_data = list("train"=df_train, "test"=df_test)
+
+    # train models
+    for (formula_name in names(formulas)) {
+      ## first logistic regression
+      results_lr[[name]][as.character(seed), formula_name] <-
+        calculate_lr_f1(full_data, formulas[[formula_name]])
+
+      #results_rf[[name]][as.character(seed), formula_name] <-
+      #  calculate_rf_f1(full_data, formulas[[formula_name]])
+    }
+  }
+}
+
+#saveRDS(results_lr, "results_lr_rosetta10.rds")
+#saveRDS(results_rf, "results_rf_rosetta10.rds")
+#results_lr <- readRDS("results_lr.rds")
+#results_rf <- readRDS("results_rf.rds")
+```
+
+## Plotting results
+
+```{r pressure, echo=FALSE}
+tmp_lr <- lapply(results_lr, 
+       function(x) {
+         data.frame(pivot_longer(x, everything()))
+       })
+tmp_rf <- lapply(results_rf, 
+                 function(x) {
+                   data.frame(pivot_longer(x, everything()))
+                 })
+
+full_results <- data.frame(
+  model_type=c(rep("LR", 450), rep("RF", 450)),
+  covariates=c(rep(names(formulas), 180)),
+  dataset=c(rep(dat.names, each=50, length.out=900)),
+  seed=c(rep(seeds, each=5, length.out=900)),
+  F1=c(tmp_lr[[1]]$value, tmp_lr[[2]]$value, tmp_lr[[3]]$value, tmp_lr[[4]]$value, 
+       tmp_lr[[5]]$value, tmp_lr[[6]]$value, tmp_lr[[7]]$value, tmp_lr[[8]]$value, 
+       tmp_lr[[9]]$value, 
+       tmp_rf[[1]]$value, tmp_rf[[2]]$value, tmp_rf[[3]]$value, tmp_rf[[4]]$value, 
+       tmp_rf[[5]]$value, tmp_rf[[6]]$value, tmp_rf[[7]]$value, tmp_rf[[8]]$value, 
+       tmp_rf[[9]]$value)
+)
+
+dat.names <- c("dat1", "dat1d", "dat2", "dat2d", "rosetta10")
+
+full_results <- data.frame(
+  model_type=c(rep("LR", 100), rep("RF", 100)),
+  covariates=c(rep(names(formulas), 20)),
+  dataset=c(rep(dat.names, each=50, length.out=200)),
+  seed=c(rep(seeds, each=5, length.out=200)),
+  F1=c(tmp_lr[[1]]$value, tmp_lr[[2]]$value, tmp_lr[[3]]$value, tmp_lr[[4]]$value,
+       tmp_rf[[1]]$value, tmp_rf[[2]]$value, tmp_rf[[3]]$value, tmp_rf[[4]]$value)
+)
+
+full_results <- data.frame(
+  model_type=c(rep("LR", 250), rep("RF", 250)),
+  covariates=c(rep(names(formulas), 25)),
+  dataset=c(rep(dat.names, each=50, length.out=500)),
+  seed=c(rep(seeds, each=5, length.out=500)),
+  F1=c(tmp_lr[[1]]$value, tmp_lr[[2]]$value, tmp_lr[[3]]$value, tmp_lr[[4]]$value, tmp_lr[[5]]$value,
+       tmp_rf[[1]]$value, tmp_rf[[2]]$value, tmp_rf[[3]]$value, tmp_rf[[4]]$value, tmp_rf[[5]]$value)
+)
+
+g <- ggplot(full_results, 
+       aes(model_type, F1)) + 
+  geom_jitter(width=0.2) + 
+  ylim(0.1, 0.9) +
+  facet_grid(rows=vars(dataset), cols=vars(covariates)) +
+  ggtitle("F1 scores across 10 random splits") + 
+  theme_bw()
+
+
+# try plotting means and SDs
+result_means <- aggregate(
+  F1 ~ model_type + covariates + dataset,
+  data=full_results,
+  FUN=mean)
+
+# try plotting means and SDs
+result_sds <- aggregate(
+  F1 ~ model_type + covariates + dataset,
+  data=full_results,
+  FUN=sd)
+
+result_means$sds <- result_sds$F1
+  
+# Creating barplots of means & sds
+g1 <- ggplot(result_means, aes(x=dataset, y=F1)) +
+  geom_point() +
+  ylim(c(0,1)) +
+  ggtitle("Mean of F1 results across splits") +
+  theme_minimal()
+
+ggplot(result_means, aes(x=model_type, y=sds)) +
+  geom_point() +
+  ggtitle("S.D. of F1 results across splits") +
+  theme_minimal()
+
+```
+
+## Conclusions
+
+(1) The best-performing models are those that use logistic regression for a model that contains both log_exposure and ST-scales; see below.
+(2) The worst-performing model is that which uses pKa alone. Our pKa predictions are likely unhelpful in this classification task.
+(3) In general, RF performs a little worse and a little more variably than LR. LR has some optimality guarantees in the setting of low dimensional data that RF doesn't have, so I'm not overly surprised.
+(4) Dataset v1 performed on average better than dataset v2; what differences can we pinpoint in the prep steps for the structures?
+
+```{r show_results}
+head(result_means[order(result_means$F1, decreasing=TRUE),])
+```
