@@ -1,0 +1,430 @@
+pdb1jqw.ent:LINK         SG  CYS A 126                ZN    ZN A 300     1555   1555  2.33  
+pdb1jvi.ent:LINK         SG  CYS A 126                ZN    ZN A 300     1555   1555  2.42  
+pdb1py0.ent:LINK         SG  CYS A  78                ZN    ZN A 124     1555   1555  2.29  
+pdb1rhj.ent:LINK         SG  CYS A 285                 C9  PZN A 501     1555   1555  1.85  
+pdb1rhj.ent:LINK         SG  CYS C 785                 C9  PZN C 502     1555   1555  1.85  
+pdb1x3z.ent:LINK         SG  CYS A 129                ZN    ZN A 999     1555   1555  2.27  
+pdb1x3z.ent:LINK         SG  CYS A 132                ZN    ZN A 999     1555   1555  2.12  
+pdb1x3z.ent:LINK         SG  CYS A 165                ZN    ZN A 999     1555   1555  2.26  
+pdb1x3z.ent:LINK         SG  CYS A 168                ZN    ZN A 999     1555   1555  2.26  
+pdb2f4o.ent:LINK        ZN    ZN A 501                 SG  CYS A 247     1555   1555  2.52  
+pdb2f4o.ent:LINK        ZN    ZN A 501                 SG  CYS A 280     1555   1555  2.28  
+pdb2f4o.ent:LINK        ZN    ZN A 501                 SG  CYS A 250     1555   1555  2.23  
+pdb2f4o.ent:LINK        ZN    ZN A 501                 SG  CYS A 283     1555   1555  2.34  
+pdb2y5b.ent:LINK        ZN    ZN A1000                 SG  CYS A 387     1555   1555  2.32  
+pdb2y5b.ent:LINK        ZN    ZN A1000                 SG  CYS A 384     1555   1555  2.33  
+pdb2y5b.ent:LINK        ZN    ZN A1000                 SG  CYS A 437     1555   1555  2.34  
+pdb2y5b.ent:LINK        ZN    ZN A1000                 SG  CYS A 440     1555   1555  2.33  
+pdb2y5b.ent:LINK        ZN    ZN E1000                 SG  CYS E 437     1555   1555  2.33  
+pdb2y5b.ent:LINK        ZN    ZN E1000                 SG  CYS E 440     1555   1555  2.33  
+pdb2y5b.ent:LINK        ZN    ZN E1000                 SG  CYS E 384     1555   1555  2.33  
+pdb2y5b.ent:LINK        ZN    ZN E1000                 SG  CYS E 387     1555   1555  2.33  
+pdb3kyd.ent:LINK         SG  CYS B 158                ZN    ZN B 550     1555   1555  2.25  
+pdb3kyd.ent:LINK         SG  CYS B 161                ZN    ZN B 550     1555   1555  2.28  
+pdb3kyd.ent:LINK         SG  CYS B 441                ZN    ZN B 550     1555   1555  2.34  
+pdb3kyd.ent:LINK         SG  CYS B 444                ZN    ZN B 550     1555   1555  2.32  
+pdb3v4j.ent:LINK         SG  CYS B 291                ZN    ZN B 402     1555   1555  2.12  
+pdb3v4j.ent:LINK         SG  CYS A 288                ZN    ZN A 402     1555   1555  2.23  
+pdb3v4j.ent:LINK         SG  CYS A 291                ZN    ZN A 402     1555   1555  2.28  
+pdb3v4j.ent:LINK         SG  CYS B 288                ZN    ZN B 402     1555   1555  2.28  
+pdb4i7c.ent:LINK         SG  CYS A 135                ZN    ZN A 601     1555   1555  2.03  
+pdb4i7c.ent:LINK         SG  CYS C 128                ZN    ZN C 601     1555   1555  2.14  
+pdb4i7c.ent:LINK         SG  CYS A 128                ZN    ZN A 601     1555   1555  2.15  
+pdb4i7c.ent:LINK         SG  CYS C 135                ZN    ZN C 601     1555   1555  2.16  
+pdb4i7c.ent:LINK         SG  CYS A 105                ZN    ZN A 602     1555   1555  2.18  
+pdb4i7c.ent:LINK         SG  CYS C 105                ZN    ZN C 602     1555   1555  2.20  
+pdb4i7c.ent:LINK         SG  CYS A  98                ZN    ZN A 602     1555   1555  2.23  
+pdb4i7c.ent:LINK         SG  CYS A 121                ZN    ZN A 602     1555   1555  2.23  
+pdb4i7c.ent:LINK         SG  CYS C  98                ZN    ZN C 602     1555   1555  2.31  
+pdb4i7c.ent:LINK         SG  CYS C 121                ZN    ZN C 602     1555   1555  2.33  
+pdb4i7d.ent:LINK         SG  CYS A 135                ZN    ZN A 601     1555   1555  2.14  
+pdb4i7d.ent:LINK         SG  CYS A 105                ZN    ZN A 602     1555   1555  2.25  
+pdb4i7d.ent:LINK         SG  CYS A 128                ZN    ZN A 601     1555   1555  2.27  
+pdb4i7d.ent:LINK         SG  CYS C  98                ZN    ZN C 602     1555   1555  2.28  
+pdb4i7d.ent:LINK         SG  CYS C 128                ZN    ZN C 601     1555   1555  2.29  
+pdb4i7d.ent:LINK         SG  CYS C 105                ZN    ZN C 602     1555   1555  2.29  
+pdb4i7d.ent:LINK         SG  CYS C 135                ZN    ZN C 601     1555   1555  2.30  
+pdb4i7d.ent:LINK         SG  CYS A  98                ZN    ZN A 602     1555   1555  2.32  
+pdb4i7d.ent:LINK         SG  CYS C 121                ZN    ZN C 602     1555   1555  2.33  
+pdb4i7d.ent:LINK         SG  CYS A 121                ZN    ZN A 602     1555   1555  2.36  
+pdb4mm3.ent:LINK         SG  CYS B 227                ZN    ZN B 401     1555   1555  2.25  
+pdb4mm3.ent:LINK         SG  CYS B 225                ZN    ZN B 401     1555   1555  2.26  
+pdb4mm3.ent:LINK         SG  CYS B 190                ZN    ZN B 401     1555   1555  2.51  
+pdb4pie.ent:LINK         SG  CYS A 199                ZN    ZN A 304     1555   1555  2.63  
+pdb5iyt.ent:LINK         SG  CYS B 147                 C26 NZN B 201     1555   1555  1.79  
+pdb5l8h.ent:LINK         SG  CYS A 182                ZN    ZN A1000     1555   1555  2.37  
+pdb5l8h.ent:LINK         SG  CYS A 185                ZN    ZN A1000     1555   1555  2.24  
+pdb5l8h.ent:LINK         SG  CYS A 229                ZN    ZN A1000     1555   1555  2.30  
+pdb5l8h.ent:LINK         SG  CYS A 232                ZN    ZN A1000     1555   1555  2.36  
+pdb5lap.ent:LINK         SG  CYS A 176                ZN    ZN A 401     1555   1555  2.30  
+pdb5lap.ent:LINK         SG  CYS A 238                ZN    ZN A 401     1555   1555  2.32  
+pdb5lap.ent:LINK         SG  CYS A 242                ZN    ZN A 401     1555   1555  2.32  
+pdb5lap.ent:LINK         SG  CYS B 176                ZN    ZN B 401     1555   1555  2.29  
+pdb5lap.ent:LINK         SG  CYS B 238                ZN    ZN B 401     1555   1555  2.29  
+pdb5lap.ent:LINK         SG  CYS B 242                ZN    ZN B 401     1555   1555  2.32  
+pdb5xu8.ent:LINK         SG  CYS A 425                ZN    ZN A 702     1555   1555  2.33  
+pdb5xu8.ent:LINK         SG  CYS A 428                ZN    ZN A 702     1555   1555  2.34  
+pdb5xu8.ent:LINK         SG  CYS A 476                ZN    ZN A 702     1555   1555  2.40  
+pdb5xu8.ent:LINK         SG  CYS A 479                ZN    ZN A 702     1555   1555  2.36  
+pdb6cwy.ent:LINK         SG  CYS D 158                ZN    ZN D 701     1555   1555  2.27  
+pdb6cwy.ent:LINK         SG  CYS D 161                ZN    ZN D 701     1555   1555  2.26  
+pdb6cwy.ent:LINK         SG  CYS D 441                ZN    ZN D 701     1555   1555  2.31  
+pdb6cwy.ent:LINK         SG  CYS D 444                ZN    ZN D 701     1555   1555  2.30  
+pdb6ein.ent:LINK         SG  CYS A 692                ZN    ZN A 802     1555   1555  2.35  
+pdb6ein.ent:LINK         SG  CYS A 695                ZN    ZN A 802     1555   1555  2.33  
+pdb6ein.ent:LINK         SG  CYS A 715                ZN    ZN A 802     1555   1555  2.30  
+pdb6exw.ent:LINK         SG  CYS A 300                ZN    ZN A 601     1555   1555  2.33  
+pdb6exw.ent:LINK         SG  CYS A 303                ZN    ZN A 601     1555   1555  2.31  
+pdb6exw.ent:LINK         SG  CYS A 327                ZN    ZN A 601     1555   1555  2.33  
+pdb6exw.ent:LINK         SG  CYS C 300                ZN    ZN C 601     1555   1555  2.36  
+pdb6exw.ent:LINK         SG  CYS C 303                ZN    ZN C 601     1555   1555  2.31  
+pdb6exw.ent:LINK         SG  CYS C 327                ZN    ZN C 601     1555   1555  2.33  
+pdb6gzy.ent:LINK         SG  CYS A 871                ZN    ZN A4002     1555   1555  2.37  
+pdb6gzy.ent:LINK         SG  CYS A 874                ZN    ZN A4002     1555   1555  2.34  
+pdb6gzy.ent:LINK         SG  CYS A 890                ZN    ZN A4002     1555   1555  2.28  
+pdb6gzy.ent:LINK         SG  CYS A 893                ZN    ZN A4002     1555   1555  2.24  
+pdb6gzy.ent:LINK         SG  CYS A 898                ZN    ZN A4003     1555   1555  2.25  
+pdb6gzy.ent:LINK         SG  CYS A 901                ZN    ZN A4003     1555   1555  2.28  
+pdb6gzy.ent:LINK         SG  CYS A 911                ZN    ZN A4004     1555   1555  2.20  
+pdb6gzy.ent:LINK         SG  CYS A 916                ZN    ZN A4004     1555   1555  2.25  
+pdb6gzy.ent:LINK         SG  CYS A 930                ZN    ZN A4003     1555   1555  2.33  
+pdb6gzy.ent:LINK         SG  CYS A 969                ZN    ZN A4005     1555   1555  2.43  
+pdb6gzy.ent:LINK         SG  CYS A 986                ZN    ZN A4005     1555   1555  2.42  
+pdb6gzy.ent:LINK         SG  CYS A 998                ZN    ZN A4005     1555   1555  2.21  
+pdb6gzy.ent:LINK         SG  CYS B 871                ZN    ZN B4002     1555   1555  2.27  
+pdb6gzy.ent:LINK         SG  CYS B 874                ZN    ZN B4002     1555   1555  2.32  
+pdb6gzy.ent:LINK         SG  CYS B 890                ZN    ZN B4002     1555   1555  2.31  
+pdb6gzy.ent:LINK         SG  CYS B 893                ZN    ZN B4002     1555   1555  2.21  
+pdb6gzy.ent:LINK         SG  CYS B 898                ZN    ZN B4003     1555   1555  2.30  
+pdb6gzy.ent:LINK         SG  CYS B 901                ZN    ZN B4003     1555   1555  2.23  
+pdb6gzy.ent:LINK         SG  CYS B 911                ZN    ZN B4004     1555   1555  2.19  
+pdb6gzy.ent:LINK         SG  CYS B 916                ZN    ZN B4004     1555   1555  2.31  
+pdb6gzy.ent:LINK         SG  CYS B 930                ZN    ZN B4003     1555   1555  2.25  
+pdb6gzy.ent:LINK         SG  CYS B 969                ZN    ZN B4005     1555   1555  2.22  
+pdb6gzy.ent:LINK         SG  CYS B 986                ZN    ZN B4005     1555   1555  2.58  
+pdb6gzy.ent:LINK         SG  CYS B 998                ZN    ZN B4005     1555   1555  2.24  
+pdb6kqq.ent:LINK         SG  CYS A1895                ZN    ZN A2106     1555   1555  2.17  
+pdb6kqq.ent:LINK         SG  CYS A1897                ZN    ZN A2106     1555   1555  2.42  
+pdb6kqq.ent:LINK         SG  CYS A1905                ZN    ZN A2105     1555   1555  2.39  
+pdb6kqq.ent:LINK         SG  CYS A1905                ZN    ZN A2106     1555   1555  2.36  
+pdb6kqq.ent:LINK         SG  CYS A1911                ZN    ZN A2106     1555   1555  2.35  
+pdb6kqq.ent:LINK         SG  CYS A1920                ZN    ZN A2105     1555   1555  2.32  
+pdb6kqq.ent:LINK         SG  CYS A1925                ZN    ZN A2105     1555   1555  2.40  
+pdb6kqq.ent:LINK         SG  CYS A1931                ZN    ZN A2105     1555   1555  2.32  
+pdb6kqq.ent:LINK         SG  CYS A2023                ZN    ZN A2104     1555   1555  2.39  
+pdb6kqq.ent:LINK         SG  CYS A2070                ZN    ZN A2104     1555   1555  2.31  
+pdb6kqq.ent:LINK         SG  CYS A2072                ZN    ZN A2104     1555   1555  2.28  
+pdb6kqq.ent:LINK         SG  CYS A2077                ZN    ZN A2104     1555   1555  2.36  
+pdb6kqq.ent:LINK         SG  CYS B1895                ZN    ZN B2105     1555   1555  2.32  
+pdb6kqq.ent:LINK         SG  CYS B1897                ZN    ZN B2105     1555   1555  2.39  
+pdb6kqq.ent:LINK         SG  CYS B1905                ZN    ZN B2104     1555   1555  2.34  
+pdb6kqq.ent:LINK         SG  CYS B1905                ZN    ZN B2105     1555   1555  2.38  
+pdb6kqq.ent:LINK         SG  CYS B1911                ZN    ZN B2105     1555   1555  2.32  
+pdb6kqq.ent:LINK         SG  CYS B1920                ZN    ZN B2104     1555   1555  2.33  
+pdb6kqq.ent:LINK         SG  CYS B1925                ZN    ZN B2104     1555   1555  2.30  
+pdb6kqq.ent:LINK         SG  CYS B1931                ZN    ZN B2104     1555   1555  2.33  
+pdb6kqq.ent:LINK         SG  CYS B2023                ZN    ZN B2106     1555   1555  2.37  
+pdb6kqq.ent:LINK         SG  CYS B2070                ZN    ZN B2106     1555   1555  2.25  
+pdb6kqq.ent:LINK         SG  CYS B2072                ZN    ZN B2106     1555   1555  2.30  
+pdb6kqq.ent:LINK         SG  CYS B2077                ZN    ZN B2106     1555   1555  2.42  
+pdb6sc5.ent:LINK         SG  CYS A 699                ZN    ZN A2002     1555   1555  2.57  
+pdb6sc5.ent:LINK         SG  CYS A 702                ZN    ZN A2002     1555   1555  2.45  
+pdb6sc5.ent:LINK         SG  CYS A 717                ZN    ZN A2003     1555   1555  2.43  
+pdb6sc5.ent:LINK         SG  CYS A 719                ZN    ZN A2003     1555   1555  2.39  
+pdb6sc5.ent:LINK         SG  CYS A 722                ZN    ZN A2002     1555   1555  2.49  
+pdb6sc5.ent:LINK         SG  CYS A 725                ZN    ZN A2002     1555   1555  2.74  
+pdb6sc5.ent:LINK         SG  CYS A 744                ZN    ZN A2003     1555   1555  2.52  
+pdb6sc5.ent:LINK         SG  CYS A 747                ZN    ZN A2003     1555   1555  2.54  
+pdb6sc5.ent:LINK         SG  CYS A 799                ZN    ZN A2004     1555   1555  2.37  
+pdb6sc5.ent:LINK         SG  CYS A 802                ZN    ZN A2004     1555   1555  2.36  
+pdb6sc5.ent:LINK         SG  CYS A 817                ZN    ZN A2004     1555   1555  2.31  
+pdb6sc5.ent:LINK         SG  CYS A 820                ZN    ZN A2004     1555   1555  2.35  
+pdb6sc5.ent:LINK         SG  CYS A 825                ZN    ZN A2005     1555   1555  2.36  
+pdb6sc5.ent:LINK         SG  CYS A 828                ZN    ZN A2005     1555   1555  2.34  
+pdb6sc5.ent:LINK         SG  CYS A 841                ZN    ZN A2005     1555   1555  2.39  
+pdb6sc5.ent:LINK         SG  CYS A 871                ZN    ZN A2006     1555   1555  2.40  
+pdb6sc5.ent:LINK         SG  CYS A 874                ZN    ZN A2006     1555   1555  2.27  
+pdb6sc5.ent:LINK         SG  CYS A 890                ZN    ZN A2006     1555   1555  2.47  
+pdb6sc5.ent:LINK         SG  CYS A 893                ZN    ZN A2006     1555   1555  2.13  
+pdb6sc5.ent:LINK         SG  CYS A 898                ZN    ZN A2007     1555   1555  2.33  
+pdb6sc5.ent:LINK         SG  CYS A 901                ZN    ZN A2007     1555   1555  2.33  
+pdb6sc5.ent:LINK         SG  CYS A 911                ZN    ZN A2008     1555   1555  2.29  
+pdb6sc5.ent:LINK         SG  CYS A 916                ZN    ZN A2008     1555   1555  2.29  
+pdb6sc5.ent:LINK         SG  CYS A 930                ZN    ZN A2007     1555   1555  2.42  
+pdb6sc5.ent:LINK         SG  CYS A 969                ZN    ZN A2009     1555   1555  2.53  
+pdb6sc5.ent:LINK         SG  CYS A 986                ZN    ZN A2009     1555   1555  2.51  
+pdb6sc5.ent:LINK         SG  CYS A 998                ZN    ZN A2009     1555   1555  2.40  
+pdb6sc7.ent:LINK         SG  CYS A 699                ZN    ZN A2002     1555   1555  2.61  
+pdb6sc7.ent:LINK         SG  CYS A 702                ZN    ZN A2002     1555   1555  2.30  
+pdb6sc7.ent:LINK         SG  CYS A 717                ZN    ZN A2003     1555   1555  2.58  
+pdb6sc7.ent:LINK         SG  CYS A 719                ZN    ZN A2003     1555   1555  2.63  
+pdb6sc7.ent:LINK         SG  CYS A 722                ZN    ZN A2002     1555   1555  2.45  
+pdb6sc7.ent:LINK         SG  CYS A 725                ZN    ZN A2002     1555   1555  2.63  
+pdb6sc7.ent:LINK         SG  CYS A 744                ZN    ZN A2003     1555   1555  2.74  
+pdb6sc7.ent:LINK         SG  CYS A 747                ZN    ZN A2003     1555   1555  2.42  
+pdb6sc7.ent:LINK         SG  CYS A 799                ZN    ZN A2004     1555   1555  2.52  
+pdb6sc7.ent:LINK         SG  CYS A 802                ZN    ZN A2004     1555   1555  2.33  
+pdb6sc7.ent:LINK         SG  CYS A 817                ZN    ZN A2004     1555   1555  2.38  
+pdb6sc7.ent:LINK         SG  CYS A 820                ZN    ZN A2004     1555   1555  2.37  
+pdb6sc7.ent:LINK         SG  CYS A 825                ZN    ZN A2005     1555   1555  2.48  
+pdb6sc7.ent:LINK         SG  CYS A 828                ZN    ZN A2005     1555   1555  1.95  
+pdb6sc7.ent:LINK         SG  CYS A 841                ZN    ZN A2005     1555   1555  2.47  
+pdb6sc7.ent:LINK         SG  CYS A 871                ZN    ZN A2006     1555   1555  2.45  
+pdb6sc7.ent:LINK         SG  CYS A 874                ZN    ZN A2006     1555   1555  2.26  
+pdb6sc7.ent:LINK         SG  CYS A 890                ZN    ZN A2006     1555   1555  2.38  
+pdb6sc7.ent:LINK         SG  CYS A 893                ZN    ZN A2006     1555   1555  2.22  
+pdb6sc7.ent:LINK         SG  CYS A 898                ZN    ZN A2007     1555   1555  2.62  
+pdb6sc7.ent:LINK         SG  CYS A 901                ZN    ZN A2007     1555   1555  2.34  
+pdb6sc7.ent:LINK         SG  CYS A 911                ZN    ZN A2008     1555   1555  2.29  
+pdb6sc7.ent:LINK         SG  CYS A 916                ZN    ZN A2008     1555   1555  2.31  
+pdb6sc7.ent:LINK         SG  CYS A 930                ZN    ZN A2007     1555   1555  2.46  
+pdb6sc7.ent:LINK         SG  CYS A 969                ZN    ZN A2009     1555   1555  2.55  
+pdb6sc7.ent:LINK         SG  CYS A 986                ZN    ZN A2009     1555   1555  2.65  
+pdb6sc8.ent:LINK         SG  CYS A 699                ZN    ZN A2002     1555   1555  2.45  
+pdb6sc8.ent:LINK         SG  CYS A 702                ZN    ZN A2002     1555   1555  2.53  
+pdb6sc8.ent:LINK         SG  CYS A 717                ZN    ZN A2003     1555   1555  2.48  
+pdb6sc8.ent:LINK         SG  CYS A 719                ZN    ZN A2003     1555   1555  2.43  
+pdb6sc8.ent:LINK         SG  CYS A 722                ZN    ZN A2002     1555   1555  2.56  
+pdb6sc8.ent:LINK         SG  CYS A 725                ZN    ZN A2002     1555   1555  2.69  
+pdb6sc8.ent:LINK         SG  CYS A 744                ZN    ZN A2003     1555   1555  2.52  
+pdb6sc8.ent:LINK         SG  CYS A 747                ZN    ZN A2003     1555   1555  2.54  
+pdb6sc8.ent:LINK         SG  CYS A 799                ZN    ZN A2004     1555   1555  2.38  
+pdb6sc8.ent:LINK         SG  CYS A 802                ZN    ZN A2004     1555   1555  2.44  
+pdb6sc8.ent:LINK         SG  CYS A 817                ZN    ZN A2004     1555   1555  2.26  
+pdb6sc8.ent:LINK         SG  CYS A 820                ZN    ZN A2004     1555   1555  2.31  
+pdb6sc8.ent:LINK         SG  CYS A 825                ZN    ZN A2005     1555   1555  2.40  
+pdb6sc8.ent:LINK         SG  CYS A 828                ZN    ZN A2005     1555   1555  2.41  
+pdb6sc8.ent:LINK         SG  CYS A 841                ZN    ZN A2005     1555   1555  2.37  
+pdb6sc8.ent:LINK         SG  CYS A 871                ZN    ZN A2006     1555   1555  2.47  
+pdb6sc8.ent:LINK         SG  CYS A 874                ZN    ZN A2006     1555   1555  2.07  
+pdb6sc8.ent:LINK         SG  CYS A 890                ZN    ZN A2006     1555   1555  2.44  
+pdb6sc8.ent:LINK         SG  CYS A 893                ZN    ZN A2006     1555   1555  2.07  
+pdb6sc8.ent:LINK         SG  CYS A 898                ZN    ZN A2007     1555   1555  2.33  
+pdb6sc8.ent:LINK         SG  CYS A 901                ZN    ZN A2007     1555   1555  2.23  
+pdb6sc8.ent:LINK         SG  CYS A 911                ZN    ZN A2008     1555   1555  2.28  
+pdb6sc8.ent:LINK         SG  CYS A 916                ZN    ZN A2008     1555   1555  2.26  
+pdb6sc8.ent:LINK         SG  CYS A 930                ZN    ZN A2007     1555   1555  2.37  
+pdb6sc8.ent:LINK         SG  CYS A 969                ZN    ZN A2009     1555   1555  2.44  
+pdb6sc8.ent:LINK         SG  CYS A 986                ZN    ZN A2009     1555   1555  2.37  
+pdb6sc8.ent:LINK         SG  CYS A 998                ZN    ZN A2009     1555   1555  2.29  
+pdb6sc9.ent:LINK         SG  CYS A 699                ZN    ZN A2002     1555   1555  2.59  
+pdb6sc9.ent:LINK         SG  CYS A 702                ZN    ZN A2002     1555   1555  2.33  
+pdb6sc9.ent:LINK         SG  CYS A 717                ZN    ZN A2003     1555   1555  2.55  
+pdb6sc9.ent:LINK         SG  CYS A 719                ZN    ZN A2003     1555   1555  2.65  
+pdb6sc9.ent:LINK         SG  CYS A 722                ZN    ZN A2002     1555   1555  2.59  
+pdb6sc9.ent:LINK         SG  CYS A 725                ZN    ZN A2002     1555   1555  2.63  
+pdb6sc9.ent:LINK         SG  CYS A 744                ZN    ZN A2003     1555   1555  2.60  
+pdb6sc9.ent:LINK         SG  CYS A 747                ZN    ZN A2003     1555   1555  2.51  
+pdb6sc9.ent:LINK         SG  CYS A 799                ZN    ZN A2004     1555   1555  2.49  
+pdb6sc9.ent:LINK         SG  CYS A 802                ZN    ZN A2004     1555   1555  2.30  
+pdb6sc9.ent:LINK         SG  CYS A 817                ZN    ZN A2004     1555   1555  2.34  
+pdb6sc9.ent:LINK         SG  CYS A 820                ZN    ZN A2004     1555   1555  2.42  
+pdb6sc9.ent:LINK         SG  CYS A 825                ZN    ZN A2005     1555   1555  2.44  
+pdb6sc9.ent:LINK         SG  CYS A 828                ZN    ZN A2005     1555   1555  2.34  
+pdb6sc9.ent:LINK         SG  CYS A 841                ZN    ZN A2005     1555   1555  2.33  
+pdb6sc9.ent:LINK         SG  CYS A 871                ZN    ZN A2006     1555   1555  2.53  
+pdb6sc9.ent:LINK         SG  CYS A 874                ZN    ZN A2006     1555   1555  2.29  
+pdb6sc9.ent:LINK         SG  CYS A 890                ZN    ZN A2006     1555   1555  2.61  
+pdb6sc9.ent:LINK         SG  CYS A 893                ZN    ZN A2006     1555   1555  2.11  
+pdb6sc9.ent:LINK         SG  CYS A 898                ZN    ZN A2007     1555   1555  2.39  
+pdb6sc9.ent:LINK         SG  CYS A 901                ZN    ZN A2007     1555   1555  2.32  
+pdb6sc9.ent:LINK         SG  CYS A 911                ZN    ZN A2008     1555   1555  2.31  
+pdb6sc9.ent:LINK         SG  CYS A 916                ZN    ZN A2008     1555   1555  2.30  
+pdb6sc9.ent:LINK         SG  CYS A 930                ZN    ZN A2007     1555   1555  2.46  
+pdb6sc9.ent:LINK         SG  CYS A 969                ZN    ZN A2009     1555   1555  2.48  
+pdb6sc9.ent:LINK         SG  CYS A 986                ZN    ZN A2009     1555   1555  2.54  
+pdb6tan.ent:LINK         SG  CYS A  12                 C17 MZN A 203     1555   1555  1.73  
+pdb6wuu.ent:LINK         SG  CYS A 189                ZN    ZN A 501     1555   1555  2.27  
+pdb6wuu.ent:LINK         SG  CYS A 192                ZN    ZN A 501     1555   1555  2.32  
+pdb6wuu.ent:LINK         SG  CYS A 224                ZN    ZN A 501     1555   1555  2.40  
+pdb6wuu.ent:LINK         SG  CYS A 226                ZN    ZN A 501     1555   1555  2.30  
+pdb6wuu.ent:LINK         SG  CYS B 189                ZN    ZN B 501     1555   1555  2.36  
+pdb6wuu.ent:LINK         SG  CYS B 192                ZN    ZN B 501     1555   1555  2.07  
+pdb6wuu.ent:LINK         SG  CYS B 224                ZN    ZN B 501     1555   1555  2.43  
+pdb6wuu.ent:LINK         SG  CYS B 226                ZN    ZN B 501     1555   1555  2.38  
+pdb6wuu.ent:LINK         SG  CYS C 189                ZN    ZN C 501     1555   1555  2.25  
+pdb6wuu.ent:LINK         SG  CYS C 192                ZN    ZN C 501     1555   1555  2.23  
+pdb6wuu.ent:LINK         SG  CYS C 224                ZN    ZN C 501     1555   1555  2.44  
+pdb6wuu.ent:LINK         SG  CYS C 226                ZN    ZN C 501     1555   1555  2.28  
+pdb6wuu.ent:LINK         SG  CYS D 189                ZN    ZN D 501     1555   1555  2.37  
+pdb6wuu.ent:LINK         SG  CYS D 192                ZN    ZN D 501     1555   1555  2.28  
+pdb6wuu.ent:LINK         SG  CYS D 224                ZN    ZN D 501     1555   1555  2.39  
+pdb6wuu.ent:LINK         SG  CYS D 226                ZN    ZN D 501     1555   1555  2.30  
+pdb6wx4.ent:LINK         SG  CYS D 189                ZN    ZN D 501     1555   1555  2.36  
+pdb6wx4.ent:LINK         SG  CYS D 192                ZN    ZN D 501     1555   1555  2.34  
+pdb6wx4.ent:LINK         SG  CYS D 224                ZN    ZN D 501     1555   1555  2.40  
+pdb6wx4.ent:LINK         SG  CYS D 226                ZN    ZN D 501     1555   1555  2.28  
+pdb6znc.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.32  
+pdb6znc.ent:LINK         SG  CYS A 238                ZN    ZN A 301     1555   1555  2.30  
+pdb6znc.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.34  
+pdb7ara.ent:LINK         SG  CYS A  52                ZN    ZN A 202     1555   1555  2.36  
+pdb7ara.ent:LINK         SG  CYS A  54                ZN    ZN A 202     1555   1555  2.25  
+pdb7ara.ent:LINK         SG  CYS A 112                ZN    ZN A 202     1555   1555  2.42  
+pdb7ara.ent:LINK         SG  CYS B  52                ZN    ZN B 202     1555   1555  2.27  
+pdb7ara.ent:LINK         SG  CYS B  54                ZN    ZN B 202     1555   1555  2.32  
+pdb7ara.ent:LINK         SG  CYS B 112                ZN    ZN B 202     1555   1555  2.28  
+pdb7b0i.ent:LINK         SG  CYS D  11                ZN    ZN D1403     1555   1555  2.32  
+pdb7b0i.ent:LINK         SG  CYS D  23                ZN    ZN D1404     1555   1555  2.30  
+pdb7b0i.ent:LINK         SG  CYS D  30                ZN    ZN D1402     1555   1555  2.33  
+pdb7b0i.ent:LINK         SG  CYS D  33                ZN    ZN D1402     1555   1555  2.32  
+pdb7b0i.ent:LINK         SG  CYS D  46                ZN    ZN D1403     1555   1555  2.31  
+pdb7b0i.ent:LINK         SG  CYS D  49                ZN    ZN D1403     1555   1555  2.32  
+pdb7b0i.ent:LINK         SG  CYS D  58                ZN    ZN D1404     1555   1555  2.30  
+pdb7b0i.ent:LINK         SG  CYS D  61                ZN    ZN D1404     1555   1555  2.30  
+pdb7b0i.ent:LINK         SG  CYS D  72                ZN    ZN D1402     1555   1555  2.33  
+pdb7b0i.ent:LINK         SG  CYS D  75                ZN    ZN D1402     1555   1555  2.31  
+pdb7b0i.ent:LINK         SG  CYS D  85                ZN    ZN D1403     1555   1555  2.35  
+pdb7b46.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.33  
+pdb7b46.ent:LINK         SG  CYS A 238                ZN    ZN A 301     1555   1555  2.34  
+pdb7b46.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.31  
+pdb7b46.ent:LINK         SG  CYS B 176                ZN    ZN B 301     1555   1555  2.33  
+pdb7b46.ent:LINK         SG  CYS B 238                ZN    ZN B 301     1555   1555  2.34  
+pdb7b46.ent:LINK         SG  CYS B 242                ZN    ZN B 301     1555   1555  2.31  
+pdb7b46.ent:LINK         SG  CYS C 176                ZN    ZN C 301     1555   1555  2.34  
+pdb7b46.ent:LINK         SG  CYS C 238                ZN    ZN C 301     1555   1555  2.35  
+pdb7b46.ent:LINK         SG  CYS C 242                ZN    ZN C 301     1555   1555  2.31  
+pdb7b46.ent:LINK         SG  CYS D 176                ZN    ZN D 301     1555   1555  2.34  
+pdb7b46.ent:LINK         SG  CYS D 238                ZN    ZN D 301     1555   1555  2.34  
+pdb7b46.ent:LINK         SG  CYS D 242                ZN    ZN D 301     1555   1555  2.32  
+pdb7b47.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.37  
+pdb7b47.ent:LINK         SG ACYS A 238                ZN    ZN A 301     1555   1555  2.29  
+pdb7b47.ent:LINK         SG BCYS A 238                ZN    ZN A 301     1555   1555  2.32  
+pdb7b47.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.33  
+pdb7b47.ent:LINK         SG  CYS B 176                ZN    ZN B 301     1555   1555  2.34  
+pdb7b47.ent:LINK         SG  CYS B 238                ZN    ZN B 301     1555   1555  2.29  
+pdb7b47.ent:LINK         SG  CYS B 242                ZN    ZN B 301     1555   1555  2.30  
+pdb7b47.ent:LINK         SG  CYS C 176                ZN    ZN C 301     1555   1555  2.34  
+pdb7b47.ent:LINK         SG  CYS C 238                ZN    ZN C 301     1555   1555  2.28  
+pdb7b47.ent:LINK         SG  CYS C 242                ZN    ZN C 301     1555   1555  2.31  
+pdb7b47.ent:LINK         SG  CYS D 176                ZN    ZN D 301     1555   1555  2.35  
+pdb7b47.ent:LINK         SG ACYS D 238                ZN    ZN D 301     1555   1555  2.35  
+pdb7b47.ent:LINK         SG BCYS D 238                ZN    ZN D 301     1555   1555  2.32  
+pdb7b47.ent:LINK         SG  CYS D 242                ZN    ZN D 301     1555   1555  2.39  
+pdb7b48.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.57  
+pdb7b48.ent:LINK         SG  CYS A 238                ZN    ZN A 301     1555   1555  2.47  
+pdb7b48.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.02  
+pdb7b48.ent:LINK         SG  CYS B 176                ZN    ZN B 301     1555   1555  2.45  
+pdb7b48.ent:LINK         SG  CYS B 238                ZN    ZN B 301     1555   1555  2.42  
+pdb7b48.ent:LINK         SG  CYS B 242                ZN    ZN B 301     1555   1555  2.33  
+pdb7b48.ent:LINK         SG  CYS C 176                ZN    ZN C 301     1555   1555  2.27  
+pdb7b48.ent:LINK         SG  CYS C 238                ZN    ZN C 301     1555   1555  2.40  
+pdb7b48.ent:LINK         SG  CYS C 242                ZN    ZN C 301     1555   1555  2.36  
+pdb7b48.ent:LINK         SG  CYS D 176                ZN    ZN D 301     1555   1555  2.30  
+pdb7b48.ent:LINK         SG  CYS D 238                ZN    ZN D 301     1555   1555  2.36  
+pdb7b48.ent:LINK         SG  CYS D 242                ZN    ZN D 301     1555   1555  2.27  
+pdb7b49.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.35  
+pdb7b49.ent:LINK         SG  CYS A 238                ZN    ZN A 301     1555   1555  2.33  
+pdb7b49.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.29  
+pdb7b49.ent:LINK         SG  CYS B 176                ZN    ZN B 301     1555   1555  2.26  
+pdb7b49.ent:LINK         SG  CYS B 238                ZN    ZN B 301     1555   1555  2.32  
+pdb7b49.ent:LINK         SG  CYS B 242                ZN    ZN B 301     1555   1555  2.35  
+pdb7b4b.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.33  
+pdb7b4b.ent:LINK         SG ACYS A 238                ZN    ZN A 301     1555   1555  2.30  
+pdb7b4b.ent:LINK         SG BCYS A 238                ZN    ZN A 301     1555   1555  2.57  
+pdb7b4b.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.34  
+pdb7b4b.ent:LINK         SG  CYS B 176                ZN    ZN B 301     1555   1555  2.36  
+pdb7b4b.ent:LINK         SG ACYS B 238                ZN    ZN B 301     1555   1555  2.42  
+pdb7b4b.ent:LINK         SG BCYS B 238                ZN    ZN B 301     1555   1555  2.43  
+pdb7b4b.ent:LINK         SG  CYS B 242                ZN    ZN B 301     1555   1555  2.27  
+pdb7b4b.ent:LINK         SG  CYS C 176                ZN    ZN C 301     1555   1555  2.33  
+pdb7b4b.ent:LINK         SG ACYS C 238                ZN    ZN C 301     1555   1555  2.31  
+pdb7b4b.ent:LINK         SG BCYS C 238                ZN    ZN C 301     1555   1555  2.38  
+pdb7b4b.ent:LINK         SG  CYS C 242                ZN    ZN C 301     1555   1555  2.35  
+pdb7b4b.ent:LINK         SG  CYS D 176                ZN    ZN D 301     1555   1555  2.32  
+pdb7b4b.ent:LINK         SG ACYS D 238                ZN    ZN D 301     1555   1555  2.48  
+pdb7b4b.ent:LINK         SG BCYS D 238                ZN    ZN D 301     1555   1555  2.28  
+pdb7b4b.ent:LINK         SG  CYS D 242                ZN    ZN D 301     1555   1555  2.41  
+pdb7b4c.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.27  
+pdb7b4c.ent:LINK         SG ACYS A 238                ZN    ZN A 301     1555   1555  2.39  
+pdb7b4c.ent:LINK         SG BCYS A 238                ZN    ZN A 301     1555   1555  2.27  
+pdb7b4c.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.09  
+pdb7b4c.ent:LINK         SG  CYS B 176                ZN    ZN B 301     1555   1555  2.26  
+pdb7b4c.ent:LINK         SG ACYS B 238                ZN    ZN B 301     1555   1555  2.28  
+pdb7b4c.ent:LINK         SG BCYS B 238                ZN    ZN B 301     1555   1555  2.74  
+pdb7b4c.ent:LINK         SG  CYS B 242                ZN    ZN B 301     1555   1555  2.34  
+pdb7b4c.ent:LINK         SG  CYS C 176                ZN    ZN C 302     1555   1555  2.42  
+pdb7b4c.ent:LINK         SG ACYS C 238                ZN    ZN C 302     1555   1555  2.32  
+pdb7b4c.ent:LINK         SG BCYS C 238                ZN    ZN C 302     1555   1555  2.55  
+pdb7b4c.ent:LINK         SG  CYS C 242                ZN    ZN C 302     1555   1555  2.17  
+pdb7b4c.ent:LINK         SG  CYS D 176                ZN    ZN D 301     1555   1555  2.30  
+pdb7b4c.ent:LINK         SG ACYS D 238                ZN    ZN D 301     1555   1555  2.20  
+pdb7b4c.ent:LINK         SG BCYS D 238                ZN    ZN D 301     1555   1555  2.35  
+pdb7b4c.ent:LINK         SG  CYS D 242                ZN    ZN D 301     1555   1555  2.41  
+pdb7b4d.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.31  
+pdb7b4d.ent:LINK         SG  CYS A 238                ZN    ZN A 301     1555   1555  2.32  
+pdb7b4d.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.34  
+pdb7b4e.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.31  
+pdb7b4e.ent:LINK         SG  CYS A 238                ZN    ZN A 301     1555   1555  2.30  
+pdb7b4e.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.34  
+pdb7b4h.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.31  
+pdb7b4h.ent:LINK         SG  CYS A 238                ZN    ZN A 301     1555   1555  2.29  
+pdb7b4h.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.32  
+pdb7b4n.ent:LINK         SG  CYS A 176                ZN    ZN A 301     1555   1555  2.32  
+pdb7b4n.ent:LINK         SG  CYS A 238                ZN    ZN A 301     1555   1555  2.31  
+pdb7b4n.ent:LINK         SG  CYS A 242                ZN    ZN A 301     1555   1555  2.34  
+pdb7b92.ent:LINK         SG  CYS D  11                ZN    ZN D 101     1555   1555  2.31  
+pdb7b92.ent:LINK         SG  CYS D  23                ZN    ZN D 103     1555   1555  2.31  
+pdb7b92.ent:LINK         SG  CYS D  30                ZN    ZN D 102     1555   1555  2.47  
+pdb7b92.ent:LINK         SG  CYS D  33                ZN    ZN D 102     1555   1555  2.35  
+pdb7b92.ent:LINK         SG  CYS D  46                ZN    ZN D 101     1555   1555  2.34  
+pdb7b92.ent:LINK         SG  CYS D  49                ZN    ZN D 101     1555   1555  2.22  
+pdb7b92.ent:LINK         SG  CYS D  58                ZN    ZN D 103     1555   1555  2.68  
+pdb7b92.ent:LINK         SG  CYS D  61                ZN    ZN D 103     1555   1555  2.29  
+pdb7b92.ent:LINK         SG  CYS D  72                ZN    ZN D 102     1555   1555  2.36  
+pdb7b92.ent:LINK         SG  CYS D  75                ZN    ZN D 102     1555   1555  2.29  
+pdb7b92.ent:LINK         SG  CYS D  85                ZN    ZN D 101     1555   1555  2.74  
+pdb7b9c.ent:LINK         SG  CYS D  11                ZN    ZN D 101     1555   1555  2.42  
+pdb7b9c.ent:LINK         SG  CYS D  23                ZN    ZN D 103     1555   1555  2.32  
+pdb7b9c.ent:LINK         SG  CYS D  30                ZN    ZN D 102     1555   1555  2.38  
+pdb7b9c.ent:LINK         SG  CYS D  33                ZN    ZN D 102     1555   1555  2.20  
+pdb7b9c.ent:LINK         SG  CYS D  46                ZN    ZN D 101     1555   1555  2.08  
+pdb7b9c.ent:LINK         SG  CYS D  49                ZN    ZN D 101     1555   1555  2.34  
+pdb7b9c.ent:LINK         SG  CYS D  58                ZN    ZN D 103     1555   1555  2.36  
+pdb7b9c.ent:LINK         SG  CYS D  61                ZN    ZN D 103     1555   1555  2.35  
+pdb7b9c.ent:LINK         SG  CYS D  72                ZN    ZN D 102     1555   1555  2.22  
+pdb7b9c.ent:LINK         SG  CYS D  75                ZN    ZN D 102     1555   1555  2.35  
+pdb7b9c.ent:LINK         SG  CYS D  85                ZN    ZN D 101     1555   1555  2.38  
+pdb7bzl.ent:LINK         SG  CYS A 340                ZN    ZN A 701     1555   1555  2.32  
+pdb7bzl.ent:LINK         SG  CYS A 417                ZN    ZN A 701     1555   1555  2.45  
+pdb7bzl.ent:LINK         SG  CYS A 418                ZN    ZN A 701     1555   1555  2.17  
+pdb7dif.ent:LINK         SG  CYS A 340                ZN    ZN A 701     1555   1555  2.28  
+pdb7dif.ent:LINK         SG  CYS A 417                ZN    ZN A 701     1555   1555  2.45  
+pdb7dif.ent:LINK         SG  CYS A 418                ZN    ZN A 701     1555   1555  2.16  
+pdb7lfv.ent:LINK         SG  CYS B 225                ZN    ZN B 401     1555   1555  2.68  
+pdb7lfv.ent:LINK         SG  CYS B 227                ZN    ZN B 401     1555   1555  2.54  
+pdb7lfv.ent:LINK         SG  CYS A 190                ZN    ZN A2002     1555   1555  2.48  
+pdb7lfv.ent:LINK         SG  CYS A 193                ZN    ZN A2002     1555   1555  2.52  
+pdb7lfv.ent:LINK         SG  CYS A 225                ZN    ZN A2002     1555   1555  2.32  
+pdb7lfv.ent:LINK         SG  CYS A 227                ZN    ZN A2002     1555   1555  2.33  
+pdb7ojx.ent:LINK         SG  CYS A 413                ZN    ZN A 501     1555   1555  2.33  
+pdb7ojx.ent:LINK         SG  CYS A 416                ZN    ZN A 501     1555   1555  2.38  
+pdb7ojx.ent:LINK         SG  CYS A 431                ZN    ZN A 502     1555   1555  2.28  
+pdb7ojx.ent:LINK         SG  CYS A 439                ZN    ZN A 501     1555   1555  2.22  
+pdb7ojx.ent:LINK         SG  CYS A 450                ZN    ZN A 502     1555   1555  2.26  
+pdb7ojx.ent:LINK         SG  CYS A 453                ZN    ZN A 502     1555   1555  2.39  
+pdb7omf.ent:LINK         SG  CYS D  11                ZN    ZN D 102     1555   1555  2.32  
+pdb7omf.ent:LINK         SG  CYS D  23                ZN    ZN D 101     1555   1555  2.30  
+pdb7omf.ent:LINK         SG  CYS D  30                ZN    ZN D 103     1555   1555  2.34  
+pdb7omf.ent:LINK         SG  CYS D  33                ZN    ZN D 103     1555   1555  2.29  
+pdb7omf.ent:LINK         SG  CYS D  46                ZN    ZN D 102     1555   1555  2.30  
+pdb7omf.ent:LINK         SG  CYS D  49                ZN    ZN D 102     1555   1555  2.34  
+pdb7omf.ent:LINK         SG  CYS D  58                ZN    ZN D 101     1555   1555  2.31  
+pdb7omf.ent:LINK         SG  CYS D  61                ZN    ZN D 101     1555   1555  2.32  
+pdb7omf.ent:LINK         SG  CYS D  72                ZN    ZN D 103     1555   1555  2.32  
+pdb7omf.ent:LINK         SG  CYS D  75                ZN    ZN D 103     1555   1555  2.32  
+pdb7omf.ent:LINK         SG  CYS D  85                ZN    ZN D 102     1555   1555  2.35  
+pdb7onb.ent:LINK         SG  CYS D  11                ZN    ZN D1402     1555   1555  2.32  
+pdb7onb.ent:LINK         SG  CYS D  23                ZN    ZN D1404     1555   1555  2.30  
+pdb7onb.ent:LINK         SG  CYS D  30                ZN    ZN D1403     1555   1555  2.32  
+pdb7onb.ent:LINK         SG  CYS D  33                ZN    ZN D1403     1555   1555  2.31  
+pdb7onb.ent:LINK         SG  CYS D  46                ZN    ZN D1402     1555   1555  2.31  
+pdb7onb.ent:LINK         SG  CYS D  49                ZN    ZN D1402     1555   1555  2.31  
+pdb7onb.ent:LINK         SG  CYS D  58                ZN    ZN D1404     1555   1555  2.30  
+pdb7onb.ent:LINK         SG  CYS D  61                ZN    ZN D1404     1555   1555  2.30  
+pdb7onb.ent:LINK         SG  CYS D  72                ZN    ZN D1403     1555   1555  2.31  
+pdb7onb.ent:LINK         SG  CYS D  75                ZN    ZN D1403     1555   1555  2.31  
+pdb7onb.ent:LINK         SG  CYS D  85                ZN    ZN D1402     1555   1555  2.32  
+pdb7onb.ent:LINK         SG  CYS M  56                ZN    ZN M 501     1555   1555  2.30  
+pdb7onb.ent:LINK         SG  CYS M  59                ZN    ZN M 501     1555   1555  2.30  
+pdb7onb.ent:LINK         SG  CYS N 408                ZN    ZN N 601     1555   1555  2.30  
+pdb7onb.ent:LINK         SG  CYS N 411                ZN    ZN N 601     1555   1555  2.30  

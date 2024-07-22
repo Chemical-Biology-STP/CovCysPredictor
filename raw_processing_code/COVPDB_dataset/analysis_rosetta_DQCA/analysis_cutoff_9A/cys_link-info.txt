@@ -1,0 +1,1631 @@
+1a54/1a54.pdb:LINK         C1  MDC A 323                 SG ACYS A 197     1555   1555  1.76
+1a54/1a54.pdb:LINK         C2  MDC A 324                 SG ACYS A 197     1555   1555  2.09
+1a54/1a54.pdb:LINK         SG ACYS A 197                 C1  MDC A 324     1555   1555  2.07
+1a54/1a54.pdb:LINK         SG BCYS A 197                 C2  MDC A 324     1555   1555  1.82
+1aec/1aec.pdb:LINK         SG  CYS A  25                 C2  E64 A 219     1555   1555  1.80
+1aim/1aim.pdb:LINK         SG  CYS A  25                 CM  ZYA A 280     1555   1555  1.81
+1atk/1atk.pdb:LINK         C2  E64 A 216                 SG  CYS A  25     1555   1555  1.80
+1au3/1au3.pdb:LINK         C22 PCM A 300                 SG  CYS A  25     1555   1555  1.76
+1au4/1au4.pdb:LINK         C17 INP A 300                 SG  CYS A  25     1555   1555  1.81
+1ayu/1ayu.pdb:LINK         C21 INA A 300                 SG  CYS A  25     1555   1555  1.80
+1ayv/1ayv.pdb:LINK         C21 IN6 A 300                 SG  CYS A  25     1555   1555  1.81
+1ayw/1ayw.pdb:LINK         C21 IN3 A 300                 SG  CYS A  25     1555   1555  1.79
+1b02/1b02.pdb:LINK         SG  CYS A 161                 C6  UFP A 280     1555   1555  1.72
+1bgo/1bgo.pdb:LINK         C31 I10 A 300                 SG  CYS A  25     1555   1555  1.90
+1bjg/1bjg.pdb:LINK         C6  UFP A 266                 SG  CYS A 146     1555   1555  1.84
+1bmq/1bmq.pdb:LINK         SG  CYS A 285                 C27 MNO A 601     1555   1555  1.75
+1bwc/1bwc.pdb:LINK         S5  AJ3 A4058                 SG BCYS A  58     1555   1555  2.05
+1cqq/1cqq.pdb:LINK         SG  CYS A 147                 C19 AG7 A 501     1555   1555  1.82
+1cte/1cte.pdb:LINK         SG  CYS A  29                 S2  PYS A 255     1555   1555  2.06
+1cte/1cte.pdb:LINK         SG  CYS B  29                 S2  PYS B 255     1555   1555  2.04
+1cv8/1cv8.pdb:LINK         C2  E64 A 176                 SG  CYS A  24     1555   1555  1.89
+1cvr/1cvr.pdb:LINK         SG  CYS A 244                 C3  H37 A 501     1555   1555  1.80
+1cvz/1cvz.pdb:LINK         C10 C48 A 213                 SG  CYS A  25     1555   1555  1.79
+1dc4/1dc4.pdb:LINK         SG  CYS A 149                 C1  G3P A 350     1555   1555  1.82
+1dc4/1dc4.pdb:LINK         SG  CYS B 149                 C1  G3P B 350     1555   1555  1.82
+1ecc/1ecc.pdb:LINK         CE  ONL A2377                 SG  CYS A   1     1555   1555  1.81
+1ecc/1ecc.pdb:LINK         CE  ONL B2450                 SG  CYS B   1     1555   1555  1.79
+1ecg/1ecg.pdb:LINK         CE  ONL A 505                 SG  CYS A   1     1555   1555  1.80
+1ecg/1ecg.pdb:LINK         CE  ONL B 505                 SG  CYS B   1     1555   1555  1.78
+1ewl/1ewl.pdb:LINK         SG  CYS A  25                 C2  R99 A 280     1555   1555  1.83
+1ewm/1ewm.pdb:LINK         SG  CYS A  25                 C2  RL2 A 280     1555   1555  1.83
+1ewo/1ewo.pdb:LINK         SG  CYS A  25                 C32 VSC A 280     1555   1555  1.82
+1ewp/1ewp.pdb:LINK         SG  CYS A  25                 CM  0I5 A 280     1555   1555  1.81
+1f28/1f28.pdb:LINK         SG  CYS A 173                 C6  UMP A 301     1555   1555  1.88
+1f28/1f28.pdb:LINK         SG  CYS C 173                 C6  UMP C 303     1555   1555  1.88
+1f29/1f29.pdb:LINK         C22 VS1 A 300                 SG  CYS A  25     1555   1555  1.86
+1f29/1f29.pdb:LINK         C22 VS1 B 300                 SG  CYS B  25     1555   1555  1.86
+1f29/1f29.pdb:LINK         C22 VS1 C 300                 SG  CYS C  25     1555   1555  1.86
+1f2a/1f2a.pdb:LINK         C27 VS2 A 300                 SG  CYS A  25     1555   1555  1.84
+1f2b/1f2b.pdb:LINK         C27 VS3 A 300                 SG  CYS A  25     1555   1555  1.83
+1f2c/1f2c.pdb:LINK         C27 VS4 A 300                 SG  CYS A  25     1555   1555  1.84
+1f42/1f42.pdb:LINK         SG  CYS A 177                 S5  MNB A 504     1555   1555  2.03
+1f42/1f42.pdb:LINK         SG  CYS A 252                 S5  MNB A 505     1555   1555  2.03
+1f4c/1f4c.pdb:LINK         S1  TP2 A 801                 SG  CYS A 146     1555   1555  2.07
+1f4c/1f4c.pdb:LINK         S1  TP2 B 802                 SG  CYS B 146     1555   1555  2.04
+1f4d/1f4d.pdb:LINK         S1  TP2 A 401                 SG  CYS A 143     1555   1555  2.04
+1f4d/1f4d.pdb:LINK         S1  TP2 B 402                 SG  CYS B 143     1555   1555  2.09
+1fh0/1fh0.pdb:LINK         SG  CYS A  25                 C21 0IW A1280     1555   1555  1.79
+1fh0/1fh0.pdb:LINK         SG  CYS B2025                 C21 0IW B2280     1555   1555  1.81
+1fj8/1fj8.pdb:LINK         SG  CYS A 163                 C2  CER A 500     1555   1555  1.90
+1fj8/1fj8.pdb:LINK         SG  CYS B 163                 C2  CER B 500     1555   1555  1.89
+1fj8/1fj8.pdb:LINK         SG  CYS C 163                 C2  CER C 500     1555   1555  1.86
+1fj8/1fj8.pdb:LINK         SG  CYS D 163                 C2  CER D 500     1555   1555  1.90
+1gjm/1gjm.pdb:LINK         SG  CYS A  85                 C15 FEM A 418     1555   1555  1.83
+1gjm/1gjm.pdb:LINK         SG  CYS A 136                 C15 FEM A 419     1555   1555  1.74
+1gjm/1gjm.pdb:LINK        FE   HEM A 417                 SG  CYS A 357     1555   1555  2.23
+1gmy/1gmy.pdb:LINK         SG  CYS A  29                 C1  AEM A 500     1555   1555  1.82
+1gmy/1gmy.pdb:LINK         SG  CYS B  29                 C1  AEM B 500     1555   1555  1.79
+1gmy/1gmy.pdb:LINK         SG  CYS C  29                 C1  AEM C 500     1555   1555  1.79
+1gth/1gth.pdb:LINK         SG  CYS A 671                 C5  IDH A1033     1555   1555  1.87
+1hvy/1hvy.pdb:LINK         C6  UMP D 317                 SG  CYS D 195     1555   1555  1.82
+1hvy/1hvy.pdb:LINK         C6  UMP B 315                 SG  CYS B 195     1555   1555  1.83
+1hvy/1hvy.pdb:LINK         C6  UMP C 316                 SG  CYS C 195     1555   1555  1.84
+1hvy/1hvy.pdb:LINK         C6  UMP A 314                 SG  CYS A 195     1555   1555  1.84
+1ito/1ito.pdb:LINK         SG  CYS A  29                 C2  E6C A 700     1555   1555  1.81
+1jcn/1jcn.pdb:LINK         SG  CYS A 331                 C6  CPR A 631     1555   1555  2.00
+1jcn/1jcn.pdb:LINK         SG  CYS B 331                 C6  CPR B 631     1555   1555  1.91
+1keq/1keq.pdb:LINK         SG  CYS A 183                 C4  4MZ A 351     1555   1555  1.78
+1keq/1keq.pdb:LINK         SG  CYS B 183                 C4  4MZ B 351     1555   1555  1.79
+1keq/1keq.pdb:LINK         SG  CYS A 188                 C4  4MZ A 352     1555   1555  1.82
+1keq/1keq.pdb:LINK         SG  CYS B 188                 C4  4MZ B 352     1555   1555  1.82
+1keq/1keq.pdb:LINK         SG  CYS A 131                 C4 A4MZ A 350     1555   1555  1.82
+1keq/1keq.pdb:LINK         SG  CYS A 131                 C4 B4MZ A 350     1555   1555  1.82
+1kou/1kou.pdb:LINK         SG  CYS A  69                 C1  DHC A 201     1555   1555  1.78
+1kzi/1kzi.pdb:LINK         SG  CYS A 146                 C6  UMP A 302     1555   1555  1.67
+1kzi/1kzi.pdb:LINK         SG  CYS B 146                 C6  UMP B 304     1555   1555  1.69
+1kzi/1kzi.pdb:LINK         SG  CYS A 192                 S4  DTU A 800     1555   1555  2.07
+1lxy/1lxy.pdb:LINK         SG  CYS A 398                 C7  CIR A 500     1555   1555  1.79
+1lxy/1lxy.pdb:LINK         SG  CYS B 398                 C7  CIR B 500     1555   1555  1.79
+1m4a/1m4a.pdb:LINK         SG  CYS A  31                 S1  MPE A 201     1555   1555  2.01
+1m4b/1m4b.pdb:LINK         SG  CYS A  43                 S27 NMP A 201     1555   1555  2.04
+1m6d/1m6d.pdb:LINK         SG  CYS A  25                 CT  MYP A1280     1555   1555  1.82
+1m6d/1m6d.pdb:LINK         SG  CYS B  25                 CT  MYP B2280     1555   1555  1.81
+1meg/1meg.pdb:LINK         C2  E64 A 217                 SG  CYS A  25     1555   1555  1.83
+1mem/1mem.pdb:LINK         SG  CYS A  25                 C21 0D6 A 280     1555   1555  1.83
+1ml3/1ml3.pdb:LINK         C1 ACYX B1166                 SG ACYS B 166     1555   1555  1.72
+1ml3/1ml3.pdb:LINK         C1 BCYX B1166                 SG BCYS B 166     1555   1555  1.73
+1ml3/1ml3.pdb:LINK         C1 ACYX C2166                 SG ACYS C 166     1555   1555  1.73
+1ml3/1ml3.pdb:LINK         C1 BCYX C2166                 SG BCYS C 166     1555   1555  1.72
+1ml3/1ml3.pdb:LINK         C1  CYX D3166                 SG  CYS D 166     1555   1555  1.72
+1ms6/1ms6.pdb:LINK         SG  CYS A  25                 C   BLN A 281     1555   1555  3.44
+1ms6/1ms6.pdb:LINK         SG  CYS A  25                 C'  BLN A 281     1555   1555  1.90
+1nbp/1nbp.pdb:LINK         SG  CYS A  31                 S1  MHC A 201     1555   1555  2.04
+1nlj/1nlj.pdb:LINK         SG  CYS A  25                 C07 2CA A 300     1555   1555  1.79
+1nlj/1nlj.pdb:LINK         SG  CYS B  25                 C07 2CA B 300     1555   1555  1.80
+1nme/1nme.pdb:LINK         SG  CYS A 163                 C1  158 A9001     1555   1555  2.04
+1nmq/1nmq.pdb:LINK         SG  CYS A 163                 C1  160 A1278     1555   1555  2.33
+1nmq/1nmq.pdb:LINK         SG  CYS B 163                 C1  160 B5278     1555   1555  2.11
+1nms/1nms.pdb:LINK         SG  CYS A 163                 C1  161 A1278     1555   1555  1.94
+1nms/1nms.pdb:LINK         SG  CYS B 163                 C1  161 B5278     1555   1555  2.13
+1npz/1npz.pdb:LINK         SG  CYS A  25                 C18 C1P A 468     1555   1555  1.78
+1npz/1npz.pdb:LINK         SG  CYS B 275                 C18 C1P B 469     1555   1555  1.78
+1nqc/1nqc.pdb:LINK         SG  CYS A  25                 C56 C4P A 218     1555   1555  1.65
+1o41/1o41.pdb:LINK         SG  CYS A  44                 C10 300 A 300     1555   1555  1.86
+1o43/1o43.pdb:LINK         SG  CYS A  44                 C71 821 A 300     1555   1555  1.74
+1o45/1o45.pdb:LINK         SG  CYS A  44                 C75 687 A 300     1555   1555  1.73
+1o4a/1o4a.pdb:LINK         SG  CYS A  44                 C71 197 A 300     1555   1555  1.74
+1o4d/1o4d.pdb:LINK         SG  CYS A  44                 C7  262 A 300     1555   1555  1.75
+1o4e/1o4e.pdb:LINK         SG  CYS A  44                 C11 299 A 300     1555   1555  1.77
+1o4i/1o4i.pdb:LINK         SG  CYS A  44                 C7  219 A 300     1555   1555  1.76
+1o4k/1o4k.pdb:LINK         SG  CYS A  44                 C7  PSN A 300     1555   1555  1.83
+1ofe/1ofe.pdb:LINK         SG  CYS A   1                 CE  ONL A2511     1555   1555  1.72
+1ofe/1ofe.pdb:LINK         SG  CYS A1137                FE1  F3S A2509     1555   1555  2.34
+1ofe/1ofe.pdb:LINK         SG  CYS A1143                FE3  F3S A2509     1555   1555  2.18
+1ofe/1ofe.pdb:LINK         SG  CYS A1148                FE4  F3S A2509     1555   1555  2.18
+1ofe/1ofe.pdb:LINK         SG  CYS B1137                FE4  F3S B2509     1555   1555  2.35
+1ofe/1ofe.pdb:LINK         SG  CYS B1143                FE3  F3S B2509     1555   1555  2.35
+1ofe/1ofe.pdb:LINK         SG  CYS B1148                FE1  F3S B2509     1555   1555  2.13
+1pe6/1pe6.pdb:LINK         SG  CYS A  25                 C2  E6C A 213     1555   1555  1.80
+1ppp/1ppp.pdb:LINK         SG  CYS A  25                 C2  E6C A 213     1555   1555  1.80
+1q6k/1q6k.pdb:LINK         SG  CYS A  25                 C   TCO A   0     1555   1555  2.63
+1qa7/1qa7.pdb:LINK         SG  CYS B 172                 CH3 IVF B 301     1555   1555  1.75
+1qa7/1qa7.pdb:LINK         SG  CYS D 172                 CH3 IVF D 301     1555   1555  1.92
+1qa7/1qa7.pdb:LINK         SG  CYS C 172                 CH3 IVF C 301     1555   1555  1.93
+1qa7/1qa7.pdb:LINK         SG  CYS A 172                 CH3 IVF A 301     1555   1555  1.96
+1qdq/1qdq.pdb:LINK         SG  CYS A  29                 C6  074 A 254     1555   1555  1.81
+1qfm/1qfm.pdb:LINK         SG  CYS A  78                 S1  SGM A 783     1555   1555  1.99
+1qfm/1qfm.pdb:LINK         SG  CYS A 532                 S1  SGM A 784     1555   1555  2.02
+1qwz/1qwz.pdb:LINK         SG  CYS A 223                 SD  ETM A 245     1555   1555  2.21
+1qxa/1qxa.pdb:LINK         SG  CYS A 223                 SD  ETM A 248     1555   1555  2.18
+1re1/1re1.pdb:LINK         SG  CYS A 285                 C4  NA3 A 501     1555   1555  1.77
+1rwk/1rwk.pdb:LINK         SG  CYS A 285                 C1  158 A 501     1555   1555  1.61
+1rwn/1rwn.pdb:LINK         SG  CYS A 285                 C18 4QB A 501     1555   1555  1.82
+1rwo/1rwo.pdb:LINK         SG  CYS A 285                 C31 BTH A 501     1555   1555  1.61
+1rwp/1rwp.pdb:LINK         SG  CYS A 285                 C20 HQC A 501     1555   1555  1.82
+1rwv/1rwv.pdb:LINK         SG  CYS A 285                 C36 5PH A 501     1555   1555  1.81
+1rwx/1rwx.pdb:LINK         SG  CYS A 285                 C31 YBH A 501     1555   1555  1.82
+1rxe/1rxe.pdb:LINK         SG  CYS A  89                 S5  MNB A 151     1555   1555  2.04
+1snk/1snk.pdb:LINK         SG  CYS A  25                 C26 MYE A   1     1555   1555  1.79
+1the/1the.pdb:LINK         SG  CYS A  29                 C11 0E6 A 901     1555   1555  1.78
+1the/1the.pdb:LINK         SG  CYS B  29                 C11 0E6 B 911     1555   1555  1.80
+1tlo/1tlo.pdb:LINK         SG  CYS A 115                 C2  E64 A 400     1555   1555  1.83
+1trg/1trg.pdb:LINK         C6  UMP A 565                 SG  CYS A 146     1555   1555  1.85
+1tu6/1tu6.pdb:LINK         SG  CYS A 139                 C23 FSP A 551     1555   1555  2.03
+1tu6/1tu6.pdb:LINK         SG  CYS B 139                 C23 FSP B 561     1555   1555  2.05
+1u9v/1u9v.pdb:LINK         C27 IHE A 300                 SG  CYS A  25     1555   1555  1.77
+1u9w/1u9w.pdb:LINK         C26 IHI A 300                 SG  CYS A  25     1555   1555  1.69
+1u9x/1u9x.pdb:LINK         C12 IHJ A 300                 SG  CYS A  25     1555   1555  1.75
+1vsn/1vsn.pdb:LINK         SG  CYS A  25                 C44 NFT A 283     1555   1555  1.73
+1vze/1vze.pdb:LINK         SG  CYS A 198                 C6  UMP A 317     1555   1555  1.82
+1wof/1wof.pdb:LINK         SG  CYS A 145                 C21 I12 A1145     1555   1555  1.81
+1wof/1wof.pdb:LINK         SG  CYS B 145                 C21 I12 B2145     1555   1555  1.80
+1x83/1x83.pdb:LINK         CB  CYS A  67                 C5  SBH A 301     1555   1555  2.05
+1x83/1x83.pdb:LINK         CB  CYS B  67                 C5  SBH B 301     1555   1555  1.81
+1x83/1x83.pdb:LINK         O   CYS A  67                MG    MG A 401     1555   1555  2.16
+1x83/1x83.pdb:LINK         O   CYS B  67                MG    MG B 401     1555   1555  2.26
+1xlu/1xlu.pdb:LINK         C   CYS A  65                 N   CSS A  66     1555   1555  1.34
+1xlv/1xlv.pdb:LINK         C   CYS A  65                 N   CSS A  66     1555   1555  1.34
+1yk7/1yk7.pdb:LINK         SG  CYS A  25                 C25 NBL A 216     1555   1555  1.78
+1yt7/1yt7.pdb:LINK         SG  CYS A  25                 C31 3FC A 301     1555   1555  2.01
+1zcm/1zcm.pdb:LINK         SG  CYS A 115                 C32 C1N A1115     1555   1555  1.67
+207l/207l.pdb:LINK         SG  CYS A  95                 SG  SC2 A 200     1555   1555  2.03
+2a4o/2a4o.pdb:LINK         CH3 ACE A 306                 SG  CYS A 172     1555   1555  1.82
+2a5i/2a5i.pdb:LINK         CBM AZP A 307                 SG  CYS A 145     1555   1555  2.01
+2a5k/2a5k.pdb:LINK         CBM AZP A 307                 SG  CYS A 145     1555   1555  2.09
+2a5k/2a5k.pdb:LINK         CBM AZP B 307                 SG  CYS B 145     1555   1555  2.05
+2aaz/2aaz.pdb:LINK         SG ACYS A 187                 C6 AUMP A 350     1555   1555  1.83
+2aaz/2aaz.pdb:LINK         SG ACYS B 187                 C6 AUMP B 400     1555   1555  1.86
+2aaz/2aaz.pdb:LINK         SG ACYS C 187                 C6 AUMP C 450     1555   1555  1.85
+2aaz/2aaz.pdb:LINK         SG ACYS D 187                 C6 AUMP D 500     1555   1555  1.85
+2aaz/2aaz.pdb:LINK         SG ACYS E 187                 C6 AUMP E 550     1555   1555  1.88
+2aaz/2aaz.pdb:LINK         SG ACYS F 187                 C6 AUMP F 600     1555   1555  1.83
+2aaz/2aaz.pdb:LINK         SG ACYS G 187                 C6 AUMP G 650     1555   1555  1.85
+2aaz/2aaz.pdb:LINK         SG ACYS H 187                 C6 AUMP H 700     1555   1555  1.87
+2aaz/2aaz.pdb:LINK         SG ACYS I 187                 C6 AUMP I 350     1555   1555  1.82
+2aaz/2aaz.pdb:LINK         SG ACYS J 187                 C6 AUMP J 400     1555   1555  1.82
+2aaz/2aaz.pdb:LINK         SG ACYS K 187                 C6 AUMP K 450     1555   1555  1.81
+2aaz/2aaz.pdb:LINK         SG ACYS L 187                 C6 AUMP L 500     1555   1555  1.82
+2aaz/2aaz.pdb:LINK         SG ACYS M 187                 C6 AUMP M 550     1555   1555  1.80
+2aaz/2aaz.pdb:LINK         SG ACYS N 187                 C6 AUMP N 600     1555   1555  1.81
+2aaz/2aaz.pdb:LINK         SG ACYS O 187                 C6 AUMP O 650     1555   1555  1.84
+2aaz/2aaz.pdb:LINK         SG ACYS P 187                 C6 AUMP P 700     1555   1555  1.82
+2aim/2aim.pdb:LINK         SG  CYS A  25                 CM  ZRA A 280     1555   1555  1.80
+2alv/2alv.pdb:LINK         SG  CYS A 145                 C33 CY6 A1145     1555   1555  1.90
+2amd/2amd.pdb:LINK         SG  CYS A 145                 C23 9IN A1001     1555   1555  1.82
+2amd/2amd.pdb:LINK         SG  CYS B 145                 C23 9IN B2001     1555   1555  1.79
+2aux/2aux.pdb:LINK         SG  CYS A  25                 C6  CT1 A 216     1555   1555  1.45
+2auz/2auz.pdb:LINK         SG  CYS A  25                 C6  CT2 A 216     1555   1555  1.47
+2awz/2awz.pdb:LINK         SG  CYS A 366                 C1   5H A 801     1555   1555  1.80
+2awz/2awz.pdb:LINK         SG  CYS B 366                 C1   5H B 802     1555   1555  1.81
+2ax0/2ax0.pdb:LINK         SG  CYS A 366                 C1   5X A1001     1555   1555  1.88
+2ax0/2ax0.pdb:LINK         SG  CYS B 366                 C1   5X B1002     1555   1555  1.87
+2ax1/2ax1.pdb:LINK         SG  CYS A 366                 C1  5EE A1001     1555   1555  1.80
+2ax1/2ax1.pdb:LINK         SG  CYS B 366                 C1  5EE B1002     1555   1555  1.80
+2bdl/2bdl.pdb:LINK         SG  CYS A  25                 C19 4PR A 301     1555   1555  1.65
+2bfg/2bfg.pdb:LINK         SG  CYS D 201                 O21 ANX D1504     1555   1555  1.28
+2c1e/2c1e.pdb:LINK         SG  CYS A 163                 C11 AA1 C   5     1555   1555  1.86
+2c2k/2c2k.pdb:LINK         SG  CYS A 163                 C11 AA1 C   5     1555   1555  1.85
+2c2m/2c2m.pdb:LINK         SG  CYS A 163                 C2  MX4 C   5     1555   1555  1.81
+2c2o/2c2o.pdb:LINK         SG  CYS A 163                 C10 MX3 C   5     1555   1555  1.91
+2c2z/2c2z.pdb:LINK         SG  CYS A 360                 C10 MX5 C   5     1555   1555  1.87
+2cdr/2cdr.pdb:LINK         C9  MY1 I 905                 SG  CYS A 163     1555   1555  1.83
+2ce2/2ce2.pdb:LINK         SG ACYS X  32                 C19AXY2 X 190     1555   1555  1.76
+2cl0/2cl0.pdb:LINK         SG  CYS X  32                 C19 XY2 X 332     1555   1555  1.76
+2cl6/2cl6.pdb:LINK         SG ACYS X  32                 C19AXY2 X 332     1555   1555  1.77
+2cl7/2cl7.pdb:LINK         SG ACYS X  32                 C19AXY2 X 332     1555   1555  1.77
+2clc/2clc.pdb:LINK         SG ACYS X  32                 C19AXY2 X 332     1555   1555  1.77
+2cnk/2cnk.pdb:LINK         C2  MY2 I 905                 SG  CYS A 163     1555   1555  1.82
+2cnl/2cnl.pdb:LINK         SG  CYS A 163                 C10 MY3 I 905     1555   1555  1.80
+2cnn/2cnn.pdb:LINK         SG  CYS A 163                 C9  MY5 I 905     1555   1555  1.82
+2cno/2cno.pdb:LINK         SG  CYS A 163                 C3  M60 A1180     1555   1555  1.88
+2dc6/2dc6.pdb:LINK         SG  CYS A  29                 C2  73V A 730     1555   1555  1.81
+2dc7/2dc7.pdb:LINK         SG  CYS A  29                 C3  042 A 420     1555   1555  1.81
+2dc8/2dc8.pdb:LINK         SG  CYS A  29                 C3  59A A 590     1555   1555  1.81
+2dc9/2dc9.pdb:LINK         SG  CYS A  29                 C3  74M A 740     1555   1555  1.81
+2dca/2dca.pdb:LINK         SG  CYS A  29                 C3  75V A 750     1555   1555  1.81
+2dcb/2dcb.pdb:LINK         SG  CYS A  29                 C3  76V A 760     1555   1555  1.81
+2dcc/2dcc.pdb:LINK         SG  CYS A  29                 C2  77B A 770     1555   1555  1.81
+2dcd/2dcd.pdb:LINK         SG  CYS A  29                 C3  78A A 780     1555   1555  1.81
+2djf/2djf.pdb:LINK         SG  CYS B 234                 C2  1ZB B 801     1555   1555  1.86
+2dys/2dys.pdb:LINK         SG  CYS B 200                CU2  CUA B 301     1555   1555  2.23
+2dys/2dys.pdb:LINK         SG  CYS B 196                CU1  CUA B 301     1555   1555  2.24
+2dys/2dys.pdb:LINK         SG  CYS O 196                CU1  CUA O 301     1555   1555  2.26
+2dys/2dys.pdb:LINK         SG  CYS O 196                CU2  CUA O 301     1555   1555  2.27
+2dys/2dys.pdb:LINK         SG  CYS O 200                CU2  CUA O 301     1555   1555  2.27
+2dys/2dys.pdb:LINK         SG  CYS O 200                CU1  CUA O 301     1555   1555  2.28
+2dys/2dys.pdb:LINK         SG  CYS B 196                CU2  CUA B 301     1555   1555  2.30
+2dys/2dys.pdb:LINK         SG  CYS B 200                CU1  CUA B 301     1555   1555  2.33
+2evw/2evw.pdb:LINK         SG ACYS X  32                 C19AXY2 X 332     1555   1555  1.77
+2f7d/2f7d.pdb:LINK         SG  CYS A  25                 C20 NOQ A 600     1555   1555  1.75
+2fir/2fir.pdb:LINK         C   CGU L  16                 N   CYS L  17     1555   1555  1.33
+2fq9/2fq9.pdb:LINK         SG  CYS A  25                 C32 CRJ A 999     1555   1555  1.81
+2fq9/2fq9.pdb:LINK         SG  CYS B  25                 C32 CRJ B 998     1555   1555  1.81
+2fra/2fra.pdb:LINK         SG  CYS A  25                 C16 CRV A 999     1555   1555  1.84
+2fra/2fra.pdb:LINK         SG  CYS B  25                 C16 CRV B 998     1555   1555  1.85
+2frq/2frq.pdb:LINK         SG  CYS A  25                 C16 C71 A1000     1555   1555  1.81
+2frq/2frq.pdb:LINK         SG  CYS B  25                 C16 C71 B1000     1555   1555  1.83
+2ft2/2ft2.pdb:LINK         SG  CYS A  25                 C31 C28 A 999     1555   1555  1.81
+2ft2/2ft2.pdb:LINK         SG  CYS B  25                 C31 C28 B 998     1555   1555  1.80
+2fud/2fud.pdb:LINK         SG  CYS A  25                 C9  CRL A 999     1555   1555  1.80
+2fud/2fud.pdb:LINK         SG  CYS B  25                 C9  CRL B 998     1555   1555  1.80
+2fye/2fye.pdb:LINK         SG  CYS A  25                 CT  BCQ A 281     1555   1555  1.80
+2g6d/2g6d.pdb:LINK         SG  CYS A  25                 CT  MQQ A 281     1555   1555  1.79
+2g8e/2g8e.pdb:LINK         SG  CYS A 115                 CAX 0M6 A 400     1555   1555  1.63
+2g8j/2g8j.pdb:LINK         SG  CYS A 115                 C1  D7G A 400     1555   1555  1.86
+2gke/2gke.pdb:LINK         CAN ZDP A 700                 SG  CYS A  73     1555   1555  1.80
+2gkj/2gkj.pdb:LINK         SG  CYS A 217                 CAN ZDR A 700     1555   1555  1.79
+2gtb/2gtb.pdb:LINK         SG  CYS A 145                 CBM AZP A 401     1555   1555  2.15
+2gx4/2gx4.pdb:LINK         SG  CYS A 145                 C35 NOL A2001     1555   1555  1.45
+2gyd/2gyd.pdb:LINK        CD  A CD A1006                 SG  CYS A 126     1555   1555  2.62
+2gyd/2gyd.pdb:LINK        CD  A CD A1002                 SG  CYS A 126     1555   9555  2.41
+2gz3/2gz3.pdb:LINK         SG  CYS A 128                 CG  AS2 A 400     1555   1555  1.62
+2gz3/2gz3.pdb:LINK         SG  CYS B 128                 CG  AS2 B 400     1555   1555  1.61
+2gz3/2gz3.pdb:LINK         SG  CYS C 128                 CG  AS2 C 400     1555   1555  1.62
+2gz3/2gz3.pdb:LINK         SG  CYS D 128                 CG  AS2 D 400     1555   1555  1.62
+2h6m/2h6m.pdb:LINK         C   QMM I   5                 SG  CYS A 172     1555   1555  1.82
+2h6m/2h6m.pdb:LINK         C1  CF0 I   6                 SG  CYS A 172     1555   1555  1.82
+2h9h/2h9h.pdb:LINK         C   QMM I   5                 SG  CYS A 172     1555   1555  1.82
+2h9h/2h9h.pdb:LINK         C1  CF0 I   6                 SG  CYS A 172     1555   1555  1.83
+2hal/2hal.pdb:LINK         SG BCYS A 172                 C1 BCF0 I   6     1555   1555  1.82
+2hal/2hal.pdb:LINK         SG ACYS A 172                 C1 ACF0 I   6     1555   1555  1.82
+2hal/2hal.pdb:LINK         SG ACYS A 172                 C  AGLK I   5     1555   1555  1.99
+2hob/2hob.pdb:LINK         SG  CYS A 145                 C20 PJE B   5     1555   1555  1.67
+2hwo/2hwo.pdb:LINK         SG  CYS A 345                 C51 RBS A1345     1555   1555  1.79
+2hwo/2hwo.pdb:LINK         SG  CYS B 345                 C51 RBS B1345     1555   1555  1.79
+2hwp/2hwp.pdb:LINK         SG  CYS A 345                 C51 DJK A1345     1555   1555  1.78
+2hwp/2hwp.pdb:LINK         SG  CYS B 345                 C51 DJK B1345     1555   1555  1.78
+2hxz/2hxz.pdb:LINK         SG  CYS A  25                 C   H7J A 811     1555   1555  2.16
+2hxz/2hxz.pdb:LINK         SG  CYS B  25                 C   H7J B 821     1555   1555  2.25
+2hxz/2hxz.pdb:LINK         SG  CYS C  25                 C   H7J C 831     1555   1555  2.25
+2ijn/2ijn.pdb:LINK         SG  CYS A 366                 S14 221 A9366     1555   1555  2.05
+2ijn/2ijn.pdb:LINK         SG  CYS B 366                 S14 221 B9366     1555   1555  2.06
+2iph/2iph.pdb:LINK         SG  CYS A1139                 C30 LGG A   1     1555   1555  1.80
+2iph/2iph.pdb:LINK         SG  CYS B2139                 C30 LGG B   1     1555   1555  1.80
+2ipp/2ipp.pdb:LINK         SG  CYS A  29                 S2  PYS A 255     1555   1555  1.78
+2j6h/2j6h.pdb:LINK         SG  CYS A   1                 CE  ONL A1609     1555   1555  1.86
+2j6h/2j6h.pdb:LINK         SG  CYS B   1                 CE  ONL B1609     1555   1555  1.94
+2kid/2kid.pdb:LINK         SG  B27 C 705                 SG  CYS A 184     1555   1555  2.02
+2lp8/2lp8.pdb:LINK         SG  CYS B1003                 C1  33B B1100     1555   1555  1.81
+2lp8/2lp8.pdb:LINK         SG  CYS B1014                 C20 33B B1100     1555   1555  1.81
+2lxy/2lxy.pdb:LINK         SG  CYS A  34                 S1  HTS A 101     1555   1555  2.03
+2m0z/2m0z.pdb:LINK         SG  CYS A  22                 C1  33B A 101     1555   1555  1.83
+2m0z/2m0z.pdb:LINK         SG  CYS A  77                 C20 33B A 101     1555   1555  1.85
+2m10/2m10.pdb:LINK         SG  CYS A  22                 C1  33B A 101     1555   1555  1.83
+2m10/2m10.pdb:LINK         SG  CYS A  77                 C20 33B A 101     1555   1555  1.82
+2mlm/2mlm.pdb:LINK         SG  CYS A 126                 S2  2W7 A 201     1555   1555  2.03
+2nqg/2nqg.pdb:LINK         SG  CYS A 115                 CBT NQG A 501     1555   1555  1.81
+2nqi/2nqi.pdb:LINK         SG  CYS A 115                 CBS NQI A 501     1555   1555  1.79
+2o7q/2o7q.pdb:LINK         C   CSO A 391                 N   CYS A 392     1555   1555  1.33
+2o7s/2o7s.pdb:LINK         C   CSO A 391                 N   CYS A 392     1555   1555  1.33
+2op3/2op3.pdb:LINK         SG  CYS A  25                 C17 TF5 A 501     1555   1555  1.64
+2op3/2op3.pdb:LINK         SG  CYS B  25                 C17 TF5 B 502     1555   1555  1.63
+2oz2/2oz2.pdb:LINK         SG  CYS A  25                 C27 D1R A 301     1555   1555  1.65
+2oz2/2oz2.pdb:LINK         SG  CYS C  25                 C27 D1R C 300     1555   1555  1.66
+2p7u/2p7u.pdb:LINK         SG  CYS A  25                 C27 D1R A 300     1555   1555  1.79
+2p86/2p86.pdb:LINK         SG  CYS A  25                 C22 VS1 A 300     1555   1555  1.83
+2qlq/2qlq.pdb:LINK         SG  CYS A 345                 C51BSR2 A1345     1555   1555  1.67
+2qlq/2qlq.pdb:LINK         SG  CYS A 345                 C51ASR2 A1345     1555   1555  1.68
+2qlq/2qlq.pdb:LINK         SG  CYS A 483                 C51 SR2 A1483     1555   1555  1.85
+2qlq/2qlq.pdb:LINK         SG  CYS B 345                 C51 SR2 B1345     1555   1555  1.87
+2qny/2qny.pdb:LINK         SG BCYS B 112                 C1 BDFD B 760     1555   1555  1.82
+2qny/2qny.pdb:LINK         SG BCYS A 112                 C1 BDFD A 760     1555   1555  1.83
+2qny/2qny.pdb:LINK         SG ACYS B 112                 C1 ADFD B 760     1555   1555  1.83
+2qny/2qny.pdb:LINK         SG ACYS A 112                 C1 ADFD A 760     1555   1555  1.83
+2qny/2qny.pdb:LINK         SG  CYS A 154                 S2  BME A 963     1555   1555  1.99
+2qny/2qny.pdb:LINK         SG  CYS A  23                 S2  BME A 962     1555   1555  2.00
+2qny/2qny.pdb:LINK         SG  CYS B  23                 S2  BME B 962     1555   1555  2.00
+2qnz/2qnz.pdb:LINK         SG ACYS A 112                 C1 ADFD A 760     1555   1555  1.67
+2qnz/2qnz.pdb:LINK         SG BCYS A 112                 C1 BDFD A 760     1555   1555  1.67
+2qnz/2qnz.pdb:LINK         SG ACYS B 112                 C1 ADFD B 760     1555   1555  1.67
+2qnz/2qnz.pdb:LINK         SG BCYS B 112                 C1 BDFD B 760     1555   1555  1.67
+2qnz/2qnz.pdb:LINK         SG  CYS A 154                 S2  BME A 963     1555   1555  1.98
+2qnz/2qnz.pdb:LINK         SG  CYS B 154                 S2  BME B 963     1555   1555  2.00
+2qo0/2qo0.pdb:LINK         SG  CYS A 112                 S1  D1T A 761     1555   1555  2.00
+2qo0/2qo0.pdb:LINK         SG  CYS B 112                 S1  D1T B 761     1555   1555  2.01
+2qq7/2qq7.pdb:LINK         SG  CYS A 345                 C51 SR2 A1345     1555   1555  1.86
+2qq7/2qq7.pdb:LINK         SG  CYS B 345                 C51 SR2 B1345     1555   1555  1.87
+2r6n/2r6n.pdb:LINK         SG  CYS A  25                 C09 CKE A 300     1555   1555  1.75
+2r9f/2r9f.pdb:LINK         SG  CYS A 115                 CBM K2Z A 367     1555   1555  2.01
+2rl2/2rl2.pdb:LINK         SG  CYS A 117                 C2  GG6 A 425     1555   1555  1.82
+2rui/2rui.pdb:LINK         SG  CYS A 187                 SG  B27 B 705     1555   1555  2.02
+2tod/2tod.pdb:LINK         SG  CYS A 360                 CO  DMO A 700     1555   1555  1.84
+2tod/2tod.pdb:LINK         SG  CYS B 360                 CO  DMO B 700     1555   1555  1.85
+2tod/2tod.pdb:LINK         SG  CYS C 360                 CO  DMO C 700     1555   1555  1.84
+2tod/2tod.pdb:LINK         SG  CYS D 360                 CO  DMO D 700     1555   1555  1.81
+2uzj/2uzj.pdb:LINK         SG  CYS A  47                 C2  E64 A1254     1555   1555  1.80
+2uzj/2uzj.pdb:LINK         SG  CYS B  47                 C2  E64 B1254     1555   1555  1.80
+2v6n/2v6n.pdb:LINK         SG  CYS A 145                 CAC XP1 A2307     1555   1555  1.83
+2vv4/2vv4.pdb:LINK         SG  CYS A 285                 C8  6OC A1476     1555   1555  1.82
+2vv4/2vv4.pdb:LINK         SG  CYS B 285                 C10 6OB B1475     1555   1555  1.78
+2wsl/2wsl.pdb:LINK         C   CYS A  65                 N   CSS A  66     1555   1555  1.33
+2xlq/2xlq.pdb:LINK         SG  CYS A 215                 C2  34H A1317     1555   1555  1.88
+2xm7/2xm7.pdb:LINK         SG  CYS A 215                 C2  34H A1315     1555   1555  1.90
+2xu1/2xu1.pdb:LINK         SG  CYS A  25                 C15 424 A1221     1555   1555  1.84
+2xu1/2xu1.pdb:LINK         SG  CYS B  25                 C15 424 B1221     1555   1555  1.86
+2xu1/2xu1.pdb:LINK         SG  CYS C  25                 C15 424 C1221     1555   1555  1.85
+2xu1/2xu1.pdb:LINK         SG  CYS D  25                 C15 424 D1221     1555   1555  1.90
+2xu3/2xu3.pdb:LINK         SG  CYS A  25                 C19BXU3 A1221     1555   1555  1.79
+2xu3/2xu3.pdb:LINK         SG  CYS A  25                 C19AXU3 A1221     1555   1555  1.81
+2xu4/2xu4.pdb:LINK         SG  CYS A  25                 C5  DJT A1221     1555   1555  1.80
+2xu5/2xu5.pdb:LINK         SG  CYS A  25                 C5  XU5 A1221     1555   1555  1.78
+2xyg/2xyg.pdb:LINK         SG  CYS A 163                 C22 TQ8 A1176     1555   1555  1.76
+2xyh/2xyh.pdb:LINK         SG  CYS A 163                 C91 TQ9 A1175     1555   1555  1.78
+2xyp/2xyp.pdb:LINK         SG  CYS A 163                 C91 XVE A1175     1555   1555  1.79
+2yj0/2yj0.pdb:LINK         SG ACYS A  59                 C1 A420 A 100     1555   1555  1.81
+2yj0/2yj0.pdb:LINK         SG BCYS A  59                 C1 B420 A 100     1555   1555  1.81
+2yj0/2yj0.pdb:LINK         SG ACYS B  59                 C1 A420 B 100     1555   1555  1.81
+2yj0/2yj0.pdb:LINK         SG BCYS B  59                 C1 B420 B 100     1555   1555  1.81
+2yj0/2yj0.pdb:LINK         SG ACYS C  59                 C1 A420 C 100     1555   1555  1.82
+2yj0/2yj0.pdb:LINK         SG BCYS C  59                 C1 B420 C 100     1555   1555  1.81
+2yj0/2yj0.pdb:LINK         SG BCYS D  59                 C1 B420 D 100     1555   1555  1.81
+2yj0/2yj0.pdb:LINK         SG ACYS D  59                 C1 A420 D 100     1555   1555  1.81
+2yj0/2yj0.pdb:LINK         SG BCYS E  59                 C1 B420 E 100     1555   1555  1.80
+2yj0/2yj0.pdb:LINK         SG ACYS E  59                 C1 A420 E 100     1555   1555  1.81
+2yj0/2yj0.pdb:LINK         SG BCYS F  59                 C1 B420 F 100     1555   1555  1.81
+2yj0/2yj0.pdb:LINK         SG ACYS F  59                 C1 A420 F 100     1555   1555  1.81
+2yj2/2yj2.pdb:LINK         SG  CYS A  25                 C18 YJ2 A1221     1555   1555  1.77
+2yj8/2yj8.pdb:LINK         SG  CYS A  25                 C18 YJ8 A1221     1555   1555  1.78
+2yj9/2yj9.pdb:LINK         SG  CYS A  25                 C5  YJ9 A1221     1555   1555  1.75
+2yjb/2yjb.pdb:LINK         SG  CYS A  25                 C5  YJ9 A1221     1555   1555  1.77
+2yjc/2yjc.pdb:LINK         C15 424 A1221                 SG  CYS A  25     1555   1555  1.76
+2ynb/2ynb.pdb:LINK        NI    NI A1307                 SG  CYS A 148     1555   1555  2.17
+2ynb/2ynb.pdb:LINK        NI    NI A1308                 SG  CYS A 145     1555   1555  2.34
+2ynb/2ynb.pdb:LINK         C63 G85 B 501                 SG  CYS B 148     1555   1555  1.82
+2zk2/2zk2.pdb:LINK         SG  CYS A 285                 C8  PTG A 477     1555   1555  1.88
+2zk5/2zk5.pdb:LINK         SG  CYS A 285                 C8  NRO A   1     1555   1555  1.84
+2zk5/2zk5.pdb:LINK         SG  CYS B 285                 C8  NRO B   2     1555   1555  1.82
+2zu3/2zu3.pdb:LINK         SG  CYS A 147                 C63 ZU3 A 501     1555   1555  1.86
+2zu4/2zu4.pdb:LINK         SG  CYS A 145                 C63 ZU3 A 501     1555   1555  1.87
+2zu5/2zu5.pdb:LINK         SG  CYS A 145                 C11 ZU5 A2001     1555   1555  1.92
+3adw/3adw.pdb:LINK         SG  CYS A 285                 C9  OCR A   1     1555   1555  1.86
+3adw/3adw.pdb:LINK         SG  CYS B 285                 C9  OCR B   2     1555   1555  1.86
+3adx/3adx.pdb:LINK         SG  CYS A 285                 C8  NRO A   1     1555   1555  1.85
+3b0r/3b0r.pdb:LINK         SG  CYS A 285                 C9  GW9 A   1     1555   1555  1.80
+3b0r/3b0r.pdb:LINK         SG  CYS B 285                 C9  GW9 B   1     1555   1555  1.80
+3b9h/3b9h.pdb:LINK         SG  CYS A 146                 C6  NDU A 265     1555   1555  1.98
+3bhl/3bhl.pdb:LINK         SG  CYS A 146                 C6  NDU A 265     1555   1555  2.08
+3bhl/3bhl.pdb:LINK         SG  CYS B 146                 C6  NDU B 265     1555   1555  2.09
+3bhr/3bhr.pdb:LINK         SG  CYS A 146                 C6  NDU A 265     1555   1555  1.91
+3blt/3blt.pdb:LINK         SG  CYS A 403                 C8  PSY A 501     1555   1555  1.73
+3blu/3blu.pdb:LINK         SG  CYS A 403                 C8  PVS A 501     1555   1555  1.75
+3c9w/3c9w.pdb:LINK         SG  CYS A 164                 C11 HMY A   1     1555   1555  1.62
+3c9w/3c9w.pdb:LINK         SG  CYS B 164                 C11 HMY B   1     1555   1555  1.62
+3cmc/3cmc.pdb:LINK         SG  CYS O 149                 C1 BG3H O 400     1555   1555  1.69
+3cmc/3cmc.pdb:LINK         SG  CYS P 149                 C1 BG3H P 400     1555   1555  1.73
+3cmc/3cmc.pdb:LINK         SG  CYS Q 149                 C1 BG3H Q 400     1555   1555  1.68
+3cmc/3cmc.pdb:LINK         SG  CYS R 149                 C1 BG3H R 400     1555   1555  1.68
+3d1l/3d1l.pdb:LINK         SG  CYS A 179                 S3  MPR A 301     1555   1555  2.04
+3d1l/3d1l.pdb:LINK         SG  CYS B 179                 S3  MPR B 301     1555   1555  2.57
+3dks/3dks.pdb:LINK         SG  CYS C  30                 C4  HSE E   6     1555   1555  1.80
+3dks/3dks.pdb:LINK         SG  CYS D  30                 C4  HSE F   6     1555   1555  1.81
+3dla/3dla.pdb:LINK         CE  ONL A 800                 SG  CYS A 176     1555   1555  1.60
+3dla/3dla.pdb:LINK         CE AONL A 801                 SG  CYS B 176     1555   1555  1.61
+3dla/3dla.pdb:LINK         CE BONL A 801                 SG  CYS B 176     1555   1555  1.62
+3dla/3dla.pdb:LINK         CE  ONL A 802                 SG  CYS C 176     1555   1555  1.63
+3dla/3dla.pdb:LINK         CE  ONL A 803                 SG  CYS D 176     1555   1555  1.62
+3frz/3frz.pdb:LINK         SG  CYS A 223                 S2  BME A 579     1555   1555  2.11
+3frz/3frz.pdb:LINK         SG  CYS A  14                 C15 AG6 A 578     1555   1555  1.82
+3gcd/3gcd.pdb:LINK         SG  CYS A 140                 CAG AZ0 A 213     1555   1555  1.80
+3gcd/3gcd.pdb:LINK         SG  CYS B 140                 CAG AZ0 B 213     1555   1555  1.85
+3gcd/3gcd.pdb:LINK         SG  CYS C 140                 CAG AZ0 C 213     1555   1555  1.79
+3gcd/3gcd.pdb:LINK         SG  CYS D 140                 CAG AZ0 D 213     1555   1555  2.01
+3h0e/3h0e.pdb:LINK         SG  CYS A 163                 C5  H0E A   1     1555   1555  1.94
+3h0e/3h0e.pdb:LINK         SG  CYS B 163                 C5  H0E B   1     1555   1555  1.95
+3hd3/3hd3.pdb:LINK         SG  CYS A  25                 C10 25B A 216     1555   1555  1.87
+3hd3/3hd3.pdb:LINK         SG  CYS B  25                 C10 25B B 216     1555   1555  1.86
+3hha/3hha.pdb:LINK         SG  CYS A  25                 C14 NOW A 301     1555   1555  1.87
+3hha/3hha.pdb:LINK         SG  CYS B  25                 C14 NOW B 301     1555   1555  1.87
+3hha/3hha.pdb:LINK         SG  CYS C  25                 C14 NOW C 301     1555   1555  2.00
+3hha/3hha.pdb:LINK         SG  CYS D  25                 C14 NOW D 301     1555   1555  2.04
+3hhi/3hhi.pdb:LINK         SG  CYS B 122                 C6  074 B 348     1555   1555  1.79
+3hhi/3hhi.pdb:LINK         SG  CYS A 122                 C6  074 A 348     1555   1555  1.86
+3hwn/3hwn.pdb:LINK         SG  CYS A  25                 C24 BD3 A 221     1555   1555  1.77
+3hwn/3hwn.pdb:LINK         SG  CYS B  25                 C24 BD3 B 221     1555   1555  1.74
+3hwn/3hwn.pdb:LINK         SG  CYS C  25                 C24 BD3 C 221     1555   1555  1.75
+3hwn/3hwn.pdb:LINK         SG  CYS D  25                 C24 BD3 D 221     1555   1555  1.76
+3i06/3i06.pdb:LINK         SG  CYS A  25                 CAS QL2 A 220     1555   1555  1.76
+3i4a/3i4a.pdb:LINK         SG  CYS A 274                 CZ  LN5 A 500     1555   1555  1.98
+3i4a/3i4a.pdb:LINK         SG  CYS B 274                 CZ  LN5 B 500     1555   1555  1.99
+3ioq/3ioq.pdb:LINK         SG  CYS A  25                 C2  E64 A 301     1555   1555  2.08
+3iut/3iut.pdb:LINK         SG  CYS A  25                 C22 KB2 A 300     1555   1555  1.84
+3khu/3khu.pdb:LINK         SG  CYS A 276                 C6' UPG A 501     1555   1555  2.01
+3khu/3khu.pdb:LINK         SG  CYS B 276                 C6' UPG B 501     1555   1555  1.93
+3khu/3khu.pdb:LINK         SG  CYS C 276                 C6' UPG C 501     1555   1555  1.92
+3khu/3khu.pdb:LINK         SG  CYS D 276                 C6' UPG D 501     1555   1555  1.96
+3khu/3khu.pdb:LINK         SG  CYS E 276                 C6' UPG E 501     1555   1555  2.15
+3khu/3khu.pdb:LINK         SG  CYS F 276                 C6' UPG F 501     1555   1555  1.89
+3kjf/3kjf.pdb:LINK         SG  CYS A 163                 C1  B92 B 285     1555   1555  1.80
+3kjn/3kjn.pdb:LINK         SG  CYS A 360                 C1  B93 A 950     1555   1555  1.82
+3kjq/3kjq.pdb:LINK         SG  CYS A 360                 C1  B94 A 480     1555   1555  1.81
+3kne/3kne.pdb:LINK         SG ACYS A  64                 S2 ADAW A 502     1555   1555  1.89
+3kr6/3kr6.pdb:LINK         SG  CYS A 115                 C1  FFQ A 500     1555   1555  1.81
+3kw9/3kw9.pdb:LINK         SG  CYS A  25                 C9  ORG A 216     1555   1555  1.84
+3kwb/3kwb.pdb:LINK         SG  CYS X1025                 C14 ORH X1216     1555   1555  1.84
+3kwb/3kwb.pdb:LINK         SG  CYS Y2025                 C14 ORH Y2216     1555   1555  1.85
+3kwz/3kwz.pdb:LINK         C26 KWZ A 222                 SG  CYS A  25     1555   1555  1.78
+3lok/3lok.pdb:LINK         SG  CYS A 345                 C51 DJK A1345     1555   1555  1.77
+3lok/3lok.pdb:LINK         SG  CYS B 345                 C51 DJK B1345     1555   1555  1.79
+3lth/3lth.pdb:LINK         SG  CYS A 115                 C1  FFQ A 500     1555   1555  1.77
+3lxs/3lxs.pdb:LINK         SG  CYS A  25                 C27 4MC A 216     1555   1555  1.84
+3lxs/3lxs.pdb:LINK         SG  CYS C  25                 C27 4MC C 216     1555   1555  1.83
+3m2z/3m2z.pdb:LINK         SG  CYS A  64                 S12 BFE A 501     1555   1555  2.04
+3m5t/3m5t.pdb:LINK         SG  CYS A  64                 S20 BFG A 501     1555   1555  2.06
+3n3g/3n3g.pdb:LINK         N19 935 B 221                 SG  CYS B  25     1555   1555  1.39
+3n4c/3n4c.pdb:LINK         SG  CYS A  25                 C26 EF3 A 218     1555   1555  1.77
+3n4c/3n4c.pdb:LINK         SG  CYS B  25                 C26 EF3 B 218     1555   1555  1.86
+3npl/3npl.pdb:LINK         SG  CYS A 400                FE   HEM A 500     1555   1555  2.18
+3npl/3npl.pdb:LINK         SG  CYS B 400                FE   HEM B 500     1555   1555  2.32
+3npl/3npl.pdb:LINK         SG  CYS B  97                 C49 RU8 B 501     1555   1555  1.80
+3o1g/3o1g.pdb:LINK         SG  CYS A  25                 C7  O75 A 218     1555   1555  1.75
+3o6t/3o6t.pdb:LINK         SG  CYS A  37                 C15 PX5 A 117     1555   1555  1.85
+3o6t/3o6t.pdb:LINK         SG  CYS C  37                 C15 PX5 C 117     1555   1555  1.81
+3of8/3of8.pdb:LINK         SG  CYS A  26                 C21 I0Y A 501     1555   1555  1.83
+3of9/3of9.pdb:LINK         SG  CYS A  26                 C31 I0X A 501     1555   1555  1.79
+3orx/3orx.pdb:LINK         SG  CYS A 148                 SD  1F8 A   1     1555   1555  2.01
+3orx/3orx.pdb:LINK         SG  CYS B 148                 SD  1F8 B   1     1555   1555  2.01
+3orx/3orx.pdb:LINK         SG  CYS C 148                 SD  1F8 C   1     1555   1555  2.01
+3orx/3orx.pdb:LINK         SG  CYS D 148                 SD  1F8 D   1     1555   1555  2.02
+3orx/3orx.pdb:LINK         SG  CYS E 148                 SD  1F8 E   1     1555   1555  2.01
+3orx/3orx.pdb:LINK         SG  CYS F 148                 SD  1F8 F   1     1555   1555  2.01
+3orx/3orx.pdb:LINK         SG  CYS G 148                 SD  1F8 G   1     1555   1555  2.01
+3orx/3orx.pdb:LINK         SG  CYS H 148                 SD  1F8 H   1     1555   1555  2.01
+3orz/3orz.pdb:LINK         SG  CYS A 148                 SD  2A2 A   1     1555   1555  2.02
+3orz/3orz.pdb:LINK         SG  CYS B 148                 SD  2A2 B   1     1555   1555  2.03
+3orz/3orz.pdb:LINK         SG  CYS C 148                 SD  2A2 C   1     1555   1555  2.02
+3orz/3orz.pdb:LINK         SG  CYS D 148                 SD  2A2 D   1     1555   1555  2.02
+3otu/3otu.pdb:LINK         SG  CYS A 148                 SD  J30 A   1     1555   1555  2.00
+3ovx/3ovx.pdb:LINK         SG  CYS A  25                 C12 O64 A 218     1555   1555  1.75
+3ovx/3ovx.pdb:LINK         SG  CYS B  25                 C12 O64 B 218     1555   1555  1.76
+3p8e/3p8e.pdb:LINK         SG  CYS A 274                 CZ  LN7 A 286     1555   1555  1.99
+3p8e/3p8e.pdb:LINK         SG  CYS B 274                 CZ  LN7 B 286     1555   1555  1.99
+3pa8/3pa8.pdb:LINK         SG  CYS A 155                 CAC 621 A 300     1555   1555  1.49
+3pa8/3pa8.pdb:LINK         SG  CYS B 155                 CAC 621 B 300     1555   1555  1.51
+3pdf/3pdf.pdb:LINK         SG  CYS A 234                 C18 LXV A 442     1555   1555  1.63
+3q3y/3q3y.pdb:LINK         SG  CYS A 147                 C06 XNV A 190     1555   1555  1.76
+3q3y/3q3y.pdb:LINK         SG  CYS B 147                 C06 XNV B 190     1555   1555  1.78
+3qsd/3qsd.pdb:LINK         SG  CYS A 100                 C6  074 A 324     1555   1555  1.84
+3qvo/3qvo.pdb:LINK         SG  CYS A  93                 S5  MNB A 215     1555   1555  2.02
+3rhy/3rhy.pdb:LINK         C4  HM3 A 255                 SG  CYS A 249     1555   1555  1.75
+3rhy/3rhy.pdb:LINK         C4  HM3 B 255                 SG  CYS B 249     1555   1555  1.75
+3ruo/3ruo.pdb:LINK         C19 AG7 A 190                 SG  CYS A 147     1555   1555  1.81
+3ruo/3ruo.pdb:LINK         C19 AG7 B 190                 SG  CYS B 147     1555   1555  1.81
+3s19/3s19.pdb:LINK         SG  CYS A 194                 C10 PRF A 290     1555   1555  1.76
+3s19/3s19.pdb:LINK         SG ACYS B 194                 C10APRF B 290     1555   1555  1.78
+3s19/3s19.pdb:LINK         SG BCYS B 194                 C10BPRF B 290     1555   1555  1.78
+3s19/3s19.pdb:LINK         SG ACYS C 194                 C10APRF C 290     1555   1555  1.78
+3s19/3s19.pdb:LINK         SG BCYS C 194                 C10BPRF C 290     1555   1555  1.78
+3s19/3s19.pdb:LINK         SG ACYS D 194                 C10APRF D 290     1555   1555  1.78
+3s19/3s19.pdb:LINK         SG BCYS D 194                 C10BPRF D 290     1555   1555  1.77
+3s3j/3s3j.pdb:LINK         SG  CYS A 277                 C6  02Y B 278     1555   1555  1.75
+3s3q/3s3q.pdb:LINK         SG  CYS A 100                 C18 C1P A   1     1555   1555  1.99
+3sji/3sji.pdb:LINK         SG  CYS A 147                 C19 AG7 A 501     1555   1555  1.80
+3sjo/3sjo.pdb:LINK         SG  CYS A 147                 C19 AG7 A 501     1555   1555  1.80
+3sjo/3sjo.pdb:LINK         SG  CYS B 147                 C19 AG7 B 501     1555   1555  1.81
+3sjo/3sjo.pdb:LINK         SG  CYS C 147                 C19 AG7 C 501     1555   1555  1.80
+3sjo/3sjo.pdb:LINK         SG  CYS D 147                 C19 AG7 D 501     1555   1555  1.80
+3sjo/3sjo.pdb:LINK         SG  CYS E 147                 C19 AG7 E 501     1555   1555  1.80
+3sjo/3sjo.pdb:LINK         SG  CYS F 147                 C19 AG7 F 501     1555   1555  1.80
+3sjo/3sjo.pdb:LINK         SG  CYS G 147                 C19 AG7 G 501     1555   1555  1.80
+3sjo/3sjo.pdb:LINK         SG  CYS H 147                 C19 AG7 H 501     1555   1555  1.80
+3sn8/3sn8.pdb:LINK         SG  CYS A 145                 C   S89 A 307     1555   1555  1.79
+3svv/3svv.pdb:LINK         SG  CYS A 338                 C18 VSP A 600     1555   1555  1.79
+3svv/3svv.pdb:LINK         SG  CYS B 338                 C18 VSP B 600     1555   1555  1.79
+3sz9/3sz9.pdb:LINK         SG ACYS A 302                 C11 I3E A8001     1555   1555  1.82
+3sz9/3sz9.pdb:LINK         SG ACYS B 302                 C11 I3E B8001     1555   1555  1.82
+3sz9/3sz9.pdb:LINK         SG ACYS C 302                 C11 I3E C8001     1555   1555  1.83
+3sz9/3sz9.pdb:LINK         SG ACYS D 302                 C11 I3E D8001     1555   1555  1.83
+3sz9/3sz9.pdb:LINK         SG ACYS E 302                 C11 I3E E8001     1555   1555  1.83
+3sz9/3sz9.pdb:LINK         SG ACYS F 302                 C11 I3E F8001     1555   1555  1.82
+3sz9/3sz9.pdb:LINK         SG ACYS G 302                 C11 I3E G8001     1555   1555  1.84
+3sz9/3sz9.pdb:LINK         SG ACYS H 302                 C11 I3E H8001     1555   1555  1.83
+3szb/3szb.pdb:LINK         SG ACYS A 243                 C9  I1E A1001     1555   1555  1.83
+3szb/3szb.pdb:LINK         SG ACYS B 243                 C9  I1E B1001     1555   1555  1.81
+3szn/3szn.pdb:LINK         SG  CYS A 145                 C63 G75 A 307     1555   1555  1.82
+3t9t/3t9t.pdb:LINK         SG  CYS A 442                 C28 IAQ A 800     1555   1555  2.01
+3tit/3tit.pdb:LINK         SG  CYS A 145                 C63 G81 A 307     1555   1555  1.82
+3tiu/3tiu.pdb:LINK         SG  CYS A 145                 C63 G82 A 501     1555   1555  1.80
+3tns/3tns.pdb:LINK         SG  CYS A 145                 C63 G83 A 501     1555   1555  1.79
+3tnt/3tnt.pdb:LINK         SG  CYS A 145                 C63 G85 A 501     1555   1555  1.82
+3ur9/3ur9.pdb:LINK         SG  CYS B 139                 C21 K36 B 203     1555   1555  1.80
+3ur9/3ur9.pdb:LINK         SG  CYS A 139                 C21 K36 A 203     1555   1555  1.81
+3uxj/3uxj.pdb:LINK         SG  CYS D 194                 C10 PRF D1194     1555   1555  1.73
+3uxj/3uxj.pdb:LINK         SG  CYS A 194                 C10 PRF A1194     1555   1555  1.74
+3uxj/3uxj.pdb:LINK         SG  CYS B 194                 C10 PRF B1194     1555   1555  1.77
+3uxj/3uxj.pdb:LINK         SG  CYS C 194                 C10 PRF C1194     1555   1555  1.78
+3v4x/3v4x.pdb:LINK         SG  CYS D 111                 C8  F24 D 500     1555   1555  1.60
+3v4x/3v4x.pdb:LINK         SG  CYS B 111                 C8  F24 B 500     1555   1555  1.67
+3v4x/3v4x.pdb:LINK         SG  CYS A 111                 C8  F24 A 500     1555   1555  1.83
+3v4x/3v4x.pdb:LINK         SG  CYS C 111                 C8  F24 C 500     1555   1555  1.89
+3vb4/3vb4.pdb:LINK         SG  CYS A 145                 C   0JU E   5     1555   1555  1.67
+3vb4/3vb4.pdb:LINK         SG  CYS B 145                 C   0JU F   5     1555   1555  1.65
+3vb5/3vb5.pdb:LINK         SG  CYS A 145                 C   0JU E   5     1555   1555  1.66
+3vb5/3vb5.pdb:LINK         SG  CYS B 145                 C   0JU F   5     1555   1555  1.66
+3vb6/3vb6.pdb:LINK         SG  CYS A 145                 C   0JU E   7     1555   1555  1.66
+3vb6/3vb6.pdb:LINK         SG  CYS B 145                 C   0JU F   7     1555   1555  1.68
+3vb7/3vb7.pdb:LINK         SG  CYS A 145                 C   0JU E   5     1555   1555  1.66
+3vb7/3vb7.pdb:LINK         SG  CYS B 145                 C   0JU F   5     1555   1555  1.66
+3vcy/3vcy.pdb:LINK         SG  CYS C 116                 C1  FFQ C 500     1555   1555  1.77
+3vcy/3vcy.pdb:LINK         SG  CYS D 116                 C1  FFQ D 500     1555   1555  1.79
+3vcy/3vcy.pdb:LINK         SG  CYS B 116                 C1  FFQ B 500     1555   1555  1.79
+3vcy/3vcy.pdb:LINK         SG  CYS A 116                 C1  FFQ A 500     1555   1555  1.80
+3vyp/3vyp.pdb:LINK         SG  CYS A 354                 C1  MXR A 502     1555   1555  1.78
+3vyp/3vyp.pdb:LINK         SG  CYS B 354                 C1  MXR B 502     1555   1555  1.80
+3w2p/3w2p.pdb:LINK         C35 W2P A1101                 SG  CYS A 797     1555   1555  1.84
+3w2q/3w2q.pdb:LINK         CBT HKI A1101                 SG  CYS A 797     1555   1555  1.86
+3wjc/3wjc.pdb:LINK         SG  CYS A  96                 C2A RMD A 201     1555   1555  1.84
+3wjc/3wjc.pdb:LINK         SG  CYS B  96                 C2A RMD B 201     1555   1555  1.85
+3x1h/3x1h.pdb:LINK         SG  CYS B 285                 C15 5OX B 501     1555   1555  1.76
+3x1h/3x1h.pdb:LINK         SG  CYS A 285                 C15 5OX A 501     1555   1555  1.77
+3x1i/3x1i.pdb:LINK         SG  CYS B 285                 C15 66B B 501     1555   1555  1.77
+3x1i/3x1i.pdb:LINK         SG  CYS A 285                 C15 66B A 501     1555   1555  1.76
+3zgp/3zgp.pdb:LINK         CAA 1RG A 130                 SG  CYS A 442     1555   1555  1.75
+3zv9/3zv9.pdb:LINK         SG  CYS A 147                 C63 G74 A1190     1555   1555  1.82
+3zva/3zva.pdb:LINK         SG  CYS A 147                 C63 G75 A1190     1555   1555  1.81
+3zvc/3zvc.pdb:LINK         SG  CYS A 147                 C63 G82 A1190     1555   1555  1.81
+3zvd/3zvd.pdb:LINK         SG  CYS A 147                 C63 G83 A1190     1555   1555  1.81
+3zve/3zve.pdb:LINK         SG  CYS A 147                 C63 G84 A1190     1555   1555  1.80
+3zvf/3zvf.pdb:LINK         SG  CYS A 147                 C63 G85 A1189     1555   1555  1.81
+3zvg/3zvg.pdb:LINK         SG  CYS A 147                 C63 G86 A1190     1555   1555  1.82
+3zz5/3zz5.pdb:LINK         SG  CYS A 147                 C63 G74 A1181     1555   1555  1.82
+3zz6/3zz6.pdb:LINK         C63 G75 A1181                 SG  CYS A 147     1555   1555  1.80
+3zz7/3zz7.pdb:LINK         SG  CYS A 147                 C63 G81 A1181     1555   1555  1.82
+3zz8/3zz8.pdb:LINK         SG  CYS A 147                 C63 G82 A1181     1555   1555  1.80
+3zz9/3zz9.pdb:LINK         SG  CYS A 147                 C63 G83 A1181     1555   1555  1.80
+3zza/3zza.pdb:LINK         SG  CYS A 147                 C63 G84 A1181     1555   1555  1.80
+3zzb/3zzb.pdb:LINK         SG  CYS A 147                 C63 G85 A1181     1555   1555  1.85
+3zzc/3zzc.pdb:LINK         SG  CYS A 147                 C63 G83 A1181     1555   1555  1.80
+3zzd/3zzd.pdb:LINK         SG  CYS A 147                 C63 G85 A1181     1555   1555  1.82
+4a52/4a52.pdb:LINK         C7  IM2 A1142                 SG  CYS A 142     1555   1555  1.75
+4bqv/4bqv.pdb:LINK         C18 8PW A1341                 SG  CYS A 147     1555   1555  1.74
+4bqv/4bqv.pdb:LINK         C18 8PW B1341                 SG  CYS B 147     1555   1555  1.77
+4bqv/4bqv.pdb:LINK         C18 8PW C1341                 SG  CYS C 147     1555   1555  1.75
+4bqv/4bqv.pdb:LINK         C18 8PW D1341                 SG  CYS D 147     1555   1555  1.75
+4bqv/4bqv.pdb:LINK         C18 8PW E1341                 SG  CYS E 147     1555   1555  1.76
+4bqv/4bqv.pdb:LINK         C18 8PW F1341                 SG  CYS F 147     1555   1555  1.75
+4bqv/4bqv.pdb:LINK         C18 8PW G1341                 SG  CYS G 147     1555   1555  1.76
+4bqv/4bqv.pdb:LINK         C18 8PW H1341                 SG  CYS H 147     1555   1555  1.75
+4bs5/4bs5.pdb:LINK         C12 MG2 A1341                 SG  CYS A 147     1555   1555  1.78
+4bs6/4bs6.pdb:LINK         C20 JG7 A1342                 SG  CYS A 147     1555   1555  1.73
+4bs6/4bs6.pdb:LINK         C20 JG7 B1341                 SG  CYS B 147     1555   1555  1.72
+4bsq/4bsq.pdb:LINK         C14 QQV A1341                 SG  CYS A 147     1555   1555  1.75
+4c5l/4c5l.pdb:LINK         SG  CYS A 110                 C4A UEG A 300     1555   1555  1.71
+4c5l/4c5l.pdb:LINK         SG  CYS C 110                 C4A UEG C 300     1555   1555  1.70
+4c5l/4c5l.pdb:LINK         SG  CYS D 110                 C4A UEG D 300     1555   1555  1.65
+4c5n/4c5n.pdb:LINK         SG  CYS D 110                 C4A UEG D 300     1555   1555  1.67
+4cia/4cia.pdb:LINK         SG  CYS A 375                CD    CD A1459     1555   1555  2.51
+4cl8/4cl8.pdb:LINK         SG  CYS A 168                 CAF OZJ A1168     1555   1555  1.71
+4cl8/4cl8.pdb:LINK         SG  CYS B 168                 CAF OZJ B1168     1555   1555  1.72
+4cl8/4cl8.pdb:LINK         SG  CYS C 168                 CAF OZJ C1168     1555   1555  1.72
+4cl8/4cl8.pdb:LINK         SG  CYS D 168                 CAF OZJ D1168     1555   1555  1.73
+4cm5/4cm5.pdb:LINK         SG  CYS A 168                 CAV NWJ A1270     1555   1555  1.80
+4cm5/4cm5.pdb:LINK         SG  CYS B 168                 CAV NWJ B1270     1555   1555  1.82
+4cm5/4cm5.pdb:LINK         SG  CYS C 168                 CAV NWJ C1270     1555   1555  1.82
+4cm5/4cm5.pdb:LINK         SG  CYS D 168                 CAV NWJ D1270     1555   1555  1.83
+4cyg/4cyg.pdb:LINK         SG  CYS A 211                 C12 RRV A1502     1555   1555  2.73
+4cyg/4cyg.pdb:LINK         SG  CYS B 211                 C12 RRV B1501     1555   1555  2.82
+4d8e/4d8e.pdb:LINK         SG  CYS A 192                 C2  E64 A 501     1555   1555  1.95
+4d9u/4d9u.pdb:LINK         SG  CYS A 436                 C11 0JH A 900     1555   1555  1.95
+4dcd/4dcd.pdb:LINK         SG  CYS A 147                 C21 K36 A 202     1555   1555  1.89
+4dmx/4dmx.pdb:LINK         SG  CYS A  25                 C28 0LB A 301     1555   1555  1.78
+4dmy/4dmy.pdb:LINK         SG  CYS B  25                 C29 0LC B 301     1555   1555  1.76
+4dmy/4dmy.pdb:LINK         SG  CYS A  25                 C29 0LC A 301     1555   1555  1.77
+4dwq/4dwq.pdb:LINK         SG  CYS A  98                MN    MN A 502     1555   1555  2.39
+4ef8/4ef8.pdb:LINK         SG  CYS A 150                 C4  0FI A 402     1555   1555  1.77
+4ef8/4ef8.pdb:LINK         SG  CYS B 150                 C4  0FI B 401     1555   1555  1.76
+4ef9/4ef9.pdb:LINK         SG  CYS A 150                 C4  4NF A 401     1555   1555  1.77
+4ef9/4ef9.pdb:LINK         SG  CYS B 150                 C4  4NF B 401     1555   1555  1.76
+4etp/4etp.pdb:LINK         SG  CYS B 355                 C1  EBC B 701     1555   1555  1.80
+4etp/4etp.pdb:LINK         SG  CYS B 423                 C8  EBC B 701     1555   1555  1.80
+4f49/4f49.pdb:LINK         SG  CYS A 144                 C21 K36 A 401     1555   1555  1.89
+4f49/4f49.pdb:LINK         SG  CYS B 144                 C21 K36 B 401     1555   1555  1.90
+4f49/4f49.pdb:LINK         SG  CYS C 144                 C21 K36 C 401     1555   1555  1.89
+4f49/4f49.pdb:LINK         SG  CYS D 144                 C21 K36 D 401     1555   1555  1.89
+4f8b/4f8b.pdb:LINK         SG  CYS B  55                 C77 GD1 B 201     1555   1555  1.87
+4f8b/4f8b.pdb:LINK         SG  CYS D  55                 C77 GD1 D 201     1555   1555  1.88
+4f8b/4f8b.pdb:LINK         SG  CYS C  55                 C77 GD1 C 201     1555   1555  1.89
+4f8b/4f8b.pdb:LINK         SG  CYS E  55                 C77 GD1 E 201     1555   1555  1.91
+4fdn/4fdn.pdb:LINK         SG  CYS A 387                 N8  0T4 A 901     1555   1555  1.78
+4gev/4gev.pdb:LINK         SG  CYS A 146                 C6  UMC A 701     1555   1555  2.06
+4gev/4gev.pdb:LINK         SG  CYS B 146                 C6  UMC B 801     1555   1555  2.12
+4ght/4ght.pdb:LINK         SG  CYS A 147                 C19 AG7 A 201     1555   1555  1.77
+4ght/4ght.pdb:LINK         SG  CYS B 147                 C19 AG7 B 201     1555   1555  1.76
+4gmx/4gmx.pdb:LINK         SG  CYS C 539                 C3  K85 C1101     1555   1555  1.62
+4gpt/4gpt.pdb:LINK         SG  CYS C 539                 C7  51K C1101     1555   1555  1.62
+4gs6/4gs6.pdb:LINK         SG  CYS A 174                 C42 1FM A 611     1555   1555  1.75
+4hat/4hat.pdb:LINK         SG  CYS C 539                 C3  LMB C1101     1555   1555  1.63
+4hau/4hau.pdb:LINK         SG  CYS C 539                 C3  RJA C1101     1555   1555  1.52
+4hav/4hav.pdb:LINK         SG  CYS C 539                 C3  AA8 C1101     1555   1555  1.77
+4haw/4haw.pdb:LINK         SG  CYS C 539                 C3  LMB C1101     1555   1555  1.63
+4hax/4hax.pdb:LINK         SG  CYS C 539                 C3  RJA C1101     1555   1555  1.63
+4hay/4hay.pdb:LINK         SG  CYS C 539                 C3  LMB C1101     1555   1555  1.51
+4haz/4haz.pdb:LINK         SG  CYS C 539                 C3  LBF C1101     1555   1555  1.61
+4hb0/4hb0.pdb:LINK         SG  CYS C 539                 C3  LBF C1101     1555   1555  1.57
+4hb4/4hb4.pdb:LINK         SG  CYS C 539                 C3  LMB C1101     1555   1555  1.64
+4hcu/4hcu.pdb:LINK         SG  CYS A 442                 C25 13L A 701     1555   1555  1.82
+4hcv/4hcv.pdb:LINK         SG  CYS A 442                 C25 13J A 701     1555   1555  1.85
+4hg3/4hg3.pdb:LINK         C5  AKG A 401                 SG  CYS A 169     1555   1555  1.81
+4hg3/4hg3.pdb:LINK         C5  AKG B 401                 SG  CYS B 169     1555   1555  1.76
+4hg3/4hg3.pdb:LINK         C5  AKG C 401                 SG  CYS C 169     1555   1555  1.76
+4hg3/4hg3.pdb:LINK         C5  AKG D 401                 SG  CYS D 169     1555   1555  1.80
+4hg5/4hg5.pdb:LINK         C1  OAA A 401                 SG  CYS A 169     1555   1555  1.77
+4hg5/4hg5.pdb:LINK         C1  OAA B 401                 SG  CYS B 169     1555   1555  1.77
+4hg5/4hg5.pdb:LINK         C1  OAA C 401                 SG  CYS C 169     1555   1555  1.77
+4hg5/4hg5.pdb:LINK         C1  OAA D 401                 SG  CYS D 169     1555   1555  1.76
+4i1p/4i1p.pdb:LINK         SG  CYS A 464                 C7  4AR B   4     1555   1555  1.09
+4i1p/4i1p.pdb:LINK         SG  CYS C 464                 C7  4AR D   4     1555   1555  1.28
+4i24/4i24.pdb:LINK         SG  CYS B 797                 C23 1C9 B9001     1555   1555  1.83
+4i24/4i24.pdb:LINK         SG  CYS A 797                 C23 1C9 A9001     1555   1555  1.84
+4i3u/4i3u.pdb:LINK         SG  CYS A 291                 C2  POA A 500     1555   1555  1.85
+4i3u/4i3u.pdb:LINK         SG  CYS B 291                 C2  POA B 500     1555   1555  1.82
+4i3u/4i3u.pdb:LINK         SG  CYS C 291                 C2  POA C 500     1555   1555  1.83
+4i3u/4i3u.pdb:LINK         SG  CYS D 291                 C2  POA D 500     1555   1555  1.83
+4i3u/4i3u.pdb:LINK         SG  CYS E 291                 C2  POA E 500     1555   1555  1.83
+4i3u/4i3u.pdb:LINK         SG  CYS F 291                 C2  POA F 500     1555   1555  1.83
+4i3u/4i3u.pdb:LINK         SG  CYS G 291                 C2  POA G 500     1555   1555  1.81
+4i3u/4i3u.pdb:LINK         SG  CYS H 291                 C2  POA H 500     1555   1555  1.82
+4i3v/4i3v.pdb:LINK         SG  CYS A 291                 C2  POA A 502     1555   1555  1.83
+4i3v/4i3v.pdb:LINK         SG  CYS B 291                 C2  POA B 502     1555   1555  1.81
+4i3v/4i3v.pdb:LINK         SG  CYS C 291                 C2  POA C 502     1555   1555  1.81
+4i3v/4i3v.pdb:LINK         SG  CYS D 291                 C2  POA D 502     1555   1555  1.81
+4i3v/4i3v.pdb:LINK         SG  CYS E 291                 C2  POA E 502     1555   1555  1.81
+4i3v/4i3v.pdb:LINK         SG  CYS F 291                 C2  POA F 502     1555   1555  1.81
+4i3v/4i3v.pdb:LINK         SG  CYS G 291                 C2  POA G 502     1555   1555  1.82
+4i3v/4i3v.pdb:LINK         SG  CYS H 291                 C2  POA H 501     1555   1555  1.81
+4i3w/4i3w.pdb:LINK         SG  CYS A 291                 C1  G3H A 501     1555   1555  1.83
+4i3w/4i3w.pdb:LINK         SG  CYS B 291                 C1  G3H B 501     1555   1555  1.82
+4i3w/4i3w.pdb:LINK         SG  CYS C 291                 C1  G3H C 501     1555   1555  1.83
+4i3w/4i3w.pdb:LINK         SG  CYS D 291                 C1  G3H D 501     1555   1555  1.80
+4i3w/4i3w.pdb:LINK         SG  CYS E 291                 C1  G3H E 501     1555   1555  1.83
+4i3w/4i3w.pdb:LINK         SG  CYS F 291                 C1  G3H F 501     1555   1555  1.84
+4i3w/4i3w.pdb:LINK         SG  CYS G 291                 C1  G3H G 501     1555   1555  1.84
+4i3w/4i3w.pdb:LINK         SG  CYS H 291                 C1  G3H H 501     1555   1555  1.82
+4i9b/4i9b.pdb:LINK         SG BCYS A 295                 C1  1KA A 605     1555   1555  1.86
+4i9o/4i9o.pdb:LINK         SG  CYS A 664                 S   KI1 A 701     1555   1555  2.08
+4imq/4imq.pdb:LINK         SG  CYS A 139                 C   1HD B   4     1555   1555  1.80
+4itb/4itb.pdb:LINK         SG  CYS A 262                 C4  SSN A 502     1555   1555  1.90
+4itb/4itb.pdb:LINK         SG  CYS B 262                 C4  SSN B 502     1555   1555  1.90
+4j5p/4j5p.pdb:LINK         SG  CYS A 269                 C21 BR1 A 601     1555   1555  1.77
+4j5p/4j5p.pdb:LINK         SG  CYS B 269                 C21 BR1 B 601     1555   1555  1.82
+4jao/4jao.pdb:LINK         SG  CYS B 138                 CAE JAO B 401     1555   1555  1.77
+4jao/4jao.pdb:LINK         SG  CYS C 138                 CAE JAO C 401     1555   1555  1.77
+4jap/4jap.pdb:LINK         SG  CYS B 138                 CAE 14U B 401     1555   1555  1.78
+4jap/4jap.pdb:LINK         SG  CYS A 138                 CAE 14U A 401     1555   1555  1.78
+4jaq/4jaq.pdb:LINK         SG  CYS D 138                 CAE 14V D 401     1555   1555  1.77
+4jaq/4jaq.pdb:LINK         SG  CYS A 138                 CAE 14V A 401     1555   1555  1.77
+4jaq/4jaq.pdb:LINK         SG  CYS C 138                 C1  PLM C 402     1555   1555  1.77
+4kky/4kky.pdb:LINK         SG  CYS X 357                FE   HEM X 501     1555   1555  2.28
+4kky/4kky.pdb:LINK         SG BCYS X 113                 C19 1T4 X 502     1555   1555  2.03
+4ks6/4ks6.pdb:LINK         SG  CYS A 165                 SG  MPT B   1     1555   1555  2.09
+4kty/4kty.pdb:LINK         SG  CYS B 314                 C23 1TX D   3     1555   1555  1.80
+4kty/4kty.pdb:LINK         SG  CYS A 314                 C23 1TX C   3     1555   1555  1.81
+4l1o/4l1o.pdb:LINK         SG  CYS A 243                 C7  1VL A 601     1555   1555  1.83
+4l1o/4l1o.pdb:LINK         SG  CYS B 243                 C7  1VL B 601     1555   1555  1.83
+4lfd/4lfd.pdb:LINK         SG  CYS A 223                 SG  B27 E 304     1555   1555  2.01
+4lfd/4lfd.pdb:LINK         SG  CYS B 223                 SG  B27 F 304     1555   1555  2.06
+4lfd/4lfd.pdb:LINK         SG  CYS C 223                 SG  B27 G 304     1555   1555  2.04
+4lfd/4lfd.pdb:LINK         SG  CYS D 223                 SG  B27 H 304     1555   1555  2.03
+4lqm/4lqm.pdb:LINK         SG  CYS A 797                 C51 DJK A1101     1555   1555  1.80
+4ls8/4ls8.pdb:LINK         SG  CYS B 164                 C3  1XG B 501     1555   1555  1.90
+4ls8/4ls8.pdb:LINK         SG  CYS A 164                 C3  1XG A 501     1555   1555  1.93
+4luc/4luc.pdb:LINK         SG  CYS A  12                 S19 20G A 203     1555   1555  2.04
+4luc/4luc.pdb:LINK         SG  CYS B  12                 S19 20G B 203     1555   1555  2.05
+4lv6/4lv6.pdb:LINK         SG  CYS A  12                 S17 20H A 203     1555   1555  2.04
+4lv6/4lv6.pdb:LINK         SG  CYS B  12                 S17 20H B 203     1555   1555  2.05
+4lyf/4lyf.pdb:LINK         SG  CYS B  12                 C18 21C B 201     1555   1555  1.83
+4lyh/4lyh.pdb:LINK         SG  CYS B  12                 C17 21F B 201     1555   1555  1.83
+4lyh/4lyh.pdb:LINK         SG  CYS C  12                 C17 21F C 202     1555   1555  1.83
+4lyj/4lyj.pdb:LINK         SG  CYS A  12                 C17 21F A 202     1555   1555  1.83
+4m1o/4m1o.pdb:LINK         SG  CYS B  12                 C28 21J B 201     1555   1555  1.83
+4m1s/4m1s.pdb:LINK         SG  CYS B  12                 C23 21K B 201     1555   1555  1.83
+4m1t/4m1t.pdb:LINK         SG  CYS B  12                 C16 21M B 201     1555   1555  1.83
+4m1y/4m1y.pdb:LINK         SG  CYS B  12                 C14 21S B 201     1555   1555  1.83
+4m21/4m21.pdb:LINK         SG  CYS B  12                 C21 21Y B 201     1555   1555  1.83
+4mt4/4mt4.pdb:LINK         SG  CYS B   1                 CG3 3PK B 507     1555   1555  1.27
+4mt4/4mt4.pdb:LINK         SG  CYS C   1                 CG3 3PK C 507     1555   1555  1.35
+4mt4/4mt4.pdb:LINK         SG  CYS A   1                 CG3 3PK A1008     1555   1555  1.49
+4mz4/4mz4.pdb:LINK         SG ACYS A 366                 C9  2F3 A 601     1555   1555  1.87
+4mz4/4mz4.pdb:LINK         SG BCYS A 366                 C9  2F3 A 601     1555   1555  2.07
+4mz4/4mz4.pdb:LINK         SG ACYS B 366                 C9  2F3 B 601     1555   1555  1.74
+4mz4/4mz4.pdb:LINK         SG BCYS B 366                 C9  2F3 B 601     1555   1555  1.98
+4mzo/4mzo.pdb:LINK         SG  CYS G 147                 C14 2EW G 401     1555   1555  1.73
+4mzo/4mzo.pdb:LINK         SG  CYS C 147                 C14 2EW C 401     1555   1555  1.75
+4mzo/4mzo.pdb:LINK         SG  CYS F 147                 C14 2EW F 401     1555   1555  1.75
+4mzo/4mzo.pdb:LINK         SG  CYS B 147                 C14 2EW B 401     1555   1555  1.77
+4mzo/4mzo.pdb:LINK         SG  CYS D 147                 C14 2EW D 401     1555   1555  1.78
+4mzo/4mzo.pdb:LINK         SG  CYS E 147                 C14 2EW E 401     1555   1555  1.79
+4mzo/4mzo.pdb:LINK         SG  CYS H 147                 C14 2EW H 401     1555   1555  1.81
+4mzo/4mzo.pdb:LINK         SG  CYS A 147                 C14 2EW A 401     1555   1555  1.82
+4mzs/4mzs.pdb:LINK         SG  CYS B 147                 C14 2EV B 401     1555   1555  1.77
+4mzs/4mzs.pdb:LINK         SG  CYS A 147                 C14 2EV A 401     1555   1555  1.81
+4ncr/4ncr.pdb:LINK         NBE 26J A 501                 SG  CYS A 387     1555   1555  1.66
+4ncr/4ncr.pdb:LINK         NBE 26J B 501                 SG  CYS B 387     1555   1555  1.66
+4nj4/4nj4.pdb:LINK         SG  CYS B 200                 C7  UN9 B 305     1555   1555  1.77
+4nj4/4nj4.pdb:LINK         SG  CYS A 200                 C7  UN9 A 305     1555   1555  1.81
+4nmm/4nmm.pdb:LINK         SG BCYS A  12                 C13 Y9Z A 202     1555   1555  1.80
+4npi/4npi.pdb:LINK         SG  CYS B 302                 CA6 2VS B 603     1555   1555  1.81
+4npi/4npi.pdb:LINK         SG  CYS D 302                 CA6 2VS D 603     1555   1555  1.85
+4npi/4npi.pdb:LINK         SG  CYS C 302                 CA6 2VS C 603     1555   1555  1.86
+4npi/4npi.pdb:LINK         SG  CYS A 302                 CA6 2VS A 603     1555   1555  1.87
+4o0h/4o0h.pdb:LINK         O   CYS B  65                NA    NA B 402     1555   1555  2.26
+4o0h/4o0h.pdb:LINK         O   CYS A  65                NA    NA A 402     1555   1555  2.27
+4onm/4onm.pdb:LINK         SG  CYS B  87                 C5  N2F B 201     1555   1555  1.75
+4onn/4onn.pdb:LINK         SG  CYS B  87                 C12 BY1 B 201     1555   1555  1.75
+4ou2/4ou2.pdb:LINK         SG  CYS C 302                 C5  6OA C 603     1555   1555  1.35
+4ou2/4ou2.pdb:LINK         SG  CYS B 302                 C5  6OA B 603     1555   1555  1.68
+4ou2/4ou2.pdb:LINK         SG  CYS D 302                 C5  6OA D 603     1555   1555  1.68
+4ou2/4ou2.pdb:LINK         SG  CYS A 302                 C5  6OA A 603     1555   1555  1.85
+4oub/4oub.pdb:LINK         SG  CYS B 302                 CA6 2VS B 603     1555   1555  1.77
+4oub/4oub.pdb:LINK         SG  CYS D 302                 CA6 2VS D 603     1555   1555  1.89
+4oub/4oub.pdb:LINK         SG  CYS C 302                 CA6 2VS C 603     1555   1555  1.91
+4oub/4oub.pdb:LINK         SG  CYS A 302                 CA6 2VS A 603     1555   1555  1.92
+4pe4/4pe4.pdb:LINK         SG  CYS X  84                 C03 REV X 101     1555   1555  1.85
+4pe4/4pe4.pdb:LINK         SG  CYS A  84                 C03 REV A 101     1555   1555  1.86
+4pe7/4pe7.pdb:LINK         SG  CYS A  84                 C14 ODN A 101     1555   1555  1.84
+4phg/4phg.pdb:LINK         SG  CYS A  35                 CAA 2UJ A 202     1555   1555  1.65
+4phh/4phh.pdb:LINK         SG  CYS A  35                 CAA 2UK A 201     1555   1555  1.63
+4phh/4phh.pdb:LINK         SG  CYS B  35                 CAA 2UK B 201     1555   1555  1.63
+4phh/4phh.pdb:LINK         SG  CYS C  35                 CAA 2UK C 201     1555   1555  1.62
+4phh/4phh.pdb:LINK         SG  CYS D  35                 CAA 2UK D 201     1555   1555  1.62
+4pi3/4pi3.pdb:LINK         SG  CYS A  25                 C22 2V5 A 301     1555   1555  1.89
+4pi3/4pi3.pdb:LINK         SG  CYS B  25                 C22 2V5 B 301     1555   1555  1.92
+4pid/4pid.pdb:LINK         SG  CYS A 122                 C12 2UQ A 302     1555   1555  1.68
+4pie/4pie.pdb:LINK         SG  CYS A 122                 C32 3FO A 301     1555   1555  1.73
+4piq/4piq.pdb:LINK         SG  CYS A 122                 C24 3FS A 301     1555   1555  1.78
+4pis/4pis.pdb:LINK         SG  CYS A 122                 C31 3FU A 301     1555   1555  1.82
+4pnc/4pnc.pdb:LINK         SG ACYS A  59                 CAN 7NP A 301     1555   1555  1.95
+4pnc/4pnc.pdb:LINK         SG BCYS A  59                 CAN 7NP A 301     1555   1555  1.81
+4pzy/4pzy.pdb:LINK         SG  CYS A  70                 CAH 2XR B 203     1555   1555  1.77
+4pzy/4pzy.pdb:LINK         SG  CYS B  70                 CAH 2XR B 204     1555   1555  1.77
+4pzz/4pzz.pdb:LINK         SG  CYS A  39                 SAH 2XO A 203     1555   1555  2.07
+4q01/4q01.pdb:LINK         SG  CYS A  39                 SAH 2XH A 203     1555   1555  2.03
+4q01/4q01.pdb:LINK         SG  CYS B  39                 SAH 2XH B 203     1555   1555  2.05
+4q02/4q02.pdb:LINK         SG  CYS A  39                 SAG 2XG A 203     1555   1555  2.06
+4q95/4q95.pdb:LINK         SG  CYS A 125                 C1  SHV A 201     1555   1555  1.75
+4q95/4q95.pdb:LINK         SG  CYS B 125                 C1  SHV B 201     1555   1555  1.76
+4qbb/4qbb.pdb:LINK         SG  CYS A  51                 C1  E69 A 202     1555   1555  1.81
+4qbb/4qbb.pdb:LINK         SG  CYS B  51                 C1  E69 B 201     1555   1555  1.81
+4qbb/4qbb.pdb:LINK         SG  CYS C  51                 C1  E69 C 201     1555   1555  1.84
+4qps/4qps.pdb:LINK         SG  CYS A 909                 C1  37Q A1201     1555   1555  1.80
+4qps/4qps.pdb:LINK         SG  CYS C 909                 C1  37Q C1201     1555   1555  1.81
+4qq5/4qq5.pdb:LINK         SG  CYS A 482                 C46 37O A 801     1555   1555  1.75
+4qqc/4qqc.pdb:LINK         SG  CYS A 477                 C46 37O A 801     1555   1555  1.64
+4qr7/4qr7.pdb:LINK         SG  CYS A 354                 CAA DWZ A 502     1555   1555  1.49
+4qtf/4qtf.pdb:LINK         SG  CYS A 354                 CAT 3V5 A 502     1555   1555  1.66
+4r6v/4r6v.pdb:LINK         SG  CYS A 477                 CAV FI3 A 801     1555   1555  1.70
+4r7u/4r7u.pdb:LINK         SG  CYS A 116                 C1  FFQ A 502     1555   1555  2.74
+4r7u/4r7u.pdb:LINK         SG  CYS B 116                 C1  FFQ B 502     1555   1555  2.45
+4r7u/4r7u.pdb:LINK         SG  CYS C 116                 C1  FFQ C 502     1555   1555  2.66
+4r7u/4r7u.pdb:LINK         SG  CYS D 116                 C1  FFQ D 502     1555   1555  2.61
+4rbm/4rbm.pdb:LINK         SG  CYS A 477                 CAK CKC A 717     1555   1555  1.84
+4rsp/4rsp.pdb:LINK         SG  CYS A 148                 C63 CEV B   5     1555   1555  1.83
+4tkx/4tkx.pdb:LINK         SG  CYS L 477                 CM  TCK L 720     1555   1555  1.73
+4upv/4upv.pdb:LINK         SG  CYS A  17                FE4  SF4 A1267     1555   1555  2.26
+4upv/4upv.pdb:LINK         SG  CYS A  20                FE2  SF4 A1267     1555   1555  2.27
+4upv/4upv.pdb:LINK         SG  CYS A 114                FE3  SF4 A1267     1555   1555  2.26
+4upv/4upv.pdb:LINK         SG  CYS A 147                FE1  SF4 A1267     1555   1555  2.27
+4upv/4upv.pdb:LINK         SG  CYS A 187                FE2  SF4 A1265     1555   1555  2.29
+4upv/4upv.pdb:LINK         SG  CYS A 212                FE1  SF4 A1265     1555   1555  2.27
+4upv/4upv.pdb:LINK         SG  CYS A 218                FE4  SF4 A1265     1555   1555  2.29
+4upv/4upv.pdb:LINK         SG  CYS A 227                FE3  F3S A1266     1555   1555  2.28
+4upv/4upv.pdb:LINK         SG  CYS A 245                FE4  F3S A1266     1555   1555  2.30
+4upv/4upv.pdb:LINK         SG  CYS A 248                FE1  F3S A1266     1555   1555  2.31
+4upv/4upv.pdb:LINK         SG  CYS B  17                FE4  SF4 B1267     1555   1555  2.25
+4upv/4upv.pdb:LINK         SG  CYS B  20                FE2  SF4 B1267     1555   1555  2.26
+4upv/4upv.pdb:LINK         SG  CYS B 114                FE3  SF4 B1267     1555   1555  2.27
+4upv/4upv.pdb:LINK         SG  CYS B 147                FE1  SF4 B1267     1555   1555  2.28
+4upv/4upv.pdb:LINK         SG  CYS B 187                FE2  SF4 B1265     1555   1555  2.28
+4upv/4upv.pdb:LINK         SG  CYS B 212                FE1  SF4 B1265     1555   1555  2.28
+4upv/4upv.pdb:LINK         SG  CYS B 218                FE4  SF4 B1265     1555   1555  2.31
+4upv/4upv.pdb:LINK         SG  CYS B 227                FE3  F3S B1266     1555   1555  2.29
+4upv/4upv.pdb:LINK         SG  CYS B 245                FE4  F3S B1266     1555   1555  2.32
+4upv/4upv.pdb:LINK         SG  CYS B 248                FE1  F3S B1266     1555   1555  2.30
+4upv/4upv.pdb:LINK        FE   FCO Q1550                 SG  CYS Q 546     1555   1555  2.31
+4upv/4upv.pdb:LINK        NI  B NI Q1551                 SG  CYS Q  72     1555   1555  2.09
+4upv/4upv.pdb:LINK        NI  B NI Q1551                 SG  CYS Q 546     1555   1555  2.59
+4upv/4upv.pdb:LINK        NI  A NI Q1551                 SG  CYS Q  72     1555   1555  2.22
+4upv/4upv.pdb:LINK        NI  A NI Q1551                 SG  CYS Q 546     1555   1555  2.25
+4upv/4upv.pdb:LINK         SG  CYS R 546                FE   FCO R1550     1555   1555  2.33
+4upv/4upv.pdb:LINK        NI  B NI R1551                 SG  CYS R  72     1555   1555  2.13
+4upv/4upv.pdb:LINK        NI  B NI R1551                 SG  CYS R 546     1555   1555  2.59
+4upv/4upv.pdb:LINK        NI  A NI R1551                 SG  CYS R  72     1555   1555  2.23
+4upv/4upv.pdb:LINK        NI  A NI R1551                 SG  CYS R 546     1555   1555  2.25
+4uql/4uql.pdb:LINK         SG  CYS A  17                FE4  SF4 A1267     1555   1555  2.27
+4uql/4uql.pdb:LINK         SG  CYS A  20                FE2  SF4 A1267     1555   1555  2.26
+4uql/4uql.pdb:LINK         SG  CYS A 114                FE3  SF4 A1267     1555   1555  2.26
+4uql/4uql.pdb:LINK         SG  CYS A 147                FE1  SF4 A1267     1555   1555  2.28
+4uql/4uql.pdb:LINK         SG  CYS A 187                FE4  SF4 A1265     1555   1555  2.29
+4uql/4uql.pdb:LINK         SG  CYS A 212                FE1  SF4 A1265     1555   1555  2.28
+4uql/4uql.pdb:LINK         SG  CYS A 218                FE2  SF4 A1265     1555   1555  2.30
+4uql/4uql.pdb:LINK         SG  CYS A 227                FE3  F3S A1266     1555   1555  2.29
+4uql/4uql.pdb:LINK         SG  CYS A 245                FE4  F3S A1266     1555   1555  2.31
+4uql/4uql.pdb:LINK         SG  CYS A 248                FE1  F3S A1266     1555   1555  2.31
+4uql/4uql.pdb:LINK         SG  CYS B  17                FE2  SF4 B1267     1555   1555  2.25
+4uql/4uql.pdb:LINK         SG  CYS B  20                FE4  SF4 B1267     1555   1555  2.26
+4uql/4uql.pdb:LINK         SG  CYS B 114                FE3  SF4 B1267     1555   1555  2.27
+4uql/4uql.pdb:LINK         SG  CYS B 147                FE1  SF4 B1267     1555   1555  2.28
+4uql/4uql.pdb:LINK         SG  CYS B 187                FE2  SF4 B1265     1555   1555  2.30
+4uql/4uql.pdb:LINK         SG  CYS B 212                FE1  SF4 B1265     1555   1555  2.28
+4uql/4uql.pdb:LINK         SG  CYS B 218                FE4  SF4 B1265     1555   1555  2.31
+4uql/4uql.pdb:LINK         SG  CYS B 227                FE3  F3S B1266     1555   1555  2.29
+4uql/4uql.pdb:LINK         SG  CYS B 245                FE4  F3S B1266     1555   1555  2.31
+4uql/4uql.pdb:LINK         SG  CYS B 248                FE1  F3S B1266     1555   1555  2.31
+4uql/4uql.pdb:LINK         SG  CYS Q 546                FE   FCO Q1550     1555   1555  2.31
+4uql/4uql.pdb:LINK         SG  CYS R 546                FE   FCO R1550     1555   1555  2.32
+4uql/4uql.pdb:LINK        NI  A NI Q1551                 SG  CYS Q  72     1555   1555  2.12
+4uql/4uql.pdb:LINK        NI  A NI Q1551                 SG  CYS Q 546     1555   1555  2.60
+4uql/4uql.pdb:LINK        NI  B NI Q1551                 SG  CYS Q  72     1555   1555  2.25
+4uql/4uql.pdb:LINK        NI  B NI Q1551                 SG  CYS Q 546     1555   1555  2.26
+4uql/4uql.pdb:LINK        NI  A NI R1551                 SG  CYS R  72     1555   1555  2.14
+4uql/4uql.pdb:LINK        NI  A NI R1551                 SG  CYS R 546     1555   1555  2.62
+4uql/4uql.pdb:LINK        NI  B NI R1551                 SG  CYS R  72     1555   1555  2.25
+4uql/4uql.pdb:LINK        NI  B NI R1551                 SG  CYS R 546     1555   1555  2.26
+4uqp/4uqp.pdb:LINK         SG  CYS A  17                FE4  SF4 A1267     1555   1555  2.26
+4uqp/4uqp.pdb:LINK         SG  CYS A  20                FE3  SF4 A1267     1555   1555  2.26
+4uqp/4uqp.pdb:LINK         SG  CYS A 114                FE2  SF4 A1267     1555   1555  2.27
+4uqp/4uqp.pdb:LINK         SG  CYS A 147                FE1  SF4 A1267     1555   1555  2.28
+4uqp/4uqp.pdb:LINK         SG  CYS A 187                FE2  SF4 A1265     1555   1555  2.30
+4uqp/4uqp.pdb:LINK         SG  CYS A 212                FE1  SF4 A1265     1555   1555  2.28
+4uqp/4uqp.pdb:LINK         SG  CYS A 218                FE4  SF4 A1265     1555   1555  2.31
+4uqp/4uqp.pdb:LINK         SG  CYS A 227                FE3  F3S A1266     1555   1555  2.27
+4uqp/4uqp.pdb:LINK         SG  CYS A 245                FE4  F3S A1266     1555   1555  2.32
+4uqp/4uqp.pdb:LINK         SG  CYS A 248                FE1  F3S A1266     1555   1555  2.30
+4uqp/4uqp.pdb:LINK         SG  CYS B  17                FE2  SF4 B1267     1555   1555  2.25
+4uqp/4uqp.pdb:LINK         SG  CYS B  20                FE4  SF4 B1267     1555   1555  2.27
+4uqp/4uqp.pdb:LINK         SG  CYS B 114                FE3  SF4 B1267     1555   1555  2.26
+4uqp/4uqp.pdb:LINK         SG  CYS B 147                FE1  SF4 B1267     1555   1555  2.29
+4uqp/4uqp.pdb:LINK         SG  CYS B 187                FE2  SF4 B1265     1555   1555  2.28
+4uqp/4uqp.pdb:LINK         SG  CYS B 212                FE1  SF4 B1265     1555   1555  2.28
+4uqp/4uqp.pdb:LINK         SG  CYS B 218                FE4  SF4 B1265     1555   1555  2.29
+4uqp/4uqp.pdb:LINK         SG  CYS B 227                FE3  F3S B1266     1555   1555  2.30
+4uqp/4uqp.pdb:LINK         SG  CYS B 245                FE4  F3S B1266     1555   1555  2.32
+4uqp/4uqp.pdb:LINK         SG  CYS B 248                FE1  F3S B1266     1555   1555  2.29
+4uqp/4uqp.pdb:LINK        FE   FCO Q1552                 SG  CYS Q 546     1555   1555  2.32
+4uqp/4uqp.pdb:LINK        NI  A NI Q1553                 SG  CYS Q  72     1555   1555  2.09
+4uqp/4uqp.pdb:LINK        NI  A NI Q1553                 SG  CYS Q 546     1555   1555  2.64
+4uqp/4uqp.pdb:LINK        NI  S NI Q1553                 SG  CYS Q  72     1555   1555  2.20
+4uqp/4uqp.pdb:LINK        NI  S NI Q1553                 SG  CYS Q 546     1555   1555  2.23
+4uqp/4uqp.pdb:LINK        FE   FCO R1555                 SG  CYS R 546     1555   1555  2.31
+4uqp/4uqp.pdb:LINK        NI  A NI R1556                 SG  CYS R  72     1555   1555  2.11
+4uqp/4uqp.pdb:LINK        NI  A NI R1556                 SG  CYS R 546     1555   1555  2.63
+4uqp/4uqp.pdb:LINK        NI  S NI R1556                 SG  CYS R  72     1555   1555  2.25
+4uqp/4uqp.pdb:LINK        NI  S NI R1556                 SG  CYS R 546     1555   1555  2.22
+4us2/4us2.pdb:LINK         SG  CYS R 118                 C3  L7S R1167     1555   1555  1.84
+4v37/4v37.pdb:LINK         SG  CYS A 450                 C8  0D8 A1499     1555   1555  1.71
+4v37/4v37.pdb:LINK         SG  CYS B 450                 C8  0D8 B1499     1555   1555  1.73
+4v37/4v37.pdb:LINK         SG  CYS C 450                 C8  0D8 C1499     1555   1555  1.72
+4v37/4v37.pdb:LINK         SG  CYS D 450                 C8  0D8 D1498     1555   1555  1.70
+4wx6/4wx6.pdb:LINK         SG  CYS A 122                 C27 3VK A 301     1555   1555  1.80
+4wx6/4wx6.pdb:LINK         SG  CYS C 122                 C27 3VK C 301     1555   1555  1.79
+4wx7/4wx7.pdb:LINK         SG  CYS A 122                 C30 3VJ A 301     1555   1555  1.74
+4wx7/4wx7.pdb:LINK         SG  CYS C 122                 C30 3VJ C 301     1555   1555  1.74
+4x0t/4x0t.pdb:LINK         SG  CYS A 302                 C13 3W9 A 602     1555   1555  1.67
+4x0t/4x0t.pdb:LINK         SG  CYS B 302                 C13 3W9 B 602     1555   1555  1.67
+4x0t/4x0t.pdb:LINK         SG  CYS C 302                 C13 3W9 C 602     1555   1555  1.66
+4x0t/4x0t.pdb:LINK         SG  CYS D 302                 C13 3W9 D 602     1555   1555  1.67
+4x6j/4x6j.pdb:LINK         SG  CYS A  25                 C1  3Y2 A 307     1555   1555  1.66
+4xbb/4xbb.pdb:LINK         SG  CYS A 139                 C31 3ZR A 201     1555   1555  1.81
+4xbc/4xbc.pdb:LINK         SG  CYS A 139                 C30 M40 A 201     1555   1555  1.80
+4xbd/4xbd.pdb:LINK         SG  CYS A 139                 C30 M40 A 201     1555   1555  1.81
+4xbd/4xbd.pdb:LINK         SG  CYS B 139                 C30 M40 B 201     1555   1555  1.80
+4xcu/4xcu.pdb:LINK         SG  CYS A 552                 C8  40M A1002     1555   1555  1.82
+4xtd/4xtd.pdb:LINK         SG BCYS A 334                 C2 BIMP A 601     1555   1555  1.77
+4xtd/4xtd.pdb:LINK         SG BCYS B 334                 C2 BIMP B 601     1555   1555  1.77
+4xti/4xti.pdb:LINK         O   CYS A 334                 K     K A 602     1555   1555  2.59
+4xti/4xti.pdb:LINK         SG BCYS A 334                 C2 BIMP A 601     1555   1555  1.85
+4xti/4xti.pdb:LINK         O   CYS B 334                 K     K B 602     1555   1555  2.67
+4xz0/4xz0.pdb:LINK         SG  CYS A 117                 CAF 4N5 A 301     1555   1555  1.76
+4yec/4yec.pdb:LINK         SG  CYS B 179                 CAK CKC C 405     1555   1555  1.88
+4yhf/4yhf.pdb:LINK         SG  CYS A 481                 C1  4C9 A 701     1555   1555  1.92
+4yhf/4yhf.pdb:LINK         SG  CYS B 481                 C1  4C9 B 703     1555   1555  1.91
+4yqu/4yqu.pdb:LINK         SG  CYS A  32                 C3  4GB A 301     1555   1555  1.77
+4yqu/4yqu.pdb:LINK         SG  CYS B  32                 C3  4GB B 301     1555   1555  1.81
+4yrt/4yrt.pdb:LINK         SG  CYS A 365                 C9  781 A 502     1555   1555  1.78
+4zro/4zro.pdb:LINK         SG  CYS A 144                 C63 CEV E   5     1555   1555  1.87
+4zro/4zro.pdb:LINK         SG  CYS B 144                 C63 CEV F   5     1555   1555  1.69
+4zro/4zro.pdb:LINK         SG  CYS C 144                 C63 CEV G   5     1555   1555  1.74
+4zro/4zro.pdb:LINK         SG  CYS D 144                 C63 CEV H   5     1555   1555  1.80
+4zzm/4zzm.pdb:LINK         SG  CYS A 166                 C   CQ6 A1357     1555   1555  1.82
+4zzo/4zzo.pdb:LINK         SG  CYS A 166                 C   CQ3 A1357     1555   1555  1.81
+5a24/5a24.pdb:LINK         SG  CYS A  26                 C2  E64 A1224     1555   1555  1.79
+5ac0/5ac0.pdb:LINK         SG  CYS A 301                 C8  K9P A 551     1555   1555  1.59
+5ac0/5ac0.pdb:LINK         SG  CYS B 301                 C8  K9P B 551     1555   1555  1.65
+5ac1/5ac1.pdb:LINK         SG  CYS B 301                 C8  K9P B 501     1555   1555  1.64
+5ac1/5ac1.pdb:LINK         SG  CYS C 301                 C8  K9P C 501     1555   1555  1.63
+5ac2/5ac2.pdb:LINK         SG  CYS A 302                 C8  K9P A1502     1555   1555  1.81
+5arb/5arb.pdb:LINK         SG  CYS A 217                 C1  EI3 A1280     1555   1555  1.78
+5arc/5arc.pdb:LINK         SG  CYS A 217                 C1  EI3 A1277     1555   1555  1.85
+5ard/5ard.pdb:LINK         SG  CYS A 217                 C1  EI3 A1279     1555   1555  1.79
+5axs/5axs.pdb:LINK         SG  CYS A 119                 C4  4LF A 201     1555   1555  1.78
+5azp/5azp.pdb:LINK         SG  CYS A   1                 CG3 3PK A 501     1555   1555  1.65
+5azp/5azp.pdb:LINK         N   CYS A   1                 C10 OYA A 502     1555   1555  1.36
+5azp/5azp.pdb:LINK         SG  CYS C   1                 CG3 3PK C 501     1555   1555  1.65
+5azp/5azp.pdb:LINK         N   CYS C   1                 C10 OYA C 502     1555   1555  1.37
+5c1u/5c1u.pdb:LINK         SG  CYS A 147                 C27 GHV A 201     1555   1555  1.73
+5c1u/5c1u.pdb:LINK         SG  CYS B 147                 C27 GHV B 201     1555   1555  1.81
+5c1x/5c1x.pdb:LINK         SG  CYS A 147                 C27 GHX A 201     1555   1555  1.75
+5c1x/5c1x.pdb:LINK         SG  CYS B 147                 C27 GHX B 201     1555   1555  1.74
+5c1y/5c1y.pdb:LINK         SG  CYS A 147                 C27 GHY A 201     1555   1555  1.74
+5c5o/5c5o.pdb:LINK         SG  CYS A 145                 C20 SDJ A 401     1555   1555  1.94
+5c5o/5c5o.pdb:LINK         SG  CYS B 145                 C20 SDJ B 401     1555   1555  1.98
+5cbn/5cbn.pdb:LINK         SG  CYS A 133                 C03 EYC A1301     1555   1555  1.79
+5cbn/5cbn.pdb:LINK         SG  CYS A1226                 C19 EYC A1301     1555   1555  1.76
+5czu/5czu.pdb:LINK         SG  CYS A 119                 C4  4LF A 201     1555   1555  1.78
+5d11/5d11.pdb:LINK         SG  CYS A 345                 CAA 56G A 602     1555   1555  1.63
+5d11/5d11.pdb:LINK         SG  CYS B 345                 CAA 56G B 602     1555   1555  1.65
+5d63/5d63.pdb:LINK         SG  CYS A 215                 C1 ACF0 L   5     1555   1555  1.68
+5d63/5d63.pdb:LINK         SG  CYS A 215                 C1 BCF0 L   5     1555   1555  1.66
+5daf/5daf.pdb:LINK         SG  CYS A 151                 C1  58E A 201     1555   1555  1.78
+5dc2/5dc2.pdb:LINK         SG  CYS A 354                 C7  58U A 501     1555   1555  1.81
+5dc2/5dc2.pdb:LINK         SG  CYS B 354                 C7  58U B 501     1555   1555  1.81
+5dcc/5dcc.pdb:LINK         SG  CYS A 354                 C7  58U A 501     1555   1555  1.80
+5dcc/5dcc.pdb:LINK         SG  CYS B 354                 C7  58U B 501     1555   1555  1.80
+5dg6/5dg6.pdb:LINK         SG  CYS A 139                 C25 V66 A 203     1555   1555  1.80
+5dgj/5dgj.pdb:LINK         SG ACYS A 139                 C24 V64 A 201     1555   1555  1.81
+5dgj/5dgj.pdb:LINK         SG BCYS A 139                 C24 V64 A 201     1555   1555  1.80
+5dp3/5dp3.pdb:LINK         SG  CYS A 147                 C14 5GH A 201     1555   1555  1.77
+5dp4/5dp4.pdb:LINK         SG  CYS A 147                 C14 5E8 A 201     1555   1555  1.79
+5dp4/5dp4.pdb:LINK         SG  CYS B 147                 C14 5E8 B 201     1555   1555  1.76
+5dp4/5dp4.pdb:LINK         SG  CYS C 147                 C14 5E8 C 201     1555   1555  1.77
+5dp4/5dp4.pdb:LINK         SG  CYS D 147                 C14 5E8 D 201     1555   1555  1.79
+5dp5/5dp5.pdb:LINK         SG  CYS A 147                 C14 5E9 A 201     1555   1555  1.77
+5dp7/5dp7.pdb:LINK         SG  CYS A 147                 C14 5EC A 201     1555   1555  1.75
+5dp8/5dp8.pdb:LINK         SG  CYS A 147                 C14 5ED A 201     1555   1555  1.82
+5dp9/5dp9.pdb:LINK         SG  CYS A 147                 C14 5EX A 201     1555   1555  1.80
+5dpa/5dpa.pdb:LINK         SG  CYS A 147                 C14 5F2 A 201     1555   1555  1.81
+5dql/5dql.pdb:LINK         SG  CYS A 191                 C01 VGX A 503     1555   1555  1.74
+5dql/5dql.pdb:LINK         SG  CYS B 191                 C01 VGX B 502     1555   1555  1.73
+5dql/5dql.pdb:LINK         SG  CYS C 191                 C01 VGX C 502     1555   1555  1.76
+5dql/5dql.pdb:LINK         SG  CYS D 191                 C01 VGX D 502     1555   1555  1.72
+5du9/5du9.pdb:LINK         SG  CYS A  17                 CCH UM2 A 503     1555   1555  1.80
+5du9/5du9.pdb:LINK         SG  CYS B  17                 CCH UM2 B 502     1555   1555  1.80
+5dua/5dua.pdb:LINK         SG  CYS A  17                 C01 5FQ A 501     1555   1555  1.78
+5dua/5dua.pdb:LINK         SG  CYS B  17                 C01 5FQ B 502     1555   1555  1.78
+5duj/5duj.pdb:LINK         SG  CYS A 354                 CAT DGF A 503     1555   1555  1.71
+5duj/5duj.pdb:LINK         SG  CYS B 354                 CAT DGF B 502     1555   1555  1.73
+5dvc/5dvc.pdb:LINK         SG  CYS A 285                 CAL T53 A 501     1555   1555  1.67
+5dvp/5dvp.pdb:LINK         SG  CYS A 354                 CAJ DRW A 501     1555   1555  1.99
+5dvp/5dvp.pdb:LINK         SG  CYS B 354                 CAJ DRW B 501     1555   1555  1.96
+5dzj/5dzj.pdb:LINK         SG  CYS A 354                 C13 6B7 A 501     1555   1555  1.84
+5dzj/5dzj.pdb:LINK         SG  CYS B 354                 C13 6B7 B 501     1555   1555  1.85
+5dzp/5dzp.pdb:LINK         SG  CYS A 354                 C13 6B7 A 501     1555   1555  1.65
+5e0g/5e0g.pdb:LINK         SG  CYS A 139                 C19 5LG A 202     1555   1555  1.82
+5e0h/5e0h.pdb:LINK         SG  CYS A 139                 C02 5LH A 201     1555   1555  1.81
+5e0j/5e0j.pdb:LINK         SG  CYS A 139                 C02 5LJ A 204     1555   1555  1.82
+5e1i/5e1i.pdb:LINK         SG  CYS A 354                 C02 6B8 A 502     1555   1555  1.98
+5E51/5E51.pdb:LINK         SG  CYS A 226                 C02 5KO A 301     1555   1555  1.97
+5E51/5E51.pdb:LINK         SG  CYS C 226                 C02 5KO C 301     1555   1555  1.94
+5e7r/5e7r.pdb:LINK         SG  CYS A 174                 C30 5KW A 601     1555   1555  1.90
+5E93/5E93.pdb:LINK         SG  CYS A 130                 CAH 5LL A 401     1555   1555  1.93
+5E93/5E93.pdb:LINK         SG  CYS B 130                 CAH 5LL B 401     1555   1555  1.93
+5ea9/5ea9.pdb:LINK         SG  CYS A 130                 CAJ 5LM A 401     1555   1555  1.89
+5ea9/5ea9.pdb:LINK         SG  CYS B 130                 CAJ 5LM B 401     1555   1555  1.89
+5el1/5el1.pdb:LINK         SG  CYS A  47                 C2  1BO A 301     1555   1555  1.82
+5emu/5emu.pdb:LINK         SG  CYS A  47                 C2  1BO A 301     1555   1555  1.83
+5eu8/5eu8.pdb:LINK         SG  CYS A 144                 C20 PJE B   5     1555   1555  1.73
+5ezs/5ezs.pdb:LINK         SG ACYS A 477                 C2  E6D A 801     1555   1555  1.70
+5f02/5f02.pdb:LINK         SG  CYS A  25                 C11 5T9 A 302     1555   1555  1.76
+5f2e/5f2e.pdb:LINK         SG  CYS A  12                 C15 5UT A 204     1555   1555  1.76
+5fct/5fct.pdb:LINK         SG  CYS A 189                 C6  UFP A 401     1555   1555  1.82
+5fct/5fct.pdb:LINK         SG  CYS B 189                 C6  UFP B 401     1555   1555  1.82
+5fsd/5fsd.pdb:LINK         SG  CYS C 322                 C4  DBX C1587     1555   1555  1.70
+5fse/5fse.pdb:LINK         SG  CYS C 322                 C2  HQE C1584     1555   1555  1.64
+5fse/5fse.pdb:LINK         SG  CYS C 555                 C2  HQE C1583     1555   1555  1.67
+5g4h/5g4h.pdb:LINK         SG  CYS C 322                 C2  CAQ C1571     1555   1555  1.65
+5git/5git.pdb:LINK         SG  CYS A 151                 C14 XXT A 201     1555   1555  1.85
+5gk1/5gk1.pdb:LINK         SG  CYS A 126                 CAH 2K3 A 401     1555   1555  1.60
+5gk1/5gk1.pdb:LINK         SG  CYS C 126                 CAH 2K3 C 401     1555   1555  1.58
+5gnk/5gnk.pdb:LINK         SG  CYS A 797                 CAO 80U A1001     1555   1555  1.83
+5gwz/5gwz.pdb:LINK         SG  CYS B 144                 C20 PJE D   5     1555   1555  1.86
+5gwz/5gwz.pdb:LINK         SG  CYS A 144                 C20 PJE E   5     1555   1555  1.83
+5h8i/5h8i.pdb:LINK         SG  CYS B 158                 C1  N2H B 401     1555   1555  1.82
+5h8i/5h8i.pdb:LINK         SG  CYS C 158                 C1  N2H C 401     1555   1555  1.82
+5h8i/5h8i.pdb:LINK         SG  CYS D 158                 C1  N2H D 401     1555   1555  1.84
+5h8i/5h8i.pdb:LINK         SG  CYS E 158                 C1  N2H E 401     1555   1555  1.84
+5h8i/5h8i.pdb:LINK         SG  CYS F 158                 C1  N2H F 401     1555   1555  1.82
+5h8i/5h8i.pdb:LINK         SG  CYS G 158                 C1  N2H G 401     1555   1555  1.83
+5h8i/5h8i.pdb:LINK         SG  CYS J 158                 C1  N2H J 401     1555   1555  1.81
+5h8i/5h8i.pdb:LINK         SG  CYS K 158                 C1  N2H K 401     1555   1555  1.83
+5h8i/5h8i.pdb:LINK         SG  CYS L 158                 C1  N2H L 401     1555   1555  1.82
+5h8i/5h8i.pdb:LINK         SG  CYS M 158                 C1  N2H M 401     1555   1555  1.85
+5h8i/5h8i.pdb:LINK         SG  CYS N 158                 C1  N2H N 401     1555   1555  1.84
+5h8i/5h8i.pdb:LINK         SG  CYS O 158                 C1  N2H O 401     1555   1555  1.85
+5hze/5hze.pdb:LINK         SG  CYS A 207                 CAT E62 A 401     1555   1555  1.71
+5ic3/5ic3.pdb:LINK         SG  CYS A 319                 C4  PQR A 401     1555   1555  1.82
+5iyt/5iyt.pdb:LINK         SG  CYS B 147                 C26 NZN B 201     1555   1555  1.79
+5j7s/5j7s.pdb:LINK         SG  CYS A 174                 C31 6H3 A 601     1555   1555  1.62
+5j87/5j87.pdb:LINK         SG  CYS A 481                 CBA N42 A 701     1555   1555  1.82
+5j87/5j87.pdb:LINK         SG  CYS B 481                 CBA N42 B 701     1555   1555  1.83
+5j87/5j87.pdb:LINK         SG  CYS C 481                 CBA N42 C 701     1555   1555  1.85
+5j87/5j87.pdb:LINK         SG  CYS D 481                 CBA N42 D 701     1555   1555  1.83
+5j8i/5j8i.pdb:LINK         SG  CYS A 174                 C31 6H4 A 601     1555   1555  1.80
+5jh6/5jh6.pdb:LINK         SG  CYS A 174                 C31 T92 A 601     1555   1555  1.48
+5jk3/5jk3.pdb:LINK         SG  CYS A 174                 C25 6L4 A 601     1555   1555  1.59
+5jq2/5jq2.pdb:LINK         SG  CYS A 400                FE   HEM A 501     1555   1555  2.48
+5jq2/5jq2.pdb:LINK         SG  CYS A 407                 C49 RU8 A 503     1555   1555  1.79
+5jq2/5jq2.pdb:LINK         SG  CYS B 400                FE   HEM B 501     1555   1555  2.42
+5jq2/5jq2.pdb:LINK         SG  CYS B 407                 C49 RU8 B 503     1555   1555  1.82
+5jtd/5jtd.pdb:LINK         SG  CYS A 400                FE   HEM A 501     1555   1555  2.30
+5jtd/5jtd.pdb:LINK         SG  CYS A 407                 C49 RU8 A 503     1555   1555  1.80
+5jtd/5jtd.pdb:LINK         SG  CYS B 400                FE   HEM B 501     1555   1555  2.30
+5jtd/5jtd.pdb:LINK         SG  CYS B 407                 C49 RU8 B 503     1555   1555  1.80
+5k69/5k69.pdb:LINK         SG  CYS A 354                 C1  6QR A 503     1555   1555  1.82
+5k69/5k69.pdb:LINK         SG  CYS B 354                 C1  6QR B 502     1555   1555  1.96
+5kwi/5kwi.pdb:LINK         SG  CYS A 209                SE05 6Y1 A 401     1555   1555  2.27
+5kwj/5kwj.pdb:LINK         SG  CYS A 209                SE07 6Y3 A 401     1555   1555  2.30
+5kwj/5kwj.pdb:LINK         SG  CYS B 209                SE07 6Y3 B 401     1555   1555  2.30
+5la6/5la6.pdb:LINK         SG  CYS C 316                 C03 X3H C 504     1555   1555  1.84
+5lb1/5lb1.pdb:LINK         SG  CYS A 354                 S5  MNB A 501     1555   1555  1.99
+5lb1/5lb1.pdb:LINK         SG  CYS B 354                 S5  MNB B 501     1555   1555  2.02
+5lcj/5lcj.pdb:LINK         SG  CYS A 166                 C43 6TS A 401     1555   1555  1.80
+5lck/5lck.pdb:LINK         SG  CYS A 166                 C25 6TT A 405     1555   1555  1.81
+5lf0/5lf0.pdb:LINK         C   CYS G 136                 N   YCM G 137     1555   1555  1.32
+5lf0/5lf0.pdb:LINK         C   CYS U 136                 N   YCM U 137     1555   1555  1.32
+5lf1/5lf1.pdb:LINK         C   CYS G 136                 N   YCM G 137     1555   1555  1.31
+5lf1/5lf1.pdb:LINK         C   CYS U 136                 N   YCM U 137     1555   1555  1.34
+5lf3/5lf3.pdb:LINK         C   CYS G 136                 N   YCM G 137     1555   1555  1.31
+5lf3/5lf3.pdb:LINK         C   CYS U 136                 N   YCM U 137     1555   1555  1.32
+5lf4/5lf4.pdb:LINK         C   CYS G 136                 N   YCM G 137     1555   1555  1.31
+5lf4/5lf4.pdb:LINK         C   CYS U 136                 N   YCM U 137     1555   1555  1.34
+5lf6/5lf6.pdb:LINK         C   CYS G 136                 N   YCM G 137     1555   1555  1.31
+5lf6/5lf6.pdb:LINK         C   CYS U 136                 N   YCM U 137     1555   1555  1.34
+5lf7/5lf7.pdb:LINK         C   CYS G 136                 N   YCM G 137     1555   1555  1.31
+5lf7/5lf7.pdb:LINK         C   CYS U 136                 N   YCM U 137     1555   1555  1.33
+5lwn/5lwn.pdb:LINK         SG BCYS A 909                 C12B79S A1209     1555   1555  1.66
+5m4z/5m4z.pdb:LINK         SG  CYS A 189                 C6  7K8 A 401     1555   1555  1.78
+5m4z/5m4z.pdb:LINK         SG  CYS B 189                 C6  7K8 B 401     1555   1555  1.78
+5mae/5mae.pdb:LINK         SG  CYS A  25                 C8  7KN A 301     1555   1555  1.73
+5maj/5maj.pdb:LINK         SG  CYS A  25                 C8  7KH A 301     1555   1555  1.76
+5mhm/5mhm.pdb:LINK         SG  CYS A 314                 C23 1TX H   2     1555   1555  1.88
+5mhm/5mhm.pdb:LINK         SG  CYS B 314                 C23 1TX O   2     1555   1555  1.87
+5mhn/5mhn.pdb:LINK         SG  CYS A 314                 C23 1TX H   2     1555   1555  1.89
+5mhn/5mhn.pdb:LINK         SG  CYS B 314                 C23 1TX I   2     1555   1555  1.87
+5mi4/5mi4.pdb:LINK         SG  CYS A 550                 C7  7NQ A 801     1555   1555  1.63
+5mi5/5mi5.pdb:LINK         SG  CYS A 550                 C7  7NQ A 802     1555   1555  1.66
+5mi6/5mi6.pdb:LINK         SG  CYS A 550                 C7  7NQ A 802     1555   1555  1.63
+5mi7/5mi7.pdb:LINK         SG  CYS A 550                 C01 7NT A 802     1555   1555  1.77
+5mjb/5mjb.pdb:LINK         SG  CYS A 703                 C7  7O3 A 901     1555   1555  1.82
+5mjb/5mjb.pdb:LINK         SG  CYS B 703                 C7  7O3 B 901     1555   1555  1.82
+5mmv/5mmv.pdb:LINK         SG  CYS A 285                 C36 WE0 A 301     1555   1555  1.89
+5mqy/5mqy.pdb:LINK         SG  CYS A  25                 C24 GH4 A 301     1555   1555  1.77
+5mu9/5mu9.pdb:LINK         SG  CYS A 215                 C2  E64 A 312     1555   1555  1.92
+5mua/5mua.pdb:LINK         SG  CYS A 208                 C2  E64 A 304     1555   1555  1.85
+5mua/5mua.pdb:LINK         SG  CYS B 208                 C2  E64 B 302     1555   1555  1.86
+5n0m/5n0m.pdb:LINK         SG  CYS A 645                 C2  8HT A 708     1555   1555  1.69
+5n0y/5n0y.pdb:LINK         SG  CYS A 645                 C14 8FQ A 707     1555   1555  1.69
+5ngf/5ngf.pdb:LINK         SG  CYS A 223                 CAA 8WN A 601     1555   1555  1.81
+5ngf/5ngf.pdb:LINK         SG  CYS B 223                 CAA 8WN B 601     1555   1555  1.83
+5nh0/5nh0.pdb:LINK         SG  CYS A 144                 C57 8X8 A 301     1555   1555  1.86
+5nh0/5nh0.pdb:LINK         SG  CYS B 144                 C57 8X8 B 401     1555   1555  1.88
+5nh0/5nh0.pdb:LINK         SG  CYS C 144                 C57 8X8 C 301     1555   1555  1.89
+5nud/5nud.pdb:LINK         SG  CYS A 552                 C7  99K A 801     1555   1555  1.69
+5nud/5nud.pdb:LINK         SG  CYS B 552                 C7  99K B 801     1555   1555  1.67
+5nwz/5nwz.pdb:LINK         SG  CYS A 477                 C1  9CT A 801     1555   1555  1.76
+5nwz/5nwz.pdb:LINK         SG  CYS B 477                 C1  9CT B 801     1555   1555  1.76
+5o3y/5o3y.pdb:LINK         SG  CYS A 111                 S01 9JK A 502     1555   1555  2.03
+5o3y/5o3y.pdb:LINK         SG  CYS F 111                 S01 9JK F 503     1555   1555  2.05
+5o8u/5o8u.pdb:LINK         SG  CYS A 252                 CAE 9O5 A 401     1555   1555  1.70
+5o8v/5o8v.pdb:LINK         SG  CYS A 251                 CAJ 9O2 A 401     1555   1555  1.62
+5ogq/5ogq.pdb:LINK         SG  CYS A 100                 C27 9U8 A1001     1555   1555  1.76
+5ogq/5ogq.pdb:LINK         SG  CYS B 100                 C27 9U8 B1001     1555   1555  1.77
+5ogq/5ogq.pdb:LINK         SG  CYS C 100                 C27 9U8 C1001     1555   1555  1.78
+5ogr/5ogr.pdb:LINK         SG  CYS A 100                 C27 VS4 A 401     1555   1555  1.81
+5ogr/5ogr.pdb:LINK         SG  CYS B 100                 C27 VS4 B 401     1555   1555  1.80
+5ogr/5ogr.pdb:LINK         SG  CYS C 100                 C27 VS4 C 401     1555   1555  1.82
+5oo0/5oo0.pdb:LINK         SG  CYS A 177                 C2  9YZ A 301     1555   1555  1.78
+5oo1/5oo1.pdb:LINK         SG  CYS A  80                 C2  9Z2 A 301     1555   1555  1.74
+5oo3/5oo3.pdb:LINK         SG  CYS A  80                 C2  9ZB A 301     1555   1555  1.84
+5orl/5orl.pdb:LINK         SG  CYS A 247                 S08 A4W A 407     1555   1555  2.07
+5osj/5osj.pdb:LINK         SG  CYS A 177                 C9  AAK A 301     1555   1555  1.77
+5osm/5osm.pdb:LINK         SG  CYS A  80                 C2  AEQ A 301     1555   1555  1.82
+5p9j/5p9j.pdb:LINK         SG  CYS A 481                 CAA 8E8 A 701     1555   1555  1.85
+5p9k/5p9k.pdb:LINK         SG  CYS A 481                 C37 7G8 A 701     1555   1555  1.80
+5p9l/5p9l.pdb:LINK         SG BCYS A 481                 C29 7G9 A 701     1555   1555  1.79
+5p9m/5p9m.pdb:LINK         SG  CYS A 481                 C19 7GB A 701     1555   1555  1.67
+5qip/5qip.pdb:LINK         SG  CYS A  51                 C1  J51 A 301     1555   1555  1.77
+5qiq/5qiq.pdb:LINK         SG  CYS A  51                 C   J5A A 402     1555   1555  1.65
+5qir/5qir.pdb:LINK         SG  CYS A  51                 C   J5D A 301     1555   1555  1.68
+5qis/5qis.pdb:LINK         SG  CYS A  51                 C   J5G A 301     1555   1555  1.60
+5qit/5qit.pdb:LINK         SG  CYS A  51                 C   J5J A 301     1555   1555  1.67
+5qiu/5qiu.pdb:LINK         SG  CYS A  51                 C   J5M A 501     1555   1555  1.65
+5qiv/5qiv.pdb:LINK         SG  CYS A  51                 C   J5P A 606     1555   1555  1.69
+5qiw/5qiw.pdb:LINK         SG  CYS A  51                 C   J5S A 301     1555   1555  1.96
+5qix/5qix.pdb:LINK         SG  CYS A  51                 C   J5V A 301     1555   1555  1.67
+5qiy/5qiy.pdb:LINK         SG  CYS A  51                 C   J61 A 301     1555   1555  1.86
+5qiz/5qiz.pdb:LINK         SG  CYS A  51                 C1  J64 A 301     1555   1555  1.84
+5rej/5rej.pdb:LINK         SG  CYS A 145                 C   T1V A 404     1555   1555  1.82
+5rek/5rek.pdb:LINK         SG  CYS A 145                 C11 T1Y A 404     1555   1555  1.82
+5rel/5rel.pdb:LINK         SG  CYS A 145                 C12 T2G A 404     1555   1555  1.82
+5rem/5rem.pdb:LINK         SG  CYS A 145                 C11 T2J A 404     1555   1555  1.81
+5ren/5ren.pdb:LINK         SG  CYS A 145                 C   T2V A 404     1555   1555  1.80
+5reo/5reo.pdb:LINK         SG  CYS A 145                 C   T2Y A 404     1555   1555  1.81
+5rep/5rep.pdb:LINK         SG  CYS A 145                 C11 T3G A 404     1555   1555  1.82
+5rer/5rer.pdb:LINK         SG  CYS A 145                 C03 T3J A 404     1555   1555  1.81
+5res/5res.pdb:LINK         SG  CYS A 145                 C11 T3V A 404     1555   1555  1.82
+5ret/5ret.pdb:LINK         SG  CYS A 145                 C   T47 A 404     1555   1555  1.81
+5reu/5reu.pdb:LINK         SG  CYS A 145                 C   T4D A 404     1555   1555  1.81
+5rev/5rev.pdb:LINK         SG  CYS A 145                 C   T4J A 404     1555   1555  1.80
+5rew/5rew.pdb:LINK         SG  CYS A 145                 C3  T4M A 404     1555   1555  1.82
+5rex/5rex.pdb:LINK         SG  CYS A 145                 C   T4V A 404     1555   1555  1.79
+5rey/5rey.pdb:LINK         SG  CYS A 145                 C14 T4Y A 404     1555   1555  1.82
+5rff/5rff.pdb:LINK         SG  CYS A 145                 C   T6M A 404     1555   1555  1.81
+5rfg/5rfg.pdb:LINK         SG  CYS A 145                 C03 T6V A 404     1555   1555  1.81
+5rfh/5rfh.pdb:LINK         SG  CYS A 145                 C   T6Y A 404     1555   1555  1.81
+5rfi/5rfi.pdb:LINK         SG  CYS A 145                 C13 T71 A 404     1555   1555  1.82
+5rfj/5rfj.pdb:LINK         SG  CYS A 145                 C8  T7A A 404     1555   1555  1.82
+5rfk/5rfk.pdb:LINK         SG  CYS A 145                 C   T7D A 404     1555   1555  1.82
+5rfl/5rfl.pdb:LINK         SG  CYS A 145                 C13 T7G A 404     1555   1555  1.82
+5rfm/5rfm.pdb:LINK         SG  CYS A 145                 C09 T7J A 404     1555   1555  1.81
+5rfn/5rfn.pdb:LINK         SG  CYS A 145                 C03 T7P A 404     1555   1555  1.83
+5rfo/5rfo.pdb:LINK         SG  CYS A 145                 C   T7S A 404     1555   1555  1.82
+5rfp/5rfp.pdb:LINK         SG  CYS A 145                 C06 T7V A 404     1555   1555  1.83
+5rfq/5rfq.pdb:LINK         SG  CYS A 145                 C   T7Y A 404     1555   1555  1.81
+5rfr/5rfr.pdb:LINK         SG  CYS A 145                 C   T81 A 404     1555   1555  1.82
+5rfs/5rfs.pdb:LINK         SG  CYS A 145                 C   T84 A 405     1555   1555  1.81
+5rft/5rft.pdb:LINK         SG  CYS A 145                 C03 T8A A 404     1555   1555  1.81
+5rfu/5rfu.pdb:LINK         SG  CYS A 145                 C   T8D A 405     1555   1555  1.81
+5rfv/5rfv.pdb:LINK         SG  CYS A 145                 C   T8J A 404     1555   1555  1.80
+5rfw/5rfw.pdb:LINK         SG  CYS A 145                 C   T8M A 405     1555   1555  1.81
+5rfx/5rfx.pdb:LINK         SG  CYS A 145                 C12 T8P A 404     1555   1555  1.82
+5rfy/5rfy.pdb:LINK         SG  CYS A 145                 C11 T8S A 404     1555   1555  1.82
+5rfz/5rfz.pdb:LINK         SG  CYS A 145                 C   T8V A 404     1555   1555  1.81
+5rg0/5rg0.pdb:LINK         SG  CYS A 145                 C7  T8Y A 405     1555   1555  1.80
+5rg2/5rg2.pdb:LINK         SG  CYS A 145                 C8  T9M A 404     1555   1555  1.64
+5rg3/5rg3.pdb:LINK         SG  CYS A 145                 C8  T9P A 405     1555   1555  1.79
+5rgl/5rgl.pdb:LINK         SG  CYS A 145                 C13 U0Y A 404     1555   1555  1.81
+5rgm/5rgm.pdb:LINK         SG  CYS A 145                 C   U1D A 404     1555   1555  1.82
+5rgn/5rgn.pdb:LINK         SG  CYS A 145                 C12 U1A A 404     1555   1555  1.82
+5rgo/5rgo.pdb:LINK         SG  CYS A 145                 C   U1G A 404     1555   1555  1.81
+5rgp/5rgp.pdb:LINK         SG  CYS A 145                 C13 U1M A 404     1555   1555  1.81
+5rgt/5rgt.pdb:LINK         SG  CYS A 145                 C   UHS A 405     1555   1555  1.75
+5rh5/5rh5.pdb:LINK         SG  CYS A 145                 C   UHV A1001     1555   1555  1.78
+5rh6/5rh6.pdb:LINK         SG  CYS A 145                 C   UHY A 405     1555   1555  1.80
+5rh7/5rh7.pdb:LINK         SG  CYS A 145                 C   UJ1 A 405     1555   1555  1.81
+5rh9/5rh9.pdb:LINK         SG  CYS A 145                 C   UJ4 A 405     1555   1555  1.81
+5rha/5rha.pdb:LINK         SG  CYS A 145                 C   T8M A1001     1555   1555  1.81
+5rhb/5rhb.pdb:LINK         SG  CYS A 145                 C   USD A 406     1555   1555  1.82
+5rhc/5rhc.pdb:LINK         SG  CYS A 145                 C   USA A1001     1555   1555  1.86
+5rhe/5rhe.pdb:LINK         SG  CYS A 145                 C5  UPD A1001     1555   1555  1.72
+5rhf/5rhf.pdb:LINK         SG  CYS A 145                 C5  UPJ A 405     1555   1555  1.81
+5swh/5swh.pdb:LINK         SG  CYS A 281                 C12 71D A 600     1555   1555  1.89
+5swh/5swh.pdb:LINK         SG  CYS B 281                 C12 71D B 600     1555   1555  1.85
+5t6d/5t6d.pdb:LINK         SG  CYS A 139                 C31 N38 A 201     1555   1555  1.80
+5t6d/5t6d.pdb:LINK         SG  CYS B 139                 C31 N38 B 201     1555   1555  1.81
+5t6f/5t6f.pdb:LINK         SG  CYS A 139                 C31 N38 A 201     1555   1555  1.79
+5t6f/5t6f.pdb:LINK         SG  CYS B 139                 C31 N38 B 201     1555   1555  1.82
+5t6g/5t6g.pdb:LINK         SG  CYS A 139                 C30 N40 A 201     1555   1555  1.80
+5t6g/5t6g.pdb:LINK         SG  CYS B 139                 C30 N40 B 201     1555   1555  1.81
+5tdi/5tdi.pdb:LINK         SG  CYS A  25                 C12 7AS A 301     1555   1555  1.78
+5tg1/5tg1.pdb:LINK         SG  CYS A 139                 C12 V56 A 203     1555   1555  1.81
+5tg2/5tg2.pdb:LINK         SG  CYS A 139                 C20 V69 A 201     1555   1555  1.80
+5th7/5th7.pdb:LINK         SG  CYS A 311                 CAA 7BY B 402     1555   1555  1.80
+5th7/5th7.pdb:LINK         SG  CYS B 311                 CAA 7BY A 401     1555   1555  1.82
+5toz/5toz.pdb:LINK         SG  CYS A 909                 C9  7H4 A1201     1555   1555  1.81
+5tts/5tts.pdb:LINK         SG  CYS A 909                 C1  7KU A4000     1555   1555  1.81
+5ttu/5ttu.pdb:LINK         SG  CYS A 909                 C16 7KV A1201     1555   1555  1.74
+5ttv/5ttv.pdb:LINK         SG  CYS A 909                 C1  7KX A4000     1555   1555  1.81
+5u4h/5u4h.pdb:LINK         SG  CYS A 116                 C2  0V5 A 509     1555   1555  1.82
+5u4h/5u4h.pdb:LINK         SG  CYS B 116                 C2  0V5 B 506     1555   1555  1.82
+5ug8/5ug8.pdb:LINK         SG  CYS A 797                 C29 8BP A9001     1555   1555  1.81
+5ug9/5ug9.pdb:LINK         SG  CYS A 797                 C31 8AM A9001     1555   1555  1.80
+5ugc/5ugc.pdb:LINK         SG  CYS A 797                 C29 8BS A9001     1555   1555  1.81
+5v6s/5v6s.pdb:LINK         SG ACYS A  12                 C27 8YD A 203     1555   1555  1.83
+5v6s/5v6s.pdb:LINK         SG BCYS A  12                 C27 8YD A 203     1555   1555  1.77
+5v6v/5v6v.pdb:LINK         SG  CYS A  12                 C26 8YA A 204     1555   1555  1.76
+5v6v/5v6v.pdb:LINK         SG  CYS B  12                 C26 8YA B 207     1555   1555  1.76
+5v71/5v71.pdb:LINK         SG  CYS A  12                 C28 8ZG A 203     1555   1555  1.83
+5v71/5v71.pdb:LINK         SG  CYS B  12                 C28 8ZG B 203     1555   1555  1.81
+5v71/5v71.pdb:LINK         SG  CYS C  12                 C28 8ZG C 203     1555   1555  1.80
+5v71/5v71.pdb:LINK         SG  CYS D  12                 C28 8ZG D 203     1555   1555  1.83
+5v71/5v71.pdb:LINK         SG  CYS E  12                 C28 8ZG E 203     1555   1555  1.80
+5v71/5v71.pdb:LINK         SG  CYS F  12                 C28 8ZG F 203     1555   1555  1.81
+5v9l/5v9l.pdb:LINK         SG  CYS A  12                 C19 91D A 203     1555   1555  1.60
+5v9l/5v9l.pdb:LINK         SG  CYS B  12                 C19 91D B 203     1555   1555  1.62
+5v9l/5v9l.pdb:LINK         SG  CYS C  12                 C19 91D C 203     1555   1555  1.61
+5v9o/5v9o.pdb:LINK         SG  CYS A  12                 C20 91G A 203     1555   1555  1.41
+5v9u/5v9u.pdb:LINK         SG ACYS A  12                 C20 91S A 204     1555   1555  1.80
+5v9u/5v9u.pdb:LINK         SG BCYS A  12                 C20 91S A 204     1555   1555  1.66
+5v9u/5v9u.pdb:LINK         SG ACYS B  12                 C20 91S B 204     1555   1555  1.76
+5v9u/5v9u.pdb:LINK         SG BCYS B  12                 C20 91S B 204     1555   1555  1.64
+5vbm/5vbm.pdb:LINK         SG  CYS A  72                 S24 92V A 203     1555   1555  2.06
+5vbz/5vbz.pdb:LINK         SG  CYS C  72                 S24 92V C 301     1555   1555  2.01
+5vnd/5vnd.pdb:LINK         SG  CYS A 563                 C27 9ES A 801     1555   1555  1.59
+5vnd/5vnd.pdb:LINK         SG  CYS B 563                 C27 9ES B 801     1555   1555  1.62
+5vqx/5vqx.pdb:LINK         SG  CYS A 181                 C26 9HY A 601     1555   1555  1.83
+5vqy/5vqy.pdb:LINK         SG  CYS A 181                 C28 9J1 A 601     1555   1555  1.82
+5vqz/5vqz.pdb:LINK         SG  CYS A 181                 C26 9HY A 601     1555   1555  1.83
+5w1y/5w1y.pdb:LINK         SG  CYS A 311                 C6  9SV A 401     1555   1555  1.75
+5w1y/5w1y.pdb:LINK         SG  CYS B 311                 C6  9SV B 401     1555   1555  1.75
+5wej/5wej.pdb:LINK         SG  CYS A 139                 C25 V45 A 201     1555   1555  1.80
+5wej/5wej.pdb:LINK         SG  CYS B 139                 C25 V45 B 201     1555   1555  1.80
+5wfj/5wfj.pdb:LINK         SG  CYS A 909                 C25 9Z4 A4000     1555   1555  1.74
+5wi5/5wi5.pdb:LINK         SG  CYS A 120                 C2  0V5 A 501     1555   1555  1.84
+5wi5/5wi5.pdb:LINK         SG  CYS B 120                 C2  0V5 B 501     1555   1555  1.85
+5wi5/5wi5.pdb:LINK         SG  CYS C 120                 C2  0V5 C 501     1555   1555  1.86
+5wi5/5wi5.pdb:LINK         SG  CYS D 120                 C2  0V5 D 501     1555   1555  1.84
+5wkj/5wkj.pdb:LINK         SG  CYS A 148                 C21AB1S A 403     1555   1555  1.79
+5wkj/5wkj.pdb:LINK         SG  CYS A 148                 C21BK36 A 404     1555   1555  1.81
+5wkk/5wkk.pdb:LINK         SG  CYS A 148                 C08AAW4 A 403     1555   1555  1.80
+5wkk/5wkk.pdb:LINK         SG  CYS A 148                 C08BB3G A 404     1555   1555  1.80
+5wkl/5wkl.pdb:LINK         SG  CYS A 148                 C19AAVY A 401     1555   1555  1.80
+5wkl/5wkl.pdb:LINK         SG  CYS A 148                 C19BB3J A 402     1555   1555  1.82
+5wkm/5wkm.pdb:LINK         SG  CYS A 148                 C19AN02 A 401     1555   1555  1.80
+5wkm/5wkm.pdb:LINK         SG  CYS A 148                 C19BB6Y A 402     1555   1555  1.80
+5wqx/5wqx.pdb:LINK         SG  CYS A 285                 C12 T65 A 501     1555   1555  1.61
+5wr1/5wr1.pdb:LINK         SG  CYS A 285                 C10 8XO A 501     1555   1555  1.67
+5xdk/5xdk.pdb:LINK         SG  CYS A 797                 CAS 8JC A1101     1555   1555  1.83
+5xu8/5xu8.pdb:LINK         SG  CYS A 276                 S6  DX4 A 701     1555   1555  2.05
+5y41/5y41.pdb:LINK         SG  CYS A 566                 C11 RPG A 601     1555   1555  1.64
+5y41/5y41.pdb:LINK         SG  CYS B 566                 C11 RPG B 601     1555   1555  1.62
+5yd6/5yd6.pdb:LINK         SG  CYS A 566                 C11 8SU A 601     1555   1555  1.64
+5yd6/5yd6.pdb:LINK         SG  CYS B 566                 C11 8SU B 601     1555   1555  1.63
+5yd6/5yd6.pdb:LINK         SG  CYS C 566                 C11 8SU C 601     1555   1555  1.62
+5yd6/5yd6.pdb:LINK         SG  CYS D 566                 C11 8SU D 601     1555   1555  1.62
+5yu9/5yu9.pdb:LINK         SG  CYS A 797                 CAA 1E8 A1101     1555   1555  1.83
+5yu9/5yu9.pdb:LINK         SG  CYS B 797                 CAA 1E8 B1101     1555   1555  1.83
+5yu9/5yu9.pdb:LINK         SG  CYS C 797                 CAA 1E8 C1101     1555   1555  1.83
+5yu9/5yu9.pdb:LINK         SG  CYS D 797                 CAA 1E8 D1101     1555   1555  1.82
+5yvo/5yvo.pdb:LINK         SG  CYS A  32                 C03 MLX A 305     1555   1555  1.64
+5yvo/5yvo.pdb:LINK         SG  CYS A 112                 C03 MLX A 306     1555   1555  1.65
+5yxz/5yxz.pdb:LINK         SG  CYS A  12                 C14 94C A 203     1555   1555  1.61
+5yy1/5yy1.pdb:LINK         SG  CYS A  12                 C14 94F A 203     1555   1555  1.62
+5zk4/5zk4.pdb:LINK         SG  CYS A  86                 CAA 9EF A 305     1555   1555  1.91
+5zk4/5zk4.pdb:LINK         SG  CYS B  86                 CAA 9EF B 305     1555   1555  1.77
+6af9/6af9.pdb:LINK         SG  CYS A 106                 C7  ISN A 201     1555   1555  1.89
+6afd/6afd.pdb:LINK         SG  CYS A 106                 C9  72S A 201     1555   1555  1.91
+6afe/6afe.pdb:LINK         SG  CYS A 106                 C9 A72T A 201     1555   1555  1.88
+6aff/6aff.pdb:LINK         SG  CYS A 106                 C9  72U A 201     1555   1555  1.96
+6afg/6afg.pdb:LINK         SG  CYS A 106                 C9  72V A 201     1555   1555  1.89
+6alj/6alj.pdb:LINK         SG  CYS A 320                 C05 CW2 A 602     1555   1555  1.78
+6alj/6alj.pdb:LINK         SG  CYS B 320                 C05 CW2 B 602     1555   1555  1.76
+6alj/6alj.pdb:LINK         SG  CYS C 320                 C05 CW2 C 602     1555   1555  1.77
+6alj/6alj.pdb:LINK         SG  CYS D 320                 C05 CW2 D 601     1555   1555  1.77
+6ark/6ark.pdb:LINK         SG  CYS A  12                 C07 BQD A 203     1555   1555  1.78
+6ay2/6ay2.pdb:LINK         SG  CYS A  29                 C26 C1G A 301     1555   1555  1.74
+6ay2/6ay2.pdb:LINK         SG  CYS B  29                 C26 C1G B 301     1555   1555  1.73
+6azs/6azs.pdb:LINK         SG  CYS B 175                 C07 C5S B 302     1555   1555  1.74
+6azs/6azs.pdb:LINK         SG  CYS D 175                 C07 C5S D 302     1555   1555  1.76
+6b0v/6b0v.pdb:LINK         SG  CYS A  12                 C12 C8G A 203     1555   1555  1.68
+6b0v/6b0v.pdb:LINK         SG  CYS B  12                 C12 C8G B 203     1555   1555  1.70
+6b0y/6b0y.pdb:LINK         SG ACYS A  12                 C28 8ZG A 203     1555   1555  1.67
+6b0y/6b0y.pdb:LINK         SG BCYS A  12                 C28 8ZG A 203     1555   1555  1.63
+6b0y/6b0y.pdb:LINK         SG ACYS B  12                 C28 8ZG B 204     1555   1555  1.68
+6b0y/6b0y.pdb:LINK         SG BCYS B  12                 C28 8ZG B 204     1555   1555  1.64
+6b95/6b95.pdb:LINK         S19AD0P A 402                 SG  CYS A 197     1555   1555  2.23
+6bib/6bib.pdb:LINK         SG  CYS A 139                 C23 DW7 A 201     1555   1555  1.82
+6bib/6bib.pdb:LINK         SG  CYS B 139                 C23 DW7 B 201     1555   1555  1.80
+6bic/6bic.pdb:LINK         SG  CYS A 139                 C02 5LH A 201     1555   1555  1.81
+6bic/6bic.pdb:LINK         SG  CYS B 139                 C02 5LH B 201     1555   1555  1.81
+6bid/6bid.pdb:LINK         SG  CYS A 139                 C22ADW4 A 201     1555   1555  1.80
+6bid/6bid.pdb:LINK         SG  CYS A 139                 C22BDW4 A 201     1555   1555  1.80
+6boi/6boi.pdb:LINK         SG  CYS A 354                 C7  E0Y A 501     1555   1555  1.71
+6boi/6boi.pdb:LINK         SG  CYS B 354                 C7  E0Y B 501     1555   1555  1.86
+6boz/6boz.pdb:LINK         SG  CYS A 311                 CAA E1J B 401     1555   1555  1.76
+6boz/6boz.pdb:LINK         SG  CYS B 311                 CAA E1J A 402     1555   1555  1.77
+6bv5/6bv5.pdb:LINK         SG  CYS A 353                 CAG JUG A 601     1555   1555  1.72
+6bv6/6bv6.pdb:LINK         SG  CYS A 346                 CAG JUG A 601     1555   1555  1.67
+6bv6/6bv6.pdb:LINK         SG  CYS A 353                 CAG JUG A 602     1555   1555  1.57
+6bv8/6bv8.pdb:LINK         SG  CYS A 353                 CAG JUG A 601     1555   1555  1.80
+6bwu/6bwu.pdb:LINK         SG  CYS B  93                 S1  EBJ B 203     1555   1555  2.02
+6c1i/6c1i.pdb:LINK         SG  CYS A 285                 C03 EEY A 501     1555   1555  1.96
+6c1i/6c1i.pdb:LINK         SG  CYS B 285                 C03 EEY B 501     1555   1555  1.83
+6chw/6chw.pdb:LINK         SG  CYS A 530                 C11 F3D A 601     1555   1555  1.62
+6cwy/6cwy.pdb:LINK         SG ACYS D  30                 C19 FHJ D 707     1555   1555  1.85
+6db4/6db4.pdb:LINK         SG  CYS A 909                 C22 G4Y A4000     1555   1555  1.73
+6dge/6dge.pdb:LINK         SG  CYS A 274                 C8  GBG A 301     1555   1555  1.99
+6di1/6di1.pdb:LINK         SG BCYS A 481                 CAT GJD A 701     1555   1555  1.91
+6di5/6di5.pdb:LINK         SG ACYS A 481                 C1  GJ7 A 701     1555   1555  1.76
+6di5/6di5.pdb:LINK         SG BCYS A 481                 C1  GJ7 A 701     1555   1555  1.81
+6di9/6di9.pdb:LINK         SG ACYS A 481                 C33 GJJ A 701     1555   1555  1.87
+6di9/6di9.pdb:LINK         SG BCYS A 481                 C33 GJJ A 701     1555   1555  1.81
+6dq9/6dq9.pdb:LINK         SG  CYS A 481                 C17 H74 A 601     1555   1555  1.80
+6dqb/6dqb.pdb:LINK         SG BCYS A 481                 C18BHZV A 602     1555   1555  1.77
+6dqb/6dqb.pdb:LINK         SG CCYS A 481                 C18CHZM A 603     1555   1555  1.77
+6dud/6dud.pdb:LINK         SG  CYS A 909                 C20 HB4 A1201     1555   1555  1.76
+6e6t/6e6t.pdb:LINK         SG  CYS A  89                 CAF HVV A 302     1555   1555  1.82
+6e6t/6e6t.pdb:LINK         SG  CYS B  89                 CAF HVV B 302     1555   1555  1.82
+6ein/6ein.pdb:LINK         SG  CYS A 480                 C15 B7Z A 801     1555   1555  1.81
+6exw/6exw.pdb:LINK         SG  CYS A 309                 CAA C3K A 602     1555   1555  1.84
+6exw/6exw.pdb:LINK         SG  CYS C 309                 CAA C3K C 602     1555   1555  1.84
+6ezp/6ezp.pdb:LINK         SG  CYS A  25                 CAE C3E A 301     1555   1555  1.83
+6ezx/6ezx.pdb:LINK         SG  CYS A  25                 C18 C7Q A 301     1555   1555  1.76
+6ezx/6ezx.pdb:LINK         SG  CYS B  25                 C18 C7Q B 301     1555   1555  1.76
+6f6r/6f6r.pdb:LINK         SG  CYS A 285                 C36 CVE A 501     1555   1555  1.75
+6fdq/6fdq.pdb:LINK         SG  CYS A 345                 C12 2UQ A 501     1555   1555  1.72
+6fdq/6fdq.pdb:LINK         SG  CYS B 345                 C12 2UQ B 501     1555   1555  1.71
+6fdu/6fdu.pdb:LINK         SG  CYS B 345                 CBE D5W B 501     1555   1555  1.68
+6ffm/6ffm.pdb:LINK         SG ACYS A 151                 C05AD8N A 500     1555   1555  1.81
+6fv1/6fv1.pdb:LINK         SG  CYS A 144                 C57 E8E A 401     1555   1555  1.83
+6fv1/6fv1.pdb:LINK         SG  CYS B 144                 C57 E8E B 401     1555   1555  1.80
+6fv1/6fv1.pdb:LINK         SG  CYS C 144                 C57 E8E C 401     1555   1555  1.82
+6g54/6g54.pdb:LINK         SG  CYS A 166                 C31 6H3 A 403     1555   1555  1.81
+6g58/6g58.pdb:LINK         O   CYS B 215                NA    NA B 404     1555   1555  2.48
+6g83/6g83.pdb:LINK         SG  CYS A 387                 N02 EQ8 A 502     1555   1555  1.63
+6g83/6g83.pdb:LINK         SG  CYS B 387                 N02 EQ8 B 502     1555   1555  1.63
+6ga0/6ga0.pdb:LINK         SG  CYS A 119                 C07 ETW A 201     1555   1555  1.62
+6ges/6ges.pdb:LINK         SG  CYS A 183                 C31 6H3 A 401     1555   1555  1.74
+6ges/6ges.pdb:LINK         SG  CYS B 183                 C31 6H3 B 401     1555   1555  1.75
+6gjk/6gjk.pdb:LINK         SG  CYS A  51                 S   F0Z A 407     1555   1555  2.04
+6gjk/6gjk.pdb:LINK         SG  CYS A 295                 S   F0Z A 408     1555   1555  2.10
+6gjk/6gjk.pdb:LINK         SG  CYS B  51                 S   F0Z B 409     1555   1555  2.03
+6gjk/6gjk.pdb:LINK         SG  CYS B 295                 S   F0Z B 410     1555   1555  2.11
+6gq3/6gq3.pdb:LINK         SG  CYS A   1                 CE  ONL A 601     1555   1555  1.65
+6gq3/6gq3.pdb:LINK         SG  CYS B   1                 CE  ONL B 601     1555   1555  1.65
+6gxy/6gxy.pdb:LINK         SG ACYS A  40                 C01 FFN A 201     1555   1555  1.98
+6gxy/6gxy.pdb:LINK         SG ACYS B  40                 C01 FFN B 201     1555   1555  1.96
+6gzy/6gzy.pdb:LINK         SG  CYS A 885                 C2  FHH A4001     1555   1555  1.62
+6gzy/6gzy.pdb:LINK         SG  CYS B 885                 C2  FHH B4001     1555   1555  1.62
+6h0u/6h0u.pdb:LINK         SG  CYS A 199                 C2  FKB A 501     1555   1555  1.86
+6h0u/6h0u.pdb:LINK         SG  CYS B 199                 C2  FKB B 501     1555   1555  1.89
+6h8t/6h8t.pdb:LINK         SG  CYS J  25                 CBD YXX J 301     1555   1555  1.90
+6hez/6hez.pdb:LINK         SG  CYS A 387                 NBE 0SK A 501     1555   1555  1.63
+6hez/6hez.pdb:LINK         SG  CYS B 387                 NBE 0SK B 501     1555   1555  1.62
+6hf0/6hf0.pdb:LINK         SG  CYS A 387                 N8  G1H A 901     1555   1555  1.73
+6hf0/6hf0.pdb:LINK         SG  CYS B 387                 N8  G1H B 901     1555   1555  1.73
+6hf3/6hf3.pdb:LINK         SG  CYS A 387                 NBE 26J A 501     1555   1555  1.66
+6hf3/6hf3.pdb:LINK         SG  CYS B 387                 NBE 26J B 501     1555   1555  1.64
+6hfv/6hfv.pdb:LINK         SG  CYS A 387                 N3  G1T A 503     1555   1555  1.69
+6hfv/6hfv.pdb:LINK         SG  CYS B 387                 N3  G1T B 502     1555   1555  1.69
+6hgy/6hgy.pdb:LINK         SG  CYS A  25                 C59 G4B A 301     1555   1555  1.76
+6hhg/6hhg.pdb:LINK         SG  CYS A 310                 CAA G4T A 501     1555   1555  1.82
+6hhj/6hhj.pdb:LINK         SG  CYS A 310                 CAM G4H A 501     1555   1555  1.82
+6hhp/6hhp.pdb:LINK         SG  CYS A  42                 S05 G4Z A 304     1555   1555  2.01
+6hje/6hje.pdb:LINK         SG  CYS A 300                 C2  7N0 A 502     1555   1555  2.21
+6hje/6hje.pdb:LINK         SG  CYS B 300                 C2  7N0 B 501     1555   1555  2.11
+6hjf/6hjf.pdb:LINK         SG  CYS A 130                 C5  SHF A 500     1555   1555  1.99
+6hjf/6hjf.pdb:LINK         SG  CYS B 300                 C2  SHF B 500     1555   1555  1.98
+6hjf/6hjf.pdb:LINK         SG  CYS A 300                 C2  SHF A 500     1555   1555  2.02
+6hjf/6hjf.pdb:LINK         SG  CYS B 130                 C5  SHF B 500     1555   1555  2.27
+6hk2/6hk2.pdb:LINK         SG  CYS B  93                 C6 AG7Z B 202     1555   1555  1.63
+6hk2/6hk2.pdb:LINK         SG  CYS B  93                 C6 BG7Z B 202     1555   1555  1.63
+6hk2/6hk2.pdb:LINK         SG  CYS D  93                 C7 AG7Z D 202     1555   1555  1.61
+6hk2/6hk2.pdb:LINK         SG  CYS D  93                 C7 BG7Z D 202     1555   1555  1.62
+6hkb/6hkb.pdb:LINK         SG  CYS A  42                 S09 G8Q A 304     1555   1555  2.00
+6hkf/6hkf.pdb:LINK         SG  CYS A  42                 S08 G8T A 304     1555   1555  2.00
+6hmt/6hmt.pdb:LINK         SG  CYS A  42                 S12 GEH A 302     1555   1555  2.02
+6hmu/6hmu.pdb:LINK         SG  CYS A  45                 S01 GE8 A 303     1555   1555  1.99
+6hn2/6hn2.pdb:LINK         SG  CYS A  42                 S01 GF8 A 303     1555   1555  2.01
+6hve/6hve.pdb:LINK         SG  CYS A 345                 CAV GUW A 601     1555   1555  1.84
+6hve/6hve.pdb:LINK         SG  CYS B 345                 CAV GUW B 601     1555   1555  1.84
+6hvf/6hvf.pdb:LINK         SG  CYS A 345                 CBH GUT A 601     1555   1555  1.83
+6hvf/6hvf.pdb:LINK         SG  CYS B 345                 CBH GUT B 601     1555   1555  1.84
+6i0x/6i0x.pdb:LINK         SG  CYS A 351                 CAP BFB A 502     1555   1555  1.85
+6i0x/6i0x.pdb:LINK         SG  CYS B 351                 CAP BFB B 502     1555   1555  1.85
+6i99/6i99.pdb:LINK         SG  CYS A 496                 C1  H88 A 701     1555   1555  1.84
+6i99/6i99.pdb:LINK         SG  CYS B 496                 C1  H88 B 701     1555   1555  1.86
+6ib2/6ib2.pdb:LINK         SG  CYS A 218                 C22 862 A 501     1555   1555  1.68
+6ic5/6ic5.pdb:LINK         SG  CYS B 234                 C37 HB5 B 403     1555   1555  1.71
+6ic6/6ic6.pdb:LINK         SG  CYS B 234                 C23 H9B B 403     1555   1555  1.75
+6ijs/6ijs.pdb:LINK         SG  CYS A 285                 CBA A9F A 501     1555   1555  1.80
+6iuo/6iuo.pdb:LINK         SG  CYS A 477                 C1  AWX A 801     1555   1555  1.78
+6iyv/6iyv.pdb:LINK         SG  CYS B 354                 CAA 2RG B 501     1555   1555  1.80
+6iyv/6iyv.pdb:LINK         SG  CYS A 354                 CAA 2RG A 501     1555   1555  1.80
+6iyw/6iyw.pdb:LINK         SG  CYS A 354                 C7  IM2 A 501     1555   1555  1.80
+6iyw/6iyw.pdb:LINK         SG  CYS B 354                 C7  IM2 B 501     1555   1555  1.80
+6iyw/6iyw.pdb:LINK         SG  CYS C 354                 C7  IM2 C 501     1555   1555  1.80
+6iyw/6iyw.pdb:LINK         SG  CYS D 354                 C7  IM2 D 501     1555   1555  1.81
+6iyw/6iyw.pdb:LINK         SG  CYS E 354                 C7  IM2 E 501     1555   1555  1.80
+6iyw/6iyw.pdb:LINK         SG  CYS F 354                 C7  IM2 F 501     1555   1555  1.81
+6j1m/6j1m.pdb:LINK         SG  CYS A 166                 CAB 6JN A 401     1555   1555  1.95
+6j1m/6j1m.pdb:LINK         SG  CYS B 166                 CAB 6JN B 401     1555   1555  1.95
+6j4p/6j4p.pdb:LINK         SG  CYS A 158                 C15 BJL A 900     1555   1555  1.78
+6j6m/6j6m.pdb:LINK         SG  CYS A 481                 C15 BA0 A 701     1555   1555  1.81
+6jpe/6jpe.pdb:LINK         SG  CYS A 552                 CAX BYU A 801     1555   1555  1.74
+6jxt/6jxt.pdb:LINK         SG  CYS A 797                 C9  YY3 A1101     1555   1555  1.80
+6ku2/6ku2.pdb:LINK         SG  CYS A 412                 S15 DV6 A 501     1555   1555  2.08
+6ku2/6ku2.pdb:LINK         SG  CYS E 412                 S15 DV6 E 501     1555   1555  2.02
+6kx3/6kx3.pdb:LINK         SG  CYS A 107                 C8  8ZO A 202     1555   1555  1.68
+6l70/6l70.pdb:LINK         SG  CYS A 144                 C21 K36 A 401     1555   1555  1.77
+6l70/6l70.pdb:LINK         SG  CYS B 144                 C21 K36 B 401     1555   1555  1.77
+6lka/6lka.pdb:LINK         SG  CYS A 147                 C16 EGF A 201     1555   1555  1.77
+6ls5/6ls5.pdb:LINK         SG  CYS A 128                 S03 EUF A 401     1555   1555  2.02
+6lu7/6lu7.pdb:LINK         SG  CYS A 145                 C20 PJE C   5     1555   1555  1.79
+6lze/6lze.pdb:LINK         SG  CYS A 145                 C31 FHR A 405     1555   1555  1.79
+6m0k/6m0k.pdb:LINK         SG  CYS A 145                 C32 FJC A 405     1555   1555  1.81
+6mgu/6mgu.pdb:LINK         O   CYS A 308                 K     K A 501     1555   1555  2.88
+6mgu/6mgu.pdb:LINK         SG  CYS A 308                 C10 JQS A 500     1555   1555  1.95
+6mgu/6mgu.pdb:LINK         O   CYS B 308                 K     K B 501     1555   1555  2.96
+6mgu/6mgu.pdb:LINK         SG  CYS B 308                 C10 JQS B 500     1555   1555  1.94
+6mhc/6mhc.pdb:LINK         SG  CYS A  32                 C2  JRM A 301     1555   1555  1.81
+6mhc/6mhc.pdb:LINK         SG  CYS B  32                 C2  JRM B 301     1555   1555  1.80
+6mhd/6mhd.pdb:LINK         SG  CYS A  32                 C2  JRD A 401     1555   1555  1.81
+6mhd/6mhd.pdb:LINK         SG  CYS B  32                 C2  JRD B 301     1555   1555  1.81
+6mis/6mis.pdb:LINK         SG  CYS A  25                 C2  E64 A 301     1555   1555  1.68
+6mis/6mis.pdb:LINK         SG  CYS B  25                 C2  E64 B 301     1555   1555  1.66
+6mzw/6mzw.pdb:LINK         SG  CYS A 488                 C0V TZ0 A 801     1555   1555  1.80
+6n2j/6n2j.pdb:LINK         SG  CYS A  12                 C30 K9M A 203     1555   1555  1.72
+6n2k/6n2k.pdb:LINK         SG  CYS A  12                 C26 K9J A 203     1555   1555  1.73
+6n4t/6n4t.pdb:LINK         SG  CYS A 122                 SG2 GSH A 303     1555   1555  2.08
+6n9j/6n9j.pdb:LINK         SG  CYS A 183                 CAK CKC C 405     1555   1555  1.87
+6n9j/6n9j.pdb:LINK         SG  CYS B 183                 CAK CKC D 405     1555   1555  1.81
+6n9p/6n9p.pdb:LINK         SG ACYS A 481                 C32 KHD A 701     1555   1555  1.65
+6n9p/6n9p.pdb:LINK         SG BCYS A 481                 C32 KHD A 701     1555   1555  1.84
+6nd3/6nd3.pdb:LINK         SG  CYS A 489                 C   BTL A 901     1555   1555  1.84
+6nd3/6nd3.pdb:LINK         SG  CYS B 489                 C   BTL B 901     1555   1555  1.85
+6nd3/6nd3.pdb:LINK         SG  CYS C 489                 C   BTL C 901     1555   1555  1.83
+6nd3/6nd3.pdb:LINK         SG  CYS D 489                 C   BTL D 901     1555   1555  1.84
+6nd3/6nd3.pdb:LINK         SG  CYS E 489                 C   BTL E 901     1555   1555  1.85
+6nd3/6nd3.pdb:LINK         SG  CYS F 489                 C   BTL F 901     1555   1555  1.83
+6nd3/6nd3.pdb:LINK         SG  CYS G 489                 C   BTL G 901     1555   1555  1.83
+6nd3/6nd3.pdb:LINK         SG  CYS H 489                 C   BTL H 901     1555   1555  1.84
+6nkj/6nkj.pdb:LINK         SG  CYS A 120                 C2  0V5 A 501     1555   1555  1.88
+6nkj/6nkj.pdb:LINK         SG  CYS B 120                 C2  0V5 B 501     1555   1555  1.88
+6NNR/6NNR.pdb:LINK         SG  CYS A 146                 C6  UMC A 901     1555   1555  1.87
+6NNR/6NNR.pdb:LINK         SG  CYS B 146                 C6  UMC B 301     1555   1555  1.87
+6nvg/6nvg.pdb:LINK         SG  CYS A 552                 C22 XL8 A 804     1555   1555  1.82
+6nvh/6nvh.pdb:LINK         SG  CYS A 552                 C23 XL6 A 803     1555   1555  1.82
+6nvi/6nvi.pdb:LINK         SG  CYS A 552                 C22 XL7 A 801     1555   1555  1.82
+6nvj/6nvj.pdb:LINK         SG  CYS A 552                 C22 XL5 A 805     1555   1555  1.84
+6nvk/6nvk.pdb:LINK         SG  CYS A 552                 C24 XL9 A 804     1555   1555  1.83
+6o8i/6o8i.pdb:LINK         SG  CYS A 481                 C19 LTJ A4000     1555   1555  1.77
+6o8m/6o8m.pdb:LINK         SG  CYS A 107                 N06 LSY A 200     1555   1555  1.64
+6ocg/6ocg.pdb:LINK         SG  CYS A 169                 C15 BJL A 403     1555   1555  1.76
+6och/6och.pdb:LINK         SG  CYS A 169                 C13 M4Y A 401     1555   1555  1.77
+6och/6och.pdb:LINK         SG  CYS C 169                 C13 M4Y C 401     1555   1555  1.77
+6oim/6oim.pdb:LINK         SG  CYS A  12                 C25 MOV A 303     1555   1555  1.81
+6owc/6owc.pdb:LINK         SG  CYS A 530                 C5  ND1 A 601     1555   1555  1.61
+6owc/6owc.pdb:LINK         SG  CYS B 530                 C5  ND1 B 601     1555   1555  1.64
+6p4e/6p4e.pdb:LINK         SG  CYS A  26                 C15AGES A 306     1555   1555  1.76
+6p4e/6p4e.pdb:LINK         SG  CYS A  26                 C15BGES A 306     1555   1555  1.76
+6p4e/6p4e.pdb:LINK         SG  CYS B  26                 C15AGES B 307     1555   1555  1.76
+6p4e/6p4e.pdb:LINK         SG  CYS B  26                 C15BGES B 307     1555   1555  1.76
+6p69/6p69.pdb:LINK         SG  CYS A 563                 C28 O21 A 804     1555   1555  1.61
+6p69/6p69.pdb:LINK         SG  CYS B 563                 C28 O21 B 804     1555   1555  1.62
+6p8w/6p8w.pdb:LINK         SG  CYS A  12                 C01 O67 A 304     1555   1555  1.81
+6p8w/6p8w.pdb:LINK         SG  CYS B  12                 C01 O67 B 304     1555   1555  1.81
+6p8y/6p8y.pdb:LINK         SG  CYS A  12                 C01 O5Y A 303     1555   1555  1.81
+6p8y/6p8y.pdb:LINK         SG  CYS B  12                 C01 O5Y B 303     1555   1555  1.81
+6p8z/6p8z.pdb:LINK         SG  CYS A  12                 C01 O5S A 304     1555   1555  1.81
+6p8z/6p8z.pdb:LINK         SG  CYS B  12                 C01 O5S B 304     1555   1555  1.81
+6pgo/6pgo.pdb:LINK         SG ACYS A  12                 C01 OJ1 A 303     1555   1555  1.80
+6pgo/6pgo.pdb:LINK         SG BCYS A  12                 C01 OJ1 A 303     1555   1555  1.80
+6pgo/6pgo.pdb:LINK         SG  CYS B  12                 C01 OJ1 B 303     1555   1555  1.81
+6pgp/6pgp.pdb:LINK         SG ACYS A  12                 C27 OHY A 504     1555   1555  1.81
+6pgp/6pgp.pdb:LINK         SG BCYS A  12                 C27 OHY A 504     1555   1555  1.81
+6pgp/6pgp.pdb:LINK         SG ACYS B  12                 C27 OHY B 504     1555   1555  1.81
+6pgp/6pgp.pdb:LINK         SG BCYS B  12                 C27 OHY B 504     1555   1555  1.81
+6pnm/6pnm.pdb:LINK         SG ACYS A  32                 C1 AXX0 A1001     1555   1555  1.80
+6pnm/6pnm.pdb:LINK         SG BCYS A  32                 C1 BXX0 A1001     1555   1555  1.78
+6pnn/6pnn.pdb:LINK         SG  CYS A  32                 CAA OR7 A 904     1555   1555  1.78
+6pno/6pno.pdb:LINK         SG ACYS A  32                 CARAORM A1001     1555   1555  1.80
+6pzp/6pzp.pdb:LINK         SG  CYS A 285                 C21 P7S A 301     1555   1555  1.77
+6q8n/6q8n.pdb:LINK         O   CYS A 288                 K     K A 517     1555   1555  2.78
+6q8n/6q8n.pdb:LINK         O   CYS A 294                 K     K A 517     1555   1555  2.82
+6q8n/6q8n.pdb:LINK         O   CYS B 288                 K     K B 515     1555   1555  2.83
+6q8n/6q8n.pdb:LINK         O   CYS B 294                 K     K B 515     1555   1555  2.76
+6qg4/6qg4.pdb:LINK         SG  CYS A 218                 C9  J0E A 501     1555   1555  1.76
+6qg7/6qg7.pdb:LINK         SG  CYS A 218                 CBC 6HL A 501     1555   1555  1.71
+6ql8/6ql8.pdb:LINK         SG  CYS A  25                 C6  J5N A 301     1555   1555  1.88
+6qlm/6qlm.pdb:LINK         SG  CYS A  25                 C3  HFH A 301     1555   1555  1.83
+6qlm/6qlm.pdb:LINK         SG  CYS B  25                 C3  HFH B 301     1555   1555  1.87
+6qlw/6qlw.pdb:LINK         SG  CYS A  25                 C14 J5T A 301     1555   1555  1.84
+6qlw/6qlw.pdb:LINK         SG  CYS B  25                 C14 J5T B 301     1555   1555  1.80
+6qlw/6qlw.pdb:LINK         SG  CYS C  25                 C14 J5T C 301     1555   1555  1.87
+6qlw/6qlw.pdb:LINK         SG  CYS D  25                 C14 J5T D 301     1555   1555  1.82
+6qlx/6qlx.pdb:LINK         SG  CYS A  25                 C6  HKH A 301     1555   1555  1.87
+6r0r/6r0r.pdb:LINK         SG  CYS A  34                 C1A JNT A 201     1555   1555  1.81
+6r1v/6r1v.pdb:LINK         SG  CYS A 126                 C7  JPT A 201     1555   1555  1.78
+6r5l/6r5l.pdb:LINK         SG  CYS A  38                 S09 JT2 A 305     1555   1555  1.87
+6rjq/6rjq.pdb:LINK         SG  CYS A  38                 S09 JT2 A 301     1555   1555  2.00
+6rn6/6rn6.pdb:LINK         SG  CYS E 234                 C1  K9Q E 401     1555   1555  1.79
+6rn7/6rn7.pdb:LINK         SG  CYS B 234                 C2  K9W B 401     1555   1555  1.76
+6rn9/6rn9.pdb:LINK         SG  CYS B 234                 C2  K9Z B 401     1555   1555  1.72
+6rne/6rne.pdb:LINK         SG  CYS B 234                 C16 KA8 B 401     1555   1555  1.75
+6rni/6rni.pdb:LINK         SG  CYS B 234                 C2  KAQ B 402     1555   1555  1.76
+6ro2/6ro2.pdb:LINK         SG  CYS A 248                 S2  2ON A 303     1555   1555  2.01
+6ro2/6ro2.pdb:LINK         SG  CYS A 268                 S2  2ON A 302     1555   1555  2.01
+6rrm/6rrm.pdb:LINK         SG ACYS A 354                SE1 A9JT A 504     1555   1555  2.24
+6rrm/6rrm.pdb:LINK         SG BCYS A 354                SE1 B9JT A 504     1555   1555  2.23
+6rrm/6rrm.pdb:LINK         SG  CYS B 354                SE1  9JT B 503     1555   1555  2.25
+6rws/6rws.pdb:LINK         SG  CYS A  38                 S1 AKLZ A 301     1555   1555  1.94
+6rws/6rws.pdb:LINK         SG  CYS A  38                 S1 BKLZ A 301     1555   1555  2.15
+6rwu/6rwu.pdb:LINK         SG  CYS A  38                 C   KM8 A 301     1555   1555  1.82
+6s9w/6s9w.pdb:LINK         SG  CYS A 310                 CBL L1Z A 501     1555   1555  1.83
+6sc5/6sc5.pdb:LINK         SG  CYS A 885                 C14 L6B A2001     1555   1555  1.77
+6sc8/6sc8.pdb:LINK         SG  CYS A 885                 C14 L6E A2001     1555   1555  1.77
+6sc9/6sc9.pdb:LINK         SG  CYS A 885                 C14 L68 A2001     1555   1555  1.77
+6sgd/6sgd.pdb:LINK         SG  CYS A  22                 C20 LD5 A 304     1555   1555  1.81
+6slx/6slx.pdb:LINK         SG  CYS A  38                 C   KM8 A 301     1555   1555  1.76
+6sph/6sph.pdb:LINK         SG  CYS L 111                SE1  9JT L 202     1555   1555  2.38
+6spj/6spj.pdb:LINK         SG  CYS A 111                SE1  LR2 A 202     1555   1555  2.35
+6spj/6spj.pdb:LINK         SG  CYS B 111                SE1 ALR2 B 202     1555   1555  2.35
+6spj/6spj.pdb:LINK         SG  CYS E 111                SE1 ALR2 E 202     1555   1555  2.34
+6spj/6spj.pdb:LINK         SG  CYS F 111                SE1  LR2 F 202     1555   1555  2.35
+6spj/6spj.pdb:LINK         SG  CYS I 111                SE1 ALR2 I 202     1555   1555  2.35
+6spj/6spj.pdb:LINK         SG  CYS J 111                SE1  LR2 J 202     1555   1555  2.35
+6t5b/6t5b.pdb:LINK         SG  CYS A  12                 C   O7K A 203     1555   1555  1.80
+6t5u/6t5u.pdb:LINK         SG  CYS A  12                 C   MKW A 203     1555   1555  1.70
+6t5u/6t5u.pdb:LINK         SG  CYS B  12                 C   MKW B 203     1555   1555  1.66
+6t5v/6t5v.pdb:LINK         SG  CYS A  12                 C   MKZ A 203     1555   1555  1.82
+6tam/6tam.pdb:LINK         SG  CYS A  12                 C16 MZQ A 203     1555   1555  1.76
+6tan/6tan.pdb:LINK         SG  CYS A  12                 C17 MZN A 203     1555   1555  1.73
+6umz/6umz.pdb:LINK         SG  CYS A  69                 C1  QBV A 201     1555   1555  1.77
+6un0/6un0.pdb:LINK         SG  CYS A  69                 C1  QBV A 201     1555   1555  1.80
+6und/6und.pdb:LINK         SG  CYS A 101                 C1  QCV A 301     1555   1555  1.90
+6und/6und.pdb:LINK         SG  CYS B 101                 C1  QCV B 301     1555   1555  1.90
+6usx/6usx.pdb:LINK         SG  CYS A  12                 C32 M1R A 203     1555   1555  1.65
+6usx/6usx.pdb:LINK         SG  CYS B  12                 C32 M1R B 203     1555   1555  1.66
+6usz/6usz.pdb:LINK         SG  CYS A  12                 C39 QH4 A 203     1555   1555  1.69
+6v66/6v66.pdb:LINK         SG  CYS D 797                 C33 QP1 D1203     1555   1555  1.77
+6v66/6v66.pdb:LINK         SG  CYS A 797                 C33 QP1 A1202     1555   1555  1.77
+6v66/6v66.pdb:LINK         SG  CYS B 797                 C33 QP1 B1202     1555   1555  1.76
+6v66/6v66.pdb:LINK         SG  CYS C 797                 C33 QP1 C1101     1555   1555  1.77
+6v6k/6v6k.pdb:LINK         SG  CYS D 797                 C33 QQJ D1202     1555   1555  1.68
+6v6k/6v6k.pdb:LINK         SG  CYS A 797                 C33 QQJ A1202     1555   1555  1.84
+6v6k/6v6k.pdb:LINK         SG  CYS B 797                 C33 QQJ B1202     1555   1555  1.84
+6v6k/6v6k.pdb:LINK         SG  CYS C 797                 C33 QQJ C1202     1555   1555  1.65
+6v6k/6v6k.pdb:LINK         SG  CYS E 797                 C33 QQJ E1202     1555   1555  1.78
+6v6k/6v6k.pdb:LINK         SG  CYS F 797                 C33 QQJ F1202     1555   1555  1.76
+6v6k/6v6k.pdb:LINK         SG  CYS G 797                 C33 QQJ G1202     1555   1555  1.91
+6v6k/6v6k.pdb:LINK         SG  CYS H 797                 C33 QQJ H1202     1555   1555  1.87
+6v6o/6v6o.pdb:LINK         SG  CYS D 797                 C35 QQM D1202     1555   1555  1.77
+6v6o/6v6o.pdb:LINK         SG  CYS A 797                 C35 QQM A1202     1555   1555  1.76
+6v6o/6v6o.pdb:LINK         SG  CYS B 797                 C35 QQM B1202     1555   1555  1.77
+6v6o/6v6o.pdb:LINK         SG  CYS C 797                 C35 QQM C1202     1555   1555  1.76
+6v6o/6v6o.pdb:LINK         SG  CYS E 797                 C35 QQM E1202     1555   1555  1.76
+6v6o/6v6o.pdb:LINK         SG  CYS F 797                 C35 QQM F1202     1555   1555  1.77
+6v6o/6v6o.pdb:LINK         SG  CYS G 797                 C35 QQM G1301     1555   1555  1.76
+6v6o/6v6o.pdb:LINK         SG  CYS H 797                 C35 QQM H1202     1555   1555  1.77
+6v9c/6v9c.pdb:LINK         SG  CYS A 552                 CBG QS7 A 801     1555   1555  1.86
+6vgy/6vgy.pdb:LINK         SG  CYS A 148                 C19 QZJ A 401     1555   1555  1.80
+6vgy/6vgy.pdb:LINK         SG  CYS B 148                 C19 QZJ B 401     1555   1555  1.81
+6vgz/6vgz.pdb:LINK         SG  CYS A 148                 C19 QZG A 401     1555   1555  1.82
+6vgz/6vgz.pdb:LINK         SG  CYS B 148                 C19 QZG B 401     1555   1555  1.81
+6vh0/6vh0.pdb:LINK         SG  CYS A 148                 C19 QZD A 401     1555   1555  1.82
+6vh0/6vh0.pdb:LINK         SG  CYS B 148                 C19 QZD B 401     1555   1555  1.82
+6vh1/6vh1.pdb:LINK         SG  CYS A 148                 C25 QZ7 A 401     1555   1555  1.81
+6vh1/6vh1.pdb:LINK         SG  CYS B 148                 C25 QZ7 B 401     1555   1555  1.81
+6vh2/6vh2.pdb:LINK         SG  CYS A 148                 C28 QZ4 A 401     1555   1555  1.81
+6vh2/6vh2.pdb:LINK         SG  CYS B 148                 C28 QZ4 B 401     1555   1555  1.82
+6vh3/6vh3.pdb:LINK         SG  CYS A 148                 C26 QYS A 401     1555   1555  1.81
+6vh3/6vh3.pdb:LINK         SG  CYS B 148                 C26 QYS B 401     1555   1555  1.81
+6vpl/6vpl.pdb:LINK         SG  CYS A 290                 SD  R7D A 606     1555   1555  2.04
+6vpl/6vpl.pdb:LINK         SG  CYS B 290                 SD  R7D B 605     1555   1555  2.03
+6vpm/6vpm.pdb:LINK         SG  CYS A 290                 SAZ R74 A 603     1555   1555  2.05
+6vpm/6vpm.pdb:LINK         SG  CYS B 290                 SAZ R74 B 602     1555   1555  2.07
+6vwe/6vwe.pdb:LINK         SG  CYS A  89                 C25 JY1 A 201     1555   1555  1.77
+6w2a/6w2a.pdb:LINK         SG  CYS A 145                 C26AVDJ A 401     1555   1555  1.80
+6w2a/6w2a.pdb:LINK         SG  CYS A 145                 C26BQYS A 402     1555   1555  1.81
+6w2a/6w2a.pdb:LINK         SG  CYS B 145                 C26AQYS B 401     1555   1555  1.81
+6w2a/6w2a.pdb:LINK         SG  CYS B 145                 C26BVDJ B 402     1555   1555  1.81
+6wnp/6wnp.pdb:LINK         SG  CYS A 145                 C03 U5G A 401     1555   1555  1.81
+6wtj/6wtj.pdb:LINK         SG  CYS A 145                 C21 K36 A 401     1555   1555  1.77
+6wtk/6wtk.pdb:LINK         SG  CYS A 145                 C21 UED A 401     1555   1555  1.77
+6wtt/6wtt.pdb:LINK         SG  CYS A 145                 C21 K36 A 401     1555   1555  1.64
+6wtt/6wtt.pdb:LINK         SG  CYS B 145                 C21 K36 B 401     1555   1555  1.64
+6wtt/6wtt.pdb:LINK         SG  CYS C 145                 C21 B1S C 401     1555   1555  1.67
+6xa4/6xa4.pdb:LINK         SG  CYS A 145                 C01 UXS B   4     1555   1555  1.70
+6xbg/6xbg.pdb:LINK         SG  CYS A 145                 C28 UZ4 C   3     1555   1555  1.72
+6xbg/6xbg.pdb:LINK         SG  CYS B 145                 C28 UZ4 E   3     1555   1555  1.74
+6xbh/6xbh.pdb:LINK         SG  CYS A 145                 C   ELL C   3     1555   1555  1.73
+6xbi/6xbi.pdb:LINK         SG  CYS A 145                 C28 UZ4 D   4     1555   1555  1.64
+6xbi/6xbi.pdb:LINK         SG  CYS B 145                 C28 UZ4 E   4     1555   1555  1.69
+6xfn/6xfn.pdb:LINK         SG  CYS A 145                 C23 V1V B   3     1555   1555  1.71
+6xhl/6xhl.pdb:LINK         SG  CYS A 145                 C34 V2M A9001     1555   1555  1.84
+6xhl/6xhl.pdb:LINK         SG  CYS B 145                 C34 V2M B9001     1555   1555  1.84
+6xhm/6xhm.pdb:LINK         SG  CYS A 145                 C34 V2M A9001     1555   1555  1.86
+6xhm/6xhm.pdb:LINK         SG  CYS B 145                 C34 V2M B9001     1555   1555  1.80
+6xhn/6xhn.pdb:LINK         SG  CYS A 145                 C36 V3D A9001     1555   1555  1.88
+6xhn/6xhn.pdb:LINK         SG  CYS B 145                 C36 V3D B9001     1555   1555  1.84
+6xho/6xho.pdb:LINK         SG  CYS A 145                 C7  V34 A9102     1555   1555  1.76
+6xho/6xho.pdb:LINK         SG  CYS B 145                 C7  V34 B9001     1555   1555  1.83
+6xmk/6xmk.pdb:LINK         SG  CYS A 145                 C26 QYS A 401     1555   1555  1.83
+6xmk/6xmk.pdb:LINK         SG  CYS B 145                 C26 QYS B 401     1555   1555  1.82
+6xqs/6xqs.pdb:LINK         SG  CYS A 145                 CAI SV6 A 401     1555   1555  1.86
+6xqt/6xqt.pdb:LINK         SG  CYS A 145                 C43 NNA A 401     1555   1555  1.84
+6xqt/6xqt.pdb:LINK         SG  CYS B 145                 C43 NNA B 401     1555   1555  1.84
+6xqu/6xqu.pdb:LINK         SG  CYS A 145                 C03 U5G A 401     1555   1555  1.83
+6xr3/6xr3.pdb:LINK         SG  CYS A 145                 C02 V7G A 401     1555   1555  1.76
+6xvb/6xvb.pdb:LINK         SG  CYS A 788                 C1  O2H A1001     1555   1555  1.79
+6xvb/6xvb.pdb:LINK         SG  CYS B 788                 C1  O2H B1001     1555   1555  1.78
+6yg2/6yg2.pdb:LINK         SG  CYS A 218                 CAA 8E8 A 514     1555   1555  1.61
+6yg3/6yg3.pdb:LINK         SG  CYS A 218                 C30 6HF A 510     1555   1555  1.85
+6yg6/6yg6.pdb:LINK         SG  CYS A 218                 C29 OQ8 A 502     1555   1555  1.83
+6yg6/6yg6.pdb:LINK         SG  CYS B 218                 C29 OQ8 B 504     1555   1555  1.82
+6yg7/6yg7.pdb:LINK         SG  CYS A 218                 C24 OQ2 A 504     1555   1555  1.62
+6yg7/6yg7.pdb:LINK         SG  CYS B 218                 C24 OQ2 B 501     1555   1555  1.62
+6ygv/6ygv.pdb:LINK         SG  CYS A 330                 C3  OQH A 407     1555   1555  1.76
+6yl1/6yl1.pdb:LINK         SG  CYS A  80                 C13 OWN A 301     1555   1555  1.57
+6ynq/6ynq.pdb:LINK         SG ACYS A 145                 C01 P6N A 401     1555   1555  1.93
+6ynq/6ynq.pdb:LINK         SG BCYS A 145                 C01 P6N A 401     1555   1555  1.61
+6zrt/6zrt.pdb:LINK         SG  CYS A 145                 CAI SV6 A 602     1555   1555  1.81
+6zru/6zru.pdb:LINK         SG  CYS A 145                 C03 U5G A 503     1555   1555  1.83
+6zu8/6zu8.pdb:LINK         SG  CYS A 122                 C30 0WN A 302     1555   1555  1.69
+7bqy/7bqy.pdb:LINK         SG  CYS A 145                 C20 PJE C   5     1555   1555  1.77
+7c7p/7c7p.pdb:LINK         SG  CYS A 145                 CAI SV6 A 401     1555   1555  1.82
+7c7p/7c7p.pdb:LINK         SG  CYS B 145                 CAI SV6 B 401     1555   1555  1.86
+7c8r/7c8r.pdb:LINK         SG  CYS A 145                 C07 TG3 A 401     1555   1555  1.68
+7c8t/7c8t.pdb:LINK         SG  CYS A 145                 C35 NOL A 401     1555   1555  1.70
+7c8u/7c8u.pdb:LINK         SG  CYS A 145                 C21 K36 A 401     1555   1555  1.61
+7com/7com.pdb:LINK         SG  CYS A 145                 C03 U5G A 401     1555   1555  1.86
+7com/7com.pdb:LINK         SG  CYS B 145                 C03 U5G B 401     1555   1555  1.86

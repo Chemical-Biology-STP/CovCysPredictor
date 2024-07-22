@@ -1,0 +1,12 @@
+###awk -F, 'NR==FNR{a[$1]; next} FNR==1 || !($1 in a)' test_2.csv test_1.csv > diff_in_csv.txt
+PDBID.chain,Res,Pos,Type,%Exposure,S.A.,pKa,Charge,NearRes
+4wx6.B,CYS309,10,Polar,71.87,112,8.97,-0.002,4wx6_B_prep.B_R307|4wx6_B_prep.B_R308|4wx6_B_prep.B_Y310
+4wx6.D,CYS309,10,Polar,66.54,104,8.14,-0.002,4wx6_D_prep.D_R307|4wx6_D_prep.D_R308|4wx6_D_prep.D_Y310
+4wx7.D,CYS309,10,Polar,65.58,102,9,-0.002,4wx7_D_prep.D_R307|4wx7_D_prep.D_R308|4wx7_D_prep.D_Y310
+4wx7.B,CYS309,10,Polar,71.91,112,8.6,-0.002,4wx7_B_prep.B_R307|4wx7_B_prep.B_R308|4wx7_B_prep.B_Y310
+4piq.B,CYS309,10,Polar,71.20,111,9,-0.002,4piq_B_prep.B_R307|4piq_B_prep.B_R308|4piq_B_prep.B_Y310
+4pis.B,CYS309,10,Polar,67.30,105,9,-0.002,4pis_B_prep.B_R307|4pis_B_prep.B_R308|4pis_B_prep.B_Y310
+2fir.L,CYS135,135,Polar,50.56,78.9,7.92,-0.002,2fir_L_prep.L_H115|2fir_L_prep.L_E116|2fir_L_prep.L_G117|2fir_L_prep.L_Y118|2fir_L_prep.L_Y133|2fir_L_prep.L_P134|2fir_L_prep.L_G136|2fir_L_prep.L_K137
+2fir.H,CYS122,110,Polar,32.55,50.8,8.71,-0.002,2fir_H_prep.H_I47|2fir_H_prep.H_P120|2fir_H_prep.H_L121|2fir_H_prep.H_L123|2fir_H_prep.H_P124|2fir_H_prep.H_T206|2fir_H_prep.H_W207|2fir_H_prep.H_Y208|2fir_H_prep.H_L209
+4pid.B,CYS309,10,Polar,69.54,109,9,-0.002,4pid_B_prep.B_R307|4pid_B_prep.B_R308|4pid_B_prep.B_F310
+4pie.B,CYS309,10,Polar,67.94,106,8.23,-0.002,4pie_B_prep.B_R307|4pie_B_prep.B_R308|4pie_B_prep.B_F310

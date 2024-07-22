@@ -1,0 +1,35 @@
+
+#pdb_list.txt: Contains a list of the PDB ids for all the COVPDB Cys set
+
+#cys_link-info.txt: Contains the Cys link information for all the structures
+
+#hotpocket_Cys_all_structures.txt: Data for all Cys in the hotpocket set (provided by Dave Barkan)
+
+#run_cov-cmplx_prep.sh: Prepares the PDB file of the covalent complex (i.e., with ligand) and saves an *mdb and *pdb file. Basically involves running QuickPrep on the PDB file with ligand, water, ions, cofactors, etc., all present.
+
+#run_resprop.sh: Runs residue property prediction on the prepared receptor after Quickprep on complex. This protocol happens in 4 stages:
+(i) Perform Quickprep on the PDB (i.e., complex system)
+(ii) Split the contents of the system into receptor, ligand, water, cofactors, etc (NB: receptor IS NOT split into chains) 
+(iii) Run QuickPrep on the removed receptor (Prepared receptor is saved in moe database file: 'structures.mdb')
+(iv) Perform residue statistics and generate report for the ionizable residues in the prepared receptor (ASA, %Exposure, charge, & pKa)
+
+#run_prot_process.sh: Saves individual PDB chains of receptor after running QuickPrep on complex. This protocol is achieved in 4 steps:
+(i) Perform Quickprep on the PDB (i.e., complex system)
+(ii) Split the contents of the system into receptor, ligand, water, cofactors, etc (NB: receptor IS NOT split into chains)
+(iii) Run QuickPrep on the removed receptor (NB: receptor could consist of multiple chains) 
+(iv) Export and save a single PDB chain.tag for the prepared receptor
+
+#run_ensprop.sh: Runs ensemble property predictions for the prepared receptor in 'structures.mdb'. Essentially combines LowModeMD and Protonate3D to sample conformation and protonation states. Calculations are run using default conditions (i.e., pH b/n 6.4-8.4 and 100 sample states) 
+
+#run_db-export_resprop.sh: Exports the ensemble average of residue predicted properties in a MOE database file to ASCII format. This functionality only works in more recent versions of MOE (i.e., version 2020.0901, 2020.02, or later). 
+
+
+### The directory contents for each PDB folder is as follows:
+
+(1) ens_propsamp: contains the mdb file (i.e., "structures_ens.mdb") with the results of the ensemble property calculations for the receptor system; done using run_ensprop.sh script
+
+(2) prot_pdb_chains: a folder that contains the individual PDB chains for the prepared receptor. Note that the PDB chain saved are simply exported from the prepared receptor, as highlighted above in the run_prot_process.sh script explanation.
+
+(3) qkprep_cmplx: contains both an *mdb and *pdb file of the prepared complex (includes ligand, water, cofactor, etc) 
+
+(4) res_stat_results: contains a report file for the prepared receptor (N.B.: this report is generated for full length receptors, so multimeric receptor chains are kept as they are; without chain splitting)

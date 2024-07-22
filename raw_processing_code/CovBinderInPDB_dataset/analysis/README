@@ -1,0 +1,33 @@
+
+# Andrei generated the list of all PDBs in CovPDB (for Cys):
+
+$ wc pdbs_list.txt 
+ 926  926 4630 pdbs_list.txt
+
+# assign Uniprot name to each PDB_ID/chain
+./pdb2uniprot.py pdbs_list.txt pdbs_cys_uniprot.csv
+# because all chains in PDBs are expanded, we have more PDB ID/chain rows
+
+$ wc pdbs_cys_uniprot.csv 
+ 3188  3191 81176 pdbs_cys_uniprot.csv
+
+# side note: one can find covalently modified Cysteine in a PDB by
+# parsing the LINK records: grep "^LINK" *.pdb | grep CYS
+# Andrei parsed all the LINK records in these PDBs and summarized them
+# in "pdbs_cys_link.csv" -- need to clean-up a bit (remove duplicate
+# entries which can occur with alternate positions, etc)
+# Merge Uniprot (pdbs_cys_uniprot.csv) and LINK (pdbs_cys_link.csv) data
+pdb_link2cys.pl < pdbs_cys_link_raw.csv > pdbs_cys_link.csv
+
+./merge_unp_link.py pdbs_cys_uniprot.csv pdbs_cys_link.csv pdbs_cys_unplink.csv
+
+# Ernest ran MOE property script: collect all MOE property reports (SA, pKa, etc)
+./collect_moeprops.py pdbs_cys_moeprops.csv
+
+# merge MOE properties and Uniprot/LINK annotation
+./merge_props.py pdbs_cys_moeprops.csv pdbs_cys_unplink.csv > pdbs_cys_allinfo.csv
+
+
+
+
+

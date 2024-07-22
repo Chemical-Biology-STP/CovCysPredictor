@@ -1,0 +1,1 @@
+PDBID.chain,Res,Pos,Type,%Exposure,S.A.,pKa,Charge,NearRes
