@@ -14,4 +14,7 @@ Things to note:
 - Visit go/covcyspredictor for more information
 
 You will need pymol installed, either the open source version or paid (e.g. brew install pymol)
+(biopython)
 You will also need fpocket installed
+
+https://github.com/Discngine/fpocket
