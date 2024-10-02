@@ -1,3 +1,6 @@
+# This file converts pkl files to rds files for downstream analysis
+# or output via e.g. rshiny/rsconnect
+
 library(reticulate)
 args = commandArgs(trailingOnly=TRUE)
 # Rscript --vanilla convert_files.R output_dir

@@ -24,3 +24,5 @@ https://github.com/Discngine/fpocket
 ./run_cysteine_prediction.sh pdbs/1a55_edited.pdb example_outputs
 
 An _in silico_ tool for prediction of the ligandability of cysteine residues in a protein, using purely structural input.
+
+Update fpocket location in script if needed
