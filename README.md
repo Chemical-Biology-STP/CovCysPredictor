@@ -1,28 +1,49 @@
 # CovCysPredictor  
 
+CovCysPredictor is a tool that is for predicting the ligandability 
+(=reactivity + selectivity) of a particular cysteine residue in a protein. 
+It takes as input structural information in the form of a prepared PDB file, 
+and outputs a prediction file with one entry for each cysteine giving 
+relative ligandability predictions. The predictions are based on an 
+interpretable model including the solvent exposure, the inclusion in a 
+pocket, and the local amino acid environment.
+
+![CovCysPredictor_TOC_Graphic_19May24.png](CovCysPredictor_TOC_Graphic_19May24.png)
+
+## Using CovCysPredictor
+
+### Dependencies
+
+This tool has the following dependencies:
+
+* Python (3.10+)
+* conda
+* [fpocket](https://github.com/Discngine/fpocket) for pocket prediction
+
+The relevant Python packages (Biopython, etc) are conveniently available in a 
+conda `environment.yml` file, but otherwise Python package dependencies can be 
+managed manually.
+
+The location of your `fpocket` directory may need to be updated in 
+`run_cysteine_prediction.sh`.
+
 This tool can be run using the following command:
 
-/da/CADD/covcyspredictor/run_cysteine_prediction.sh ./my_input_dir/AF-NFKBIB-Q15653.pdb ./my_output_dir/
+`./run_cysteine_prediction.sh pdbs/1a55_edited.pdb example_outputs`
 
-Things to note:
+And will issue results something like this (ex for PDBID 1a54):
 
-- You will need a conda installation that is compatible with PythonDSv0.x.
-  If you are getting an error that pymol cannot be found, for example,
-  try `conda deactivate` on your command line interface and then try the script again.
-- The output directory will contain plain text results, as well as the same results in a pkl file 
-  (a Python binary file) and an rds file (an R binary file). If you want to visualize your results easily,
-  I recommend using my RShiny tool available internally, which requires the relevant PDB file and the *rds* file:
-  https://usca-rsconnect-app.prd.nibr.novartis.net/connect/#/apps/68f0277a-b777-4b8c-9b31-74c1a28287f6/
-- Visit go/covcyspredictor for more information
-
-You will need pymol installed, either the open source version or paid (e.g. brew install pymol)
-(biopython)
-You will also need fpocket installed
-
-https://github.com/Discngine/fpocket
-
-./run_cysteine_prediction.sh pdbs/1a55_edited.pdb example_outputs
-
-An _in silico_ tool for prediction of the ligandability of cysteine residues in a protein, using purely structural input.
-
-Update fpocket location in script if needed
+```python
+{
+    'A 197': {
+        'chain': 'A',
+        'resid': 197,
+        'sasa': 19.301945263655696,
+        'log_exp': 3.0107167072525907,
+        'any_fpocket': 1,
+        'neighbors': ['P', 'A', 'P', 'V', 'E', 'Y', 'Y', 'A', 'K', 'Q', 'L', 'D'],
+        'score': '0.32',
+        'predicted_modifiable': True
+    }
+}
+```
