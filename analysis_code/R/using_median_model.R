@@ -67,7 +67,7 @@ print(logit_train)
 coef_df <- data.frame(t(logit_train$coefficients))
 names(coef_df)[1] <- "intercept"
 coef_df$cutoff = 0.1412668
-write(jsonlite::toJSON(coef_df), "coefficients.json")
+write(jsonlite::toJSON(coef_df), "../../final_model/coefficients.json")
 
 ####
 

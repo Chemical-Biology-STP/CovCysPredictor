@@ -18,3 +18,5 @@ You will need pymol installed, either the open source version or paid (e.g. brew
 You will also need fpocket installed
 
 https://github.com/Discngine/fpocket
+
+./run_cysteine_prediction.sh pdbs/1a55_edited.pdb example_outputs
