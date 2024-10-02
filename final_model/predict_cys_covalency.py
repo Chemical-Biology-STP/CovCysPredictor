@@ -1,5 +1,6 @@
-import pymol
-from pymol import cmd, stored
+# move from pymol to biopython
+from Bio.PDB import PDBParser
+from Bio.PDB.SASA import ShrakeRupley
 import math
 import sys
 import pickle
@@ -15,50 +16,33 @@ pdb_file = sys.argv[1]
 output_dir = sys.argv[2] 
 
 print("Running prediction... note that solvents, ligands, cofactors, and ions are removed automatically")
-print("Also note that only the FIRST chain in the PDB file is analyzed!")
 
 ### CONSTANTS and DATA
 
 # regression constants
 # calculated from median-performing model
-# predicting y ~ log_exp + any_fpocket + aa
+# predicting y ~ intercept + log_exp + any_fpocket + aa
 # NQNC model from CB
+with open('./analysis_code/coefficients.json', 'r') as file:
+    model_coefs = json.load(file)[0]
 
-beta_0 = -7.448316  # intercept
-beta_log_exp = 1.178814
-beta_any_fpocket = 2.749349
+beta_0 = model_coefs["intercept"]
+beta_log_exp = model_coefs["log_exp"]
+beta_any_fpocket = model_coefs["any_fpocket"]
 beta_aa_dict = {
-    "A": 0.294973,
-    "R": 0.124579,
-    "N": 0.150297,
-    "D": -0.452443,
-    "C": -0.569417,
-    "Q": -0.090426,
-    "E": -0.047014,
-    "G": 0.561154,
-    "H": 0.850997,
-    "I": -0.248784,
-    "L": 0.322118,
-    "K": 0.157677,
-    "M": -0.287690,
-    "F": 0.340038,
-    "P": -0.203428,
-    "S": 0.266783,
-    "T": -0.007631,
-    "W": 1.041042,
-    "Y": 0.535418,
-    "V": -0.127285
+    key: val for key, val in model_coefs.items()
+     if key not in ["intercept", "log_exp", "any_fpocket", "cutoff"]
 }
-cutoff = 0.1508668
+cutoff = model_coefs["cutoff"]
 
 ### CALCULATED PROPERTIES
 
 # calculate solvent-accessible surface area
 # and amino acid neighborhood
-cmd.set('dot_solvent', 1)
-cmd.set('dot_density', 3)
 
-cmd.load(f"{output_dir}/{pdb_file}")  # use the name of your pdb file
+parser = PDBParser()
+# condition on whether the pdb file is extant in the output directory
+structure = parser.get_structure("protein", f"{pdb_file}")
 
 # minimally clean file
 cmd.remove("solvent")
@@ -90,7 +74,15 @@ for i in stored.residues:
     
     neighborhood[i] = list(stored.neigh)
     
-    
+
+# Calculate SASA
+sasa_calculator = ShrakeRupley()
+sasa_calculator.compute(structure)
+
+# Access SASA values
+for residue in structure[0].get_residues():
+    print(residue, residue.sasa)
+
 ### FPOCKET HELPER
 with open(f"./{output_dir}/cysteines_in_fpocket_{pdb_file[:-4]}.log") as fi:
     tmp_cys_in_fpocket = fi.readlines()

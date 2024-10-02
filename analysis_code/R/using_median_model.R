@@ -2,13 +2,13 @@ library(tidyr)
 library(dplyr)
 library(ggplot2)
 library(ggbeeswarm)
+library(jsonlite)
 
-setwd("~/cyscov/R")
-source("helpers.R")
+source("R/helpers.R")
 
-dat_list <- lapply(list.files("rds", pattern="cleaned"), 
-                   function(x) { readRDS(paste0("rds/",x)) } )
-dat_list_names <- gsub("cleaned_|.rds", "", list.files("rds", pattern="cleaned"))
+dat_list <- lapply(list.files("R/rds", pattern="cleaned"),
+                   function(x) { readRDS(paste0("R/rds/",x)) } )
+dat_list_names <- gsub("cleaned_|.rds", "", list.files("R/rds", pattern="cleaned"))
 names(dat_list) <- dat_list_names
 
 tmp <- dat_list[["NQNC"]]
@@ -33,7 +33,9 @@ for (id in reslist) {
 }
 
 # median model
-set.seed(7221968); test_genes <- sample(unique(tmp_df$gene), 
+# Used seeds from Sep 23 run
+# Better median seed: 7208642
+set.seed(7208642); test_genes <- sample(unique(tmp_df$gene),
                                         round(length(unique(tmp_df$gene))/10),
                                         replace=FALSE)
 
@@ -51,25 +53,31 @@ full_data = list("train"=df_train, "test"=df_test)
 predictions <- predict(logit_train, full_data[["test"]], type='response')
 calculate_lr_f1(full_data, formula, print=TRUE)
 # [1] "Cutoff: "
-#[1] 0.1445422
+#[1]  0.1412668
 
-#FALSE TRUE
-#0   445   68
-#1     9  144
-#[1] 0.7890411
+#    FALSE TRUE
+#  0   563   81
+#  1    10  147
+#[1] 0.7636364
+
 
 # coefficients
-logit_train
+print(logit_train)
+
+coef_df <- data.frame(t(logit_train$coefficients))
+names(coef_df)[1] <- "intercept"
+coef_df$cutoff = 0.1412668
+write(jsonlite::toJSON(coef_df), "coefficients.json")
 
 ####
 
 # get PDBIDs from CovPDB not in CovBinderInPDB
-cleaned_cb_nqnc <- readRDS("rds/cleaned_CB_NQNC.rds")
+cleaned_cb_nqnc <- readRDS("R/rds/cleaned_CB_NQNC.rds")
 cleaned_cb_nqnc_no_dups <- cleaned_cb_nqnc[-which(cleaned_cb_nqnc$pdbid %in% unique(tmp_df$pdb)),]
 cleaned_cb_nqnc_no_dups$log_exp <- cleaned_cb_nqnc_no_dups$log_exposure
 predictions_ind <- predict(logit_train, cleaned_cb_nqnc_no_dups, type='response')
 
-cutoff = 0.1445422
+cutoff = 0.1412668
 
 table_mat <- table(cleaned_cb_nqnc_no_dups$y, predictions_ind > cutoff)
 
@@ -79,7 +87,7 @@ prec <- precision_local(table_mat)
 rec <- recall_local(table_mat)
 f1 <- 2 * ((prec * rec) / (prec + rec))
 f1
-# [1] 0.6604597
+# [1] 0.659919
 
 score1=predictions_ind[cleaned_cb_nqnc_no_dups$y==1]
 score0=predictions_ind[cleaned_cb_nqnc_no_dups$y==0]
@@ -95,3 +103,5 @@ tn <- table_mat[2, 2]
 
 accuracy = (tp + tn) / (tp + tn + fp + fn)
 accuracy
+# [1] 0.8500574
+

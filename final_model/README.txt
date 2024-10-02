@@ -12,3 +12,6 @@ Things to note:
   I recommend using my RShiny tool available internally, which requires the relevant PDB file and the *rds* file:
   https://usca-rsconnect-app.prd.nibr.novartis.net/connect/#/apps/68f0277a-b777-4b8c-9b31-74c1a28287f6/
 - Visit go/covcyspredictor for more information
+
+You will need pymol installed, either the open source version or paid (e.g. brew install pymol)
+You will also need fpocket installed
