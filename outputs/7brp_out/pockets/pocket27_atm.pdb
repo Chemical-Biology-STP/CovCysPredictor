@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.0029
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.9058
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5753
+HEADER 5  - Mean B-factor of pocket residues  : 0.3254
+HEADER 6  - Hydrophobicity Score              : 32.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 302.4007
+HEADER 10 - Pocket volume (convex hull)       : 21.3654
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1071
+ATOM   2915   CA ARG A  76      23.711 -40.270  15.565  0.00  0.00           C 0
+ATOM   2921   NE ARG A  76      26.211 -43.471  15.292  0.00  0.00           N 0
+ATOM   2905  NE2 GLN A  74      28.034 -37.413  19.307  0.59  7.66           N 0
+ATOM   2900    O GLN A  74      23.118 -39.805  20.594  0.04  6.43           O 0
+ATOM   2920   CD ARG A  76      25.837 -42.461  14.307  0.00  0.00           C 0
+ATOM   2918   CB ARG A  76      23.719 -41.794  15.471  0.00  0.00           C 0
+ATOM   2902   CG GLN A  74      26.006 -37.156  20.599  0.00  0.00           C 0
+ATOM   2903   CD GLN A  74      27.505 -37.357  20.524  0.00  0.00           C 0
+ATOM   2901   CB GLN A  74      25.354 -37.964  21.710  0.00  0.00           C 0
+ATOM   2821   CA HIS A  64      30.810 -37.051  12.550  0.00  0.00           C 0
+ATOM   2823    O HIS A  64      31.559 -35.480  14.174  0.30  6.43           O 0
+ATOM   2824   CB HIS A  64      32.001 -38.009  12.631  0.00  0.00           C 0
+ATOM   2925    N VAL A  77      23.985 -38.710  13.722  0.68  2.19           N 0
+ATOM   2928    O VAL A  77      25.098 -39.516  11.152  0.74  3.21           O 0
+ATOM   2909    O LEU A  75      23.965 -37.904  17.049  0.56  1.07           O 0
+ATOM   2820    N HIS A  64      30.230 -37.072  11.211  0.00  0.00           N 0
+ATOM   2814    C ASN A  63      29.057 -36.487  10.958  0.00  0.00           C 0
+ATOM   2826  ND1 HIS A  64      32.461 -39.005  10.359  0.59  6.56           N 0
+ATOM   2841    O PHE A  66      27.295 -34.549  15.102  0.35  5.36           O 0
+ATOM   2815    O ASN A  63      28.447 -35.838  11.816  0.00  0.00           O 0
+ATOM   2914    N ARG A  76      22.853 -39.830  16.661  0.00  0.00           N 0
+ATOM   2908    C LEU A  75      23.050 -38.689  17.316  0.00  0.00           C 0
+ATOM   2816   CB ASN A  63      27.853 -38.002   9.355  0.00  0.00           C 0
+TER
+END

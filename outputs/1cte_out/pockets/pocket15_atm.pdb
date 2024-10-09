@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.1019
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8299
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4581
+HEADER 5  - Mean B-factor of pocket residues  : 0.1084
+HEADER 6  - Hydrophobicity Score              : 13.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 161.6709
+HEADER 10 - Pocket volume (convex hull)       : 2.0451
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    338   CA HIS A  45      -9.050  49.741  29.072  0.00  0.00           C 0
+ATOM   1258  OD1 ASN A 167      -9.208  47.238  36.434  0.00  0.00           O 0
+ATOM   1255    O ASN A 167      -5.140  48.211  34.459  0.80  1.07           O 0
+ATOM    343  ND1 HIS A  45     -11.364  50.936  30.876  0.23  9.84           N 0
+ATOM    335  CG2 ILE A  44      -5.943  46.626  30.407  0.00  0.00           C 0
+ATOM   1907   CD PRO A 251      -8.533  53.494  32.924  0.00  0.00           C 0
+ATOM    337    N HIS A  45      -7.626  49.387  28.962  0.00  0.00           N 0
+ATOM   1900  CD1 ILE A 250      -9.910  51.113  36.808  0.00  0.00           C 0
+ATOM   1246    O LYS A 166      -7.948  44.527  34.886  0.44  9.64           O 0
+ATOM   1256   CB ASN A 167      -6.917  47.718  36.682  0.00  0.00           C 0
+ATOM    332    O ILE A  44      -7.887  47.292  28.094  0.50  4.29           O 0
+ATOM    341   CB HIS A  45      -9.150  51.156  29.668  0.00  0.00           C 0
+ATOM   1253   CA ASN A 167      -6.483  46.637  35.676  0.00  0.00           C 0
+ATOM    307    O ARG A  41      -6.206  51.504  30.219  0.00  0.00           O 0
+ATOM    314  NH2 ARG A  41      -5.804  50.650  37.271  0.00  0.00           N 0
+TER
+END

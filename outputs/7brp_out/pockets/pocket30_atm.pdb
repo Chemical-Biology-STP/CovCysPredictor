@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0164
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6184
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4746
+HEADER 5  - Mean B-factor of pocket residues  : 0.0823
+HEADER 6  - Hydrophobicity Score              : 20.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 139.6628
+HEADER 10 - Pocket volume (convex hull)       : 5.0801
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2857
+ATOM    815    N ARG B 105       6.951 -18.832  49.310  0.67  2.19           N 0
+ATOM   1379  OE2 GLU B 178       2.731 -22.438  54.171  0.00  0.00           O 0
+ATOM    800    O PHE B 103       7.239 -23.259  49.569  0.00  0.00           O 0
+ATOM    819   CB ARG B 105       5.679 -17.422  50.886  0.00  0.00           C 0
+ATOM   1377   CD GLU B 178       2.718 -23.537  53.579  0.00  0.00           C 0
+ATOM   1378  OE1 GLU B 178       3.365 -24.531  53.972  0.52  9.64           O 0
+ATOM   1376   CG GLU B 178       1.872 -23.674  52.328  0.00  0.00           C 0
+ATOM   1362  OD2 ASP B 176       1.889 -18.662  51.390  0.66  6.43           O 0
+ATOM   1391  ND2 ASN B 180      -0.159 -19.619  54.938  0.00  0.00           N 0
+ATOM    821   CD ARG B 105       4.161 -16.156  52.446  0.00  0.00           C 0
+ATOM   1359   CB ASP B 176       1.753 -18.996  49.037  0.00  0.00           C 0
+ATOM   1360   CG ASP B 176       1.210 -19.134  50.453  0.00  0.00           C 0
+ATOM    810    C VAL B 104       6.709 -19.706  48.338  0.00  0.00           C 0
+ATOM    811    O VAL B 104       5.743 -19.611  47.573  0.71  1.07           O 0
+ATOM    799    C PHE B 103       6.840 -23.140  48.406  0.00  0.00           C 0
+ATOM    801   CB PHE B 103       4.993 -24.846  48.568  0.00  0.00           C 0
+ATOM   1363    N LEU B 177       0.855 -21.478  47.702  0.69  2.19           N 0
+TER
+END

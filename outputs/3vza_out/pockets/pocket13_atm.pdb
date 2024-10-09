@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0019
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7725
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6246
+HEADER 5  - Mean B-factor of pocket residues  : 0.1065
+HEADER 6  - Hydrophobicity Score              : 31.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 177.4980
+HEADER 10 - Pocket volume (convex hull)       : 4.5738
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   1920  CG2 ILE A 201      -6.529 -24.828   5.027  0.00  0.00           C 0
+ATOM   1922    N SER A 202      -5.113 -25.482   8.095  0.00  0.00           N 0
+ATOM   1917    O ILE A 201      -7.198 -25.259   8.721  0.00  0.00           O 0
+ATOM   1923   CA SER A 202      -4.987 -26.621   9.021  0.00  0.00           C 0
+ATOM   1927   OG SER A 202      -3.606 -27.762   7.462  0.00  0.00           O 0
+ATOM   1849   CB VAL A 191     -10.396 -28.318   5.619  0.00  0.00           C 0
+ATOM   1850  CG1 VAL A 191     -10.010 -27.677   4.269  0.00  0.00           C 0
+ATOM   1860   CA SER A 193      -9.515 -29.090  -0.103  0.00  0.00           C 0
+ATOM   1861    C SER A 193      -9.722 -27.582   0.081  0.00  0.00           C 0
+ATOM   1865    N CYS A 194      -8.809 -26.779  -0.477  0.00  0.00           N 0
+ATOM   1955  OE1 GLN A 205      -9.252 -30.374   8.538  0.66  5.36           O 0
+ATOM   1848    O VAL A 191      -9.584 -30.987   4.578  0.46  6.43           O 0
+ATOM   1859    N SER A 193     -10.313 -29.784   0.914  0.00  0.00           N 0
+ATOM   1869   CB CYS A 194      -8.119 -24.913   0.884  0.00  0.00           C 0
+ATOM   1854    C THR A 192     -10.152 -31.072   1.092  0.00  0.00           C 0
+ATOM   1855    O THR A 192      -9.517 -31.779   0.271  0.00  0.00           O 0
+TER
+END

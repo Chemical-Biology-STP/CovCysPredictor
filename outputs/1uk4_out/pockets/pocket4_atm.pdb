@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0571
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6113
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4354
+HEADER 5  - Mean B-factor of pocket residues  : 0.3063
+HEADER 6  - Hydrophobicity Score              : 3.8750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 76.8433
+HEADER 10 - Pocket volume (convex hull)       : 0.4440
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM    975   CG GLN A 127      69.778 -16.469  21.943  0.00  0.00           C 0
+ATOM   2227    O GLU A 290      72.504 -20.817  20.226  0.00  0.00           O 0
+ATOM   2276  OD2 ASP A 295      74.015 -19.884  23.968  0.59  2.14           O 0
+ATOM   2240  CD2 PHE A 291      70.441 -23.237  23.559  0.00  0.00           C 0
+ATOM   2242  CE2 PHE A 291      69.071 -22.987  23.527  0.00  0.00           C 0
+ATOM   2274   CG ASP A 295      73.879 -19.834  25.213  0.00  0.00           C 0
+ATOM     35    O MET A   6      67.904 -16.763  25.149  0.56  2.14           O 0
+ATOM     27   CB LYS A   5      66.702 -20.034  21.040  0.00  0.00           C 0
+ATOM   2301  NH2 ARG A 298      70.287 -16.979  27.782  0.68  1.09           N 0
+ATOM    977  OE1 GLN A 127      71.398 -15.938  23.624  0.00  0.00           O 0
+ATOM   2273   CB ASP A 295      73.245 -21.014  25.929  0.00  0.00           C 0
+ATOM     32    N MET A   6      66.220 -19.068  24.459  0.00  0.00           N 0
+ATOM   2310  NE2 GLN A 299      68.672 -22.235  26.222  0.76  1.09           N 0
+ATOM     24   CA LYS A   5      66.303 -20.462  22.461  0.00  0.00           C 0
+TER
+END

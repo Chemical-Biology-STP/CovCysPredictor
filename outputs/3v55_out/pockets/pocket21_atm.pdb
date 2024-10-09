@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0561
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6574
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4815
+HEADER 5  - Mean B-factor of pocket residues  : 0.2982
+HEADER 6  - Hydrophobicity Score              : 29.1250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 204.4796
+HEADER 10 - Pocket volume (convex hull)       : 6.3122
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1561    O LYS A 545       4.651  14.481  16.887  0.00  0.00           O 0
+ATOM   1474    O ALA A 533       0.801   8.358  18.345  0.60  5.36           O 0
+ATOM   1584    O LEU A 548      -0.230  14.670  20.978  0.00  0.00           O 0
+ATOM   1581    N LEU A 548      -0.411  15.005  18.107  0.00  0.00           N 0
+ATOM   1502   CA GLY A 537       3.788   8.257  16.022  0.00  0.00           C 0
+ATOM   1501    N GLY A 537       2.354   8.198  15.748  0.79  1.09           N 0
+ATOM   1585   CB LEU A 548      -2.120  13.399  18.969  0.00  0.00           C 0
+ATOM   1497   CB MET A 536      -0.466   9.627  14.933  0.00  0.00           C 0
+ATOM   1572   CG GLN A 546       5.113  18.382  19.733  0.00  0.00           C 0
+ATOM   1568   CA GLN A 546       3.973  17.068  17.827  0.00  0.00           C 0
+ATOM   1475   CB ALA A 533      -1.129   9.342  20.805  0.00  0.00           C 0
+ATOM   1576    N ALA A 547       2.075  15.833  16.853  0.00  0.00           N 0
+ATOM   1580   CB ALA A 547       1.002  14.432  15.150  0.00  0.00           C 0
+ATOM   1541    O THR A 542       4.709  12.176  13.915  0.55  1.07           O 0
+TER
+END

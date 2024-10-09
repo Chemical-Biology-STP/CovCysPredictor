@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0230
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9032
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7108
+HEADER 5  - Mean B-factor of pocket residues  : 0.3351
+HEADER 6  - Hydrophobicity Score              : 3.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.7208
+HEADER 10 - Pocket volume (convex hull)       : 7.1728
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   1855    N ASP A 247      15.987 -12.371   4.881  0.78  2.19           N 0
+ATOM   1859   CB ASP A 247      18.046 -11.088   5.298  0.00  0.00           C 0
+ATOM   1856   CA ASP A 247      16.651 -11.091   4.671  0.00  0.00           C 0
+ATOM   1862  OD2 ASP A 247      18.334  -9.019   6.446  0.00  0.00           O 1
+ATOM   1838    O ARG A 245      13.282 -13.615   7.948  0.52  9.64           O 0
+ATOM   1848    C GLN A 246      14.665 -12.453   5.035  0.00  0.00           C 0
+ATOM   1849    O GLN A 246      13.927 -11.469   4.952  0.00  0.00           O 0
+ATOM   1863    N PHE A 248      16.595  -9.495   2.849  0.57  1.09           N 0
+ATOM   1842   NE ARG A 245      11.118  -8.591   5.977  0.62  8.75           N 0
+ATOM   1841   CD ARG A 245      10.771  -9.568   7.004  0.00  0.00           C 0
+ATOM   1840   CG ARG A 245      11.197 -10.969   6.640  0.00  0.00           C 0
+ATOM   1839   CB ARG A 245      10.698 -11.928   7.689  0.00  0.00           C 0
+ATOM   1869  CD1 PHE A 248      13.836  -8.210   1.676  0.00  0.00           C 0
+ATOM   1867   CB PHE A 248      16.212  -7.622   1.334  0.00  0.00           C 0
+ATOM   1992   CBASER A 264      12.224  -3.558   1.813  0.00  0.00           C 0
+ATOM   1868   CG PHE A 248      14.785  -7.443   1.024  0.00  0.00           C 0
+TER
+END

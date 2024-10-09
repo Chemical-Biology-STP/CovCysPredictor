@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0774
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8056
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5392
+HEADER 5  - Mean B-factor of pocket residues  : 0.5466
+HEADER 6  - Hydrophobicity Score              : 28.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.4276
+HEADER 10 - Pocket volume (convex hull)       : 11.4318
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM   4781    N GLN K   5      45.196  -9.028  61.286  0.59  2.19           N 0
+ATOM   4769    O THR K   3      43.658  -7.419  63.154  0.63  8.57           O 0
+ATOM   2925  NH2 ARG B  76      49.692  -3.794  59.351  0.41  9.84           N 0
+ATOM   4788  OE1 GLN K   5      42.444  -6.225  59.217  0.16  9.64           O 0
+ATOM   4779  CD1 LEU K   4      48.831  -8.340  62.773  0.00  0.00           C 0
+ATOM   4774   CA LEU K   4      45.955  -8.869  63.578  0.00  0.00           C 0
+ATOM   4764   CB SER K   2      44.137  -4.133  67.037  0.00  0.00           C 0
+ATOM   4765   OG SER K   2      44.977  -4.606  68.114  0.00  0.00           O 0
+ATOM   4784    O GLN K   5      47.040  -9.251  59.341  0.73  6.43           O 0
+ATOM   4785   CB GLN K   5      43.868  -8.839  59.249  0.00  0.00           C 0
+ATOM   4773    N LEU K   4      44.810  -8.819  64.490  0.75  1.09           N 0
+ATOM   4777   CB LEU K   4      47.183  -9.490  64.263  0.00  0.00           C 0
+ATOM   2934   CA ILE B  78      46.783  -5.991  53.907  0.00  0.00           C 0
+ATOM   2939  CG2 ILE B  78      47.802  -3.682  53.950  0.00  0.00           C 0
+ATOM   2937   CB ILE B  78      46.537  -4.478  53.658  0.00  0.00           C 0
+ATOM   2929    O VAL B  77      48.770  -7.730  54.752  0.76  6.43           O 0
+ATOM   2936    O ILE B  78      44.517  -6.535  54.472  0.67  4.29           O 0
+ATOM   2822  ND2 ASN B  63      44.682  -9.203  56.295  0.53  1.09           N 0
+TER
+END

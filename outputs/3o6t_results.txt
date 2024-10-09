@@ -1,0 +1,84 @@
+{
+    "A 37": {
+        "chain": "A",
+        "resid": 37,
+        "sasa": 0.0,
+        "log_exp": 0.0,
+        "any_fpocket": 1,
+        "neighbors": [
+            "W",
+            "A",
+            "T",
+            "W",
+            "G",
+            "P",
+            "S",
+            "K",
+            "I",
+            "P",
+            "D"
+        ],
+        "score": "0.14",
+        "predicted_modifiable": false
+    },
+    "B 37": {
+        "chain": "B",
+        "resid": 37,
+        "sasa": 32.16990877275949,
+        "log_exp": 3.5016431026615247,
+        "any_fpocket": 0,
+        "neighbors": [
+            "V",
+            "A",
+            "W",
+            "G",
+            "P",
+            "S",
+            "S",
+            "I",
+            "P"
+        ],
+        "score": "0.14",
+        "predicted_modifiable": true
+    },
+    "C 37": {
+        "chain": "C",
+        "resid": 37,
+        "sasa": 0.0,
+        "log_exp": 0.0,
+        "any_fpocket": 1,
+        "neighbors": [
+            "W",
+            "A",
+            "T",
+            "W",
+            "G",
+            "P",
+            "S",
+            "K",
+            "I",
+            "P",
+            "D"
+        ],
+        "score": "0.14",
+        "predicted_modifiable": false
+    },
+    "D 37": {
+        "chain": "D",
+        "resid": 37,
+        "sasa": 12.867963509103797,
+        "log_exp": 2.6295813965173105,
+        "any_fpocket": 1,
+        "neighbors": [
+            "A",
+            "W",
+            "G",
+            "P",
+            "S",
+            "I",
+            "P"
+        ],
+        "score": "0.53",
+        "predicted_modifiable": true
+    }
+}

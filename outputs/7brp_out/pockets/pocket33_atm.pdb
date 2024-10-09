@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.0259
+HEADER 1  - Drug Score                        : 0.0165
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8455
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4637
+HEADER 5  - Mean B-factor of pocket residues  : 0.2700
+HEADER 6  - Hydrophobicity Score              : 22.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.7953
+HEADER 10 - Pocket volume (convex hull)       : 9.9054
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7647
+ATOM   4151   CB MET A 235       0.477   8.493   4.484  0.00  0.00           C 0
+ATOM   4209   CB PRO A 241      -2.508   2.290   3.777  0.00  0.00           C 0
+ATOM   4154   CE MET A 235       1.578   8.133   0.764  0.00  0.00           C 0
+ATOM   4210   CG PRO A 241      -1.352   1.429   3.391  0.00  0.00           C 0
+ATOM   4211   CD PRO A 241      -0.368   1.536   4.520  0.00  0.00           C 0
+ATOM   4152   CG MET A 235       1.637   8.568   3.503  0.00  0.00           C 0
+ATOM   4134  CD2 LEU A 232      -4.294  11.029   1.729  0.00  0.00           C 0
+ATOM   4122    O ASN A 231      -2.762   7.850   5.133  0.47  3.21           O 0
+ATOM   4153   SD MET A 235       1.200   9.406   1.967  0.00  0.00           S 0
+ATOM   4123   CB ASN A 231      -5.114   5.974   4.464  0.00  0.00           C 0
+ATOM   4187    O TYR A 239       1.037   4.017   7.386  0.57  6.43           O 0
+ATOM   4177   CA ASN A 238       4.641   6.221   9.045  0.00  0.00           C 0
+ATOM   4182  OD1 ASN A 238       6.641   5.016   7.564  0.74  9.64           O 0
+ATOM   4150    O MET A 235       3.097   8.967   6.295  0.23  2.14           O 0
+ATOM   4148   CA MET A 235       0.883   8.134   5.915  0.00  0.00           C 0
+TER
+END

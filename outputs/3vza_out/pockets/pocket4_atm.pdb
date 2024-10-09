@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0787
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9687
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6438
+HEADER 5  - Mean B-factor of pocket residues  : 0.2910
+HEADER 6  - Hydrophobicity Score              : -0.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 316.3248
+HEADER 10 - Pocket volume (convex hull)       : 8.8816
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1110    N ILE D 167       6.570   8.721  -1.645  0.00  0.00           N 0
+ATOM   1107   CG ASP D 166       5.676  10.866  -4.076  0.00  0.00           C 0
+ATOM   1106   CB ASP D 166       4.741  10.510  -2.898  0.00  0.00           C 0
+ATOM   1109  OD2 ASP D 166       5.836  12.074  -4.472  0.00  0.00           O 0
+ATOM   1131  NE2 GLN D 169       9.691  11.085   1.630  0.62  9.84           N 0
+ATOM   1113    O ILE D 167       7.668   8.972   1.134  0.39  3.21           O 0
+ATOM   1098    O PRO D 165       2.384  10.524  -1.384  0.00  0.00           O 0
+ATOM   1114   CB ILE D 167       8.973   8.397  -1.572  0.00  0.00           C 0
+ATOM   1117  CD1 ILE D 167      10.337   8.420  -3.634  0.00  0.00           C 0
+ATOM   1115  CG1 ILE D 167       9.011   8.202  -3.090  0.00  0.00           C 0
+ATOM   1075  ND1 HIS D 162       4.244  10.091   6.830  0.00  0.00           N 0
+ATOM   1072    O HIS D 162       6.214   7.488   5.575  0.00  0.00           O 0
+ATOM   1128   CG GLN D 169       8.849  10.736   3.917  0.00  0.00           C 0
+ATOM   1077  CE1 HIS D 162       3.005  10.533   6.739  0.00  0.00           C 0
+ATOM   1092   CA GLY D 164       2.003   8.178   2.168  0.00  0.00           C 0
+ATOM   1101   CD PRO D 165       0.397  10.054   0.506  0.00  0.00           C 0
+ATOM   1091    N GLY D 164       2.885   7.235   2.826  0.00  0.00           N 0
+TER
+END

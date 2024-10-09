@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0162
+HEADER 1  - Drug Score                        : 0.0186
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7118
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4454
+HEADER 5  - Mean B-factor of pocket residues  : 0.2190
+HEADER 6  - Hydrophobicity Score              : 8.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 111.3830
+HEADER 10 - Pocket volume (convex hull)       : 1.4695
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM    567   OG SER A  77      -1.241  60.953  46.785  0.68  2.14           O 0
+ATOM   3801    O SER B 244      -1.180  59.350  50.342  0.72  5.36           O 0
+ATOM   1874   CG GLU A 245       3.222  55.942  49.252  0.00  0.00           C 0
+ATOM   3809   CG GLU B 245       1.670  59.156  51.911  0.00  0.00           C 0
+ATOM   1892  CG2 VAL A 247      -0.831  56.400  44.997  0.00  0.00           C 0
+ATOM   3802   CB SER B 244      -0.085  62.179  49.772  0.00  0.00           C 0
+ATOM    549  CD1 TYR A  75       4.015  64.159  48.309  0.00  0.00           C 0
+ATOM   3810   CD GLU B 245       3.127  59.073  52.235  0.00  0.00           C 0
+ATOM   3811  OE1 GLU B 245       3.713  60.077  52.676  0.50  4.29           O 0
+ATOM    561   CD PRO A  76       3.803  60.711  44.542  0.00  0.00           C 0
+ATOM    547   CB TYR A  75       2.303  63.903  46.419  0.00  0.00           C 0
+ATOM   3803   OG SER B 244      -0.293  62.879  48.565  0.00  0.00           O 0
+ATOM    559   CB PRO A  76       2.291  59.040  43.652  0.00  0.00           C 0
+ATOM    560   CG PRO A  76       3.723  59.246  44.009  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : 0.0639
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1155
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6594
+HEADER 5  - Mean B-factor of pocket residues  : 0.1267
+HEADER 6  - Hydrophobicity Score              : -30.7500
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 355.5792
+HEADER 10 - Pocket volume (convex hull)       : 14.9170
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1070   CG LYS B 137      -0.160  -4.581  37.715  0.00  0.00           C 0
+ATOM   1073   NZ LYS B 137      -1.612  -2.494  36.193  0.00  0.00           N 0
+ATOM   1071   CD LYS B 137      -1.559  -4.118  38.090  0.00  0.00           C 0
+ATOM   1521  OD2 ASP B 197       2.074  -1.114  42.761  0.54  5.36           O 0
+ATOM   2239  OE2 GLU B 290       4.517  -5.130  37.806  0.00  0.00           O 0
+ATOM   1069   CB LYS B 137      -0.203  -5.707  36.695  0.00  0.00           C 0
+ATOM   1022  NH1 ARG B 131       5.490  -3.039  39.843  0.61  1.09           N 0
+ATOM   2359   NE ARG A   4       1.664  -8.096  31.734  0.33  6.56           N 0
+ATOM   1068    O LYS B 137       0.163  -8.182  35.378  0.00  0.00           O 0
+ATOM   2360   CZ ARG A   4       2.421  -8.850  32.524  0.00  0.00           C 0
+ATOM   2238  OE1 GLU B 290       5.341  -6.764  36.594  0.66  2.14           O 0
+ATOM   2237   CD GLU B 290       5.419  -5.623  37.097  0.00  0.00           C 0
+ATOM     41   NZ LYS B   5       7.706  -6.512  32.721  0.68  2.19           N 0
+ATOM     40   CE LYS B   5       6.931  -6.885  31.506  0.00  0.00           C 0
+ATOM   2362  NH2 ARG A   4       3.702  -9.029  32.239  0.48  1.09           N 0
+ATOM   1021   CZ ARG B 131       4.867  -2.455  40.858  0.00  0.00           C 0
+ATOM   1020   NE ARG B 131       3.873  -3.082  41.477  0.65  1.09           N 0
+ATOM   2221  OE1 GLU B 288       7.844  -1.722  32.322  0.65  9.64           O 0
+ATOM   2236   CG GLU B 290       6.668  -4.801  36.844  0.00  0.00           C 0
+ATOM   2229  OD1 ASP B 289       7.440  -1.501  38.213  0.00  0.00           O 0
+TER
+END

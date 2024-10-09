@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.1227
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8278
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4896
+HEADER 5  - Mean B-factor of pocket residues  : 0.2730
+HEADER 6  - Hydrophobicity Score              : 20.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 218.4264
+HEADER 10 - Pocket volume (convex hull)       : 8.5385
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2800
+ATOM    930   CG GLN A 450     -13.022  22.402  32.874  0.00  0.00           C 0
+ATOM   1110   CB ALA A 484     -16.576  18.616  33.554  0.00  0.00           C 0
+ATOM   1106    N ALA A 484     -16.132  17.147  35.467  0.57  2.19           N 0
+ATOM    928    O GLN A 450     -16.507  22.199  35.380  0.67  8.57           O 0
+ATOM   1630   OGASER A 553     -10.174  16.375  35.417  0.00  0.00           O 0
+ATOM    933  NE2 GLN A 450     -10.742  22.321  33.646  0.00  0.00           N 0
+ATOM   1095    O VAL A 482     -16.966  18.825  38.605  0.32  4.29           O 0
+ATOM   1111    N ASN A 485     -15.381  15.375  33.758  0.56  1.09           N 0
+ATOM   1119    N ILE A 486     -13.674  15.707  31.406  0.00  0.00           N 0
+ATOM   1103   CB THR A 483     -14.920  15.061  37.786  0.00  0.00           C 0
+ATOM   1100   CA THR A 483     -15.664  16.412  37.758  0.00  0.00           C 0
+ATOM   1086    O LYS A 481     -14.553  18.320  41.377  0.00  0.00           O 0
+ATOM   1628   CBASER A 553     -10.051  16.141  34.024  0.00  0.00           C 0
+ATOM   1104  OG1 THR A 483     -14.166  14.883  36.578  0.61  2.14           O 0
+ATOM   1126  CD1 ILE A 486     -14.182  19.879  30.863  0.00  0.00           C 0
+ATOM    929   CB GLN A 450     -14.227  23.132  33.454  0.00  0.00           C 0
+ATOM   1123   CB ILE A 486     -13.050  17.780  30.112  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0583
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.1885
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5576
+HEADER 5  - Mean B-factor of pocket residues  : 0.3904
+HEADER 6  - Hydrophobicity Score              : 0.0000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 0.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 349.3860
+HEADER 10 - Pocket volume (convex hull)       : 18.8677
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM    239   N2 DG  E  12     -12.276  47.187  46.120  0.38  5.47           N 0
+ATOM    267  O4' DT  E  14     -15.645  45.320  51.247  0.56  6.43           O 0
+ATOM    265  C5' DT  E  14     -15.938  47.533  52.229  0.00  0.00           C 0
+ATOM    266  C4' DT  E  14     -16.604  46.231  51.851  0.00  0.00           C 0
+ATOM    615  O4' DA  F  11     -15.771  52.594  42.624  0.00  0.00           O 0
+ATOM    246  C5' DC  E  13     -11.217  50.912  50.228  0.00  0.00           C 0
+ATOM    240   N3 DG  E  12     -10.292  47.983  47.000  0.54  2.19           N 0
+ATOM    581   O2 DC  F   9     -14.147  45.263  44.891  0.39  5.36           O 0
+ATOM    591  C5' DG  F  10     -18.411  46.533  43.580  0.00  0.00           C 0
+ATOM    592  C4' DG  F  10     -17.784  47.840  43.150  0.00  0.00           C 0
+ATOM    247  C4' DC  E  13     -12.287  49.877  50.492  0.00  0.00           C 0
+ATOM    614  C4' DA  F  11     -16.831  53.398  43.187  0.00  0.00           C 0
+ATOM    248  O4' DC  E  13     -11.964  48.634  49.805  0.73  1.07           O 0
+ATOM    606   N2 DG  F  10     -11.126  48.349  42.904  0.07  7.66           N 0
+ATOM    593  O4' DG  F  10     -16.379  47.670  42.844  0.55  3.21           O 0
+ATOM    613  C5' DA  F  11     -18.106  52.583  43.249  0.00  0.00           C 0
+ATOM    255   O2 DC  E  13     -11.947  45.439  49.118  0.00  0.00           O 0
+ATOM    607   N3 DG  F  10     -13.202  47.785  42.086  0.61  2.19           N 0
+TER
+END

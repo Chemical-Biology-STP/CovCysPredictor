@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    38:
+HEADER 0  - Pocket Score                      : -0.1407
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8241
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4242
+HEADER 5  - Mean B-factor of pocket residues  : 0.3511
+HEADER 6  - Hydrophobicity Score              : -1.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 328.0278
+HEADER 10 - Pocket volume (convex hull)       : 20.1907
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM    828  OE1 GLN B 232      -9.491  28.865  28.389  0.00  0.00           O 0
+ATOM    815    O LYS B 231      -9.506  29.759  25.679  0.66  1.07           O 0
+ATOM    825   CB GLN B 232     -10.351  31.579  27.218  0.00  0.00           C 0
+ATOM    804    O PHE B 230      -6.837  30.468  23.413  0.72  9.64           O 0
+ATOM    320  OD2 ASP B 169      -3.905  23.006  29.169  0.56  8.57           O 0
+ATOM    319  OD1 ASP B 169      -1.957  23.317  28.188  0.60  4.29           O 0
+ATOM    798    O SER B 229      -6.150  26.411  25.530  0.54  5.36           O 0
+ATOM    338   CE LYS B 171       0.253  27.895  29.051  0.00  0.00           C 0
+ATOM    337   CD LYS B 171       0.337  26.902  30.199  0.00  0.00           C 0
+ATOM    811   CZ PHE B 230      -1.266  26.646  22.552  0.00  0.00           C 0
+ATOM    336   CG LYS B 171       0.795  25.534  29.724  0.00  0.00           C 0
+ATOM    321    N HIS B 170       0.148  21.706  26.487  0.30  3.28           N 0
+ATOM    325   CB HIS B 170       2.471  22.375  26.070  0.00  0.00           C 0
+ATOM    807  CD1 PHE B 230      -2.768  28.483  22.999  0.00  0.00           C 0
+ATOM    802   CA PHE B 230      -6.021  28.241  23.336  0.00  0.00           C 0
+ATOM    339   NZ LYS B 171       0.048  29.294  29.560  0.00  0.00           N 0
+ATOM    809  CE1 PHE B 230      -1.518  27.894  23.148  0.00  0.00           C 0
+ATOM    800   OG SER B 229      -4.907  23.921  23.621  0.54  1.07           O 0
+ATOM    314   CA ASP B 169      -2.220  21.237  26.414  0.00  0.00           C 0
+TER
+END

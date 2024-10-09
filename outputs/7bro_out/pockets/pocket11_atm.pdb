@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.1515
+HEADER 1  - Drug Score                        : 0.0036
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8660
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5678
+HEADER 5  - Mean B-factor of pocket residues  : 0.1174
+HEADER 6  - Hydrophobicity Score              : 7.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 236.7956
+HEADER 10 - Pocket volume (convex hull)       : 8.1190
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.6667
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM   1176  CD1 ILE A 152       7.134 -23.795  -3.199  0.00  0.00           C 0
+ATOM     87   CG LYS A  12       6.235 -29.103  -2.086  0.00  0.00           C 0
+ATOM     68    O PRO A   9       4.229 -23.498  -1.752  0.61  1.07           O 0
+ATOM     90   NZ LYS A  12       6.411 -29.152  -5.143  0.00  0.00           N 0
+ATOM     82    N LYS A  12       4.170 -27.949  -0.096  0.00  0.00           N 0
+ATOM     79   CA GLY A  11       1.817 -27.333  -0.023  0.00  0.00           C 0
+ATOM     80    C GLY A  11       2.986 -28.154   0.488  0.00  0.00           C 0
+ATOM     83   CA LYS A  12       5.330 -28.748   0.287  0.00  0.00           C 0
+ATOM     81    O GLY A  11       2.838 -28.968   1.403  0.56  6.43           O 0
+ATOM     69   CB PRO A   9       2.333 -23.338  -4.157  0.00  0.00           C 0
+ATOM     70   CG PRO A   9       2.618 -22.476  -5.344  0.00  0.00           C 0
+ATOM     78    N GLY A  11       2.147 -25.928  -0.214  0.00  0.00           N 0
+ATOM   1175  CG2 ILE A 152       9.090 -24.473  -5.321  0.00  0.00           C 0
+ATOM     71   CD PRO A   9       3.664 -21.499  -4.888  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0657
+HEADER 1  - Drug Score                        : 0.0033
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9249
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6043
+HEADER 5  - Mean B-factor of pocket residues  : 0.1189
+HEADER 6  - Hydrophobicity Score              : 18.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 2.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 200.0326
+HEADER 10 - Pocket volume (convex hull)       : 3.5005
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM    291    N SER A  39      30.302  18.426   9.133  0.00  0.00           N 0
+ATOM    296   OG SER A  39      31.224  19.154   6.750  0.67  3.21           O 0
+ATOM    288    O SER A  38      28.458  17.341   9.772  0.00  0.00           O 0
+ATOM   1222   OG SER A 164      29.021  22.339   5.394  0.00  0.00           O 0
+ATOM    292   CA SER A  39      30.574  17.417   8.102  0.00  0.00           C 0
+ATOM    419   CB ALA A  57      24.637  22.497   6.915  0.00  0.00           C 0
+ATOM    423    O PRO A  58      20.855  20.575   4.654  0.55  6.43           O 0
+ATOM    434  CD2 LEU A  59      22.881  16.543   5.325  0.00  0.00           C 0
+ATOM    418    O ALA A  57      22.703  20.430   7.730  0.00  0.00           O 0
+ATOM    289   CB SER A  38      28.074  20.428  10.437  0.00  0.00           C 0
+ATOM    294    O SER A  39      30.444  15.101   8.075  0.00  0.00           O 0
+ATOM    310  CG1 VAL A  42      26.352  14.150   6.559  0.00  0.00           C 0
+ATOM    295   CB SER A  39      31.654  17.844   7.131  0.00  0.00           C 0
+ATOM    311  CG2 VAL A  42      25.810  15.870   8.249  0.00  0.00           C 0
+ATOM    309   CB VAL A  42      26.769  14.711   7.884  0.00  0.00           C 0
+ATOM    406   OG SER A  55      24.935  19.530   9.477  0.65  1.07           O 0
+TER
+END

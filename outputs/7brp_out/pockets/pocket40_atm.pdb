@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.0887
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7319
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4334
+HEADER 5  - Mean B-factor of pocket residues  : 0.0849
+HEADER 6  - Hydrophobicity Score              : 12.1000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 200.3344
+HEADER 10 - Pocket volume (convex hull)       : 9.3392
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+ATOM   1946  CD1 ILE B 249      19.427  -7.817  46.841  0.00  0.00           C 0
+ATOM   1556  CG1 VAL B 202      15.420  -3.836  44.051  0.00  0.00           C 0
+ATOM   1557  CG2 VAL B 202      17.873  -3.466  43.663  0.00  0.00           C 0
+ATOM   1945  CG2 ILE B 249      20.345  -8.127  43.886  0.00  0.00           C 0
+ATOM    862  NE2 GLN B 110      13.599 -10.242  44.334  0.71  7.66           N 0
+ATOM    846    O PRO B 108       9.738  -7.544  47.047  0.56  8.57           O 0
+ATOM    851   CA GLY B 109       9.460  -6.946  44.346  0.00  0.00           C 0
+ATOM   1542  CG2 ILE B 200      11.339  -3.452  43.456  0.00  0.00           C 0
+ATOM   1923  NE2 HIS B 246      15.974  -3.668  48.381  0.66  8.75           N 0
+ATOM   1874  OE2 GLU B 240      10.829  -1.917  46.842  0.79  4.29           O 0
+ATOM   2263   CG PRO B 293      18.375  -6.735  41.115  0.00  0.00           C 0
+ATOM    852    C GLY B 109      10.049  -8.061  43.511  0.00  0.00           C 0
+ATOM   1564  OD1 ASN B 203      13.698  -5.484  41.235  0.76  4.29           O 0
+ATOM   2264   CD PRO B 293      16.965  -7.175  40.825  0.00  0.00           C 0
+ATOM   1921  CD2 HIS B 246      17.157  -3.934  47.735  0.00  0.00           C 0
+ATOM    853    O GLY B 109      10.769  -7.776  42.546  0.48  1.07           O 0
+TER
+END

@@ -1,0 +1,70 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0984
+HEADER 1  - Drug Score                        : 0.0129
+HEADER 2  - Number of alpha spheres           :    76
+HEADER 3  - Mean alpha-sphere radius          : 3.9596
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5188
+HEADER 5  - Mean B-factor of pocket residues  : 0.2807
+HEADER 6  - Hydrophobicity Score              : -10.2000
+HEADER 7  - Polarity Score                    :    13
+HEADER 8  - Amino Acid based volume Score     : 3.7333
+HEADER 9  - Pocket volume (Monte Carlo)       : 912.6995
+HEADER 10 - Pocket volume (convex hull)       : 273.2717
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.8889
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.1184
+ATOM    361    O THR A  49      11.667  57.400  16.859  0.42  7.50           O 0
+ATOM   2003   CE LYS A 266      16.632  63.960  18.458  0.00  0.00           C 0
+ATOM    378  OD1 ASP A  51      17.669  58.402  19.534  0.51  9.64           O 0
+ATOM   2004   NZ LYS A 266      16.279  63.823  17.018  0.00  0.00           N 0
+ATOM     36  OG1 THR A   5      14.020  56.105  20.174  0.41  3.21           O 0
+ATOM    367    C VAL A  50      15.535  56.093  16.726  0.00  0.00           C 0
+ATOM    360    C THR A  49      12.278  57.323  15.801  0.00  0.00           C 0
+ATOM   2029  NE2 GLN A 269      17.990  59.292  22.867  0.78  7.66           N 0
+ATOM   2002   CD LYS A 266      17.889  63.211  18.833  0.00  0.00           C 0
+ATOM     18    O SER A   3      16.394  58.141  25.040  0.61  4.29           O 0
+ATOM     37  CG2 THR A   5      12.609  55.852  22.144  0.00  0.00           C 0
+ATOM    355   CG ASN A  48      16.472  60.103  11.043  0.00  0.00           C 0
+ATOM    357  ND2 ASN A  48      16.577  60.743   9.898  0.00  0.00           N 0
+ATOM    354   CB ASN A  48      15.105  60.233  11.711  0.00  0.00           C 0
+ATOM    366   CA VAL A  50      14.028  55.898  16.756  0.00  0.00           C 0
+ATOM    368    O VAL A  50      16.063  56.497  15.712  0.00  0.00           O 0
+ATOM    353    O ASN A  48      13.588  59.976  13.965  0.57  9.64           O 0
+ATOM   2001   CG LYS A 266      19.148  63.791  18.197  0.00  0.00           C 0
+ATOM   2000   CB LYS A 266      20.392  63.082  18.710  0.00  0.00           C 0
+ATOM   1980  OE1 GLN A 264      23.453  58.617  16.769  0.43  4.29           O 0
+ATOM    373   CA ASP A  51      17.668  55.967  17.917  0.00  0.00           C 0
+ATOM    375    O ASP A  51      19.511  54.969  16.788  0.53  2.14           O 0
+ATOM    379  OD2 ASP A  51      17.022  57.103  21.186  0.46  1.07           O 0
+ATOM   1999    O LYS A 266      22.712  61.613  19.195  0.00  0.00           O 0
+ATOM    356  OD1 ASN A  48      17.342  59.426  11.597  0.63  5.36           O 0
+ATOM   2026   CG GLN A 269      19.600  60.741  21.777  0.00  0.00           C 0
+ATOM   2027   CD GLN A 269      18.996  60.151  23.033  0.00  0.00           C 0
+ATOM   2028  OE1 GLN A 269      19.459  60.494  24.133  0.00  0.00           O 0
+ATOM   1986   CBALYS A 265      21.275  64.411  13.524  0.00  0.00           C 0
+ATOM   1953  CD2 HIS A 261      19.897  57.151  11.680  0.00  0.00           C 0
+ATOM   1981  NE2 GLN A 264      23.877  57.175  15.100  0.00  0.00           N 0
+ATOM   1950   CB HIS A 261      22.472  57.663  11.566  0.00  0.00           C 0
+ATOM   1996    N LYS A 266      21.869  63.436  16.729  0.59  3.28           N 0
+ATOM    365    N VAL A  50      13.404  56.620  15.653  0.00  0.00           N 0
+ATOM   1968    O ASP A 263      24.014  61.032  11.650  0.60  2.14           O 0
+ATOM   1965    N ASP A 263      26.228  59.331  10.504  0.00  0.00           N 0
+ATOM   1952  ND1 HIS A 261      20.722  57.791   9.760  0.68  6.56           N 0
+ATOM   1969   CB ASP A 263      26.104  61.623   9.707  0.00  0.00           C 0
+ATOM   1982    N LYS A 265      23.024  62.903  14.296  0.54  2.19           N 0
+ATOM   1974   CA GLN A 264      24.657  61.146  14.315  0.00  0.00           C 0
+ATOM   1951   CG HIS A 261      21.048  57.529  11.057  0.00  0.00           C 0
+ATOM    498   CA GLY A  68      24.163  56.401   5.605  0.00  0.00           C 0
+ATOM    491    O GLU A  67      21.385  56.335   5.584  0.35  6.43           O 0
+ATOM   1988   CGALYS A 265      21.684  64.247  12.056  0.00  0.00           C 0
+ATOM   1992   CEALYS A 265      22.940  65.302  10.144  0.00  0.00           C 0
+ATOM   1960   CB LYS A 262      27.643  56.667   9.306  0.00  0.00           C 0
+ATOM   1963   CE LYS A 262      27.814  55.460   6.474  0.00  0.00           C 0
+ATOM    500    O GLY A  68      24.157  56.197   7.968  0.60  3.21           O 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0815
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7104
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4453
+HEADER 5  - Mean B-factor of pocket residues  : 0.1650
+HEADER 6  - Hydrophobicity Score              : 7.1429
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 149.1250
+HEADER 10 - Pocket volume (convex hull)       : 2.8402
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM    203  OP2 DC  E  11      -1.652  47.725  40.830  0.64  8.57           O 0
+ATOM   2569  CD1 TRP B 100      -0.909  42.873  36.775  0.00  0.00           C 0
+ATOM   1694    O LYS A  69      -2.644  40.792  41.720  0.00  0.00           O 0
+ATOM   1701   CA ARG A  70      -4.280  40.687  39.531  0.00  0.00           C 0
+ATOM    218   C5 DC  E  11      -6.329  44.800  41.894  0.00  0.00           C 0
+ATOM   1703    O ARG A  70      -6.213  41.988  40.138  0.00  0.00           O 0
+ATOM    183  OP2 DT  E  10      -5.380  44.436  35.915  0.76  2.14           O 0
+ATOM    184  O5' DT  E  10      -4.445  46.610  36.704  0.62  1.07           O 0
+ATOM   2561  OG1 THR B  99       2.591  44.818  38.705  0.69  7.50           O 0
+ATOM   2567   CB TRP B 100       0.235  40.988  38.081  0.00  0.00           C 0
+ATOM    190  C2' DT  E  10      -4.875  47.496  39.479  0.00  0.00           C 0
+ATOM    219   C6 DC  E  11      -5.751  45.706  42.703  0.00  0.00           C 0
+ATOM    210  C2' DC  E  11      -4.411  47.639  44.497  0.00  0.00           C 0
+ATOM   1717   CD LYS A  71      -5.178  42.682  44.539  0.00  0.00           C 0
+TER
+END
