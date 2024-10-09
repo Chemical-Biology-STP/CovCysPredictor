@@ -1,0 +1,178 @@
+{
+    "B 139": {
+        "chain": "B",
+        "resid": 139,
+        "sasa": 55.332243089146324,
+        "log_exp": 4.031267072620577,
+        "any_fpocket": 0,
+        "neighbors": [
+            "V",
+            "E",
+            "R",
+            "L",
+            "K",
+            "K",
+            "A"
+        ],
+        "score": "0.13",
+        "predicted_modifiable": false
+    },
+    "B 194": {
+        "chain": "B",
+        "resid": 194,
+        "sasa": 0.0,
+        "log_exp": 0.0,
+        "any_fpocket": 0,
+        "neighbors": [
+            "Y",
+            "M",
+            "F",
+            "T",
+            "S",
+            "T",
+            "P",
+            "P",
+            "L",
+            "D",
+            "I",
+            "I",
+            "F"
+        ],
+        "score": "0.0008",
+        "predicted_modifiable": false
+    },
+    "B 200": {
+        "chain": "B",
+        "resid": 200,
+        "sasa": 6.4339817545518985,
+        "log_exp": 2.0060616175475796,
+        "any_fpocket": 0,
+        "neighbors": [
+            "L",
+            "D",
+            "I",
+            "S",
+            "E",
+            "F",
+            "N",
+            "I",
+            "A",
+            "F"
+        ],
+        "score": "0.017",
+        "predicted_modifiable": false
+    },
+    "D 181": {
+        "chain": "D",
+        "resid": 181,
+        "sasa": 0.0,
+        "log_exp": 0.0,
+        "any_fpocket": 0,
+        "neighbors": [
+            "R",
+            "H",
+            "I",
+            "D",
+            "H",
+            "K",
+            "D",
+            "P",
+            "D",
+            "S",
+            "R",
+            "F",
+            "S",
+            "D"
+        ],
+        "score": "0.0021",
+        "predicted_modifiable": false
+    },
+    "A 139": {
+        "chain": "A",
+        "resid": 139,
+        "sasa": 55.332243089146324,
+        "log_exp": 4.031267072620577,
+        "any_fpocket": 0,
+        "neighbors": [
+            "V",
+            "E",
+            "R",
+            "L",
+            "K",
+            "K",
+            "A"
+        ],
+        "score": "0.13",
+        "predicted_modifiable": false
+    },
+    "A 194": {
+        "chain": "A",
+        "resid": 194,
+        "sasa": 0.0,
+        "log_exp": 0.0,
+        "any_fpocket": 0,
+        "neighbors": [
+            "Y",
+            "M",
+            "F",
+            "T",
+            "S",
+            "T",
+            "P",
+            "P",
+            "L",
+            "D",
+            "I",
+            "I",
+            "F"
+        ],
+        "score": "0.0008",
+        "predicted_modifiable": false
+    },
+    "A 200": {
+        "chain": "A",
+        "resid": 200,
+        "sasa": 1.2867963509103797,
+        "log_exp": 0.8271518646876636,
+        "any_fpocket": 0,
+        "neighbors": [
+            "L",
+            "D",
+            "I",
+            "S",
+            "E",
+            "F",
+            "N",
+            "I",
+            "A",
+            "F"
+        ],
+        "score": "0.0052",
+        "predicted_modifiable": false
+    },
+    "C 181": {
+        "chain": "C",
+        "resid": 181,
+        "sasa": 0.0,
+        "log_exp": 0.0,
+        "any_fpocket": 0,
+        "neighbors": [
+            "R",
+            "H",
+            "I",
+            "D",
+            "H",
+            "K",
+            "D",
+            "P",
+            "D",
+            "S",
+            "R",
+            "F",
+            "S",
+            "D"
+        ],
+        "score": "0.0021",
+        "predicted_modifiable": false
+    }
+}

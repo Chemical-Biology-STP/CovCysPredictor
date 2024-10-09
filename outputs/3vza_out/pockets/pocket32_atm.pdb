@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0741
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7653
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5313
+HEADER 5  - Mean B-factor of pocket residues  : 0.6147
+HEADER 6  - Hydrophobicity Score              : -20.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 313.7731
+HEADER 10 - Pocket volume (convex hull)       : 26.3307
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.6000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM     32   CB ARG B 137       5.265  -8.187  18.947  0.00  0.00           C 0
+ATOM      1    N ARG B 134       5.260 -12.025  19.972  0.25  6.56           N 0
+ATOM     24   CG GLU B 136       6.510  -8.835  24.117  0.00  0.00           C 0
+ATOM     28    N ARG B 137       4.440  -8.387  21.224  0.00  0.00           N 0
+ATOM     25   CD GLU B 136       7.821  -9.494  24.594  0.00  0.00           C 0
+ATOM     26  OE1 GLU B 136       8.889  -8.833  24.527  0.00  0.00           O 0
+ATOM     27  OE2 GLU B 136       7.780 -10.662  25.045  0.00  0.00           O 0
+ATOM     38  NH2 ARG B 137       9.703  -7.291  18.382  0.00  0.00           N 0
+ATOM     36   CZ ARG B 137       8.614  -7.017  17.665  0.00  0.00           C 0
+ATOM     37  NH1 ARG B 137       8.671  -7.091  16.336  0.62  7.66           N 0
+ATOM     33   CG ARG B 137       5.164  -7.404  17.647  0.00  0.00           C 0
+ATOM      2   CA ARG B 134       3.981 -12.480  19.445  0.00  0.00           C 0
+ATOM      4    O ARG B 134       2.605 -10.454  19.336  0.38  4.29           O 0
+ATOM     59   CD LYS B 140       8.095  -3.441  22.259  0.00  0.00           C 0
+ATOM     61   NZ LYS B 140      10.536  -2.925  21.968  0.05  5.47           N 0
+ATOM     35   NE ARG B 137       7.479  -6.661  18.275  0.00  0.00           N 0
+ATOM     29   CA ARG B 137       4.803  -7.423  20.188  0.00  0.00           C 0
+TER
+END

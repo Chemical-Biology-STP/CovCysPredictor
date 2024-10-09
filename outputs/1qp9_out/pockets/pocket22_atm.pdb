@@ -1,0 +1,75 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0741
+HEADER 1  - Drug Score                        : 0.0038
+HEADER 2  - Number of alpha spheres           :    85
+HEADER 3  - Mean alpha-sphere radius          : 3.7648
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4066
+HEADER 5  - Mean B-factor of pocket residues  : 0.2523
+HEADER 6  - Hydrophobicity Score              : 10.6471
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.3529
+HEADER 9  - Pocket volume (Monte Carlo)       : 686.8820
+HEADER 10 - Pocket volume (convex hull)       : 334.2431
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 7.5385
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.1529
+ATOM   2365    O ASP B  75      -3.913  39.110  19.775  0.32  9.64           O 0
+ATOM   2374   CB LYS B  76      -2.696  40.304  22.284  0.00  0.00           C 0
+ATOM   2376   CD LYS B  76      -3.981  41.532  24.031  0.00  0.00           C 0
+ATOM   1835    O LYS A  86      -6.887  39.477  25.994  0.00  0.00           O 0
+ATOM   2359    O CYS B  74      -4.430  42.920  20.073  0.54  2.14           O 0
+ATOM   1828    O THR A  85      -6.102  36.290  25.611  0.41  6.43           O 0
+ATOM   2266   CG LEU B  62      -2.657  44.183  28.954  0.00  0.00           C 0
+ATOM   2242   NE ARG B  59      -5.095  49.710  31.278  0.57  2.19           N 0
+ATOM   2261    N LEU B  62      -1.082  46.687  27.585  0.00  0.00           N 0
+ATOM    713  OP1 DA  F  16      -3.384  48.556  26.026  0.38  4.29           O 0
+ATOM    164  C5' DA  E   9      -6.887  45.991  31.109  0.00  0.00           C 0
+ATOM   1837   CG LYS A  86      -9.849  39.472  27.541  0.00  0.00           C 0
+ATOM    141  OP1 DT  E   8     -13.008  45.593  25.059  0.00  0.00           O 0
+ATOM   2378   NZ LYS B  76      -5.499  42.681  25.639  0.00  0.00           N 0
+ATOM    143  O5' DT  E   8     -12.623  46.847  27.207  0.69  1.07           O 0
+ATOM    162  OP2 DA  E   9     -10.217  44.145  30.934  0.38  3.21           O 0
+ATOM    149  C2' DT  E   8     -11.775  46.846  30.001  0.00  0.00           C 0
+ATOM    142  OP2 DT  E   8     -14.975  46.233  26.584  0.41  9.64           O 0
+ATOM   1840   NZ LYS A  86     -12.964  39.389  28.015  0.81  7.66           N 0
+ATOM    147  C3' DT  E   8     -10.707  46.401  29.014  0.00  0.00           C 0
+ATOM   2267  CD1 LEU B  62      -3.992  43.455  28.989  0.00  0.00           C 0
+ATOM    716  C5' DA  F  16      -6.168  49.647  26.181  0.00  0.00           C 0
+ATOM   2265   CB LEU B  62      -2.367  44.599  27.513  0.00  0.00           C 0
+ATOM   2354   CE LYS B  73      -9.563  43.941  19.174  0.00  0.00           C 0
+ATOM   2377   CE LYS B  76      -4.487  42.868  24.555  0.00  0.00           C 0
+ATOM    734  OP1 DG  F  17      -9.003  46.764  21.629  0.31  3.21           O 0
+ATOM   2363   CA ASP B  75      -4.158  40.926  18.195  0.00  0.00           C 0
+ATOM   2355   NZ LYS B  73     -10.639  43.034  18.643  0.00  0.00           N 0
+ATOM   1838   CD LYS A  86     -10.618  40.061  28.729  0.00  0.00           C 0
+ATOM   1839   CE LYS A  86     -11.912  39.274  29.067  0.00  0.00           C 0
+ATOM    719  C3' DA  F  16      -7.014  49.150  23.845  0.00  0.00           C 0
+ATOM    717  C4' DA  F  16      -7.357  49.607  25.259  0.00  0.00           C 0
+ATOM   2270   CA GLY B  63      -0.473  45.467  23.499  0.00  0.00           C 0
+ATOM    714  OP2 DA  F  16      -2.667  50.914  25.371  0.60  2.14           O 0
+ATOM   2301   CA ARG B  68       0.351  51.553  20.783  0.00  0.00           C 0
+ATOM   2300    N ARG B  68       0.700  50.436  19.906  0.65  1.09           N 0
+ATOM   2304   CB ARG B  68       1.170  51.490  22.077  0.00  0.00           C 0
+ATOM   2306   CD ARG B  68      -0.237  52.240  24.045  0.00  0.00           C 0
+ATOM   2269    N GLY B  63      -0.854  45.774  24.865  0.00  0.00           N 0
+ATOM   2276    O CYS B  64       2.302  47.942  21.260  0.54  1.07           O 0
+ATOM    161  OP1 DA  E   9      -8.345  44.088  29.151  0.48  6.43           O 0
+ATOM    144  C5' DT  E   8     -11.469  47.651  26.962  0.00  0.00           C 0
+ATOM    145  C4' DT  E   8     -10.530  47.641  28.145  0.00  0.00           C 0
+ATOM    148  O3' DT  E   8      -9.474  46.231  29.714  0.66  1.07           O 0
+ATOM   2343    O VAL B  72      -4.014  49.112  18.375  0.74  5.36           O 0
+ATOM    745   C8 DG  F  17      -6.065  52.545  20.071  0.00  0.00           C 0
+ATOM   2298   CB CYS B  67      -0.248  47.818  18.327  0.00  0.00           C 0
+ATOM   2360   CB CYS B  74      -2.203  44.851  19.923  0.00  0.00           C 0
+ATOM    720  O3' DA  F  16      -8.123  48.463  23.271  0.66  2.14           O 0
+ATOM    735  OP2 DG  F  17      -6.560  47.544  21.595  0.51  6.43           O 0
+ATOM    746   N7 DG  F  17      -5.523  53.559  20.695  0.80  5.47           N 0
+ATOM   2297    O CYS B  67      -0.778  51.037  18.324  0.00  0.00           O 0
+ATOM    721  C2' DA  F  16      -6.666  50.449  23.137  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,62 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.1427
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    55
+HEADER 3  - Mean alpha-sphere radius          : 4.1102
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6007
+HEADER 5  - Mean B-factor of pocket residues  : 0.1224
+HEADER 6  - Hydrophobicity Score              : -20.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 811.1540
+HEADER 10 - Pocket volume (convex hull)       : 146.0936
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.6667
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.2182
+ATOM   2433   CB GLU A  14      10.148 -27.649  26.054  0.00  0.00           C 0
+ATOM   3082   NZ LYS A  97      10.214 -34.935  27.377  0.00  0.00           N 0
+ATOM   2431    C GLU A  14      11.101 -29.139  24.281  0.00  0.00           C 0
+ATOM   2432    O GLU A  14      12.324 -29.322  24.263  0.00  0.00           O 0
+ATOM   2412    O GLY A  11       6.894 -29.080  25.138  0.00  0.00           O 0
+ATOM   2416    O LYS A  12       7.060 -29.618  21.544  0.48  1.07           O 0
+ATOM   3077    O LYS A  97       7.187 -34.041  20.670  0.66  4.29           O 0
+ATOM   2414   CA LYS A  12       5.223 -29.033  22.963  0.00  0.00           C 0
+ATOM   3078   CB LYS A  97       8.801 -35.258  22.617  0.00  0.00           C 0
+ATOM    109   CA GLY B  15       1.356 -31.394  32.824  0.00  0.00           C 0
+ATOM     82    O GLY B  11       5.131 -28.957  31.347  0.64  7.50           O 0
+ATOM     86    O LYS B  12       4.888 -29.377  34.882  0.00  0.00           O 0
+ATOM    748   CB LYS B  97       3.626 -35.171  34.128  0.00  0.00           C 0
+ATOM   2438    N GLY A  15      10.234 -30.122  24.044  0.00  0.00           N 0
+ATOM   3080   CD LYS A  97       9.640 -35.085  24.966  0.00  0.00           C 0
+ATOM   2437  OE2 GLU A  14       9.875 -26.760  28.874  0.57  6.43           O 0
+ATOM     91   NZ LYS B  12      11.805 -29.370  32.660  0.00  0.00           N 0
+ATOM   2439   CA GLY A  15      10.681 -31.463  23.720  0.00  0.00           C 0
+ATOM     81    C GLY B  11       6.097 -28.191  31.284  0.00  0.00           C 0
+ATOM     80   CA GLY B  11       6.383 -27.399  30.021  0.00  0.00           C 0
+ATOM   2410   CA GLY A  11       5.663 -27.447  26.389  0.00  0.00           C 0
+ATOM   3282   CD PRO A 122      15.228 -26.158  26.732  0.00  0.00           C 0
+ATOM   3281   CG PRO A 122      13.852 -25.769  26.289  0.00  0.00           C 0
+ATOM    952   CD PRO B 122      -3.263 -26.344  29.686  0.00  0.00           C 0
+ATOM    103   CB GLU B  14       1.868 -27.682  30.373  0.00  0.00           C 0
+ATOM    951   CG PRO B 122      -1.893 -25.900  30.101  0.00  0.00           C 0
+ATOM    102    O GLU B  14      -0.306 -29.270  32.267  0.68  5.36           O 0
+ATOM    107  OE2 GLU B  14       2.210 -26.928  27.502  0.53  3.21           O 0
+ATOM    108    N GLY B  15       1.790 -30.053  32.481  0.57  1.09           N 0
+ATOM    751   CE LYS B  97       2.922 -36.112  30.485  0.00  0.00           C 0
+ATOM     88   CG LYS B  12       9.249 -29.235  34.059  0.00  0.00           C 0
+ATOM     84   CA LYS B  12       6.780 -28.803  33.530  0.00  0.00           C 0
+ATOM   2411    C GLY A  11       5.929 -28.311  25.171  0.00  0.00           C 0
+ATOM   2413    N LYS A  12       5.076 -28.196  24.150  0.00  0.00           N 0
+ATOM   2418   CG LYS A  12       2.686 -29.219  22.690  0.00  0.00           C 0
+ATOM    101    C GLU B  14       0.915 -29.084  32.218  0.00  0.00           C 0
+ATOM    750   CD LYS B  97       2.835 -35.273  31.749  0.00  0.00           C 0
+ATOM    747    O LYS B  97       5.147 -33.773  36.037  0.72  5.36           O 0
+ATOM     83    N LYS B  12       6.937 -28.021  32.307  0.00  0.00           N 0
+ATOM    752   NZ LYS B  97       1.580 -36.567  30.030  0.77  8.75           N 0
+TER
+END

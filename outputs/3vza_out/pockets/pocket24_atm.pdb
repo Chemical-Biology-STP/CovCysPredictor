@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0393
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8051
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5354
+HEADER 5  - Mean B-factor of pocket residues  : 0.6193
+HEADER 6  - Hydrophobicity Score              : -3.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 6.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 390.9547
+HEADER 10 - Pocket volume (convex hull)       : 35.4529
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.6000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM   1349   CA ARG A 134     -43.462 -20.493   2.443  0.00  0.00           C 0
+ATOM   1379   CB ARG A 137     -40.382 -17.234   2.937  0.00  0.00           C 0
+ATOM   1348    N ARG A 134     -43.713 -19.163   1.906  0.25  5.47           N 0
+ATOM   1380   CG ARG A 137     -39.658 -16.919   4.248  0.00  0.00           C 0
+ATOM   1351    O ARG A 134     -41.028 -20.698   2.577  0.28  4.29           O 0
+ATOM   1384  NH1 ARG A 137     -41.137 -13.753   5.564  0.00  0.00           N 0
+ATOM   1383   CZ ARG A 137     -41.033 -13.744   4.239  0.00  0.00           C 0
+ATOM   1371   CG GLU A 136     -41.564 -16.472  -2.213  0.00  0.00           C 0
+ATOM   1375    N ARG A 137     -40.118 -18.065   0.673  0.00  0.00           N 0
+ATOM   1372   CD GLU A 136     -42.793 -15.665  -2.693  0.00  0.00           C 0
+ATOM   1385  NH2 ARG A 137     -41.809 -12.934   3.527  0.00  0.00           N 0
+ATOM   1382   NE ARG A 137     -40.150 -14.538   3.630  0.55  1.09           N 0
+ATOM   1376   CA ARG A 137     -39.484 -17.259   1.700  0.00  0.00           C 0
+ATOM   1406   CD LYS A 140     -37.709 -12.408  -0.347  0.00  0.00           C 0
+ATOM   1373  OE1 GLU A 136     -42.757 -14.409  -2.628  0.00  0.00           O 0
+ATOM   1374  OE2 GLU A 136     -43.787 -16.282  -3.146  0.76  9.64           O 0
+ATOM   1408   NZ LYS A 140     -38.459 -10.009  -0.086  0.00  0.00           N 0
+ATOM   2321    O TYR C 151     -39.572  -9.418   2.620  0.43  5.36           O 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0020
+HEADER 1  - Drug Score                        : 0.0054
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.0966
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6090
+HEADER 5  - Mean B-factor of pocket residues  : 0.2488
+HEADER 6  - Hydrophobicity Score              : 17.3750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 330.6976
+HEADER 10 - Pocket volume (convex hull)       : 13.4909
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3478
+ATOM   2694   CD PRO B 102       5.557  50.071  80.431  0.00  0.00           C 0
+ATOM   2681   CA LEU B 101       5.480  48.138  78.175  0.00  0.00           C 0
+ATOM   2687  CD2 LEU B 101       7.984  46.173  77.277  0.00  0.00           C 0
+ATOM   2922   CB GLU B 133       7.371  46.926  83.143  0.00  0.00           C 0
+ATOM   2711   CB THR B 104      12.367  52.328  77.257  0.00  0.00           C 0
+ATOM   2634  CE1 TYR B  94      12.359  56.723  79.853  0.00  0.00           C 0
+ATOM   2713  CG2 THR B 104      11.605  51.161  77.850  0.00  0.00           C 0
+ATOM   2637   OH TYR B  94      14.198  57.322  81.288  0.00  0.00           O 0
+ATOM   2645  ND2 ASN B  95      10.999  56.762  84.986  0.00  0.00           N 0
+ATOM   2639   CA ASN B  95       8.067  56.609  83.765  0.00  0.00           C 0
+ATOM   2638    N ASN B  95       8.224  56.677  82.305  0.66  3.28           N 0
+ATOM   2661  NE2 HIS B  97       8.429  53.334  87.044  0.74  1.09           N 0
+ATOM   2660  CE1 HIS B  97       8.453  52.016  87.053  0.00  0.00           C 0
+ATOM   2708   CA THR B 104      11.616  53.675  77.490  0.00  0.00           C 0
+ATOM   2698    O TYR B 103       9.265  54.686  78.529  0.66  2.14           O 0
+ATOM   2691    O PRO B 102       7.880  51.561  77.926  0.57  2.14           O 0
+ATOM   2925  OE1 GLU B 133       7.262  49.492  84.111  0.00  0.00           O 0
+ATOM   2692   CB PRO B 102       5.785  52.432  80.260  0.00  0.00           C 0
+ATOM   2652    N HIS B  97       4.843  53.913  84.576  0.61  1.09           N 0
+ATOM   2710    O THR B 104      13.713  54.803  77.446  0.46  6.43           O 0
+TER
+END

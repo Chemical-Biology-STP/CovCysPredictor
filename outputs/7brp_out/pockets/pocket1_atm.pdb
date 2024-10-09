@@ -1,0 +1,64 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.7926
+HEADER 1  - Drug Score                        : 0.7198
+HEADER 2  - Number of alpha spheres           :    72
+HEADER 3  - Mean alpha-sphere radius          : 4.0904
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5522
+HEADER 5  - Mean B-factor of pocket residues  : 0.0828
+HEADER 6  - Hydrophobicity Score              : 13.1538
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.4615
+HEADER 9  - Pocket volume (Monte Carlo)       : 568.7147
+HEADER 10 - Pocket volume (convex hull)       : 109.2019
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 27.6667
+HEADER 13 - Number of apolar alpha sphere     :    36
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   3794   CA GLN A 189      28.704 -11.296   7.965  0.00  0.00           C 0
+ATOM   3798   CG GLN A 189      30.055 -10.842  10.085  0.00  0.00           C 0
+ATOM   3805    O THR A 190      26.539  -7.463   6.370  0.00  0.00           O 0
+ATOM   3620    O GLU A 166      22.805  -8.509  13.517  0.00  0.00           O 0
+ATOM   3613   CB MET A 165      21.861 -12.667  11.626  0.00  0.00           C 0
+ATOM   3802    N THR A 190      28.371  -9.377   6.539  0.00  0.00           N 0
+ATOM   3804    C THR A 190      27.638  -7.168   5.896  0.00  0.00           C 0
+ATOM   3803   CA THR A 190      28.745  -8.204   5.764  0.00  0.00           C 0
+ATOM   3800  OE1 GLN A 189      30.717 -12.534  11.643  0.55  7.50           O 0
+ATOM   3795    C GLN A 189      29.277 -10.154   7.129  0.00  0.00           C 0
+ATOM   3796    O GLN A 189      30.490  -9.968   7.003  0.57  3.21           O 0
+ATOM   2700   SD MET A  49      29.757 -17.030  11.704  0.00  0.00           S 0
+ATOM   3602    O HIS A 164      22.092 -15.772  13.037  0.00  0.00           O 0
+ATOM   3797   CB GLN A 189      29.715 -11.822   8.976  0.00  0.00           C 0
+ATOM   3817    O GLN A 192      22.535  -4.029   7.287  0.44  5.36           O 0
+ATOM   3616   CE MET A 165      21.748 -10.595   9.073  0.00  0.00           C 0
+ATOM   2699   CG MET A  49      30.043 -17.222   9.936  0.00  0.00           C 0
+ATOM   2637   CB HIS A  41      25.968 -19.741   9.433  0.00  0.00           C 0
+ATOM   3777    O ASP A 187      25.686 -16.089   5.605  0.00  0.00           O 0
+ATOM   2744   OH TYR A  54      26.320 -18.604   6.264  0.00  0.00           O 0
+ATOM   3793    N GLN A 189      28.271 -12.364   7.065  0.00  0.00           N 0
+ATOM   3776    C ASP A 187      24.944 -15.124   5.799  0.00  0.00           C 0
+ATOM   2638   CG HIS A  41      25.206 -19.326  10.654  0.00  0.00           C 0
+ATOM   2640  CD2 HIS A  41      25.582 -19.233  11.952  0.00  0.00           C 0
+ATOM   3640   CD PRO A 168      22.226  -3.703  12.983  0.00  0.00           C 0
+ATOM   2642  NE2 HIS A  41      24.492 -18.786  12.659  0.00  0.00           N 0
+ATOM   3785    O ARG A 188      26.318 -11.370   6.514  0.00  0.00           O 0
+ATOM   3784    C ARG A 188      27.105 -12.317   6.422  0.00  0.00           C 0
+ATOM   2698   CB MET A  49      30.522 -15.949   9.258  0.00  0.00           C 0
+ATOM   3782    N ARG A 188      25.374 -13.865   5.747  0.00  0.00           N 0
+ATOM   2639  ND1 HIS A  41      23.891 -18.918  10.606  0.00  0.00           N 0
+ATOM   2641  CE1 HIS A  41      23.485 -18.604  11.824  0.00  0.00           C 0
+ATOM   3818   CB GLN A 192      22.768  -6.678   5.575  0.00  0.00           C 0
+ATOM   3814    N GLN A 192      24.623  -5.054   5.814  0.00  0.00           N 0
+ATOM   3822  NE2 GLN A 192      23.845  -9.995   5.574  0.00  0.00           N 0
+ATOM   3615   SD MET A 165      21.270 -12.315   8.946  0.00  0.00           S 0
+ATOM   3775   CA ASP A 187      23.454 -15.276   6.114  0.00  0.00           C 0
+ATOM   3603   CB HIS A 164      19.692 -16.544  10.976  0.00  0.00           C 0
+ATOM   3778   CB ASP A 187      23.086 -16.715   6.451  0.00  0.00           C 0
+ATOM   3631   CG LEU A 167      19.789  -6.598  11.243  0.00  0.00           C 0
+ATOM   3632  CD1 LEU A 167      19.852  -8.120  11.211  0.00  0.00           C 0
+ATOM   3627   CA LEU A 167      20.985  -6.338  13.579  0.00  0.00           C 0
+TER
+END

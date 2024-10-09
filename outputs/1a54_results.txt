@@ -1,0 +1,25 @@
+{
+    "A 197": {
+        "chain": "A",
+        "resid": 197,
+        "sasa": 0.0,
+        "log_exp": 0.0,
+        "any_fpocket": 1,
+        "neighbors": [
+            "P",
+            "A",
+            "P",
+            "V",
+            "E",
+            "Y",
+            "Y",
+            "A",
+            "K",
+            "Q",
+            "L",
+            "D"
+        ],
+        "score": "0.02",
+        "predicted_modifiable": false
+    }
+}

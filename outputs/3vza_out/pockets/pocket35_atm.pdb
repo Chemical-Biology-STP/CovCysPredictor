@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.0986
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.7769
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4617
+HEADER 5  - Mean B-factor of pocket residues  : 0.2201
+HEADER 6  - Hydrophobicity Score              : -5.1250
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.8041
+HEADER 10 - Pocket volume (convex hull)       : 11.3241
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0741
+ATOM   2452   CB ILE C 167     -27.901  -5.722  23.477  0.00  0.00           C 0
+ATOM   2453  CG1 ILE C 167     -28.049  -5.776  25.002  0.00  0.00           C 0
+ATOM   2447  OD2 ASP C 166     -23.085  -6.633  26.395  0.05  9.64           O 0
+ATOM   2455  CD1 ILE C 167     -28.496  -4.496  25.552  0.00  0.00           C 0
+ATOM   2445   CG ASP C 166     -24.035  -7.359  25.927  0.00  0.00           C 0
+ATOM   2469  NE2 GLN C 169     -25.893  -3.760  20.285  0.71  4.37           N 0
+ATOM    191  NH1 ARG B 155     -19.180  -2.581  23.100  0.00  0.00           N 0
+ATOM   3128  NE2 GLN F  86     -20.614  -3.341  26.813  0.55  1.09           N 0
+ATOM    192  NH2 ARG B 155     -19.276  -4.283  21.492  0.41  6.56           N 0
+ATOM    218  ND2 ASN B 158     -25.807   0.330  24.636  0.66  7.66           N 0
+ATOM    211    N ASN B 158     -22.453   0.050  24.392  0.43  1.09           N 0
+ATOM    205   CB HIS B 157     -21.478   0.540  27.278  0.00  0.00           C 0
+ATOM   2448    N ILE C 167     -26.588  -7.678  23.743  0.49  1.09           N 0
+ATOM   2444   CB ASP C 166     -23.831  -8.320  24.714  0.00  0.00           C 0
+ATOM   2451    O ILE C 167     -26.679  -6.584  20.835  0.50  4.29           O 0
+ATOM    227  OE2 GLU B 159     -22.294  -3.732  19.841  0.54  7.50           O 0
+ATOM    212   CA ASN B 158     -23.342   0.446  23.341  0.00  0.00           C 0
+ATOM    219    N GLU B 159     -21.761  -0.292  21.641  0.00  0.00           N 0
+TER
+END

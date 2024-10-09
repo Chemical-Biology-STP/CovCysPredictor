@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0259
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.8899
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5591
+HEADER 5  - Mean B-factor of pocket residues  : 0.2090
+HEADER 6  - Hydrophobicity Score              : 5.8182
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7273
+HEADER 9  - Pocket volume (Monte Carlo)       : 405.5188
+HEADER 10 - Pocket volume (convex hull)       : 36.5079
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2143
+ATOM   1290   CB ALA A 177      -8.781  -7.002   0.202  0.00  0.00           C 0
+ATOM   2056   CG PRO A 271      -2.939  -3.308   1.729  0.00  0.00           C 0
+ATOM   1253   CB GLU A 172      -4.721  -6.804   0.287  0.00  0.00           C 0
+ATOM   1303    O TYR A 179      -9.594  -3.059  -1.414  0.40  5.36           O 0
+ATOM   2064  OD1 ASN A 272      -4.375   1.176   5.053  0.00  0.00           O 0
+ATOM   2055   CB PRO A 271      -2.627  -1.940   1.181  0.00  0.00           C 0
+ATOM   1710    C GLY A 229      -6.213  -7.229   9.652  0.00  0.00           C 0
+ATOM   1711    O GLY A 229      -7.225  -7.759   9.181  0.65  5.36           O 0
+ATOM   1709   CA GLY A 229      -6.363  -5.958  10.460  0.00  0.00           C 0
+ATOM   1704    O PRO A 228      -4.445  -4.195   9.512  0.00  0.00           O 0
+ATOM   1739   CE MET A 233      -7.298  -8.260   3.349  0.00  0.00           C 0
+ATOM   1254   CG GLU A 172      -4.416  -5.979  -0.970  0.00  0.00           C 0
+ATOM   1695  NE1 TRP A 227      -3.190  -5.519   5.951  0.00  0.00           N 0
+ATOM   1738   SD MET A 233      -6.386  -8.546   4.861  0.00  0.00           S 0
+ATOM   2049  OD1 ASP A 270      -1.748  -1.543   5.722  0.40  1.07           O 0
+ATOM   2054    O PRO A 271      -0.910   0.741   1.329  0.00  0.00           O 0
+ATOM   1329   OG SER A 181      -4.396   0.215  -1.994  0.00  0.00           O 0
+ATOM   2065  ND2 ASN A 272      -3.836   3.344   4.781  0.00  0.00           N 0
+ATOM   1328   CB SER A 181      -5.680   0.728  -2.253  0.00  0.00           C 0
+ATOM   1698  CZ2 TRP A 227      -3.262  -7.069   3.983  0.00  0.00           C 0
+ATOM   2063   CG ASN A 272      -3.531   2.072   5.016  0.00  0.00           C 0
+ATOM   2057   CD PRO A 271      -2.280  -3.384   3.068  0.00  0.00           C 0
+ATOM   2053    C PRO A 271      -1.211  -0.108   2.177  0.00  0.00           C 0
+ATOM   1324    N SER A 181      -6.781  -1.141  -3.407  0.18  1.09           N 0
+ATOM   1257  OE2 GLU A 172      -2.745  -4.342  -1.478  0.50  1.07           O 1
+TER
+END
