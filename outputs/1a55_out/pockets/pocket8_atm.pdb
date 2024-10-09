@@ -12,23 +12,23 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.4728
 HEADER 6  - Hydrophobicity Score              : 39.2000
 HEADER 7  - Polarity Score                    :     4
 HEADER 8  - Amino Acid based volume Score     : 3.8000
-HEADER 9  - Pocket volume (Monte Carlo)       : 255.8456
+HEADER 9  - Pocket volume (Monte Carlo)       : 252.9201
 HEADER 10 - Pocket volume (convex hull)       : 9.7419
 HEADER 11 - Charge Score                      :     0
 HEADER 12 - Local hydrophobic density Score   : 2.0000
 HEADER 13 - Number of apolar alpha sphere     :     3
 HEADER 14 - Proportion of apolar alpha sphere : 0.1304
-ATOM    619  ND2 ASN A  84      43.704  39.855  20.353  0.00  0.00           N 0
+ATOM    618  ND2 ASN A  84      43.704  39.855  20.353  0.00  0.00           N 0
 ATOM   1512    O ASN A 203      37.065  39.070  25.785  0.00  0.00           O 0
 ATOM   1369   CG GLN A 185      42.379  35.064  23.820  0.00  0.00           C 0
 ATOM   1367    O GLN A 185      44.614  37.179  21.963  0.74  7.50           O 0
 ATOM   1524  CD2 LEU A 204      38.592  36.510  22.532  0.00  0.00           C 0
-ATOM   1371  OE1 GLN A 185      40.897  34.281  25.450  0.00  0.00           O 0
+ATOM   1372  OE1 GLN A 185      40.897  34.281  25.450  0.00  0.00           O 0
 ATOM   1504    O ASN A 202      37.686  35.537  26.280  0.50  4.29           O 0
 ATOM   1365   CA GLN A 185      42.612  36.074  21.436  0.00  0.00           C 0
 ATOM   1525    N ALA A 205      35.861  40.516  22.403  0.00  0.00           N 0
 ATOM   1518   CA LEU A 204      36.232  38.338  23.225  0.00  0.00           C 0
-ATOM    618  OD1 ASN A  84      43.207  41.957  20.609  0.00  0.00           O 0
+ATOM    619  OD1 ASN A  84      43.207  41.957  20.609  0.00  0.00           O 0
 ATOM    617   CG ASN A  84      43.011  40.918  19.985  0.00  0.00           C 0
 ATOM   1529   CB ALA A 205      36.037  42.871  21.667  0.00  0.00           C 0
 ATOM    623    O ILE A  85      41.006  46.691  20.391  0.36  8.57           O 0

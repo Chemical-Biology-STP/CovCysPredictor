@@ -3,36 +3,33 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    36:
-HEADER 0  - Pocket Score                      : -0.0409
-HEADER 1  - Drug Score                        : 0.0007
-HEADER 2  - Number of alpha spheres           :    18
-HEADER 3  - Mean alpha-sphere radius          : 3.7187
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5406
-HEADER 5  - Mean B-factor of pocket residues  : 0.2270
-HEADER 6  - Hydrophobicity Score              : 11.4286
-HEADER 7  - Polarity Score                    :     6
-HEADER 8  - Amino Acid based volume Score     : 4.1429
-HEADER 9  - Pocket volume (Monte Carlo)       : 244.0857
-HEADER 10 - Pocket volume (convex hull)       : 6.0307
-HEADER 11 - Charge Score                      :     1
-HEADER 12 - Local hydrophobic density Score   : 11.0000
-HEADER 13 - Number of apolar alpha sphere     :    12
-HEADER 14 - Proportion of apolar alpha sphere : 0.6667
-ATOM   1101  CD1 LEU B 141     -10.530 -14.190  28.645  0.00  0.00           C 0
-ATOM    919  CD1 TYR B 118      -9.829 -18.832  31.228  0.00  0.00           C 0
-ATOM    921  CE1 TYR B 118      -9.476 -17.511  31.409  0.00  0.00           C 0
-ATOM   1106    O ASN B 142     -13.398 -17.580  32.599  0.65  8.57           O 0
-ATOM   1099   CB LEU B 141     -10.864 -14.386  31.112  0.00  0.00           C 0
-ATOM    923   CZ TYR B 118      -8.320 -17.029  30.833  0.00  0.00           C 0
-ATOM   4659   OG SER A 301     -12.985 -16.130  25.703  0.37  5.36           O 0
-ATOM    932  ND2 ASN B 119     -13.569 -23.645  30.261  0.00  0.00           N 0
-ATOM   4657    O SER A 301     -14.438 -14.670  26.729  0.14  5.36           O 0
-ATOM    918   CG TYR B 118      -9.041 -19.687  30.471  0.00  0.00           C 0
-ATOM   4631    O ARG A 298      -8.037 -14.845  25.306  0.34  4.29           O 0
-ATOM   4658   CB SER A 301     -12.079 -15.146  25.238  0.00  0.00           C 0
-ATOM    920  CD2 TYR B 118      -7.881 -19.178  29.902  0.00  0.00           C 0
-ATOM    958   CBASER B 123      -4.918 -19.925  27.865  0.00  0.00           C 0
-ATOM    922  CE2 TYR B 118      -7.519 -17.858  30.079  0.00  0.00           C 0
-ATOM    917   CB TYR B 118      -9.429 -21.133  30.280  0.00  0.00           C 0
+HEADER 0  - Pocket Score                      : -0.0508
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8822
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5844
+HEADER 5  - Mean B-factor of pocket residues  : 0.1295
+HEADER 6  - Hydrophobicity Score              : 17.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 162.3277
+HEADER 10 - Pocket volume (convex hull)       : 4.0523
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   2588  CG2 VAL B  35      -2.089 -34.377  47.961  0.00  0.00           C 0
+ATOM   3029   CE LYS B  90      -4.096 -39.418  50.249  0.00  0.00           C 0
+ATOM   3028   CD LYS B  90      -5.540 -38.984  50.054  0.00  0.00           C 0
+ATOM   3026   CB LYS B  90      -6.649 -37.140  48.754  0.00  0.00           C 0
+ATOM   2958   OG SER B  81      -7.125 -31.427  53.230  0.68  4.29           O 0
+ATOM   3012   CE LYS B  88      -3.873 -29.581  52.246  0.00  0.00           C 0
+ATOM   3013   NZ LYS B  88      -2.702 -29.830  53.134  0.00  0.00           N 1
+ATOM   3011   CD LYS B  88      -3.463 -29.394  50.794  0.00  0.00           C 0
+ATOM   2607   OH TYR B  37       0.155 -30.708  47.909  0.71  4.29           O 0
+ATOM   3009   CB LYS B  88      -5.677 -30.157  49.883  0.00  0.00           C 0
+ATOM   3008    O LYS B  88      -8.129 -31.785  49.574  0.57  3.21           O 0
+ATOM   2587  CG1 VAL B  35      -3.327 -32.244  47.529  0.00  0.00           C 0
+ATOM   3022    N LYS B  90      -7.543 -35.157  47.618  0.63  1.09           N 0
 TER
 END

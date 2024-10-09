@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0742
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9627
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4656
+HEADER 5  - Mean B-factor of pocket residues  : 0.1294
+HEADER 6  - Hydrophobicity Score              : 15.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.6702
+HEADER 10 - Pocket volume (convex hull)       : 3.8454
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM   1369  CE1 HIS A 176     -38.055   2.555  -1.089  0.00  0.00           C 0
+ATOM   1368  ND1 HIS A 176     -37.304   1.474  -1.162  0.42  4.37           N 0
+ATOM    739  NH2 ARG A  92     -42.737  -1.913  -1.042  0.37  9.84           N 0
+ATOM   1370  NE2 HIS A 176     -38.229   3.027  -2.313  0.00  0.00           N 0
+ATOM   1367  CD2 HIS A 176     -37.565   2.220  -3.205  0.00  0.00           C 0
+ATOM    690    O HIS A  88     -40.312   1.978  -8.390  0.21  5.36           O 0
+ATOM   1366   CG HIS A 176     -36.965   1.242  -2.485  0.00  0.00           C 0
+ATOM    736   NE ARG A  92     -40.914  -3.318  -1.133  0.50  7.66           N 0
+ATOM    687   CAAHIS A  88     -39.759   4.003  -7.213  0.00  0.00           C 0
+ATOM    717    O LEU A  90     -37.381  -0.756  -6.519  0.29  5.36           O 0
+ATOM    733   CB ARG A  92     -38.696  -4.235  -2.788  0.00  0.00           C 0
+ATOM    729    N ARG A  92     -37.353  -3.964  -4.762  0.58  5.47           N 0
+ATOM   1233   NZ LYS A 156     -40.833  -2.140  -9.388  0.55  5.47           N 1
+ATOM   1365   CB HIS A 176     -36.149   0.069  -2.919  0.00  0.00           C 0
+TER
+END

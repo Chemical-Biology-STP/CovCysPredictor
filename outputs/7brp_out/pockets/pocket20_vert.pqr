@@ -4,37 +4,35 @@ HEADER It represent the voronoi vertices of a single pocket found by the
 HEADER algorithm.                                                                
 HEADER                                                                           
 HEADER Information about the pocket    20:
-HEADER 0  - Pocket Score                      : 0.0537
+HEADER 0  - Pocket Score                      : 0.0297
 HEADER 1  - Drug Score                        : 0.0006
-HEADER 2  - Number of V. Vertices             :    18
-HEADER 3  - Mean alpha-sphere radius          : 4.0502
-HEADER 4  - Mean alpha-sphere SA              : 0.6551
-HEADER 5  - Mean B-factor                     : 0.2185
-HEADER 6  - Hydrophobicity Score              : 37.6000
-HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Volume Score                      : 4.4000
-HEADER 9  - Real volume (approximation)       : 287.8693
-HEADER 10 - Charge Score                      :    -1
-HEADER 11 - Local hydrophobic density Score   : 7.0000
-HEADER 12 - Number of apolar alpha sphere     :     8
-HEADER 13 - Proportion of apolar alpha sphere : 0.4444
-ATOM      1    O STP    20      16.877  14.571  31.881    0.00     3.91
-ATOM      2    O STP    20      16.546  14.032  32.919    0.00     3.46
-ATOM      3    O STP    20      17.063  13.699  32.709    0.00     3.86
-ATOM      4    O STP    20      20.488  16.362  33.771    0.00     3.99
-ATOM      5    C STP    20      20.719  15.932  32.830    0.00     4.66
-ATOM      6    O STP    20      21.359  13.733  31.191    0.00     4.16
-ATOM      7    O STP    20      17.485  14.186  31.625    0.00     4.39
-ATOM      8    O STP    20      17.538  13.976  31.815    0.00     4.37
-ATOM      9    C STP    20      20.604  15.728  32.749    0.00     4.64
-ATOM     10    C STP    20      18.008  13.864  31.939    0.00     4.45
-ATOM     11    C STP    20      18.665  13.293  32.023    0.00     4.35
-ATOM     12    O STP    20      17.154  13.668  32.758    0.00     3.86
-ATOM     13    C STP    20      17.129  13.426  33.015    0.00     3.64
-ATOM     14    C STP    20      20.678  14.990  33.210    0.00     4.03
-ATOM     15    O STP    20      20.223  14.105  32.294    0.00     4.41
-ATOM     16    C STP    20      21.313  15.231  34.079    0.00     3.50
-ATOM     17    C STP    20      18.600  11.834  31.687    0.00     3.42
-ATOM     18    O STP    20      19.581  12.803  30.908    0.00     3.80
+HEADER 2  - Number of V. Vertices             :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8081
+HEADER 4  - Mean alpha-sphere SA              : 0.4894
+HEADER 5  - Mean B-factor                     : 0.1870
+HEADER 6  - Hydrophobicity Score              : 24.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 3.3750
+HEADER 9  - Real volume (approximation)       : 214.9070
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 6.0000
+HEADER 12 - Number of apolar alpha sphere     :     7
+HEADER 13 - Proportion of apolar alpha sphere : 0.4375
+ATOM      1    C STP    20     -10.322  -8.678  29.291    0.00     3.66
+ATOM      2    O STP    20      -9.788  -8.564  29.310    0.00     3.57
+ATOM      3    O STP    20      -9.473  -8.587  29.377    0.00     3.49
+ATOM      4    C STP    20     -10.412  -8.767  29.166    0.00     3.58
+ATOM      5    O STP    20     -11.599  -6.653  30.858    0.00     3.44
+ATOM      6    O STP    20     -13.805  -8.183  31.015    0.00     4.64
+ATOM      7    O STP    20     -12.245  -6.922  31.134    0.00     3.59
+ATOM      8    C STP    20     -10.609  -8.284  29.313    0.00     3.72
+ATOM      9    O STP    20     -11.051  -7.391  29.917    0.00     3.51
+ATOM     10    O STP    20     -11.494  -7.006  30.306    0.00     3.57
+ATOM     11    C STP    20     -10.747  -8.493  29.296    0.00     3.77
+ATOM     12    C STP    20     -10.835  -8.565  29.188    0.00     3.71
+ATOM     13    C STP    20     -12.894  -8.437  30.415    0.00     4.14
+ATOM     14    O STP    20     -13.764  -8.195  30.961    0.00     4.63
+ATOM     15    O STP    20     -14.418  -9.295  29.359    0.00     4.39
+ATOM     16    C STP    20     -12.621  -9.227  28.660    0.00     3.54
 TER
 END

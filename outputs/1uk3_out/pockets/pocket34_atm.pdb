@@ -12,7 +12,7 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.5783
 HEADER 6  - Hydrophobicity Score              : 42.5000
 HEADER 7  - Polarity Score                    :     4
 HEADER 8  - Amino Acid based volume Score     : 4.7500
-HEADER 9  - Pocket volume (Monte Carlo)       : 445.4719
+HEADER 9  - Pocket volume (Monte Carlo)       : 447.0537
 HEADER 10 - Pocket volume (convex hull)       : 52.7367
 HEADER 11 - Charge Score                      :     0
 HEADER 12 - Local hydrophobic density Score   : 23.0000
@@ -36,7 +36,7 @@ ATOM   1167    N TYR A 154      95.024 -12.916  35.527  0.00  0.00           N 0
 ATOM   1173  CD1 TYR A 154      97.410 -14.222  37.012  0.00  0.00           C 0
 ATOM   2296   CG ARG A 298      93.084 -19.743  32.666  0.00  0.00           C 0
 ATOM   2297   CD ARG A 298      93.388 -18.494  31.857  0.00  0.00           C 0
-ATOM   1166  OD2 ASP A 153      96.470 -14.574  31.140  0.71  1.07           O 0
+ATOM   1166  OD2 ASP A 153      96.470 -14.574  31.140  0.71  1.07           O 1
 ATOM   1163   CB ASP A 153      97.430 -13.198  32.854  0.00  0.00           C 0
 ATOM   1177   CZ TYR A 154      98.104 -15.792  38.707  0.00  0.00           C 0
 ATOM   1174  CD2 TYR A 154      97.010 -13.721  39.328  0.00  0.00           C 0

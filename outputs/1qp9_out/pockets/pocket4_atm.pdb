@@ -3,38 +3,38 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket     4:
-HEADER 0  - Pocket Score                      : 0.0386
+HEADER 0  - Pocket Score                      : 0.0452
 HEADER 1  - Drug Score                        : 0.0008
 HEADER 2  - Number of alpha spheres           :    20
 HEADER 3  - Mean alpha-sphere radius          : 4.1558
 HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6754
-HEADER 5  - Mean B-factor of pocket residues  : 0.1769
+HEADER 5  - Mean B-factor of pocket residues  : 0.2588
 HEADER 6  - Hydrophobicity Score              : 8.3750
 HEADER 7  - Polarity Score                    :     5
 HEADER 8  - Amino Acid based volume Score     : 3.8750
-HEADER 9  - Pocket volume (Monte Carlo)       : 257.2008
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.7337
 HEADER 10 - Pocket volume (convex hull)       : 5.2306
 HEADER 11 - Charge Score                      :     2
 HEADER 12 - Local hydrophobic density Score   : 3.0000
 HEADER 13 - Number of apolar alpha sphere     :     4
 HEADER 14 - Proportion of apolar alpha sphere : 0.2000
-ATOM   1828    O THR A  85      -6.102  36.290  25.611  0.41  6.43           O 0
-ATOM   1849   CA GLY A  88      -2.817  37.983  26.044  0.00  0.00           C 0
-ATOM   2365    O ASP B  75      -3.913  39.110  19.775  0.32  9.64           O 0
-ATOM   2374   CB LYS B  76      -2.696  40.304  22.284  0.00  0.00           C 0
-ATOM   1870  ND1 HIS A  91       2.357  34.398  27.188  0.00  0.00           N 0
-ATOM   1864    N HIS A  91       0.223  32.200  27.816  0.00  0.00           N 0
-ATOM   2392   CG ARG B  78       2.143  36.527  23.397  0.00  0.00           C 0
-ATOM   1868   CB HIS A  91       2.469  31.904  26.896  0.00  0.00           C 0
-ATOM   2391   CB ARG B  78       3.022  35.683  22.511  0.00  0.00           C 0
-ATOM   1863   CB ALA A  90      -2.908  32.140  27.023  0.00  0.00           C 0
-ATOM   1851    O GLY A  88      -0.603  37.098  26.201  0.51  1.07           O 0
-ATOM   1850    C GLY A  88      -1.678  37.278  26.760  0.00  0.00           C 0
-ATOM   1859    N ALA A  90      -1.830  34.043  28.075  0.53  1.09           N 0
-ATOM   2373    O LYS B  76      -0.366  38.590  21.930  0.51  1.07           O 0
-ATOM   2380   CA LEU B  77      -0.359  37.146  19.623  0.00  0.00           C 0
-ATOM   2379    N LEU B  77      -1.048  38.410  19.807  0.00  0.00           N 0
-ATOM   2372    C LYS B  76      -1.001  39.036  20.972  0.00  0.00           C 0
-ATOM   2387    N ARG B  78       1.642  36.145  20.558  0.00  0.00           N 0
+ATOM    789    O ASP B  75      -3.913  39.110  19.775  0.32  9.64           O 0
+ATOM    798   CB LYS B  76      -2.696  40.304  22.284  0.00  0.00           C 0
+ATOM    274   CA GLY A  88      -2.817  37.983  26.044  0.00  0.00           C 0
+ATOM    797    O LYS B  76      -0.366  38.590  21.930  0.51  1.07           O 0
+ATOM    253    O THR A  85      -6.102  36.290  25.611  0.41  6.43           O 0
+ATOM    288   CB ALA A  90      -2.908  32.140  27.023  0.00  0.00           C 0
+ATOM    276    O GLY A  88      -0.603  37.098  26.201  0.51  1.07           O 0
+ATOM    284    N ALA A  90      -1.830  34.043  28.075  0.53  1.09           N 0
+ATOM    289    N HIS A  91       0.223  32.200  27.816  0.00  0.00           N 0
+ATOM    816   CG ARG B  78       2.143  36.527  23.397  0.00  0.00           C 0
+ATOM    275    C GLY A  88      -1.678  37.278  26.760  0.00  0.00           C 0
+ATOM    815   CB ARG B  78       3.022  35.683  22.511  0.00  0.00           C 0
+ATOM    293   CB HIS A  91       2.469  31.904  26.896  0.00  0.00           C 0
+ATOM    811    N ARG B  78       1.642  36.145  20.558  0.00  0.00           N 0
+ATOM    296  ND1 HIS A  91       2.357  34.398  27.188  0.00  0.00           N 0
+ATOM    796    C LYS B  76      -1.001  39.036  20.972  0.00  0.00           C 0
+ATOM    803    N LEU B  77      -1.048  38.410  19.807  0.00  0.00           N 0
+ATOM    804   CA LEU B  77      -0.359  37.146  19.623  0.00  0.00           C 0
 TER
 END

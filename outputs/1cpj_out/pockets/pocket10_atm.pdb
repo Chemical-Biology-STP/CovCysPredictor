@@ -12,37 +12,37 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.3891
 HEADER 6  - Hydrophobicity Score              : 18.0000
 HEADER 7  - Polarity Score                    :     8
 HEADER 8  - Amino Acid based volume Score     : 4.0000
-HEADER 9  - Pocket volume (Monte Carlo)       : 409.0072
+HEADER 9  - Pocket volume (Monte Carlo)       : 408.1871
 HEADER 10 - Pocket volume (convex hull)       : 35.4969
 HEADER 11 - Charge Score                      :     1
 HEADER 12 - Local hydrophobic density Score   : 0.0000
 HEADER 13 - Number of apolar alpha sphere     :     1
 HEADER 14 - Proportion of apolar alpha sphere : 0.0455
-ATOM   2898    O LYS B 130       7.215  39.367  76.632  0.41  5.36           O 0
-ATOM   2984   CG LYS B 141       1.710  35.601  73.963  0.00  0.00           C 0
-ATOM   2979    N LYS B 141       1.777  38.235  76.197  0.00  0.00           N 0
-ATOM   2987   NZ LYS B 141       3.896  35.954  72.223  0.75  6.56           N 0
-ATOM   2961    N SER B 139       0.324  39.110  81.565  0.66  2.19           N 0
-ATOM   2962   CA SER B 139       1.543  38.828  80.793  0.00  0.00           C 0
-ATOM   2939    O TYR B 136       1.858  42.128  85.711  0.00  0.00           O 0
-ATOM   2965   CB SER B 139       1.799  37.321  80.699  0.00  0.00           C 0
-ATOM   2973  CD1 TYR B 140       4.327  39.734  74.439  0.00  0.00           C 0
-ATOM   2971   CB TYR B 140       4.197  40.058  76.935  0.00  0.00           C 0
-ATOM   2899   CB LYS B 130       8.321  39.269  74.078  0.00  0.00           C 0
-ATOM   2957    O THR B 138       1.074  41.136  82.180  0.00  0.00           O 0
-ATOM   2928   CA ALA B 134       7.546  44.218  86.628  0.00  0.00           C 0
-ATOM   2921    O GLU B 133       5.824  44.294  84.392  0.56  2.14           O 0
-ATOM   2932    N GLY B 135       5.500  44.163  87.891  0.57  2.19           N 0
-ATOM   2967    N TYR B 140       2.642  39.534  78.752  0.66  3.28           N 0
-ATOM   2966   OG SER B 139       0.917  36.700  79.777  0.68  2.14           O 0
-ATOM   2909   CG MET B 131       9.373  39.065  79.943  0.00  0.00           C 0
-ATOM   2905   CA MET B 131       8.095  40.964  78.749  0.00  0.00           C 0
-ATOM   2956    C THR B 138       0.195  40.267  82.203  0.00  0.00           C 0
-ATOM   2954    N THR B 138      -0.666  41.332  84.190  0.00  0.00           N 0
-ATOM   2951    O SER B 137      -1.530  40.135  85.902  0.00  0.00           O 0
-ATOM   2916   CB CYS B 132       4.276  42.802  80.996  0.00  0.00           C 0
-ATOM   2915    O CYS B 132       7.256  42.813  82.062  0.63  4.29           O 0
-ATOM   2912    N CYS B 132       6.238  42.232  79.634  0.59  2.19           N 0
-ATOM   2911   CE MET B 131       9.646  37.812  82.402  0.00  0.00           C 0
+ATOM   2897    O LYS B 130       7.215  39.367  76.632  0.41  5.36           O 0
+ATOM   2983   CG LYS B 141       1.710  35.601  73.963  0.00  0.00           C 0
+ATOM   2978    N LYS B 141       1.777  38.235  76.197  0.00  0.00           N 0
+ATOM   2986   NZ LYS B 141       3.896  35.954  72.223  0.75  6.56           N 1
+ATOM   2960    N SER B 139       0.324  39.110  81.565  0.66  2.19           N 0
+ATOM   2961   CA SER B 139       1.543  38.828  80.793  0.00  0.00           C 0
+ATOM   2938    O TYR B 136       1.858  42.128  85.711  0.00  0.00           O 0
+ATOM   2964   CB SER B 139       1.799  37.321  80.699  0.00  0.00           C 0
+ATOM   2972  CD1 TYR B 140       4.327  39.734  74.439  0.00  0.00           C 0
+ATOM   2970   CB TYR B 140       4.197  40.058  76.935  0.00  0.00           C 0
+ATOM   2898   CB LYS B 130       8.321  39.269  74.078  0.00  0.00           C 0
+ATOM   2956    O THR B 138       1.074  41.136  82.180  0.00  0.00           O 0
+ATOM   2927   CA ALA B 134       7.546  44.218  86.628  0.00  0.00           C 0
+ATOM   2920    O GLU B 133       5.824  44.294  84.392  0.56  2.14           O 0
+ATOM   2931    N GLY B 135       5.500  44.163  87.891  0.57  2.19           N 0
+ATOM   2966    N TYR B 140       2.642  39.534  78.752  0.66  3.28           N 0
+ATOM   2965   OG SER B 139       0.917  36.700  79.777  0.68  2.14           O 0
+ATOM   2908   CG MET B 131       9.373  39.065  79.943  0.00  0.00           C 0
+ATOM   2904   CA MET B 131       8.095  40.964  78.749  0.00  0.00           C 0
+ATOM   2955    C THR B 138       0.195  40.267  82.203  0.00  0.00           C 0
+ATOM   2953    N THR B 138      -0.666  41.332  84.190  0.00  0.00           N 0
+ATOM   2950    O SER B 137      -1.530  40.135  85.902  0.00  0.00           O 0
+ATOM   2915   CB CYS B 132       4.276  42.802  80.996  0.00  0.00           C 0
+ATOM   2914    O CYS B 132       7.256  42.813  82.062  0.63  4.29           O 0
+ATOM   2911    N CYS B 132       6.238  42.232  79.634  0.59  2.19           N 0
+ATOM   2910   CE MET B 131       9.646  37.812  82.402  0.00  0.00           C 0
 TER
 END

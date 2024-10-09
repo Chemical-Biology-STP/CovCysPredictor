@@ -3,6 +3,7 @@ library(dplyr)
 library(ggplot2)
 library(ggbeeswarm)
 library(jsonlite)
+library(mltools)
 
 source("R/helpers.R")
 
@@ -60,6 +61,10 @@ calculate_lr_f1(full_data, formula, print=TRUE)
 #  1    10  147
 #[1] 0.7636364
 
+conf_matrix = matrix(c(563, 81, 10, 147), nrow=2, byrow=TRUE)
+mcc(confusionM = conf_matrix)
+# [1] 0.7130447
+
 
 # coefficients
 print(logit_train)
@@ -82,6 +87,13 @@ cutoff = 0.1412668
 table_mat <- table(cleaned_cb_nqnc_no_dups$y, predictions_ind > cutoff)
 
 print(table_mat)
+#     FALSE TRUE
+# 0  5526  982
+# 1   194 1141
+
+conf_matrix = matrix(c(5526, 982, 194, 1141), nrow=2, byrow=TRUE)
+mcc(confusionM = conf_matrix)
+# [1] 0.5952985
 
 prec <- precision_local(table_mat)
 rec <- recall_local(table_mat)

@@ -1,6 +1,6 @@
 library(ROCR) # for receiver operating curve
 library(PRROC) # for precision-recall curve, better for imbalanced data
-library(randomForest)
+#library(randomForest) # commented out for final analyses of LR
 
 precision_local <- function(matrix) {
   # True positive

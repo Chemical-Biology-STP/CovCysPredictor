@@ -2,8 +2,8 @@
     "A 80": {
         "chain": "A",
         "resid": 80,
-        "sasa": 7.720778105462278,
-        "log_exp": 2.1657084662177097,
+        "sasa": 28.309519720028355,
+        "log_exp": 3.3779123683732046,
         "any_fpocket": 0,
         "neighbors": [
             "A",
@@ -21,7 +21,7 @@
             "A",
             "D"
         ],
-        "score": "0.027",
+        "score": "0.089",
         "predicted_modifiable": false
     },
     "A 118": {

@@ -3,36 +3,34 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket     7:
-HEADER 0  - Pocket Score                      : 0.0028
-HEADER 1  - Drug Score                        : 0.0004
-HEADER 2  - Number of alpha spheres           :    15
-HEADER 3  - Mean alpha-sphere radius          : 3.9152
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7491
-HEADER 5  - Mean B-factor of pocket residues  : 0.4762
-HEADER 6  - Hydrophobicity Score              : 21.2500
-HEADER 7  - Polarity Score                    :     1
-HEADER 8  - Amino Acid based volume Score     : 3.0000
-HEADER 9  - Pocket volume (Monte Carlo)       : 234.8041
-HEADER 10 - Pocket volume (convex hull)       : 9.8717
-HEADER 11 - Charge Score                      :     1
+HEADER 0  - Pocket Score                      : -0.0244
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0584
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5769
+HEADER 5  - Mean B-factor of pocket residues  : 0.2456
+HEADER 6  - Hydrophobicity Score              : -4.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 248.4057
+HEADER 10 - Pocket volume (convex hull)       : 5.8201
+HEADER 11 - Charge Score                      :     2
 HEADER 12 - Local hydrophobic density Score   : 5.0000
 HEADER 13 - Number of apolar alpha sphere     :     6
-HEADER 14 - Proportion of apolar alpha sphere : 0.4000
-ATOM   2827   CB ARG C  59      27.341  72.107   3.228  0.00  0.00           C 0
-ATOM   2832  NH1 ARG C  59      31.424  71.767   5.791  0.67  2.19           N 0
-ATOM   2829   CD ARG C  59      28.580  71.911   5.411  0.00  0.00           C 0
-ATOM   2830   NE ARG C  59      29.487  70.897   4.836  0.65  1.09           N 0
-ATOM   2831   CZ ARG C  59      30.810  70.852   5.032  0.00  0.00           C 0
-ATOM   2834    N ILE C  60      26.116  69.262   2.489  0.69  3.28           N 0
-ATOM   2833  NH2 ARG C  59      31.527  69.878   4.485  0.26  8.75           N 0
-ATOM   2837    O ILE C  60      27.823  67.115   3.453  0.00  0.00           O 0
-ATOM   1161  O5' DA  G  18      33.143  74.324   6.160  0.00  0.00           O 0
-ATOM   1159  OP1 DA  G  18      34.671  72.376   6.507  0.00  0.00           O 0
-ATOM   1162  C5' DA  G  18      32.932  75.711   5.876  0.00  0.00           C 0
-ATOM   1165  C3' DA  G  18      30.966  77.168   5.325  0.00  0.00           C 0
-ATOM   1163  C4' DA  G  18      31.534  76.125   6.284  0.00  0.00           C 0
-ATOM   1180  OP1 DG  G  19      27.662  76.985   3.672  0.69  2.14           O 0
-ATOM   1181  OP2 DG  G  19      29.729  78.502   3.224  0.57  7.50           O 0
-ATOM   1166  O3' DA  G  18      29.542  77.117   5.319  0.70  4.29           O 0
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   1480   CA GLY C  88      24.422  48.078  17.877  0.00  0.00           C 0
+ATOM   1998    O LYS D  76      22.837  43.866  18.231  0.41  2.14           O 0
+ATOM   1494   CB ALA C  90      24.920  48.798  12.530  0.00  0.00           C 0
+ATOM   1461  CG2 THR C  85      29.428  47.363  14.489  0.00  0.00           C 0
+ATOM   1482    O GLY C  88      22.600  48.028  16.350  0.31  3.21           O 0
+ATOM   1990    O ASP D  75      26.149  42.273  19.815  0.00  0.00           O 0
+ATOM   1999   CB LYS D  76      24.426  44.607  20.400  0.00  0.00           C 0
+ATOM   2017   CG ARG D  78      20.168  44.693  16.152  0.00  0.00           C 0
+ATOM   2012    N ARG D  78      20.948  41.861  15.868  0.00  0.00           N 0
+ATOM   1459    O THR C  85      28.109  48.187  17.271  0.49  6.43           O 0
+ATOM   1495    N HIS C  91      21.824  49.211  11.981  0.59  2.19           N 0
+ATOM   1502  ND1 HIS C  91      19.745  48.735  13.870  0.00  0.00           N 0
+ATOM   1499   CB HIS C  91      19.642  48.236  11.400  0.00  0.00           C 0
+ATOM   2016   CB ARG D  78      19.535  43.731  15.154  0.00  0.00           C 0
 TER
 END

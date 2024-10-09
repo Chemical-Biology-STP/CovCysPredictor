@@ -2,8 +2,8 @@
     "A 439": {
         "chain": "A",
         "resid": 439,
-        "sasa": 0.0,
-        "log_exp": 0.0,
+        "sasa": 1.2867963509103797,
+        "log_exp": 0.8271518646876636,
         "any_fpocket": 0,
         "neighbors": [
             "G",
@@ -20,7 +20,7 @@
             "N",
             "L"
         ],
-        "score": "0.0061",
+        "score": "0.014",
         "predicted_modifiable": false
     },
     "A 441": {
@@ -67,8 +67,8 @@
     "A 493": {
         "chain": "A",
         "resid": 493,
-        "sasa": 0.0,
-        "log_exp": 0.0,
+        "sasa": 1.2867963509103797,
+        "log_exp": 0.8271518646876636,
         "any_fpocket": 0,
         "neighbors": [
             "D",
@@ -84,7 +84,7 @@
             "A",
             "L"
         ],
-        "score": "0.0024",
+        "score": "0.0057",
         "predicted_modifiable": false
     },
     "A 539": {
@@ -110,8 +110,8 @@
     "A 591": {
         "chain": "A",
         "resid": 591,
-        "sasa": 10.294370807283038,
-        "log_exp": 2.4243044429485336,
+        "sasa": 15.441556210924556,
+        "log_exp": 2.799812045179963,
         "any_fpocket": 0,
         "neighbors": [
             "M",
@@ -123,7 +123,7 @@
             "V",
             "Y"
         ],
-        "score": "0.012",
+        "score": "0.017",
         "predicted_modifiable": false
     },
     "A 596": {
@@ -151,8 +151,8 @@
     "A 628": {
         "chain": "A",
         "resid": 628,
-        "sasa": 1.2867963509103797,
-        "log_exp": 0.8271518646876636,
+        "sasa": 2.5735927018207594,
+        "log_exp": 1.2735714488051861,
         "any_fpocket": 1,
         "neighbors": [
             "V",
@@ -169,14 +169,14 @@
             "Y",
             "Q"
         ],
-        "score": "0.031",
+        "score": "0.049",
         "predicted_modifiable": false
     },
     "A 667": {
         "chain": "A",
         "resid": 667,
-        "sasa": 6.4339817545518985,
-        "log_exp": 2.0060616175475796,
+        "sasa": 7.720778105462278,
+        "log_exp": 2.1657084662177097,
         "any_fpocket": 0,
         "neighbors": [
             "Q",
@@ -191,7 +191,7 @@
             "L",
             "Y"
         ],
-        "score": "0.1",
+        "score": "0.12",
         "predicted_modifiable": false
     },
     "A 687": {

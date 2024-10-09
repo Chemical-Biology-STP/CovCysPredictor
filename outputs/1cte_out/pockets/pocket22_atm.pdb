@@ -12,34 +12,34 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.1909
 HEADER 6  - Hydrophobicity Score              : 12.2000
 HEADER 7  - Polarity Score                    :     6
 HEADER 8  - Amino Acid based volume Score     : 3.5000
-HEADER 9  - Pocket volume (Monte Carlo)       : 415.2700
+HEADER 9  - Pocket volume (Monte Carlo)       : 424.8174
 HEADER 10 - Pocket volume (convex hull)       : 21.3102
 HEADER 11 - Charge Score                      :    -1
 HEADER 12 - Local hydrophobic density Score   : 14.0000
 HEADER 13 - Number of apolar alpha sphere     :    15
 HEADER 14 - Proportion of apolar alpha sphere : 0.4688
 ATOM    531   CB ASN A  72      12.001  70.122  43.993  0.00  0.00           C 0
-ATOM   3401   CB VAL B 195      13.168  68.965  51.673  0.00  0.00           C 0
-ATOM   3402  CG1 VAL B 195      14.475  68.438  51.118  0.00  0.00           C 0
-ATOM   3395  OD1 ASP B 194      16.220  72.760  50.480  0.00  0.00           O 0
-ATOM   3259  CE1 PHE B 177      10.312  71.231  51.230  0.00  0.00           C 0
-ATOM    534  ND2 ASN A  72      14.146  70.929  43.302  0.00  0.00           N 0
+ATOM   3400   CB VAL B 195      13.168  68.965  51.673  0.00  0.00           C 0
+ATOM   3401  CG1 VAL B 195      14.475  68.438  51.118  0.00  0.00           C 0
+ATOM   3394  OD1 ASP B 194      16.220  72.760  50.480  0.00  0.00           O 0
+ATOM   3258  CE1 PHE B 177      10.312  71.231  51.230  0.00  0.00           C 0
+ATOM    533  ND2 ASN A  72      14.146  70.929  43.302  0.00  0.00           N 0
 ATOM    532   CG ASN A  72      12.856  71.206  43.387  0.00  0.00           C 0
-ATOM    516  OD2 ASP A  69       9.073  73.335  43.970  0.00  0.00           O 0
+ATOM    516  OD2 ASP A  69       9.073  73.335  43.970  0.00  0.00           O 1
 ATOM    513   CB ASP A  69       7.807  71.497  44.660  0.00  0.00           C 0
-ATOM   3370  NE2 HIS B 190       8.673  74.748  51.195  0.40  8.75           N 0
-ATOM   3261   CZ PHE B 177       9.053  70.696  51.042  0.00  0.00           C 0
-ATOM   3368  CD2 HIS B 190       7.313  74.545  51.236  0.00  0.00           C 0
+ATOM   3369  NE2 HIS B 190       8.673  74.748  51.195  0.40  8.75           N 0
+ATOM   3260   CZ PHE B 177       9.053  70.696  51.042  0.00  0.00           C 0
+ATOM   3366  CD2 HIS B 190       7.313  74.545  51.236  0.00  0.00           C 0
 ATOM    539    N GLY A  74       7.497  65.246  44.245  0.57  3.28           N 0
 ATOM    554   OH TYR A  75       5.304  67.225  49.594  0.66  5.36           O 0
-ATOM   3242  OG1 THR B 175       6.911  65.829  51.573  0.50  5.36           O 0
+ATOM   3242  OG1 THR B 175       6.911  65.829  51.573  0.62  5.36           O 0
 ATOM    537    C GLY A  73       8.310  66.270  44.019  0.00  0.00           C 0
 ATOM    552  CE2 TYR A  75       4.538  65.050  49.075  0.00  0.00           C 0
 ATOM    538    O GLY A  73       7.896  67.434  43.918  0.00  0.00           O 0
 ATOM    509    N ASP A  69       6.213  69.711  44.261  0.58  1.09           N 0
 ATOM    530    O ASN A  72      11.603  67.661  45.241  0.00  0.00           O 0
-ATOM   3403  CG2 VAL B 195      12.117  67.886  51.731  0.00  0.00           C 0
-ATOM   3243  CG2 THR B 175       8.767  67.149  52.262  0.00  0.00           C 0
+ATOM   3402  CG2 VAL B 195      12.117  67.886  51.731  0.00  0.00           C 0
+ATOM   3241  CG2 THR B 175       8.767  67.149  52.262  0.00  0.00           C 0
 ATOM    542    O GLY A  74       5.965  63.205  45.014  0.59  9.64           O 0
 ATOM    536   CA GLY A  73       9.795  65.957  44.034  0.00  0.00           C 0
 TER

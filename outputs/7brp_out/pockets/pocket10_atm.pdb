@@ -3,45 +3,48 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    10:
-HEADER 0  - Pocket Score                      : 0.1478
-HEADER 1  - Drug Score                        : 0.0014
+HEADER 0  - Pocket Score                      : 0.0917
+HEADER 1  - Drug Score                        : 0.0031
 HEADER 2  - Number of alpha spheres           :    26
-HEADER 3  - Mean alpha-sphere radius          : 3.7323
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5277
-HEADER 5  - Mean B-factor of pocket residues  : 0.2163
-HEADER 6  - Hydrophobicity Score              : 3.3636
+HEADER 3  - Mean alpha-sphere radius          : 4.0000
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6395
+HEADER 5  - Mean B-factor of pocket residues  : 0.3199
+HEADER 6  - Hydrophobicity Score              : 33.1538
 HEADER 7  - Polarity Score                    :     7
-HEADER 8  - Amino Acid based volume Score     : 4.3636
-HEADER 9  - Pocket volume (Monte Carlo)       : 259.3761
-HEADER 10 - Pocket volume (convex hull)       : 29.2129
+HEADER 8  - Amino Acid based volume Score     : 4.4615
+HEADER 9  - Pocket volume (Monte Carlo)       : 406.9430
+HEADER 10 - Pocket volume (convex hull)       : 53.6289
 HEADER 11 - Charge Score                      :     0
-HEADER 12 - Local hydrophobic density Score   : 9.0000
-HEADER 13 - Number of apolar alpha sphere     :    10
-HEADER 14 - Proportion of apolar alpha sphere : 0.3846
-ATOM   2402   CD PRO A   9       0.362 -21.777  25.518  0.00  0.00           C 0
-ATOM   2399    O PRO A   9       3.295 -23.762  24.316  0.31  3.21           O 0
-ATOM   3503  CG2 ILE A 152      -1.068 -24.705  20.195  0.00  0.00           C 0
-ATOM   3502  CG1 ILE A 152       0.905 -23.217  20.451  0.00  0.00           C 0
-ATOM   2421   NZ LYS A  12      -0.178 -28.358  23.238  0.00  0.00           N 0
-ATOM   3501   CB ILE A 152      -0.526 -23.319  19.930  0.00  0.00           C 0
-ATOM   3500    O ILE A 152      -2.697 -21.910  18.483  0.53  7.50           O 0
-ATOM   2393  CE1 PHE A   8      -1.736 -19.746  21.094  0.00  0.00           C 0
-ATOM   3513    N TYR A 154      -4.082 -25.644  17.482  0.00  0.00           N 0
-ATOM   3514   CA TYR A 154      -4.790 -26.866  17.862  0.00  0.00           C 0
-ATOM   3516    O TYR A 154      -3.008 -27.013  19.461  0.85  4.29           O 0
-ATOM   3508    O ASP A 153      -5.889 -24.367  17.041  0.63  7.50           O 0
-ATOM   2391  CD1 PHE A   8      -0.716 -20.206  21.907  0.00  0.00           C 0
-ATOM   2401   CG PRO A   9       0.179 -22.704  26.687  0.00  0.00           C 0
-ATOM   3507    C ASP A 153      -4.668 -24.552  17.006  0.00  0.00           C 0
-ATOM    952   CD PRO B 122      -3.263 -26.344  29.686  0.00  0.00           C 0
-ATOM    949    O PRO B 122      -3.588 -23.572  27.229  0.63  9.64           O 0
-ATOM    944   OGASER B 121      -6.302 -26.015  27.269  0.48  9.64           O 0
-ATOM    957    O SER B 123      -2.321 -19.619  25.937  0.50  1.07           O 0
-ATOM   4637  NH1 ARG A 298      -3.654 -18.605  23.915  0.00  0.00           N 0
-ATOM   2400   CB PRO A   9       1.418 -23.540  26.720  0.00  0.00           C 0
-ATOM    107  OE2 GLU B  14       2.210 -26.928  27.502  0.53  3.21           O 0
-ATOM    954   CAASER B 123      -3.715 -20.795  27.472  0.00  0.00           C 0
-ATOM    950   CB PRO B 122      -1.722 -24.531  29.521  0.00  0.00           C 0
-ATOM    951   CG PRO B 122      -1.893 -25.900  30.101  0.00  0.00           C 0
+HEADER 12 - Local hydrophobic density Score   : 11.0769
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1731  CE2 PHE A 223     -12.238  15.671  17.955  0.00  0.00           C 0
+ATOM   2087   CB GLU A 270      -7.290  12.857  18.067  0.00  0.00           C 0
+ATOM   2088   CG GLU A 270      -8.531  13.022  17.213  0.00  0.00           C 0
+ATOM   2091  OE2 GLU A 270      -7.738  15.229  16.883  0.60  3.21           O 1
+ATOM   2123  ND2 ASN A 274      -5.742  16.408  19.581  0.00  0.00           N 0
+ATOM   1713   CB ASN A 221     -12.867  12.103  20.135  0.00  0.00           C 0
+ATOM   2089   CD GLU A 270      -8.635  14.403  16.622  0.00  0.00           C 0
+ATOM   1679    O TRP A 218     -10.180  10.116  26.023  0.52  6.43           O 0
+ATOM   1693    O PHE A 219      -9.750   9.142  22.068  0.56  1.07           O 0
+ATOM   1704    O LEU A 220     -13.080  10.236  23.510  0.00  0.00           O 0
+ATOM   2086    O GLU A 270      -4.088  13.088  18.543  0.00  0.00           O 0
+ATOM   2099  CD2 LEU A 271      -4.333   9.483  22.159  0.00  0.00           C 0
+ATOM   1715  ND2 ASN A 221     -11.047  11.630  18.614  0.62  1.09           N 0
+ATOM   2128    O GLY A 275      -2.043  12.511  22.261  0.77  3.21           O 0
+ATOM   2121   CB ASN A 274      -3.462  15.871  20.191  0.00  0.00           C 0
+ATOM   2155   CD ARG A 279      -4.261  11.833  29.642  0.00  0.00           C 0
+ATOM   2141   CB ASN A 277      -1.674  14.745  27.088  0.00  0.00           C 0
+ATOM   2159  NH2 ARG A 279      -7.038  11.740  29.163  0.75  6.56           N 0
+ATOM   2143  ND2 ASN A 277      -2.344  16.405  28.718  0.58  5.47           N 0
+ATOM   2120    O ASN A 274      -0.911  15.536  21.669  0.65  3.21           O 0
+ATOM   2144  OD1 ASN A 277      -1.147  17.075  26.941  0.00  0.00           O 0
+ATOM   2142   CG ASN A 277      -1.699  16.179  27.579  0.00  0.00           C 0
+ATOM   2063    O SER A 267      -7.133   9.067  18.513  0.00  0.00           O 0
+ATOM   2085    C GLU A 270      -4.867  12.200  18.174  0.00  0.00           C 0
+ATOM   2092    N LEU A 271      -4.717  10.922  18.551  0.00  0.00           N 0
+ATOM   1688  CZ3 TRP A 218      -5.641  10.362  25.769  0.00  0.00           C 0
+ATOM   1691   CA PHE A 219      -8.783   8.604  24.176  0.00  0.00           C 0
+ATOM   2131    C MET A 276      -0.822  12.091  25.766  0.00  0.00           C 0
 TER
 END

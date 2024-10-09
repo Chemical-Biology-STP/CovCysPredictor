@@ -55,7 +55,7 @@ with warnings.catch_warnings():
 # No: nucleic acids, ions, cofactors, solvents, etc
 # remove organic
 # remove inorganic
-# remove nucleic
+# remove polymer.nucleic
 # remove solvent
 
 sasa_calculator = ShrakeRupley()

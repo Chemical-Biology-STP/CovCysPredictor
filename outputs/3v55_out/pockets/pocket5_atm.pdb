@@ -12,17 +12,17 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.2058
 HEADER 6  - Hydrophobicity Score              : -2.3636
 HEADER 7  - Polarity Score                    :    10
 HEADER 8  - Amino Acid based volume Score     : 4.7273
-HEADER 9  - Pocket volume (Monte Carlo)       : 307.5773
+HEADER 9  - Pocket volume (Monte Carlo)       : 299.3407
 HEADER 10 - Pocket volume (convex hull)       : 36.1239
 HEADER 11 - Charge Score                      :     2
 HEADER 12 - Local hydrophobic density Score   : 22.0000
 HEADER 13 - Number of apolar alpha sphere     :    23
 HEADER 14 - Proportion of apolar alpha sphere : 0.6970
 ATOM    434  CD1ATYR A 389     -23.866  36.971  13.682  0.00  0.00           C 0
-ATOM    481  ND2 ASN A 393     -25.896  32.201  15.818  0.68  4.37           N 0
+ATOM    480  ND2 ASN A 393     -25.896  32.201  15.818  0.68  4.37           N 0
 ATOM   2945    O ARG A 719     -29.863  35.323  13.632  0.46  5.36           O 0
 ATOM   2944    C ARG A 719     -29.841  34.362  12.868  0.00  0.00           C 0
-ATOM    454  OE2 GLU A 390     -24.814  30.774   8.496  0.00  0.00           O 0
+ATOM    454  OE2 GLU A 390     -24.814  30.774   8.496  0.00  0.00           O 1
 ATOM   2605   CG LYS A 677     -27.386  30.509   6.308  0.00  0.00           C 0
 ATOM   2606   CD LYS A 677     -26.834  31.283   5.126  0.00  0.00           C 0
 ATOM   2607   CE LYS A 677     -25.345  31.546   5.261  0.00  0.00           C 0
@@ -38,7 +38,7 @@ ATOM   2935    O HIS A 718     -28.556  31.376  15.445  0.59  1.07           O 0
 ATOM   2931   CE MET A 717     -28.147  26.662  13.656  0.00  0.00           C 0
 ATOM    451   CG GLU A 390     -24.145  30.293  10.702  0.00  0.00           C 0
 ATOM    430   CBATYR A 389     -22.941  34.625  13.415  0.00  0.00           C 0
-ATOM    414  OG1 THR A 387     -21.652  32.348   9.973  0.59  6.43           O 0
+ATOM    415  OG1 THR A 387     -21.652  32.348   9.973  0.67  6.43           O 0
 ATOM    446    N GLU A 390     -22.601  31.475  13.100  0.00  0.00           N 0
 ATOM   2943   CA ARG A 719     -29.802  32.934  13.414  0.00  0.00           C 0
 ATOM   2594    O GLN A 676     -29.174  28.489  10.060  0.52  1.07           O 0

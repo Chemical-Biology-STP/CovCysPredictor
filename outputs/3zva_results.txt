@@ -1,0 +1,44 @@
+{
+    "A 60": {
+        "chain": "A",
+        "resid": 60,
+        "sasa": 27.022723369117973,
+        "log_exp": 3.333015729944525,
+        "any_fpocket": 0,
+        "neighbors": [
+            "D",
+            "A",
+            "A",
+            "L",
+            "T",
+            "I",
+            "V",
+            "H"
+        ],
+        "score": "0.066",
+        "predicted_modifiable": false
+    },
+    "A 147": {
+        "chain": "A",
+        "resid": 147,
+        "sasa": 32.16990877275949,
+        "log_exp": 3.5016431026615247,
+        "any_fpocket": 0,
+        "neighbors": [
+            "F",
+            "P",
+            "R",
+            "A",
+            "G",
+            "Q",
+            "G",
+            "G",
+            "H",
+            "V",
+            "G",
+            "G"
+        ],
+        "score": "0.64",
+        "predicted_modifiable": true
+    }
+}

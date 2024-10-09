@@ -3,38 +3,53 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    17:
-HEADER 0  - Pocket Score                      : -0.0583
-HEADER 1  - Drug Score                        : 0.0003
-HEADER 2  - Number of alpha spheres           :    19
-HEADER 3  - Mean alpha-sphere radius          : 4.1885
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5576
-HEADER 5  - Mean B-factor of pocket residues  : 0.3904
-HEADER 6  - Hydrophobicity Score              : 0.0000
-HEADER 7  - Polarity Score                    :     0
-HEADER 8  - Amino Acid based volume Score     : 0.0000
-HEADER 9  - Pocket volume (Monte Carlo)       : 352.1567
-HEADER 10 - Pocket volume (convex hull)       : 18.8677
-HEADER 11 - Charge Score                      :     0
-HEADER 12 - Local hydrophobic density Score   : 2.0000
-HEADER 13 - Number of apolar alpha sphere     :     3
-HEADER 14 - Proportion of apolar alpha sphere : 0.1579
-ATOM    239   N2 DG  E  12     -12.276  47.187  46.120  0.38  5.47           N 0
-ATOM    267  O4' DT  E  14     -15.645  45.320  51.247  0.56  6.43           O 0
-ATOM    265  C5' DT  E  14     -15.938  47.533  52.229  0.00  0.00           C 0
-ATOM    266  C4' DT  E  14     -16.604  46.231  51.851  0.00  0.00           C 0
-ATOM    615  O4' DA  F  11     -15.771  52.594  42.624  0.00  0.00           O 0
-ATOM    246  C5' DC  E  13     -11.217  50.912  50.228  0.00  0.00           C 0
-ATOM    240   N3 DG  E  12     -10.292  47.983  47.000  0.54  2.19           N 0
-ATOM    581   O2 DC  F   9     -14.147  45.263  44.891  0.39  5.36           O 0
-ATOM    591  C5' DG  F  10     -18.411  46.533  43.580  0.00  0.00           C 0
-ATOM    592  C4' DG  F  10     -17.784  47.840  43.150  0.00  0.00           C 0
-ATOM    247  C4' DC  E  13     -12.287  49.877  50.492  0.00  0.00           C 0
-ATOM    614  C4' DA  F  11     -16.831  53.398  43.187  0.00  0.00           C 0
-ATOM    248  O4' DC  E  13     -11.964  48.634  49.805  0.73  1.07           O 0
-ATOM    606   N2 DG  F  10     -11.126  48.349  42.904  0.07  7.66           N 0
-ATOM    593  O4' DG  F  10     -16.379  47.670  42.844  0.55  3.21           O 0
-ATOM    613  C5' DA  F  11     -18.106  52.583  43.249  0.00  0.00           C 0
-ATOM    255   O2 DC  E  13     -11.947  45.439  49.118  0.00  0.00           O 0
-ATOM    607   N3 DG  F  10     -13.202  47.785  42.086  0.61  2.19           N 0
+HEADER 0  - Pocket Score                      : -0.1699
+HEADER 1  - Drug Score                        : 0.3070
+HEADER 2  - Number of alpha spheres           :    46
+HEADER 3  - Mean alpha-sphere radius          : 3.9599
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5266
+HEADER 5  - Mean B-factor of pocket residues  : 0.2268
+HEADER 6  - Hydrophobicity Score              : 9.0000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 5.0833
+HEADER 9  - Pocket volume (Monte Carlo)       : 644.8239
+HEADER 10 - Pocket volume (convex hull)       : 87.4551
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 16.9600
+HEADER 13 - Number of apolar alpha sphere     :    25
+HEADER 14 - Proportion of apolar alpha sphere : 0.5435
+ATOM     46   CD ARG A  59      -7.777  27.965  50.077  0.00  0.00           C 0
+ATOM     27   CD ARG A  57      -0.361  30.826  53.358  0.00  0.00           C 0
+ATOM     44   CB ARG A  59      -5.874  26.610  51.039  0.00  0.00           C 0
+ATOM     28   NE ARG A  57       0.027  31.307  52.034  0.00  0.00           N 0
+ATOM     22   CA ARG A  57      -0.961  27.447  54.223  0.00  0.00           C 0
+ATOM     15    O LYS A  56      -1.589  28.083  56.862  0.00  0.00           O 0
+ATOM     64   CG PRO A  61      -4.010  29.213  46.288  0.00  0.00           C 0
+ATOM    374  CD1 TRP A 100       4.123  30.249  49.745  0.00  0.00           C 0
+ATOM    341   SD MET A  96      -0.029  28.204  44.647  0.00  0.00           S 0
+ATOM     31  NH2 ARG A  57       1.488  32.211  50.497  0.41  9.84           N 0
+ATOM    114  NH1 ARG A  68      -1.407  31.051  44.932  0.39  8.75           N 1
+ATOM    372   CB TRP A 100       2.632  28.197  50.193  0.00  0.00           C 0
+ATOM     32    N ASN A  58      -2.322  25.454  54.046  0.20  3.28           N 0
+ATOM     40    N ARG A  59      -4.143  25.237  52.047  0.34  2.19           N 0
+ATOM     43    O ARG A  59      -3.162  26.056  49.457  0.48  4.29           O 0
+ATOM     65   CD PRO A  61      -3.712  27.762  46.593  0.00  0.00           C 0
+ATOM     25   CB ARG A  57      -0.310  28.330  53.167  0.00  0.00           C 0
+ATOM    401   CG GLU A 103       5.139  26.410  44.288  0.00  0.00           C 0
+ATOM    369   CA TRP A 100       3.000  27.101  49.184  0.00  0.00           C 0
+ATOM    400   CB GLU A 103       5.055  25.751  45.635  0.00  0.00           C 0
+ATOM   1023  OE2 GLU B 103       7.131  33.838  42.831  0.57  9.64           O 1
+ATOM    378  NE1 TRP A 100       5.297  30.793  50.236  0.41  8.75           N 0
+ATOM    342   CE MET A  96       0.362  26.941  45.870  0.00  0.00           C 0
+ATOM    368    N TRP A 100       1.985  26.048  49.190  0.00  0.00           N 0
+ATOM    408    O ALA A 104      11.077  26.342  46.881  0.61  1.07           O 0
+ATOM    406   CA ALA A 104       8.869  26.870  47.622  0.00  0.00           C 0
+ATOM    409   CB ALA A 104       8.782  27.457  49.008  0.00  0.00           C 0
+ATOM    443  CD1 LEU A 108      14.734  28.439  47.414  0.00  0.00           C 0
+ATOM    399    O GLU A 103       8.286  25.727  45.226  0.00  0.00           O 0
+ATOM    433   CG GLU A 107       9.953  27.861  42.580  0.00  0.00           C 0
+ATOM    405    N ALA A 104       7.665  26.111  47.324  0.00  0.00           N 0
+ATOM    432   CB GLU A 107      11.111  27.600  43.536  0.00  0.00           C 0
+ATOM    371    O TRP A 100       5.328  26.772  48.803  0.59  2.14           O 0
 TER
 END

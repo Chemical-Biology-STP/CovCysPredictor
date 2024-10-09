@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.2119
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.1211
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5641
+HEADER 5  - Mean B-factor of pocket residues  : 0.2317
+HEADER 6  - Hydrophobicity Score              : 5.4000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 453.2004
+HEADER 10 - Pocket volume (convex hull)       : 44.0870
+HEADER 11 - Charge Score                      :     5
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0400
+ATOM     93    O LYS A  13     -31.865  12.641 -15.522  0.45  4.29           O 0
+ATOM     91   CA LYS A  13     -32.996  12.080 -17.562  0.00  0.00           C 0
+ATOM    627  OE1 GLN A  81     -31.516  19.195 -15.296  0.00  0.00           O 0
+ATOM     84    O LYS A  12     -31.384  12.688 -19.741  0.00  0.00           O 0
+ATOM     95   CG LYS A  13     -35.408  12.919 -17.865  0.00  0.00           C 0
+ATOM    119  CG1 VAL A  16     -25.241  13.355 -15.185  0.00  0.00           C 0
+ATOM    610  NH2 ARG A  79     -26.548  16.729 -12.898  0.65  4.37           N 0
+ATOM    645  CE1 PHE A  83     -27.623  13.156 -11.988  0.00  0.00           C 0
+ATOM    609  NH1 ARG A  79     -24.550  17.635 -13.533  0.52  9.84           N 1
+ATOM    623   CB GLN A  81     -29.469  19.934 -12.427  0.00  0.00           C 0
+ATOM    379  ND2 ASN A  50     -23.644  15.612 -18.207  0.64  5.47           N 0
+ATOM    626  NE2 GLN A  81     -30.923  17.541 -13.833  0.00  0.00           N 0
+ATOM    652   CB ARG A  84     -35.816  12.638 -12.694  0.00  0.00           C 0
+ATOM    631    O LYS A  82     -32.188  16.848 -11.116  0.54  8.57           O 0
+ATOM    110    O THR A  15     -26.782  11.617 -17.578  0.17  5.36           O 0
+ATOM     94   CB LYS A  13     -34.461  11.986 -17.090  0.00  0.00           C 0
+ATOM    625   CD GLN A  81     -31.136  18.851 -14.169  0.00  0.00           C 0
+ATOM    643  CD1 PHE A  83     -29.005  13.130 -11.770  0.00  0.00           C 0
+ATOM    648    N ARG A  84     -33.995  13.681 -11.430  0.66  2.19           N 0
+TER
+END

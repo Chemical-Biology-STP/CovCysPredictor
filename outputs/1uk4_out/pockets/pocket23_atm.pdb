@@ -12,33 +12,33 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.2105
 HEADER 6  - Hydrophobicity Score              : 31.2857
 HEADER 7  - Polarity Score                    :     4
 HEADER 8  - Amino Acid based volume Score     : 4.4286
-HEADER 9  - Pocket volume (Monte Carlo)       : 368.3723
+HEADER 9  - Pocket volume (Monte Carlo)       : 361.1027
 HEADER 10 - Pocket volume (convex hull)       : 22.0699
 HEADER 11 - Charge Score                      :     1
 HEADER 12 - Local hydrophobic density Score   : 10.0000
 HEADER 13 - Number of apolar alpha sphere     :    11
 HEADER 14 - Proportion of apolar alpha sphere : 0.4231
-ATOM   2754   CD GLU B  55      34.970 -21.857  50.549  0.00  0.00           C 0
-ATOM   2968   CE MET B  82      39.257 -20.353  46.983  0.00  0.00           C 0
-ATOM   2753   CG GLU B  55      35.863 -22.347  49.404  0.00  0.00           C 0
-ATOM   2755  OE1 GLU B  55      34.117 -20.972  50.310  0.00  0.00           O 0
-ATOM   2780  CD2 LEU B  58      41.658 -17.768  49.941  0.00  0.00           C 0
-ATOM   2961    N MET B  82      40.525 -14.886  46.954  0.73  4.37           N 0
-ATOM   2948    O HIS B  80      41.335 -11.875  50.695  0.29  2.14           O 0
-ATOM   2956   CA SER B  81      40.989 -12.809  48.098  0.00  0.00           C 0
-ATOM   2803    O LYS B  61      43.842 -16.481  56.972  0.43  9.64           O 0
-ATOM   2954  NE2 HIS B  80      42.865 -14.210  53.921  0.54  6.56           N 0
-ATOM   2784    O ILE B  59      41.111 -19.046  57.573  0.50  6.43           O 0
-ATOM   2788  CD1 ILE B  59      37.636 -18.781  56.427  0.00  0.00           C 0
-ATOM   2778   CG LEU B  58      42.253 -18.313  51.230  0.00  0.00           C 0
-ATOM   2782   CA ILE B  59      40.247 -19.982  55.539  0.00  0.00           C 0
-ATOM   2781    N ILE B  59      40.914 -20.524  54.363  0.00  0.00           N 0
-ATOM   2751    O GLU B  55      38.716 -22.123  52.342  0.57  4.29           O 0
-ATOM   2777   CB LEU B  58      41.987 -19.819  51.325  0.00  0.00           C 0
-ATOM   2756  OE2 GLU B  55      35.109 -22.354  51.687  0.41  6.43           O 0
-ATOM   2749   CA GLU B  55      38.287 -22.931  50.095  0.00  0.00           C 0
-ATOM   2952  CD2 HIS B  80      43.197 -14.241  52.589  0.00  0.00           C 0
-ATOM   2776    O LEU B  58      42.380 -18.824  54.268  0.48  2.14           O 0
-ATOM   2775    C LEU B  58      41.937 -19.877  53.813  0.00  0.00           C 0
+ATOM   2753   CD GLU B  55      34.970 -21.857  50.549  0.00  0.00           C 0
+ATOM   2967   CE MET B  82      39.257 -20.353  46.983  0.00  0.00           C 0
+ATOM   2752   CG GLU B  55      35.863 -22.347  49.404  0.00  0.00           C 0
+ATOM   2754  OE1 GLU B  55      34.117 -20.972  50.310  0.00  0.00           O 0
+ATOM   2779  CD2 LEU B  58      41.658 -17.768  49.941  0.00  0.00           C 0
+ATOM   2960    N MET B  82      40.525 -14.886  46.954  0.73  4.37           N 0
+ATOM   2947    O HIS B  80      41.335 -11.875  50.695  0.29  2.14           O 0
+ATOM   2955   CA SER B  81      40.989 -12.809  48.098  0.00  0.00           C 0
+ATOM   2802    O LYS B  61      43.842 -16.481  56.972  0.43  9.64           O 0
+ATOM   2953  NE2 HIS B  80      42.865 -14.210  53.921  0.54  6.56           N 0
+ATOM   2783    O ILE B  59      41.111 -19.046  57.573  0.50  6.43           O 0
+ATOM   2787  CD1 ILE B  59      37.636 -18.781  56.427  0.00  0.00           C 0
+ATOM   2777   CG LEU B  58      42.253 -18.313  51.230  0.00  0.00           C 0
+ATOM   2781   CA ILE B  59      40.247 -19.982  55.539  0.00  0.00           C 0
+ATOM   2780    N ILE B  59      40.914 -20.524  54.363  0.00  0.00           N 0
+ATOM   2750    O GLU B  55      38.716 -22.123  52.342  0.57  4.29           O 0
+ATOM   2776   CB LEU B  58      41.987 -19.819  51.325  0.00  0.00           C 0
+ATOM   2755  OE2 GLU B  55      35.109 -22.354  51.687  0.41  6.43           O 1
+ATOM   2748   CA GLU B  55      38.287 -22.931  50.095  0.00  0.00           C 0
+ATOM   2950  CD2 HIS B  80      43.197 -14.241  52.589  0.00  0.00           C 0
+ATOM   2775    O LEU B  58      42.380 -18.824  54.268  0.48  2.14           O 0
+ATOM   2774    C LEU B  58      41.937 -19.877  53.813  0.00  0.00           C 0
 TER
 END

@@ -12,32 +12,32 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.3366
 HEADER 6  - Hydrophobicity Score              : 16.6364
 HEADER 7  - Polarity Score                    :     6
 HEADER 8  - Amino Acid based volume Score     : 3.2727
-HEADER 9  - Pocket volume (Monte Carlo)       : 314.4964
+HEADER 9  - Pocket volume (Monte Carlo)       : 315.4304
 HEADER 10 - Pocket volume (convex hull)       : 17.9908
 HEADER 11 - Charge Score                      :     1
 HEADER 12 - Local hydrophobic density Score   : 0.0000
 HEADER 13 - Number of apolar alpha sphere     :     0
 HEADER 14 - Proportion of apolar alpha sphere : 0.0000
-ATOM   2743   CA HIS B 110      12.229  69.297  70.246  0.00  0.00           C 0
-ATOM   2815   CB CYS B 119      15.519  65.766  71.091  0.00  0.00           C 0
-ATOM   2752    N HIS B 111      13.297  71.167  69.116  0.61  3.28           N 0
-ATOM   2736    O GLU B 109      14.518  68.822  71.911  0.29  1.07           O 0
-ATOM   2760  CE1 HIS B 111      14.851  70.261  65.161  0.00  0.00           C 0
-ATOM   2814    O CYS B 119      18.502  66.639  70.615  0.28  9.64           O 0
-ATOM   2825   CA GLY B 121      18.058  62.631  67.213  0.00  0.00           C 0
-ATOM   2119    O GLY B  24      12.966  62.030  70.201  0.51  1.07           O 0
-ATOM   2748  ND1 HIS B 110      11.538  66.107  69.569  0.65  6.56           N 0
-ATOM   3603  NE1 TRP B 221       9.278  65.313  66.551  0.71  2.19           N 0
-ATOM   2115  NE2 GLN B  23      10.033  61.220  66.636  0.59  7.66           N 0
-ATOM   2750  CE1 HIS B 110      11.378  64.939  70.159  0.00  0.00           C 0
-ATOM   2129    O CYS B  26      12.055  59.277  67.493  0.76  1.07           O 0
-ATOM   2126    N CYS B  26      14.293  59.408  69.172  0.80  1.09           N 0
-ATOM   2761  NE2 HIS B 111      13.843  69.423  65.331  0.73  5.47           N 0
-ATOM   2824    N GLY B 121      18.259  63.101  68.569  0.78  1.09           N 0
-ATOM   2819    C THR B 120      19.484  63.381  68.977  0.00  0.00           C 0
-ATOM   2132    N GLY B  27      13.492  58.479  65.972  0.00  0.00           N 0
-ATOM   2133   CA GLY B  27      12.621  58.816  64.858  0.00  0.00           C 0
-ATOM   2827    O GLY B 121      17.711  60.368  66.611  0.19  5.36           O 0
-ATOM   2128    C CYS B  26      13.087  58.654  67.221  0.00  0.00           C 0
+ATOM   2742   CA HIS B 110      12.229  69.297  70.246  0.00  0.00           C 0
+ATOM   2814   CB CYS B 119      15.519  65.766  71.091  0.00  0.00           C 0
+ATOM   2751    N HIS B 111      13.297  71.167  69.116  0.61  3.28           N 0
+ATOM   2735    O GLU B 109      14.518  68.822  71.911  0.29  1.07           O 0
+ATOM   2759  CE1 HIS B 111      14.851  70.261  65.161  0.00  0.00           C 0
+ATOM   2813    O CYS B 119      18.502  66.639  70.615  0.28  9.64           O 0
+ATOM   2824   CA GLY B 121      18.058  62.631  67.213  0.00  0.00           C 0
+ATOM   2118    O GLY B  24      12.966  62.030  70.201  0.51  1.07           O 0
+ATOM   2748  ND1 HIS B 110      11.538  66.107  69.569  0.70  6.56           N 0
+ATOM   3604  NE1 TRP B 221       9.278  65.313  66.551  0.83  2.19           N 0
+ATOM   2113  NE2 GLN B  23      10.033  61.220  66.636  0.59  7.66           N 0
+ATOM   2749  CE1 HIS B 110      11.378  64.939  70.159  0.00  0.00           C 0
+ATOM   2128    O CYS B  26      12.055  59.277  67.493  0.76  1.07           O 0
+ATOM   2125    N CYS B  26      14.293  59.408  69.172  0.80  1.09           N 0
+ATOM   2760  NE2 HIS B 111      13.843  69.423  65.331  0.73  5.47           N 0
+ATOM   2823    N GLY B 121      18.259  63.101  68.569  0.78  1.09           N 0
+ATOM   2818    C THR B 120      19.484  63.381  68.977  0.00  0.00           C 0
+ATOM   2131    N GLY B  27      13.492  58.479  65.972  0.00  0.00           N 0
+ATOM   2132   CA GLY B  27      12.621  58.816  64.858  0.00  0.00           C 0
+ATOM   2826    O GLY B 121      17.711  60.368  66.611  0.19  5.36           O 0
+ATOM   2127    C CYS B  26      13.087  58.654  67.221  0.00  0.00           C 0
 TER
 END

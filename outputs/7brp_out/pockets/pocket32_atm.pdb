@@ -3,38 +3,36 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    32:
-HEADER 0  - Pocket Score                      : -0.0200
-HEADER 1  - Drug Score                        : 0.0003
-HEADER 2  - Number of alpha spheres           :    23
-HEADER 3  - Mean alpha-sphere radius          : 4.1006
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5515
-HEADER 5  - Mean B-factor of pocket residues  : 0.1077
-HEADER 6  - Hydrophobicity Score              : 40.1250
-HEADER 7  - Polarity Score                    :     5
-HEADER 8  - Amino Acid based volume Score     : 5.5000
-HEADER 9  - Pocket volume (Monte Carlo)       : 329.6182
-HEADER 10 - Pocket volume (convex hull)       : 13.8298
+HEADER 0  - Pocket Score                      : -0.0319
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9168
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5371
+HEADER 5  - Mean B-factor of pocket residues  : 0.0616
+HEADER 6  - Hydrophobicity Score              : 30.7778
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 222.8984
+HEADER 10 - Pocket volume (convex hull)       : 11.0497
 HEADER 11 - Charge Score                      :     1
-HEADER 12 - Local hydrophobic density Score   : 6.0000
-HEADER 13 - Number of apolar alpha sphere     :     7
-HEADER 14 - Proportion of apolar alpha sphere : 0.3043
-ATOM   2348  CD2 PHE A   3      -3.304  -6.096  26.012  0.00  0.00           C 0
-ATOM   4509   CB LEU A 282      -3.167  -1.113  28.206  0.00  0.00           C 0
-ATOM   2344    O PHE A   3      -1.854  -6.280  29.782  0.46  5.36           O 0
-ATOM   4508    O LEU A 282      -0.865  -1.140  29.746  0.34  5.36           O 0
-ATOM   3924  NE1 TRP A 207      -1.898  -1.745  24.477  0.56  2.19           N 0
-ATOM   4580   CZ PHE A 291       0.548  -6.593  24.183  0.00  0.00           C 0
-ATOM   4579  CE2 PHE A 291       0.400  -5.439  23.439  0.00  0.00           C 0
-ATOM   4551  OE1 GLU A 288       3.799  -1.884  23.075  0.00  0.00           O 0
-ATOM   2370   CE LYS A   5       4.877  -7.083  24.086  0.00  0.00           C 0
-ATOM   4550   CD GLU A 288       3.175  -1.041  23.753  0.00  0.00           C 0
-ATOM   2358   CD ARG A   4       0.246  -7.843  31.959  0.00  0.00           C 0
-ATOM   2359   NE ARG A   4       1.664  -8.096  31.734  0.33  6.56           N 0
-ATOM   2363    N LYS A   5       1.247  -8.945  27.341  0.32  2.19           N 0
-ATOM   4549   CG GLU A 288       1.692  -0.858  23.495  0.00  0.00           C 0
-ATOM   4552  OE2 GLU A 288       3.718  -0.339  24.632  0.62  5.36           O 0
-ATOM     40   CE LYS B   5       6.931  -6.885  31.506  0.00  0.00           C 0
-ATOM   2353   CA ARG A   4      -0.492  -8.596  28.984  0.00  0.00           C 0
-ATOM   4521   CB SER A 284       1.871   1.262  27.004  0.00  0.00           C 0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1294  OE1 GLU A 166      23.330  -9.463  18.873  0.00  0.00           O 0
+ATOM   1104   CA ASN A 142      25.315 -15.710  21.601  0.00  0.00           C 0
+ATOM   1110  OD1 ASN A 142      27.298 -16.776  19.933  0.00  0.00           O 0
+ATOM   1107   CB ASN A 142      26.789 -15.358  21.794  0.00  0.00           C 0
+ATOM   1268  NE2 HIS A 163      19.187 -14.145  16.807  0.76  3.28           N 0
+ATOM   1291   CB GLU A 166      22.227  -9.820  16.304  0.00  0.00           C 0
+ATOM   1087    O PHE A 140      20.943 -12.136  21.559  0.52  3.21           O 0
+ATOM   1126   SG CYS A 145      22.326 -17.298  15.891  0.00  0.00           S 0
+ATOM   1103    N ASN A 142      24.477 -14.796  22.365  0.48  4.37           N 0
+ATOM   1098    O LEU A 141      22.580 -15.530  21.412  0.64  4.29           O 0
+ATOM   1097    C LEU A 141      23.153 -14.811  22.235  0.00  0.00           C 0
+ATOM   1287    N GLU A 166      21.783 -11.035  14.208  0.00  0.00           N 0
+ATOM   1280   CA MET A 165      21.450 -13.110  13.034  0.00  0.00           C 0
+ATOM   1272    O HIS A 164      22.092 -15.772  13.037  0.59  4.29           O 0
+ATOM   1281    C MET A 165      20.881 -11.927  13.802  0.00  0.00           C 0
+ATOM   1111    N GLY A 143      24.620 -17.976  21.085  0.57  1.09           N 0
 TER
 END

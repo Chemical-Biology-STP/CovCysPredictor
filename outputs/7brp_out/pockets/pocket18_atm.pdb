@@ -3,40 +3,37 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket    18:
-HEADER 0  - Pocket Score                      : 0.0639
-HEADER 1  - Drug Score                        : 0.0001
-HEADER 2  - Number of alpha spheres           :    20
-HEADER 3  - Mean alpha-sphere radius          : 4.1155
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6594
-HEADER 5  - Mean B-factor of pocket residues  : 0.1267
-HEADER 6  - Hydrophobicity Score              : -30.7500
-HEADER 7  - Polarity Score                    :     8
-HEADER 8  - Amino Acid based volume Score     : 5.0000
-HEADER 9  - Pocket volume (Monte Carlo)       : 348.7066
-HEADER 10 - Pocket volume (convex hull)       : 14.9170
-HEADER 11 - Charge Score                      :     0
-HEADER 12 - Local hydrophobic density Score   : 0.0000
-HEADER 13 - Number of apolar alpha sphere     :     0
-HEADER 14 - Proportion of apolar alpha sphere : 0.0000
-ATOM   1070   CG LYS B 137      -0.160  -4.581  37.715  0.00  0.00           C 0
-ATOM   1073   NZ LYS B 137      -1.612  -2.494  36.193  0.00  0.00           N 0
-ATOM   1071   CD LYS B 137      -1.559  -4.118  38.090  0.00  0.00           C 0
-ATOM   1521  OD2 ASP B 197       2.074  -1.114  42.761  0.54  5.36           O 0
-ATOM   2239  OE2 GLU B 290       4.517  -5.130  37.806  0.00  0.00           O 0
-ATOM   1069   CB LYS B 137      -0.203  -5.707  36.695  0.00  0.00           C 0
-ATOM   1022  NH1 ARG B 131       5.490  -3.039  39.843  0.61  1.09           N 0
-ATOM   2359   NE ARG A   4       1.664  -8.096  31.734  0.33  6.56           N 0
-ATOM   1068    O LYS B 137       0.163  -8.182  35.378  0.00  0.00           O 0
-ATOM   2360   CZ ARG A   4       2.421  -8.850  32.524  0.00  0.00           C 0
-ATOM   2238  OE1 GLU B 290       5.341  -6.764  36.594  0.66  2.14           O 0
-ATOM   2237   CD GLU B 290       5.419  -5.623  37.097  0.00  0.00           C 0
-ATOM     41   NZ LYS B   5       7.706  -6.512  32.721  0.68  2.19           N 0
-ATOM     40   CE LYS B   5       6.931  -6.885  31.506  0.00  0.00           C 0
-ATOM   2362  NH2 ARG A   4       3.702  -9.029  32.239  0.48  1.09           N 0
-ATOM   1021   CZ ARG B 131       4.867  -2.455  40.858  0.00  0.00           C 0
-ATOM   1020   NE ARG B 131       3.873  -3.082  41.477  0.65  1.09           N 0
-ATOM   2221  OE1 GLU B 288       7.844  -1.722  32.322  0.65  9.64           O 0
-ATOM   2236   CG GLU B 290       6.668  -4.801  36.844  0.00  0.00           C 0
-ATOM   2229  OD1 ASP B 289       7.440  -1.501  38.213  0.00  0.00           O 0
+HEADER 0  - Pocket Score                      : 0.0536
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6437
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5040
+HEADER 5  - Mean B-factor of pocket residues  : 0.0967
+HEADER 6  - Hydrophobicity Score              : 28.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 96.8424
+HEADER 10 - Pocket volume (convex hull)       : 0.7224
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+ATOM    800    O PHE A 103       4.297 -24.443   6.799  0.00  0.00           O 0
+ATOM   1377   CD GLU A 178       9.084 -24.703   2.689  0.00  0.00           C 0
+ATOM   1378  OE1 GLU A 178       8.482 -25.740   2.337  0.00  0.00           O 0
+ATOM   1379  OE2 GLU A 178       8.993 -23.622   2.070  0.00  0.00           O 1
+ATOM    799    C PHE A 103       4.885 -24.190   7.855  0.00  0.00           C 0
+ATOM    808    N VAL A 104       4.873 -22.987   8.426  0.00  0.00           N 0
+ATOM    801   CB PHE A 103       6.819 -25.788   7.727  0.00  0.00           C 0
+ATOM    811    O VAL A 104       6.028 -20.508   8.508  0.79  2.14           O 0
+ATOM   1376   CG GLU A 178       9.967 -24.762   3.920  0.00  0.00           C 0
+ATOM   1362  OD2 ASP A 176       9.932 -19.648   4.549  0.66  2.14           O 1
+ATOM    815    N ARG A 105       4.850 -19.860   6.699  0.00  0.00           N 0
+ATOM    819   CB ARG A 105       6.118 -18.502   5.078  0.00  0.00           C 0
+ATOM    810    C VAL A 104       5.094 -20.677   7.718  0.00  0.00           C 0
+ATOM   1359   CB ASP A 176      10.050 -19.866   6.916  0.00  0.00           C 0
+ATOM   1363    N LEU A 177      10.980 -22.262   8.417  0.00  0.00           N 0
+ATOM   1360   CG ASP A 176      10.606 -20.071   5.513  0.00  0.00           C 0
+ATOM   1371    N GLU A 178      11.726 -23.624   6.172  0.00  0.00           N 0
 TER
 END

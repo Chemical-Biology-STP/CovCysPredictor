@@ -12,7 +12,7 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.2138
 HEADER 6  - Hydrophobicity Score              : 3.0000
 HEADER 7  - Polarity Score                    :     6
 HEADER 8  - Amino Acid based volume Score     : 3.8000
-HEADER 9  - Pocket volume (Monte Carlo)       : 280.2466
+HEADER 9  - Pocket volume (Monte Carlo)       : 296.7659
 HEADER 10 - Pocket volume (convex hull)       : 20.9955
 HEADER 11 - Charge Score                      :     1
 HEADER 12 - Local hydrophobic density Score   : 9.0000
@@ -21,22 +21,22 @@ HEADER 14 - Proportion of apolar alpha sphere : 0.4000
 ATOM   2385    O GLY A 649     -28.535  13.798 -13.801  0.00  0.00           O 0
 ATOM   2387   CA THR A 650     -26.491  14.404 -12.015  0.00  0.00           C 0
 ATOM   2399   CD PRO A 651     -26.231  12.721  -9.509  0.00  0.00           C 0
-ATOM   2392  CG2 THR A 650     -25.186  13.364 -13.992  0.00  0.00           C 0
+ATOM   2391  CG2 THR A 650     -25.186  13.364 -13.992  0.00  0.00           C 0
 ATOM   2509    N HIS A 666     -31.809   9.203 -12.995  0.44  3.28           N 0
 ATOM   2510   CA HIS A 666     -32.718   9.836 -13.960  0.00  0.00           C 0
-ATOM   2515  ND1 HIS A 666     -31.654   7.897 -16.187  0.00  0.00           N 0
+ATOM   2516  ND1 HIS A 666     -31.654   7.897 -16.187  0.00  0.00           N 0
 ATOM   2506   CD LYS A 665     -27.921   6.512 -11.357  0.00  0.00           C 0
 ATOM   2407  OE1 GLU A 652     -22.924  12.441 -10.201  0.00  0.00           O 0
 ATOM   2398   CG PRO A 651     -26.501  12.470  -8.060  0.00  0.00           C 0
 ATOM   2544   OH TYR A 669     -30.591  11.261 -10.305  0.66  1.07           O 0
-ATOM   2508   NZ LYS A 665     -27.178   5.745  -9.078  0.61  9.84           N 0
+ATOM   2508   NZ LYS A 665     -27.178   5.745  -9.078  0.61  9.84           N 1
 ATOM   2504   CB LYS A 665     -30.407   6.633 -12.020  0.00  0.00           C 0
 ATOM   2517  CE1 HIS A 666     -31.122   6.717 -16.456  0.00  0.00           C 0
 ATOM   2488    O LEU A 663     -29.484   7.488  -6.922  0.72  3.21           O 0
 ATOM   2465    O SER A 660     -26.021   7.146  -5.861  0.68  1.07           O 0
 ATOM   2496    O PRO A 664     -31.338   9.248  -8.878  0.00  0.00           O 0
 ATOM   2466   CB SER A 660     -23.470   9.007  -5.721  0.00  0.00           C 0
-ATOM   2408  OE2 GLU A 652     -21.659  11.028  -9.083  0.52  7.50           O 0
+ATOM   2408  OE2 GLU A 652     -21.659  11.028  -9.083  0.52  7.50           O 1
 ATOM   2507   CE LYS A 665     -26.885   5.754 -10.547  0.00  0.00           C 0
 TER
 END

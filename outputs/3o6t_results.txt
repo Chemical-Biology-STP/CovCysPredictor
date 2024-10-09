@@ -2,8 +2,8 @@
     "A 37": {
         "chain": "A",
         "resid": 37,
-        "sasa": 0.0,
-        "log_exp": 0.0,
+        "sasa": 20.588741614566075,
+        "log_exp": 3.0721719572590827,
         "any_fpocket": 1,
         "neighbors": [
             "W",
@@ -18,14 +18,14 @@
             "P",
             "D"
         ],
-        "score": "0.14",
-        "predicted_modifiable": false
+        "score": "0.79",
+        "predicted_modifiable": true
     },
     "B 37": {
         "chain": "B",
         "resid": 37,
-        "sasa": 32.16990877275949,
-        "log_exp": 3.5016431026615247,
+        "sasa": 42.46427958004253,
+        "log_exp": 3.771939441679356,
         "any_fpocket": 0,
         "neighbors": [
             "V",
@@ -38,14 +38,14 @@
             "I",
             "P"
         ],
-        "score": "0.14",
+        "score": "0.18",
         "predicted_modifiable": true
     },
     "C 37": {
         "chain": "C",
         "resid": 37,
-        "sasa": 0.0,
-        "log_exp": 0.0,
+        "sasa": 18.015148912745317,
+        "log_exp": 2.9452359726798405,
         "any_fpocket": 1,
         "neighbors": [
             "W",
@@ -60,14 +60,14 @@
             "P",
             "D"
         ],
-        "score": "0.14",
-        "predicted_modifiable": false
+        "score": "0.77",
+        "predicted_modifiable": true
     },
     "D 37": {
         "chain": "D",
         "resid": 37,
-        "sasa": 12.867963509103797,
-        "log_exp": 2.6295813965173105,
+        "sasa": 42.46427958004253,
+        "log_exp": 3.771939441679356,
         "any_fpocket": 1,
         "neighbors": [
             "A",
@@ -78,7 +78,7 @@
             "I",
             "P"
         ],
-        "score": "0.53",
+        "score": "0.79",
         "predicted_modifiable": true
     }
 }

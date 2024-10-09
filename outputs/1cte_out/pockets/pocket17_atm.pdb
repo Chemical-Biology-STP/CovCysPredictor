@@ -12,29 +12,29 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.0912
 HEADER 6  - Hydrophobicity Score              : 25.5556
 HEADER 7  - Polarity Score                    :     4
 HEADER 8  - Amino Acid based volume Score     : 3.2222
-HEADER 9  - Pocket volume (Monte Carlo)       : 105.6888
+HEADER 9  - Pocket volume (Monte Carlo)       : 106.2787
 HEADER 10 - Pocket volume (convex hull)       : 1.6547
 HEADER 11 - Charge Score                      :    -1
 HEADER 12 - Local hydrophobic density Score   : 0.0000
 HEADER 13 - Number of apolar alpha sphere     :     0
 HEADER 14 - Proportion of apolar alpha sphere : 0.0000
-ATOM   3766    O GLY B 241       0.477  63.957  52.147  0.69  1.07           O 0
-ATOM   3795   CG GLU B 245       1.751  58.986  52.191  0.00  0.00           C 0
-ATOM   3788   CB SER B 244      -0.275  61.975  49.607  0.00  0.00           C 0
-ATOM   3797  OE1 GLU B 245       4.101  58.928  52.157  0.61  4.29           O 0
+ATOM   3765    O GLY B 241       0.477  63.957  52.147  0.69  1.07           O 0
+ATOM   3794   CG GLU B 245       1.751  58.986  52.191  0.00  0.00           C 0
+ATOM   3787   CB SER B 244      -0.275  61.975  49.607  0.00  0.00           C 0
+ATOM   3796  OE1 GLU B 245       4.101  58.928  52.157  0.61  4.29           O 0
 ATOM    550  CD2 TYR A  75       3.794  64.234  48.297  0.00  0.00           C 0
 ATOM    552  CE2 TYR A  75       4.538  65.050  49.075  0.00  0.00           C 0
-ATOM   3229    O PHE B 174       6.050  64.658  55.765  0.00  0.00           O 0
-ATOM   3228    C PHE B 174       5.229  65.328  55.172  0.00  0.00           C 0
-ATOM   3242  OG1 THR B 175       6.911  65.829  51.573  0.50  5.36           O 0
-ATOM   3227   CA PHE B 174       3.748  64.994  55.273  0.00  0.00           C 0
-ATOM   3224    O ALA B 173       1.516  63.319  55.134  0.72  1.07           O 0
-ATOM   3237    N THR B 175       5.586  66.147  54.196  0.00  0.00           N 0
-ATOM   3760    O CYS B 240       3.315  66.725  52.586  0.00  0.00           O 0
-ATOM   3764   CA GLY B 241       1.521  65.640  50.856  0.00  0.00           C 0
-ATOM   3417   CA GLY B 198       8.474  62.832  55.365  0.00  0.00           C 0
-ATOM   3225   CB ALA B 173       3.356  60.732  56.497  0.00  0.00           C 0
-ATOM   3223    C ALA B 173       2.451  63.013  55.878  0.00  0.00           C 0
-ATOM   3226    N PHE B 174       3.501  63.803  56.086  0.00  0.00           N 0
+ATOM   3228    O PHE B 174       6.050  64.658  55.765  0.00  0.00           O 0
+ATOM   3227    C PHE B 174       5.229  65.328  55.172  0.00  0.00           C 0
+ATOM   3242  OG1 THR B 175       6.911  65.829  51.573  0.62  5.36           O 0
+ATOM   3226   CA PHE B 174       3.748  64.994  55.273  0.00  0.00           C 0
+ATOM   3223    O ALA B 173       1.516  63.319  55.134  0.72  1.07           O 0
+ATOM   3236    N THR B 175       5.586  66.147  54.196  0.00  0.00           N 0
+ATOM   3759    O CYS B 240       3.315  66.725  52.586  0.00  0.00           O 0
+ATOM   3763   CA GLY B 241       1.521  65.640  50.856  0.00  0.00           C 0
+ATOM   3416   CA GLY B 198       8.474  62.832  55.365  0.00  0.00           C 0
+ATOM   3224   CB ALA B 173       3.356  60.732  56.497  0.00  0.00           C 0
+ATOM   3222    C ALA B 173       2.451  63.013  55.878  0.00  0.00           C 0
+ATOM   3225    N PHE B 174       3.501  63.803  56.086  0.00  0.00           N 0
 TER
 END

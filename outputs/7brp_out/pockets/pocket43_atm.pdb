@@ -12,30 +12,30 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.2217
 HEADER 6  - Hydrophobicity Score              : 28.3333
 HEADER 7  - Polarity Score                    :     2
 HEADER 8  - Amino Acid based volume Score     : 3.8333
-HEADER 9  - Pocket volume (Monte Carlo)       : 310.5419
+HEADER 9  - Pocket volume (Monte Carlo)       : 314.7766
 HEADER 10 - Pocket volume (convex hull)       : 17.5997
 HEADER 11 - Charge Score                      :     1
 HEADER 12 - Local hydrophobic density Score   : 7.0000
 HEADER 13 - Number of apolar alpha sphere     :     8
 HEADER 14 - Proportion of apolar alpha sphere : 0.5333
-ATOM   2196    O ALA B 285       8.074   7.029  29.499  0.62  7.50           O 0
-ATOM   4476   CA GLY A 278       1.856  12.164  29.288  0.00  0.00           C 0
-ATOM   2145    N GLY B 278       9.972  12.809  26.591  0.00  0.00           N 0
-ATOM   2146   CA GLY B 278       9.516  12.091  25.420  0.00  0.00           C 0
-ATOM   2133   CB MET B 276      11.715  10.093  29.963  0.00  0.00           C 0
-ATOM   2129    N MET B 276      11.476  12.109  31.334  0.00  0.00           N 0
-ATOM   2137    N ASN B 277      11.392  13.439  28.953  0.27  1.09           N 0
-ATOM   4482    O ARG A 279       0.093   8.213  28.477  0.74  2.14           O 0
-ATOM   4475    N GLY A 278       1.279  12.743  28.091  0.00  0.00           N 0
-ATOM   4526    O ALA A 285       3.403   6.898  25.377  0.69  9.64           O 0
-ATOM   2197   CB ALA B 285       7.440   6.391  26.766  0.00  0.00           C 0
-ATOM   4535  CD2 LEU A 286       6.182   6.104  23.169  0.00  0.00           C 0
-ATOM   2148    O GLY B 278      10.194  10.475  23.821  0.61  6.43           O 0
-ATOM   4463   CB MET A 276      -0.341   9.875  24.694  0.00  0.00           C 0
-ATOM   4459    N MET A 276      -0.170  11.929  23.369  0.26  5.47           N 0
-ATOM   4467    N ASN A 277      -0.198  13.272  25.760  0.38  2.19           N 0
-ATOM   4527   CB ALA A 285       4.098   6.440  28.147  0.00  0.00           C 0
-ATOM   2205  CD2 LEU B 286       5.319   6.312  31.777  0.00  0.00           C 0
-ATOM   4478    O GLY A 278       1.201  10.937  31.215  0.32  8.57           O 0
+ATOM   4525    O ALA B 285       8.074   7.029  29.499  0.62  7.50           O 0
+ATOM   2146   CA GLY A 278       1.856  12.164  29.288  0.00  0.00           C 0
+ATOM   4474    N GLY B 278       9.972  12.809  26.591  0.00  0.00           N 0
+ATOM   4475   CA GLY B 278       9.516  12.091  25.420  0.00  0.00           C 0
+ATOM   4462   CB MET B 276      11.715  10.093  29.963  0.00  0.00           C 0
+ATOM   4458    N MET B 276      11.476  12.109  31.334  0.00  0.00           N 0
+ATOM   4466    N ASN B 277      11.392  13.439  28.953  0.27  1.09           N 0
+ATOM   2152    O ARG A 279       0.093   8.213  28.477  0.74  2.14           O 0
+ATOM   2145    N GLY A 278       1.279  12.743  28.091  0.00  0.00           N 0
+ATOM   2196    O ALA A 285       3.403   6.898  25.377  0.64  9.64           O 0
+ATOM   4526   CB ALA B 285       7.440   6.391  26.766  0.00  0.00           C 0
+ATOM   2205  CD2 LEU A 286       6.182   6.104  23.169  0.00  0.00           C 0
+ATOM   4477    O GLY B 278      10.194  10.475  23.821  0.61  6.43           O 0
+ATOM   2133   CB MET A 276      -0.341   9.875  24.694  0.00  0.00           C 0
+ATOM   2129    N MET A 276      -0.170  11.929  23.369  0.26  5.47           N 0
+ATOM   2137    N ASN A 277      -0.198  13.272  25.760  0.38  2.19           N 0
+ATOM   2197   CB ALA A 285       4.098   6.440  28.147  0.00  0.00           C 0
+ATOM   4534  CD2 LEU B 286       5.319   6.312  31.777  0.00  0.00           C 0
+ATOM   2148    O GLY A 278       1.201  10.937  31.215  0.32  8.57           O 0
 TER
 END

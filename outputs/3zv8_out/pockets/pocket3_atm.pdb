@@ -12,7 +12,7 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.1942
 HEADER 6  - Hydrophobicity Score              : 27.1667
 HEADER 7  - Polarity Score                    :     3
 HEADER 8  - Amino Acid based volume Score     : 3.5000
-HEADER 9  - Pocket volume (Monte Carlo)       : 234.9022
+HEADER 9  - Pocket volume (Monte Carlo)       : 232.6663
 HEADER 10 - Pocket volume (convex hull)       : 1.4958
 HEADER 11 - Charge Score                      :     0
 HEADER 12 - Local hydrophobic density Score   : 6.0000
@@ -21,17 +21,17 @@ HEADER 14 - Proportion of apolar alpha sphere : 0.3182
 ATOM    302   CBAHIS A  40     -13.118  -0.909  -9.468  0.00  0.00           C 0
 ATOM   1019    O LEU A 127     -12.183  -8.080  -7.989  0.57  2.14           O 0
 ATOM   1027    O GLY A 128      -8.947  -8.090  -8.231  0.00  0.00           O 0
-ATOM   1037  OG1 THR A 130     -11.219  -6.261  -4.975  0.57  9.64           O 0
+ATOM   1038  OG1 THR A 130     -11.219  -6.261  -4.975  0.57  9.64           O 0
 ATOM    550  OE1 GLU A  71     -16.102  -3.277  -6.511  0.64  4.29           O 0
 ATOM   1025   CA GLY A 128     -10.331  -8.830 -10.035  0.00  0.00           C 0
 ATOM   1024    N GLY A 128     -11.782  -9.053 -10.011  0.52  1.09           N 0
 ATOM    304   CGAHIS A  40     -13.877  -1.024 -10.767  0.00  0.00           C 0
 ATOM   1021   CG LEU A 127     -15.186  -7.212  -9.594  0.00  0.00           C 0
 ATOM   1023  CD2 LEU A 127     -16.134  -6.202  -9.045  0.00  0.00           C 0
-ATOM    551  OE2 GLU A  71     -16.038  -2.220  -8.481  0.00  0.00           O 0
+ATOM    551  OE2 GLU A  71     -16.038  -2.220  -8.481  0.00  0.00           O 1
 ATOM   1022  CD1 LEU A 127     -15.563  -7.597 -11.030  0.00  0.00           C 0
-ATOM    308  CD2AHIS A  40     -13.567  -0.609 -12.021  0.00  0.00           C 0
-ATOM    306  ND1AHIS A  40     -15.031  -1.779 -10.894  0.69  1.09           N 0
+ATOM    306  CD2AHIS A  40     -13.567  -0.609 -12.021  0.00  0.00           C 0
+ATOM    308  ND1AHIS A  40     -15.031  -1.779 -10.894  0.71  1.09           N 0
 ATOM   1274    O VAL A 162     -16.660  -4.523 -12.896  0.74  5.36           O 0
 ATOM    312  NE2AHIS A  40     -14.559  -1.062 -12.861  0.79  4.37           N 0
 ATOM    310  CE1AHIS A  40     -15.433  -1.760 -12.153  0.00  0.00           C 0

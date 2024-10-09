@@ -12,7 +12,7 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.0820
 HEADER 6  - Hydrophobicity Score              : 10.3333
 HEADER 7  - Polarity Score                    :     4
 HEADER 8  - Amino Acid based volume Score     : 4.6667
-HEADER 9  - Pocket volume (Monte Carlo)       : 345.9082
+HEADER 9  - Pocket volume (Monte Carlo)       : 351.0118
 HEADER 10 - Pocket volume (convex hull)       : 10.2491
 HEADER 11 - Charge Score                      :     1
 HEADER 12 - Local hydrophobic density Score   : 6.5000
@@ -21,8 +21,8 @@ HEADER 14 - Proportion of apolar alpha sphere : 0.5000
 ATOM    114    O ALA A   4      32.183  16.760 -14.847  0.43  4.29           O 0
 ATOM    157  CG2 ILE A   7      29.052  18.158 -11.651  0.00  0.00           C 0
 ATOM    115   CB ALA A   4      33.599  19.308 -16.340  0.00  0.00           C 0
-ATOM    227   NZ LYS A  11      25.265  18.472 -13.507  0.00  0.00           N 0
-ATOM     96  NH1 ARG A   3      32.976  22.770 -10.798  0.45  6.56           N 0
+ATOM    227   NZ LYS A  11      25.265  18.472 -13.507  0.00  0.00           N 1
+ATOM     96  NH1 ARG A   3      32.976  22.770 -10.798  0.45  6.56           N 1
 ATOM     93   CD ARG A   3      35.817  22.297 -10.914  0.00  0.00           C 0
 ATOM    111    N ALA A   4      34.978  18.890 -14.342  0.62  4.37           N 0
 ATOM     91   CB ARG A   3      36.682  20.294 -12.108  0.00  0.00           C 0
@@ -31,7 +31,7 @@ ATOM    225   CD LYS A  11      24.996  16.049 -12.862  0.00  0.00           C 0
 ATOM    171   CA GLN A   8      29.301  14.370 -14.376  0.00  0.00           C 0
 ATOM    175   CG GLN A   8      29.151  13.529 -16.815  0.00  0.00           C 0
 ATOM    112   CA ALA A   4      33.659  18.669 -14.953  0.00  0.00           C 0
-ATOM    681  OE2 GLU A  40      30.084  22.735 -10.563  0.58  7.50           O 0
+ATOM    681  OE2 GLU A  40      30.084  22.735 -10.563  0.58  7.50           O 1
 ATOM    156  CG1 ILE A   7      31.372  18.763 -10.803  0.00  0.00           C 0
 ATOM    155   CB ILE A   7      30.525  17.846 -11.736  0.00  0.00           C 0
 ATOM    174   CB GLN A   8      29.907  14.335 -15.782  0.00  0.00           C 0

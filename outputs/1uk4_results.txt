@@ -194,8 +194,8 @@
     "A 156": {
         "chain": "A",
         "resid": 156,
-        "sasa": 2.5735927018207594,
-        "log_exp": 1.2735714488051861,
+        "sasa": 10.294370807283038,
+        "log_exp": 2.4243044429485336,
         "any_fpocket": 0,
         "neighbors": [
             "K",
@@ -207,7 +207,7 @@
             "V",
             "S"
         ],
-        "score": "0.0033",
+        "score": "0.011",
         "predicted_modifiable": false
     },
     "A 160": {
@@ -308,8 +308,8 @@
     "B 22": {
         "chain": "B",
         "resid": 22,
-        "sasa": 0.0,
-        "log_exp": 0.0,
+        "sasa": 1.2867963509103797,
+        "log_exp": 0.8271518646876636,
         "any_fpocket": 0,
         "neighbors": [
             "T",
@@ -324,7 +324,7 @@
             "F",
             "L"
         ],
-        "score": "0.0017",
+        "score": "0.0041",
         "predicted_modifiable": false
     },
     "B 38": {
@@ -382,8 +382,8 @@
     "B 85": {
         "chain": "B",
         "resid": 85,
-        "sasa": 6.4339817545518985,
-        "log_exp": 2.0060616175475796,
+        "sasa": 19.301945263655696,
+        "log_exp": 3.0107167072525907,
         "any_fpocket": 0,
         "neighbors": [
             "R",
@@ -396,7 +396,7 @@
             "V",
             "D"
         ],
-        "score": "0.024",
+        "score": "0.065",
         "predicted_modifiable": false
     },
     "B 117": {

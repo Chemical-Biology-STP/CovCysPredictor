@@ -3,42 +3,35 @@ HEADER This is a pdb format file writen by the programm fpocket.
 HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
 HEADER                                                                           
 HEADER Information about the pocket     8:
-HEADER 0  - Pocket Score                      : 0.2171
-HEADER 1  - Drug Score                        : 0.0060
-HEADER 2  - Number of alpha spheres           :    28
-HEADER 3  - Mean alpha-sphere radius          : 3.9299
-HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5091
-HEADER 5  - Mean B-factor of pocket residues  : 0.5780
-HEADER 6  - Hydrophobicity Score              : 41.8571
-HEADER 7  - Polarity Score                    :     3
-HEADER 8  - Amino Acid based volume Score     : 4.4286
-HEADER 9  - Pocket volume (Monte Carlo)       : 314.1687
-HEADER 10 - Pocket volume (convex hull)       : 20.2183
+HEADER 0  - Pocket Score                      : 0.2064
+HEADER 1  - Drug Score                        : 0.0592
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7816
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5742
+HEADER 5  - Mean B-factor of pocket residues  : 0.1256
+HEADER 6  - Hydrophobicity Score              : 24.3750
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 156.9112
+HEADER 10 - Pocket volume (convex hull)       : 3.8073
 HEADER 11 - Charge Score                      :     0
-HEADER 12 - Local hydrophobic density Score   : 11.0000
-HEADER 13 - Number of apolar alpha sphere     :    12
-HEADER 14 - Proportion of apolar alpha sphere : 0.4286
-ATOM   1698    O VAL B 112      24.987 -10.031 -33.808  0.00  0.00           O 0
-ATOM   1675   CA SER B 109      21.308 -11.066 -29.478  0.00  0.00           C 0
-ATOM   1697    C VAL B 112      23.978  -9.564 -33.314  0.00  0.00           C 0
-ATOM   1677    O SER B 109      20.257 -10.895 -31.556  0.61  9.64           O 0
-ATOM   1641    O LEU B 105      22.209 -10.404 -25.757  0.69  4.29           O 0
-ATOM   1678   CB SER B 109      20.710 -12.159 -28.662  0.00  0.00           C 0
-ATOM   1245  NH2AARG B  54      27.363 -13.763 -24.798  0.00  0.00           N 0
-ATOM   1233   CBAARG B  54      30.381  -9.337 -27.570  0.00  0.00           C 0
-ATOM   1263   CB ASP B  57      29.702  -9.512 -32.639  0.00  0.00           C 0
-ATOM   1266  OD2 ASP B  57      30.466 -11.785 -32.439  0.00  0.00           O 0
-ATOM   1237   CDAARG B  54      29.725 -11.532 -26.548  0.00  0.00           C 0
-ATOM   1701  CG2 VAL B 112      25.858  -8.175 -32.102  0.00  0.00           C 0
-ATOM   1264   CG ASP B  57      29.892 -10.961 -33.179  0.00  0.00           C 0
-ATOM   1265  OD1 ASP B  57      29.520 -11.149 -34.360  0.46  7.50           O 0
-ATOM   1669    O LEU B 108      22.924  -8.960 -29.923  0.62  5.36           O 0
-ATOM   1674    N SER B 109      21.460  -9.900 -28.626  0.00  0.00           N 0
-ATOM   1670   CB LEU B 108      23.623  -7.485 -27.504  0.00  0.00           C 0
-ATOM   1274  CD2 LEU B  58      28.179  -5.362 -27.952  0.00  0.00           C 0
-ATOM   1239   NEAARG B  54      28.541 -12.245 -26.077  0.58  5.47           N 0
-ATOM   1645  CD2 LEU B 105      26.334 -10.240 -23.747  0.00  0.00           C 0
-ATOM   1235   CGAARG B  54      29.636 -10.000 -26.427  0.00  0.00           C 0
-ATOM   1672  CD1 LEU B 108      25.262  -6.357 -26.043  0.00  0.00           C 0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM    738    N ALA A  98       9.543  17.528 -17.440  0.66  1.09           N 0
+ATOM    606   CD PRO A  81      13.843  17.304 -17.375  0.00  0.00           C 0
+ATOM    735   CA GLY A  97      10.407  15.584 -16.358  0.00  0.00           C 0
+ATOM    250   CB PRO A  39      13.044  18.674 -20.999  0.00  0.00           C 0
+ATOM    732  CG1 VAL A  96      12.042  12.252 -13.947  0.00  0.00           C 0
+ATOM    590   OGASER A  79      15.212   9.869 -15.251  0.32  5.36           O 0
+ATOM   1444   OGASER B  79      15.480   9.215 -17.958  0.40  1.07           O 0
+ATOM    588   CBASER A  79      15.238  11.247 -14.887  0.00  0.00           C 0
+ATOM   1436  CG2 VAL B  78      14.991  11.635 -21.117  0.00  0.00           C 0
+ATOM    734    N GLY A  97      10.828  15.174 -15.016  0.00  0.00           N 0
+ATOM    595    O ILE A  80      15.626  15.358 -17.964  0.74  1.07           O 0
+ATOM    251   CG PRO A  39      13.151  17.729 -22.168  0.00  0.00           C 0
+ATOM   1434   CB VAL B  78      15.722  12.906 -20.754  0.00  0.00           C 0
+ATOM   1435  CG1 VAL B  78      15.660  14.053 -21.874  0.00  0.00           C 0
+ATOM   1433    O VAL B  78      17.249  12.314 -18.208  0.00  0.00           O 0
 TER
 END

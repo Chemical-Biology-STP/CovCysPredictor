@@ -12,7 +12,7 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.2852
 HEADER 6  - Hydrophobicity Score              : 15.7273
 HEADER 7  - Polarity Score                    :     5
 HEADER 8  - Amino Acid based volume Score     : 3.6364
-HEADER 9  - Pocket volume (Monte Carlo)       : 391.2209
+HEADER 9  - Pocket volume (Monte Carlo)       : 394.8531
 HEADER 10 - Pocket volume (convex hull)       : 20.0567
 HEADER 11 - Charge Score                      :     0
 HEADER 12 - Local hydrophobic density Score   : 14.0000
@@ -21,10 +21,10 @@ HEADER 14 - Proportion of apolar alpha sphere : 0.4167
 ATOM    226  CZ3 TRP A  31       5.522 -36.045  10.824  0.00  0.00           C 0
 ATOM    750   CE LYS A  97       1.103 -35.905   4.816  0.00  0.00           C 0
 ATOM    545    O ALA A  70       0.494 -34.881  13.360  0.64  6.43           O 0
-ATOM    751   NZ LYS A  97      -0.086 -35.071   5.147  0.00  0.00           N 0
+ATOM    751   NZ LYS A  97      -0.086 -35.071   5.147  0.00  0.00           N 1
 ATOM    227  CH2 TRP A  31       6.135 -37.292  10.998  0.00  0.00           C 0
 ATOM    742   CD PRO A  96       5.953 -39.128   7.007  0.00  0.00           C 0
-ATOM    722  CG2 THR A  93       7.339 -41.203  11.453  0.00  0.00           C 0
+ATOM    721  CG2 THR A  93       7.339 -41.203  11.453  0.00  0.00           C 0
 ATOM    741   CG PRO A  96       4.860 -39.672   6.126  0.00  0.00           C 0
 ATOM    544    C ALA A  70       0.856 -33.736  13.641  0.00  0.00           C 0
 ATOM    108   CA GLY A  15       3.449 -31.300   5.481  0.00  0.00           C 0
@@ -35,10 +35,10 @@ ATOM    548   CA GLY A  71      -1.413 -32.967  13.623  0.00  0.00           C 0
 ATOM    564  CG1 VAL A  73       1.826 -37.563  13.474  0.00  0.00           C 0
 ATOM    565  CG2 VAL A  73       2.456 -39.600  14.743  0.00  0.00           C 0
 ATOM    546   CB ALA A  70       3.252 -34.253  13.044  0.00  0.00           C 0
-ATOM    734  OD1 ASN A  95       6.318 -35.912   7.103  0.67  3.21           O 0
+ATOM    735  OD1 ASN A  95       6.318 -35.912   7.103  0.67  3.21           O 0
 ATOM    749   CD LYS A  97       2.322 -35.054   4.502  0.00  0.00           C 0
 ATOM    110    O GLY A  15       5.085 -32.596   6.616  0.64  3.21           O 0
-ATOM    224  CE3 TRP A  31       6.269 -34.881  10.779  0.00  0.00           C 0
+ATOM    223  CE3 TRP A  31       6.269 -34.881  10.779  0.00  0.00           C 0
 ATOM    109    C GLY A  15       4.687 -31.464   6.331  0.00  0.00           C 0
 TER
 END

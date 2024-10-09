@@ -12,7 +12,7 @@ HEADER 5  - Mean B-factor of pocket residues  : 0.3288
 HEADER 6  - Hydrophobicity Score              : 7.8000
 HEADER 7  - Polarity Score                    :     2
 HEADER 8  - Amino Acid based volume Score     : 2.8000
-HEADER 9  - Pocket volume (Monte Carlo)       : 169.0590
+HEADER 9  - Pocket volume (Monte Carlo)       : 169.0977
 HEADER 10 - Pocket volume (convex hull)       : 1.9677
 HEADER 11 - Charge Score                      :     0
 HEADER 12 - Local hydrophobic density Score   : 10.0000
@@ -20,7 +20,7 @@ HEADER 13 - Number of apolar alpha sphere     :    11
 HEADER 14 - Proportion of apolar alpha sphere : 0.6875
 ATOM   1494    O GLN A 192      16.833  -3.879  19.534  0.84  2.14           O 0
 ATOM   1490   CB ALA A 191      17.115  -3.134  25.290  0.00  0.00           C 0
-ATOM   1324  CG2 THR A 169      12.523  -0.755  18.712  0.00  0.00           C 0
+ATOM   1323  CG2 THR A 169      12.523  -0.755  18.712  0.00  0.00           C 0
 ATOM   1315   CB PRO A 168      11.710  -3.923  22.742  0.00  0.00           C 0
 ATOM   1504   CB ALA A 193      19.571  -0.858  18.823  0.00  0.00           C 0
 ATOM   1501   CA ALA A 193      18.739  -2.102  18.508  0.00  0.00           C 0

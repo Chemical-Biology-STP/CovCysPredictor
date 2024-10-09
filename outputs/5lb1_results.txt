@@ -2,8 +2,8 @@
     "A 354": {
         "chain": "A",
         "resid": 354,
-        "sasa": 0.0,
-        "log_exp": 0.0,
+        "sasa": 20.588741614566075,
+        "log_exp": 3.0721719572590827,
         "any_fpocket": 0,
         "neighbors": [
             "G",
@@ -17,14 +17,14 @@
             "L",
             "N"
         ],
-        "score": "0.033",
-        "predicted_modifiable": false
+        "score": "0.45",
+        "predicted_modifiable": true
     },
     "B 354": {
         "chain": "B",
         "resid": 354,
-        "sasa": 0.0,
-        "log_exp": 0.0,
+        "sasa": 11.581167158193416,
+        "log_exp": 2.532201025839302,
         "any_fpocket": 0,
         "neighbors": [
             "G",
@@ -38,7 +38,7 @@
             "L",
             "N"
         ],
-        "score": "0.033",
-        "predicted_modifiable": false
+        "score": "0.32",
+        "predicted_modifiable": true
     }
 }
