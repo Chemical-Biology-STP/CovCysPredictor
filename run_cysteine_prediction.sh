@@ -6,7 +6,7 @@
 
 # If your fpocket installation is held somewhere different,
 # please update that here
-fpocket=~/fpocket/bin/fpocket
+fpocket=/mnt/DATA2/miniforge3/envs/CovCysPredictor/bin/fpocket
 
 # Usage:
 # ./run_cysteine_prediction.sh my_pdb_file.pdb output_dir/
@@ -27,5 +27,5 @@ if ! test -f ${output_dir}/cysteines_in_fpocket_${input_stub}.log; then
 fi
 
 # prediction with the python script
-python3 ./CovCysPredictor.py ${input_stub}.pdb ${output_dir}
+python3 CovCysPredictor.py ${input_stub}.pdb ${output_dir}
 
